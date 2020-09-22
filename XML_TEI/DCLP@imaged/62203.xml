@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m62203" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 8 1 (PBerol. 6770)</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">62203</idno>
+            <idno type="TM">62203</idno>
+            <idno type="LDAB">3363</idno>
+            <idno type="filename">62203</idno>
+            <idno type="dclp-hybrid">bkt;8;1</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 6770</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                        <foliation>
+                           <dim type="pagination">16</dim>
+                        </foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="40">
+                           <p part="N">papyrus codex (columns: 1, written lines: [40], pagination: 16)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>Alexandrian majuscule</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Arsinoites (Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0600" notAfter="0699" instant="false">600 - 699</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR9077" xml:id="GR9077.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_06770_V_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9078" xml:id="GR9078.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_06770_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>bible</term>
+               <term type="culture">literature</term>
+               <term type="religion">christian</term>
+               <term type="overview">Old Testament; Genesis 5, 10-13, 28-30</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2019-06-18" who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+         <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+<div n="v" type="textpart" corresp="#FR9077" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1,msup" rend="centered"/><hi rend="supraline"><num value="15">ιε</num></hi>
+<lb n="1"/><supplied reason="lost" instant="false">καὶ ἐγέννη</supplied>σεν υἱοὺς καὶ θυγατέρας. 
+<lb n="2"/><supplied reason="lost" instant="false">καὶ ἐγέ</supplied>νετο <choice><reg instant="false">πᾶσαι αἱ ἡμέραι</reg><orig>πᾶσε ἑ <unclear instant="false">ἡμ</unclear>έ<unclear instant="false">ρ</unclear>ε</orig></choice> Αἰνὼς <gap reason="lost" quantity="2" unit="character" instant="false"/>
+<lb n="3"/><supplied reason="lost" instant="false">καὶ</supplied> ἀπέθανεν· ἔζησεν δὲ Καϊν<supplied reason="lost" instant="false">ᾶν</supplied> 
+<lb n="4"/><gap reason="lost" quantity="1" unit="character" instant="false"/> <hi rend="supraline"><num value="70"><unclear instant="false">ο</unclear></num></hi> καὶ <hi rend="supraline"><num value="100"><unclear instant="false">ρ</unclear></num></hi>· καὶ ἐγέ<unclear instant="false">νν</unclear>ησεν τὸν Μα<supplied reason="lost" instant="false">λελεήλ.</supplied> 
+<lb n="5"/><supplied reason="lost" instant="false">καὶ ἔζησεν Καϊνᾶ</supplied>ν μετὰ τὸ γ<supplied reason="lost" instant="false">εννῆσαι</supplied>
+<lb n="6"/><gap reason="lost" quantity="34" unit="line" precision="low" instant="false"/>
+</ab></div> 
+<div n="r" type="textpart" corresp="#FR9078" part="N" org="uniform" sample="complete"><ab part="N"> 
+<lb n="1,msup" rend="centered"/><hi rend="supraline"><num value="16">ιϛ</num></hi>
+<lb n="1"/>καὶ ἐγέννησεν υ<hi rend="diaeresis">ἱ</hi>όν. κα<supplied reason="lost" instant="false">ὶ ἐπωνόμασεν</supplied>
+<lb n="2"/>τὸ ὄνομα αὐτοῦ Νῶε· λέγ<supplied reason="lost" instant="false">ων οὗτος</supplied>
+<lb n="3"/><choice><reg instant="false">διαναπαύσει</reg><orig><supplied reason="lost" instant="false">δι</supplied>αναπαύσι</orig></choice> ἡμᾶς <choice><reg instant="false">ἀπὸ</reg><orig>ἀπὼ</orig></choice> τῶν ἔρ<supplied reason="lost" instant="false">γων</supplied>
+<lb n="4"/><supplied reason="lost" instant="false">ἡμ</supplied>ῶν καὶ ἀπὸ πόνων τῶν <choice><reg instant="false">χειρῶν</reg><orig>χιρ<supplied reason="lost" instant="false">ῶν</supplied></orig></choice> <supplied reason="lost" instant="false">ἡμῶν</supplied> 
+<lb n="5"/><supplied reason="lost" instant="false">κα</supplied>ὶ ἀπὸ τῆς γῆς, ἧς κατηράσα<supplied reason="lost" instant="false">το <hi rend="supraline"><expan instant="false">Κ<ex instant="false">ύριο</ex>ς</expan></hi> ὁ <hi rend="supraline"><expan instant="false">Θ<ex instant="false">εό</ex>ς</expan></hi>.</supplied>
+<lb n="6"/><supplied reason="lost" instant="false">κα</supplied>ὶ ἔζησεν <unclear instant="false">Λά</unclear><supplied reason="lost" instant="false">μεχ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" quantity="34" unit="line" precision="low" instant="false"/>
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/3904"/>
+                  <biblScope unit="number">1</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">8</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0527">Testamentum Vetus (Septuaginta)</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/539">Genesis</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:space="preserve" xml:lang="grc" part="N" org="uniform" sample="complete"/>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/01676/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

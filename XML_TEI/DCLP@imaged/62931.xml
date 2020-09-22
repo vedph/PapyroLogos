@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m62931" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 62931</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">62931</idno>
+            <idno type="TM">62931</idno>
+            <idno type="LDAB">4123</idno>
+            <idno type="filename">62931</idno>
+            <idno type="dclp-hybrid">tm;;62931</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref
+                     type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                     Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9875</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="26">
+                           <p part="N">papyrus roll (columns: 6, written lines: 26, pagination:
+                              0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Memphis (L, Egypt); written:
+                        Egypt</origPlace>
+                     <origDate notBefore="-0350" notAfter="-0301" precision="low" instant="false">2.
+                        Hälfte IV v. Chr.</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" instant="false" full="yes"
+                           >L</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes"
+                           >Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1344"
+                           instant="false" full="yes">Memphis</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes"
+                           >Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR6214" xml:id="GR6214.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6215" xml:id="GR6215.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6216" xml:id="GR6216.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6218" xml:id="GR6218.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6219" xml:id="GR6219.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6220" xml:id="GR6220.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6221" xml:id="GR6221.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6222" xml:id="GR6222.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6223" xml:id="GR6223.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6230" xml:id="GR6230.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6233" xml:id="GR6233.01" from="2010"
+                           to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-I_R.jpg"
+                           />
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6234" xml:id="GR6234.01" from="2010"
+                           to="2015">
+                           <graphic
+                              url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-II-VI_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6235" xml:id="GR6235.01" from="2010"
+                           to="2015">
+                           <graphic
+                              url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-II-VI_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6236" xml:id="GR6236.01" from="2010"
+                           to="2015">
+                           <graphic
+                              url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-II-VI_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6237" xml:id="GR6237.01" from="2010"
+                           to="2015">
+                           <graphic
+                              url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-II-VI_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6238" xml:id="GR6238.01" from="2010"
+                           to="2015">
+                           <graphic
+                              url="http://ww2.smb.museum/berlpap/Original/P_09875-Kol-II-VI_R.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N"> This file encoded to comply with EpiDoc Guidelines and Schema version 8
+               <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry lyric</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Timotheus; Persae</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2015-04-22T16:04:16.432-05:00" who="Tom Elliott" status="draft"
+            >Programmatically incorporated edition div and associated revision description into
+            document</change>
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML
+            (metadata)</change>
+         <change when="2014-08-01T09:08:06-04:00" who="http://papyri.info/editor" status="draft"
+            >Automated creation from template</change>
+         <change who="B. Breuer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Birgit Breuer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1+4" subtype="fragment" type="textpart" corresp="#FR6214" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/>σ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/>ιον<gap reason="lost" extent="unknown" unit="character" instant="false"/><g type="dagger"/>3<g type="dagger"/>3<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/>χα<gap reason="lost" quantity="9" unit="character" instant="false"/>ιπο
+<lb n="2"/>ρ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/>καθα<gap reason="lost" extent="unknown" unit="character" instant="false"/><g type="dagger"/>3<g type="dagger"/>3<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" atLeast="3" atMost="4" unit="character" instant="false"/><gap reason="lost" quantity="7" unit="character" instant="false"/>ν
+<lb n="3"/>ν<supplied reason="lost" instant="false">υ</supplied>μφα<gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><g type="dagger"/>3<g type="dagger"/>3<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/>ν<unclear instant="false">αι</unclear>αν<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="6" unit="character" instant="false"/>ντεσ
+<lb n="4"/>ε<unclear instant="false">π</unclear><supplied reason="lost" instant="false">ε</supplied>υκυκλ<gap reason="lost" extent="unknown" unit="character" instant="false"/><g type="dagger"/>3<g type="dagger"/>3<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ουροθωι<gap reason="lost" quantity="5" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>οσαλλα<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/>ε<unclear instant="false">π</unclear><supplied reason="lost" instant="false">ε</supplied>υ<unclear instant="false">θ</unclear>υ<unclear instant="false">φ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/><g type="dagger"/>3<g type="dagger"/>3<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>σκο<unclear instant="false">ι</unclear><gap reason="lost" atLeast="0" atMost="1" unit="character" instant="false"/><unclear instant="false">π</unclear>ι<gap reason="lost" quantity="6" unit="character" instant="false"/>υγασ
+<lb n="6"/>συ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">δ</unclear>ρομ<gap reason="lost" extent="unknown" unit="character" instant="false"/><g type="dagger"/>3<g type="dagger"/>3<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><unclear instant="false">α</unclear>ισεωνεπ<gap reason="lost" quantity="7" unit="character" instant="false"/>δε
+<lb n="7"/><gap reason="lost" quantity="4" unit="character" instant="false"/>δοκ<gap reason="lost" extent="unknown" unit="character" instant="false"/><g type="dagger"/>3<g type="dagger"/>3<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">ξ</unclear>οδοισ<unclear instant="false">μ</unclear><gap reason="lost" quantity="6" unit="character" instant="false"/><unclear instant="false">ι</unclear>οπω<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="7" unit="character" instant="false"/><unclear instant="false">ω</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/><g type="dagger"/>3<g type="dagger"/>3<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>υ<unclear instant="false">θ</unclear>υγε<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/>αμ<gap reason="lost" quantity="1" unit="character" instant="false"/>κ<gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>υστρ<unclear instant="false">ο</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">π</unclear>αλιμμ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/>μουσα<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+<div n="2" subtype="fragment" type="textpart" corresp="#FR6215" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><unclear instant="false">η</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">αν</unclear><gap reason="lost" atLeast="0" atMost="1" unit="character" instant="false"/><unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">π</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ρ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ρ</unclear>ι<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/>ανπ<unclear instant="false">ε</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">β</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+<div n="3" subtype="fragment" type="textpart" corresp="#FR6216" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>σ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">δ</unclear>ε<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="4" unit="character" instant="false"/>οιχ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ηι</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ισι<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><add place="above" instant="false" status="unremarkable">οσ</add>σου<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">λν</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">υ</unclear>ανακ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>επιπ<unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>πορο<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+<div n="5" subtype="fragment" type="textpart" corresp="#FR6218" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><space quantity="5" unit="character"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ι</unclear>κο<unclear instant="false">μ</unclear>α<gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+<div n="6" subtype="fragment" type="textpart" corresp="#FR6219" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">ν</unclear><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>α<unclear instant="false">ρ</unclear>αξει<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">θ</unclear><gap reason="lost" atLeast="0" atMost="1" unit="character" instant="false"/><unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+<div n="7" subtype="fragment" type="textpart" corresp="#FR6220" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">και</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><unclear instant="false">ι</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ο</unclear><gap reason="illegible" quantity="3" unit="character" instant="false"/>τ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">χ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>πλοι<unclear instant="false">σ</unclear>κ<unclear instant="false">λ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><unclear instant="false">ι</unclear>σ<unclear instant="false">ειρεσ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>πιφοβα<unclear instant="false">ι</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ε</unclear>οξυ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+<div n="8" subtype="fragment" type="textpart" corresp="#FR6221" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>ερ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ιανοντε<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>φουσι<gap reason="illegible" quantity="1" unit="character" instant="false"/>υσ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">υρ</unclear>εκ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">α</unclear>ρουκοιλ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>λ<add place="above" instant="false" status="unremarkable">ι</add>νοιοδ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><unclear instant="false">ισ</unclear>επαλ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">γ</unclear>υιαελ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+<div n="9" subtype="fragment" type="textpart" corresp="#FR6222" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="7" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="7" unit="character" instant="false"/><unclear instant="false">ρρ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="7" unit="character" instant="false"/>α<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="7" unit="character" instant="false"/><space quantity="1.4" unit="centimeter"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="7" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>εσ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="7" unit="character" instant="false"/>ιαδιοπ<unclear instant="false">λ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="7" unit="character" instant="false"/>αζον <space quantity="0.9" unit="centimeter"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">ι</unclear>ο<unclear instant="false">σκ</unclear>ολι<unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>α<unclear instant="false">σε</unclear>ιχον<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="4" unit="character" instant="false"/>ο<unclear instant="false">α</unclear> <space quantity="2.7" unit="centimeter"/>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">κ</unclear>ατε<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="4" unit="character" instant="false"/><unclear instant="false">υ</unclear> <space quantity="0.7" unit="centimeter"/>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="5" unit="character" instant="false"/>σ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="4" unit="character" instant="false"/><unclear instant="false">π</unclear>οσ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="5" unit="character" instant="false"/><unclear instant="false">ι</unclear>υ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="5" unit="character" instant="false"/><unclear instant="false">εα</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="17"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/>ι<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="5" unit="character" instant="false"/>φα<unclear instant="false">γ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="19"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="5" unit="character" instant="false"/>σμα<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+<div n="10" subtype="fragment" type="textpart" corresp="#FR6223" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>αζε<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>αν<unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ηειγ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">δ</unclear>ερησ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">λ</unclear>λαγ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ευ<unclear instant="false">ι</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+    
+<div n="17" subtype="fragment" type="textpart" corresp="#FR6230" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ιονα<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ιχο<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+<div n="20" subtype="fragment" type="textpart" corresp="#FR6233" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>τ<add place="above" instant="false" status="unremarkable">ε</add><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ρ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</l></lg></div>
+    
+
+    
+    
+
+    
+</div>
+<div n="2" subtype="column" type="textpart" corresp="#FR6234" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l n="1" part="N">
+<lb n="1"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" quantity="6" unit="character" instant="false"/><unclear instant="false">υν</unclear>τ<gap reason="lost" atLeast="0" atMost="1" unit="character" instant="false"/><unclear instant="false">ν</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/>ν<gap reason="lost" quantity="4" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" quantity="1" unit="character" instant="false"/>υν <supplied reason="lost" instant="false">ἐμ</supplied>βόλ<supplied reason="lost" instant="false">οισ</supplied>ι γειτ<gap reason="lost" quantity="3" unit="character" instant="false"/>σ<gap reason="lost" quantity="2" unit="character" instant="false"/>υ<gap reason="lost" quantity="1" unit="character" instant="false"/></l><l n="2" part="N"><gap reason="lost" quantity="8" unit="character" instant="false"/>αντιαι<unclear instant="false">ι</unclear><gap reason="lost" quantity="7" unit="character" instant="false"/><unclear instant="false">π</unclear>ρ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/>ν ἐ<add place="right" instant="false" status="unremarkable"><lb n="1"/>χιων<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="8" unit="character" instant="false"/><unclear instant="false">ε</unclear><lb n="2"/>τωνηρα<unclear instant="false">κλειας</unclear></add>
+<lb n="3" break="no"/>χάρα<supplied reason="lost" instant="false">ξ</supplied><unclear instant="false">α</unclear>ν π<gap reason="illegible" quantity="2" unit="character" instant="false"/>ι δὲ γε<gap reason="lost" quantity="3" unit="character" instant="false"/>λογχο<gap reason="lost" quantity="3" unit="character" instant="false"/></l><l n="3" part="N"><gap reason="lost" quantity="4" unit="character" instant="false"/> ἀμφέθ<supplied reason="lost" instant="false">ε</supplied>ντ<choice><corr instant="false">’</corr><sic>ο</sic></choice> ὀδόντων 
+<lb n="4"/>στο<unclear instant="false">ν</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">χ</unclear> </l></lg><lg n="2" part="N" org="uniform" sample="complete"><l n="4" part="N"> αἱ δ<supplied reason="lost" instant="false">ὲ</supplied> κυρτοῖ<supplied reason="lost" instant="false">σι</supplied> <unclear instant="false">κ</unclear>ρασὶν</l><l n="5" part="N"> <gap reason="lost" quantity="7" unit="character" instant="false"/>μεναι <supplied reason="lost" instant="false">χε</supplied>ῖ</l><l n="6" part="N">ρας παρέσυρον 
+<lb n="5"/>ἐλα<supplied reason="lost" instant="false">τίνα</supplied>ς·</l><l n="7" part="N"> <app type="alternative"><lem>†ἀδ<unclear instant="false">λ</unclear>’†</lem><rdg>αδ<unclear instant="false">α</unclear></rdg><rdg resp="Wilamowitz">ἀλλ’</rdg></app> εἰ μὲν <supplied reason="lost" instant="false">ἐ</supplied>νθένδ<gap reason="lost" quantity="6" unit="character" instant="false"/>ι</l><l n="8" part="N">στος ἐπ<supplied reason="lost" instant="false">ιφ</supplied>έροιτο πλαγὰ</l><l n="9" part="N">
+<lb n="6"/>ῥηξ<gap reason="lost" quantity="4" unit="character" instant="false"/>ος, πάντες <supplied reason="lost" instant="false">ἅμ’</supplied> ἀνέ</l><l n="10" part="N">πι<supplied reason="lost" instant="false">πτον</supplied> ἐ<unclear instant="false">κ</unclear>εῖσε να<supplied reason="lost" instant="false">ῦ</supplied>ται·</l><l n="11" part="N"> εἰ δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἀντίτοιχος 
+<lb n="7"/>ἀκ<unclear instant="false">τ</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/></l><l n="12" part="N"><gap reason="lost" quantity="2" unit="character" instant="false"/>οσ<gap reason="lost" quantity="1" unit="character" instant="false"/>ξειεμ <supplied reason="lost" instant="false">πο</supplied>λυκρότ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">υς</supplied></l><l n="13" part="N"> <gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">σ</unclear>ι<unclear instant="false">μους</unclear> πεύκας, πάλιν ἐφέροντο·</l><l n="14" part="N">
+<lb n="8"/>αἱ δε<gap reason="lost" atLeast="3" atMost="4" unit="character" instant="false"/><unclear instant="false">αι</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">η</unclear> γυῖα <supplied reason="lost" instant="false">δ</supplied>ιαφέρουσα<supplied reason="lost" instant="false">ι</supplied></l><l n="15" part="N"> <supplied reason="lost" instant="false">πλ</supplied>ευρὰς λι<unclear instant="false">ν</unclear><supplied reason="lost" instant="false">ο</supplied>ζώστους ἔφαι</l><l n="16" part="N">νον, 
+<lb n="9"/>τὰς μ<supplied reason="lost" instant="false">ὲν</supplied> <gap reason="lost" quantity="9" unit="character" instant="false"/>ις</l><l n="17" part="N"> σκηπ<supplied reason="lost" instant="false">τοῖς</supplied> ἐπεμβάλλ<supplied reason="lost" instant="false">ο</supplied>ντες ἀνε</l><l n="18" part="N"><supplied reason="lost" instant="false">χ</supplied>αίτιζον, αἱ δὲ 
+<lb n="10"/>πρα<gap reason="lost" quantity="3" unit="character" instant="false"/></l><l n="19" part="N"><gap reason="lost" quantity="12" unit="character" instant="false"/>ας ἀπηγ<unclear instant="false">λ</unclear>αϊ</l><l n="20" part="N">σμένα<supplied reason="lost" instant="false">ι</supplied> σιδα<supplied reason="lost" instant="false">ρ</supplied>ῶι κράνει·</l><l n="21" part="N"> ἴσος δὲ πυρὶ 
+<lb n="11"/>δαμ<gap reason="lost" quantity="3" unit="character" instant="false"/></l><l n="22" part="N"><gap reason="lost" quantity="6" unit="character" instant="false"/><unclear instant="false">ν</unclear> ἀγκυλένδετ<supplied reason="lost" instant="false">ο</supplied>ς μεθίετο</l><l n="23" part="N"> χερσίν, ἐν δ’ ἔπιπτε γυίοις</l><l n="24" part="N">
+<lb n="12"/>αἰθε<gap reason="lost" quantity="9" unit="character" instant="false"/>ωμα διακρα<surplus instant="false">ι</surplus><supplied reason="lost" instant="false">δ</supplied>αίνων·</l><l n="25" part="N"> στερεοπαγῆ δ’ ἐφέρετο φόνι</l><l n="26" part="N">α 
+<lb n="13"/><gap reason="lost" quantity="9" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">α</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/>τα τε περίβο</l><l n="27" part="N">λα πυρὶ φλεγ<unclear instant="false">όμ</unclear>εν<choice><corr instant="false">’</corr><sic>α</sic></choice> ἐν ἀποτομ<choice><corr instant="false">ά</corr><sic>ε</sic></choice>σι</l><l n="28" part="N"> βουδο
+<lb n="14" break="no"/><gap reason="lost" quantity="10" unit="character" instant="false"/> βίοτος</l><l n="29" part="N"> ἐθύετ’ ἀδιν<supplied reason="lost" instant="false">ὸ</supplied>ς ὑπὸ τανυπτέ</l><l n="30" part="N">ροισι χαλκόκρασι νευρε
+<lb n="15" break="no"/><gap reason="lost" atLeast="7" atMost="8" unit="character" instant="false"/></l><l n="31" part="N"> σμαραγδοχαίτας δὲ πόν</l><l n="32" part="N">τος ἄλοκα ναΐοις ἐφοι</l><l n="33" part="N">νίσσετο σταλά
+<lb n="16" break="no"/><supplied reason="lost" instant="false">γμασι,</supplied></l><l n="34" part="N"> <supplied reason="lost" instant="false">κρ</supplied><unclear instant="false">α</unclear>υγᾶι βοὰ δὲ <supplied reason="lost" instant="false">συ</supplied><unclear instant="false">μ</unclear>μι<supplied reason="lost" instant="false">γ</supplied>ὴς κατεῖχεν·</l><l n="35" part="N"> ὁμοῦ δ<supplied reason="lost" instant="false">ὲ</supplied> νάϊος στρατὸς</l><l n="36" part="N"> βάρβαρος ἄμμι
+<lb n="17" break="no"/><gap reason="lost" atLeast="7" atMost="8" unit="character" instant="false"/></l><l n="37" part="N"> ἀντεφέρετ<choice><corr instant="false">’</corr><sic>ο</sic></choice> ἐ<supplied reason="lost" instant="false">π’ ἰχ</supplied>θυ<supplied reason="lost" instant="false">ο</supplied></l><l n="38" part="N">στέφεσι μαρμαροπ<supplied reason="lost" instant="false">τύχ</supplied>ο<unclear instant="false">ι</unclear>ς</l><l n="39" part="N"> κόλποισιν
+<lb n="18"/><supplied reason="lost" instant="false">Ἀμφιτρί</supplied><unclear instant="false">τ</unclear>ας.</l><l n="40" part="N"> ἔνθα τοι τ<supplied reason="lost" instant="false">ις</supplied> <gap reason="lost" quantity="4" unit="character" instant="false"/> πέδιος</l><l n="41" part="N"> ἀνὴρ ἁμεροδρό</l><l n="42" part="N">μοιο χώρας ἄναξ 
+<lb n="19"/><gap reason="lost" quantity="3" unit="character" instant="false"/></l><l n="43" part="N"><gap reason="lost" quantity="3" unit="character" instant="false"/>μβρίαν α<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/> </l><l n="44" part="N"><supplied reason="lost" instant="false">ποσί τε χ</supplied>ερσίν τε παί</l><l n="45" part="N">ω<supplied reason="lost" instant="false">ν ἔ</supplied>πλει νησιώ</l><l n="46" part="N">τας 
+<lb n="20"/><gap reason="lost" quantity="7" unit="character" instant="false"/><unclear instant="false">ς</unclear> <unclear instant="false">θει</unclear>νομε</l><l n="47" part="N"><gap reason="lost" quantity="6" unit="character" instant="false"/> <unclear instant="false">δ</unclear>ιεξόδους μ<gap reason="lost" quantity="4" unit="character" instant="false"/>ν</l><l n="48" part="N"> ἰσόρροπά τε παλευό<gap reason="lost" extent="unknown" unit="character" instant="false"/></l><l n="49" part="N">
+<lb n="21"/><gap reason="lost" quantity="12" unit="character" instant="false"/>ηλ<gap reason="lost" quantity="12" unit="character" instant="false"/>ων</l><l n="50" part="N"> κάλει θ<gap reason="lost" quantity="4" unit="character" instant="false"/>σιον θεὸν</l><l n="51" part="N"> πατέρα τ<gap reason="lost" extent="unknown" unit="character" instant="false"/></l></lg><lg n="3" part="N" org="uniform" sample="complete"><l n="52" part="N">
+<lb n="22"/><gap reason="lost" quantity="7" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>ν<unclear instant="false">ο</unclear><gap reason="lost" quantity="4" unit="character" instant="false"/>φ<unclear instant="false">ι</unclear><gap reason="lost" quantity="10" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>κεπ<gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" quantity="13" unit="character" instant="false"/>λασσων<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false"> </unclear></l><l n="53" part="N">
+<lb n="23"/><gap reason="lost" quantity="5" unit="character" instant="false"/>ασπ<gap reason="lost" quantity="2" unit="character" instant="false"/>τε<gap reason="lost" quantity="9" unit="character" instant="false"/>μ<unclear instant="false">ε</unclear>γαν<gap reason="lost" quantity="2" unit="character" instant="false"/>ον<gap reason="lost" quantity="11" unit="character" instant="false"/>α περσαν<gap reason="lost" extent="unknown" unit="character" instant="false"/></l><l n="54" part="N">
+<lb n="24"/><gap reason="lost" quantity="4" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>εφασ<gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ρ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="9" unit="character" instant="false"/><unclear instant="false">α</unclear>ντεχε<unclear instant="false">ιαι</unclear><gap reason="lost" quantity="10" unit="character" instant="false"/>νιν κελα<unclear instant="false">ι</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></l><l n="55" part="N">
+<lb n="25"/><gap reason="lost" quantity="5" unit="character" instant="false"/>βλυδωπ<unclear instant="false">ι</unclear>ρον<gap reason="lost" quantity="9" unit="character" instant="false"/>ς κατεσσφρα<unclear instant="false">γ</unclear><gap reason="lost" quantity="9" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>στα</l><l n="56" part="N">
+<lb n="26"/><gap reason="lost" quantity="5" unit="character" instant="false"/>πεπ<unclear instant="false">α</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/>ολ<unclear instant="false">λ</unclear><gap reason="lost" quantity="9" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>υτεκ<gap reason="illegible" quantity="2" unit="character" instant="false"/>τοσ<gap reason="lost" quantity="9" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>νωτου</l><l n="57" part="N">
+<lb n="27"/><gap reason="lost" quantity="5" unit="character" instant="false"/>ε <unclear instant="false">δια</unclear>παλεύων<gap reason="lost" quantity="7" unit="character" instant="false"/>που βάσιμο<unclear instant="false">ν</unclear><gap reason="lost" quantity="5" unit="character" instant="false"/>ν δίοδον</l><l n="58" part="N">
+<lb n="28"/><gap reason="lost" quantity="4" unit="character" instant="false"/><unclear instant="false">εσμ</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/>ς <supplied reason="lost" instant="false">ἄπ</supplied>ειρος <gap reason="lost" quantity="8" unit="character" instant="false"/>φι ναΐοις τρυ<gap reason="lost" quantity="4" unit="character" instant="false"/><unclear instant="false">λ</unclear>ιχθεις</l><l n="59" part="N">
+<lb n="29"/><gap reason="lost" quantity="13" unit="character" instant="false"/>υλα<unclear instant="false">κ</unclear><gap reason="lost" quantity="7" unit="character" instant="false"/>φ<unclear instant="false">ον</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">ζ</unclear>ευμα<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>•
+</l></lg></div>
+<div n="3" subtype="column" type="textpart" corresp="#FR6235" part="N" org="uniform" sample="complete"><lg n="4" part="N" org="uniform" sample="complete"><l n="60" part="N">
+<lb n="1"/><supplied reason="lost" instant="false">ὅ</supplied>τε δὲ τᾶι λείποιεν αὔραι,</l><l n="61" part="N"> τᾶι δ’ ἐπεισέπιπτον, ἄφ</l><l n="62" part="N">ρ<choice><corr instant="false">ε</corr><sic>ω</sic></choice>ι<del rend="erasure" instant="false" status="unremarkable">ς</del> δ<choice><corr instant="false">’</corr><sic>ε</sic></choice>  
+<lb n="2"/>ἀβα<choice><corr instant="false">κ</corr><sic>χ</sic></choice>χίωτος ὄμβρος,</l><l n="63" part="N"> εἰς δὲ τρόφιμον ἄγγος</l><l n="64" part="N"> ἐχεῖτ<choice><corr instant="false">’</corr><sic>ο</sic></choice>· ἐπεὶ δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> 
+<lb n="3"/>ἀμβόλιμος ἅλ</l><l n="65" part="N">μα στόματος ὑπερέθυιεν,</l><l n="65a" part="N"> ὀξυπαραυδήτωι</l><l n="66" part="N">
+<lb n="4"/>φωνᾶ<supplied reason="omitted" instant="false">ι</supplied> παρακόπωι</l><l n="67" part="N"> τε δόξαι φρενῶν</l><l n="68" part="N"> κατακορὴς ἀπείλει</l><l n="69" part="N"> γόμ
+<lb n="5" break="no"/>φο<choice><corr instant="false">υ</corr><sic>ι</sic></choice>ς ἐμπρίων</l><l n="70" part="N"> †μιμούμενος† λυμεῶ</l><l n="71" part="N">νι σώματος θα<subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">λ</add><del rend="corrected" instant="false" status="unremarkable">θ</del></subst>άσ<supplied reason="omitted" instant="false">σ</supplied>α<choice><corr instant="false">ι</corr><sic>ς</sic></choice>·</l><l n="72" part="N">
+<lb n="6"/>“ἤδη θρασεῖα καὶ πάρος</l><l n="73" part="N"> λάβρον αὐχέν<choice><corr instant="false">’</corr><sic>α</sic></choice> ἔσχες ἐμ</l><l n="74" part="N"> πέδαι κατα
+<lb n="7" break="no"/>ζευχθεῖσα λινοδέτωι τεόν·</l><l n="75" part="N"> νῦν δέ σ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἀναταράξει</l><l n="76" part="N"> ἐμὸς 
+<lb n="8"/>ἄναξ ἐμὸς</l><l n="77" part="N"> πεύκαισιν ὀριγόνοισιν, ἐγ</l><l n="78" part="N">κλήισει δὲ πεδία 
+<lb n="9"/>πλόϊμα νο<surplus instant="false">μ</surplus>μάσι ναύ<choice><corr instant="false">τ</corr><sic>γ</sic></choice>αις,</l><l n="79" part="N"> οἰστρομανὲς παλ<choice><corr instant="false">αι</corr><sic>ε</sic></choice>ομί</l><l n="80" part="N">σημ<choice><corr instant="false">’</corr><sic>α</sic></choice> 
+<lb n="10"/>ἄπιστόν τ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἀγκάλι</l><l n="81" part="N">σμα κλυσιδρομάδος αὔρας”.</l><l n="82" part="N"> φάτ<choice><corr instant="false">’</corr><sic>ο</sic></choice> 
+<lb n="11"/>ἄ<supplied reason="omitted" instant="false">σ</supplied>θματι</l><l n="83" part="N"> στρευγόμενος, βλοσυρὰν</l><l n="84" part="N"> δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἐξέβαλλ<surplus instant="false">εν</surplus>’ ἄχναν 
+<lb n="12"/>ἐπανε</l><l n="85" part="N">ρευγόμενος στόματι βρύχιον ἅλμαν.</l><l n="86" part="N"> φυγᾶι δὲ 
+<lb n="13"/>πάλιν ἵετο Πέρ</l><l n="87" part="N">σης στρατὸς βάρβαρος ἐπισπέρχων·</l><l n="88" part="N"> ἄλλα δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> 
+<lb n="14"/>ἄλλαν θραῦεν σύρτις</l><l n="89" part="N"> μακραυχενόπλους,</l><l n="90" part="N"> χειρῶν δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἔγβαλλον 
+<lb n="15"/>ὀρείους</l><l n="91" part="N"> πόδας ναός, στόματος</l><l n="92" part="N"> δ’ ἐξήλλοντο μαρμαροφεγ</l><l n="93" part="N">γεῖς 
+<lb n="16"/>παῖδες συγκρουόμενοι·</l><l n="94" part="N"> κατάστερος δὲ πόντος ἐγ</l><l n="95" part="N"> λιποπνόης 
+<lb n="17"/>λι<unclear instant="false">π</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/>στερέσιν</l><l n="96" part="N"> ἐγάργαιρε σώμασιν,</l><l n="97" part="N"> ἐβρίθοντο δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἀϊόνες.</l><l n="98" part="N">
+<lb n="18"/>οἱ δ’ ἐπ’ ἀκταῖς ἐνάλοις</l><l n="99" part="N"> ἥμενο<subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">ι</add><del rend="corrected" instant="false" status="unremarkable">ν</del></subst> γυμνοπαγεῖς</l><l n="100" part="N"> ἀϋτᾶι τε καὶ δακρυ</l><l n="101" part="N">σταγεῖ 
+<lb n="19"/><supplied reason="lost" instant="false">γ</supplied>όωι</l><l n="102" part="N"> στερνοκτύπ<choice><corr instant="false">ο</corr><sic>ω</sic></choice>ι γοηταὶ</l><l n="103" part="N"> θρηνώδει κατείχοντ’ ὀδυρμῶι·</l><l n="104" part="N"> ἅμα δὲ 
+<lb n="20"/><supplied reason="lost" instant="false">γᾶν</supplied> πατρίαν ἐπανεκα<supplied reason="lost" instant="false">λ</supplied>έοντ<choice><corr instant="false">’</corr><sic>ο</sic></choice>·</l><l n="105" part="N"> “ἰὼ Μύσιαι</l><l n="106" part="N"> δενδροέθειραι πτυχαί,</l><l n="107" part="N"> 
+<lb n="21"/><supplied reason="lost" instant="false">ῥύ</supplied><unclear instant="false">σ</unclear>ασθέ μ’ ἐνθέν<unclear instant="false">δε</unclear>· νῦν ἀήταις</l><l n="108" part="N"> φερόμε<unclear instant="false">θ</unclear><choice><corr instant="false">’</corr><sic>ο</sic></choice>• οὐ γὰρ ἔτι ποτ’ ἀμὸν</l><l n="109" part="N">
+<lb n="22"/><supplied reason="lost" instant="false">σῶ</supplied>μα δέξεται <supplied reason="lost" instant="false">πόλ</supplied>ις.</l><l n="110" part="N"> κ<gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>εγ γὰρ χερὶ <unclear instant="false">ν</unclear>α<gap reason="illegible" quantity="1" unit="character" instant="false"/>ε<gap reason="lost" quantity="1" unit="character" instant="false"/> νυμφαιογόνον</l><l n="110a" part="N"> 
+<lb n="23"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">ι</unclear>ον ἄντρον ο<gap reason="lost" quantity="7" unit="character" instant="false"/><unclear instant="false">αι</unclear>αστακαπε<gap reason="lost" quantity="4" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ονειτεο</l><l n="111" part="N"> βαθύ
+<lb n="24" break="no"/><supplied reason="lost" instant="false">τ</supplied>ερον πόντοιο <unclear instant="false">χ</unclear><supplied reason="lost" instant="false">άσμ</supplied>α•</l><l n="112" part="N"> ἄπεχε μάχιμ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ν</supplied></l><l n="113" part="N"> <unclear instant="false">α</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/> 
+<lb n="25"/>πλόϊμον <app type="editorial"><lem resp="Hordern"><orig>ελλαν</orig></lem><rdg resp="Wilamowitz">Ἕλλαν</rdg><rdg resp="Danielsson">Ἕλλαν’</rdg></app>.</l><l n="114" part="N"> εἴ<supplied reason="lost" instant="false">θε μ</supplied>ὴ στέγην ἔδειμε</l><l n="115" part="N"> <gap reason="lost" quantity="1" unit="character" instant="false"/>ῆ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">τ</unclear>ελεοπορον ἐμὸς</l><l n="116" part="N"> 
+<lb n="26"/><supplied reason="lost" instant="false">δ</supplied>εσπότης· οὐ γὰρ ἂ<supplied reason="lost" instant="false">ν Τμ</supplied><unclear instant="false">ῶ</unclear>λον οὐδ<choice><corr instant="false">’</corr><sic>ο</sic></choice></l><l n="117" part="N"> ἄστυ Λύδιον <supplied reason="lost" instant="false">λι</supplied>πὼν Σάρδεων</l><l n="118" part="N"> ἦλθον 
+<lb n="27"/><supplied reason="lost" instant="false">Ἕ</supplied>λλαν’ ἀ<choice><corr instant="false">π</corr><sic>τ</sic></choice>έρξων Ἄ<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">η·</supplied></l><l n="119" part="N"> <supplied reason="lost" instant="false">νῦν</supplied> <unclear instant="false">δ</unclear>ὲ πᾶι τις δυσέκφευ<unclear instant="false">κ</unclear><supplied reason="lost" instant="false">τ</supplied>ον εὕ</l><l n="120" part="N">ρηι 
+</l></lg></div>
+<div n="4" subtype="column" type="textpart" corresp="#FR6236" part="N" org="uniform" sample="complete"><lg n="4" part="N" org="uniform" sample="complete"><l n="120" part="N">
+<lb n="1"/>γλυκεῖαν μόρου καταφυγήν;</l><l n="121" part="N"> Ἰλιοπόρος κακῶν λυαί</l><l n="122" part="N">α 
+<lb n="2"/>μόνα γένοιτ’ ἄν, εἰ</l><l n="123" part="N"> δυνα<surplus instant="false">σ</surplus>τὰ πρὸς μελαμ</l><l n="124" part="N">πεταλ<choice><corr instant="false">οχ</corr><sic>ακ</sic></choice>ίτωνα 
+<lb n="3"/>Ματρὸς οὐρείας</l><l n="125" part="N"> δεσπόσυνα γόνατα πεσεῖν</l><l n="126" part="N"> εὐωλένους τε 
+<lb n="4"/>χεῖρας ἀμφιβάλλων</l><l n="127" part="N"> †λίσσων† χρυσοπλόκαμε</l><l n="128" part="N"> θεὰ Μᾶτερ 
+<lb n="5"/>ἱκνοῦμαι</l><l n="129" part="N"> ἐμὸν ἐμὸν αἰῶνα δυσέκφευκτον, ἐπεὶ</l><l n="130" part="N"> μ<choice><corr instant="false">’</corr><sic>ε</sic></choice> αὐτίκα 
+<lb n="6"/>λαιμοτόμωι τις ἀποίσεται ἐνθάδε</l><l n="131" part="N"> μήστορι σιδάρωι</l><l n="132" part="N"> ἢ κατα
+<lb n="7" break="no"/>κυμοτακεῖς ναυσιφθόροι αὖραι</l><l n="133" part="N"> νυκτιπαγεῖ βορέα<supplied reason="omitted" instant="false">ι</supplied> <add place="above" instant="false" status="unremarkable">δ</add>ια<supplied reason="omitted" instant="false">ρ</supplied></l><l n="134" part="N">ραίσον
+<lb n="8" break="no"/>ται· περὶ γὰρ κλύδων</l><l n="135" part="N"> ἄγριος ἀνέρρηξεν ἅπαγ</l><l n="136" part="N"> γυίων εἶδος
+<lb n="9"/>ὑφαντόν·</l><l n="137" part="N"> ἔνθα κείσομαι οἰκτρός, ὀρ</l><l n="138" part="N">νίθων ἔθνεσιν ὠμο
+<lb n="10" break="no"/>βρῶσι θοινά”.</l><l n="139" part="N">
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="11"/>τοιάδ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ὀδυρόμενοι κατεδάκρυον.</l><l n="140" part="N"> ἐπεὶ δέ τις λαβὼν ἄγοι</l><l n="141" part="N"> 
+<lb n="12"/>πολυβότων Κελαινᾶν</l><l n="142" part="N"> οἰκήτορ<choice><corr instant="false">’</corr><sic>α</sic></choice> ὀρφανὸν μαχᾶν</l><l n="143" part="N"> σιδαρό
+<lb n="13" break="no"/>κωπος Ἕλλαν,</l><l n="144" part="N"> ἄγε<choice><corr instant="false">γ</corr><sic>ι</sic></choice> κόμης ἐπισπάσας,</l><l n="145" part="N"> ὁ δ’ ἀμφὶ γόνασι 
+<lb n="14"/>περιπλεκεὶς</l><l n="146" part="N"> ἐλίσσετ<choice><corr instant="false">’</corr><sic>ο</sic></choice>, Ἑλλάδ<choice><corr instant="false">’</corr><sic>ι</sic></choice> ἐμπλέκων</l><l n="147" part="N"> Ἀσιάδι φωνᾶι 
+<lb n="15"/>διάτορον</l><l n="148" part="N"> σφραγῖδα θραύων στόματος,</l><l n="149" part="N"> Ἰάονα γλῶσσαν 
+<lb n="16"/>ἐξιχνεύων·</l><l n="150" part="N"> “†ἐ<unclear instant="false">γ</unclear>ω μοι σο<unclear instant="false">ι</unclear>† κῶς καὶ τί πρᾶγμα;</l><l n="151" part="N"> αὖτις οὐδάμ’ ἔλθω·</l><l n="152" part="N">
+<lb n="17"/>καὶ νῦν ἐμὸς δεσπότης</l><l n="153" part="N"> δεῦρό μ’ ἐνθάδ’ ἤξει·</l><l n="154" part="N"> τὰ λοιπὰ δ’ οὐκέτι, 
+<lb n="18"/>πάτερ,</l><l n="155" part="N"> οὐκέτι μαχέσ’ αὖτις ἐνθ<supplied reason="omitted" instant="false">ά</supplied>δ’ ἔ<subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">ρ</add><del rend="corrected" instant="false" status="unremarkable">χ</del></subst>χω</l><l n="156" part="N"> ἀλλὰ κάθω.</l><l n="157" part="N"> ἐγώ σοι 
+<lb n="19"/>μ<choice><corr instant="false">ὴ</corr><sic>εν</sic></choice> δεῦρ’, ἐγὼ</l><l n="158" part="N"> κεῖσε παρὰ Σάρδι, παρὰ Σοῦσ<choice><corr instant="false">’</corr><sic>α</sic></choice>,</l><l n="159" part="N"> Ἀγβάτανα ναίων·</l><l n="160" part="N"> 
+<lb n="20"/>Ἄρτιμις ἐμὸς μέγας θεὸς</l><l n="161" part="N"> παρ’ Ἔφεσον φυλάξει”.</l><l n="162" part="N"> 
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="21"/>οἱ δ’ ἐπεὶ παλίμπορον φυ</l><l n="163" part="N">γὴν ἔθεντο ταχύπορον,</l><l n="164" part="N"> αὐτίκα μὲν 
+<lb n="22"/>ἀμφιστόμους ἄ</l><l n="165" part="N">κοντας ἐχ <subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">χ</add><del rend="corrected" instant="false" status="unremarkable">ι</del></subst>ερῶν ἔρ<surplus instant="false">ρ</surplus>ιπτον,</l><l n="166" part="N"> δρύπτετο δὲ 
+<lb n="23"/>πρόσωπ<choice><corr instant="false">’</corr><sic>ον</sic></choice> ὄνυξι·</l><l n="167" part="N"> Περσίδα στολὴν περὶ στέρ</l><l n="168" part="N">νοις ἔρεικον 
+<lb n="24"/>εὐϋφῆ,</l><l n="169" part="N"> σύντονος δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἁρμόζετ<choice><corr instant="false">’</corr><sic>ο</sic></choice> Ἀσιὰς</l><l n="170" part="N"> οἰμωγὰ †πολυστόνωι†.</l><l n="171" part="N"> 
+<lb n="25"/>κτύπει δὲ πᾶσα Βασιλέως πανήγυρις</l><l n="172" part="N"> φόβωι τὸ μέλλον 
+<lb n="26"/>εἰσορώμενοι πάθος.</l><l n="173" part="N"> ὁ δὲ παλινπόρευτον ὡς</l><l n="174" part="N"> ἐ<subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">σ</add><del rend="corrected" instant="false" status="unremarkable">ι</del></subst><add place="above" instant="false" status="unremarkable">εῖ</add>δε<surplus instant="false">ν</surplus>
+</l></lg></div>
+<div n="5" subtype="column" type="textpart" corresp="#FR6237" part="N" org="uniform" sample="complete"><lg n="4" part="N" org="uniform" sample="complete"><l n="174" part="N">
+<lb n="1"/>Βασιλεὺς εἰς φυγὴν</l><l n="175" part="N"> ὁρμῶντα παμμιγῆ στρατόν,</l><l n="176" part="N"> 
+<lb n="2"/>γονυπετὴς ἄικιζε σῶμα,</l><l n="177" part="N"> φάτο δὲ κυμαίνων τύχαισ<surplus instant="false">ιν</surplus>·</l><l n="178" part="N">
+<lb n="3"/>“ἰὼ κατασκαφαὶ δόμων</l><l n="179" part="N"> σείριαί τε νᾶες Ἑλλανίδες, αἳ</l><l n="180" part="N"> κα
+<lb n="4" break="no"/>τὰ μὲν ἥλικ<choice><corr instant="false">’</corr><sic>α</sic></choice> ὠλέσα<choice><corr instant="false"> θ’</corr><sic>τε</sic></choice> ἥ</l><l n="181" part="N">βαν νέων πολύανδρον·</l><l n="182" part="N"> νᾶες δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> 
+<lb n="5"/>οὐκ<surplus instant="false">ι</surplus> ὀπισσοπόρευ</l><l n="183" part="N">τόν <supplied reason="omitted" instant="false">νιν</supplied> ἄξουσιμ, πυρὸς</l><l n="184" part="N"> δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> αἰθαλόεμ μένος 
+<lb n="6"/>ἀγρίωι</l><l n="185" part="N"> σώματι φ<add place="above" instant="false" status="unremarkable">λ</add>έξει<surplus instant="false">ς</surplus>, στονόεντα δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἄλγη</l><l n="186" part="N"> ἔσται Περσίδι 
+<lb n="7"/>χώραι·</l><l n="187" part="N"> <supplied reason="omitted" instant="false">ἰ</supplied>ὼ βαρεῖα συμφορά,</l><l n="188" part="N"> ἅ μ’ ἐς Ἑλλάδ<choice><corr instant="false">’</corr><sic>α</sic></choice> ἤγαγες·</l><l n="189" part="N"> ἀλλ’ ἴτε,
+<lb n="8"/>μηκέτι μέλλετε,</l><l n="190" part="N"> ζεύγνυτε μὲν τετρά<supplied reason="omitted" instant="false">ορ</supplied>ον ἵπ</l><l n="191" part="N">πων 
+<lb n="9"/>ὄχημ<choice><corr instant="false">’</corr><sic>α</sic></choice>, οἱ δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἀνάριθμον ὄλ</l><l n="192" part="N">βον φορεῖτ’ ἐπ’ ἀπήνας·</l><l n="193" part="N"> πίμπρατε δὲ 
+<lb n="10"/>σκηνάς,</l><l n="194" part="N"> μηδέ τις ἡμετέρου γένοιτ<choice><corr instant="false">’</corr><sic>ο</sic></choice></l><l n="195" part="N"> ὄνησις αὐτοῖσι πλούτου”.</l><l n="196" part="N"> o<add place="above" instant="false" status="unremarkable">ἱ</add> δὲ
+<lb n="11"/>τροπαῖα στησάμενοι Διὸς</l><l n="197" part="N"> ἁγνότατον τέμενος, Παιᾶν<choice><corr instant="false">’</corr><sic>α</sic></choice></l><l n="198" part="N"> ἐκελά
+<lb n="12" break="no"/>δησαν ἰήϊον</l><l n="199" part="N"> ἄνακτα, σύμμετροι δ’ ἐπε</l><l n="200" part="N">κτύπεον ποδῶν</l><l n="201" part="N"> ὑψικρότοις 
+<lb n="13"/>χορείαις.</l><l n="202" part="N"> 
+<g type="coronis"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="14"/>ἀλλ’ ὦ χρυσεοκίθαριν ἀέ</l><l n="203" part="N">ξων Mοῦσαν νεοτευχῆ,</l><l n="204" part="N"> ἐμοῖς ἔλθ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἐπίκουρος 
+<lb n="15"/>ὕ</l><l n="205" part="N">μνοισ<surplus instant="false">ιν</surplus> ἰήϊε Παιάν·</l><l n="206" part="N"> ὁ γάρ μ’ εὐγενέτας μακραί</l><l n="207" part="N">ων Σπάρτας μέγας 
+<lb n="16"/>ἁγεμὼν</l><l n="208" part="N"> βρύων ἄνθεσιν ἥβας</l><l n="209" part="N"> δονεῖ λαὸς ἐπιφλέγων</l><l n="210" part="N"> ἐλᾶι τ<choice><corr instant="false">’</corr><sic>ε</sic></choice> αἴθοπι 
+<lb n="17"/>μώμωι,</l><l n="211" part="N"> ὅτι παλαιοτέραν νέοις</l><l n="212" part="N"> ὕμνοις Μοῦσαν ἀτιμῶ·</l><l n="213" part="N"> ἐγὼ δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> οὔ</l><l n="214" part="N">τε 
+<lb n="18"/>νέον τιν<choice><corr instant="false">’</corr><sic>α</sic></choice> οὔτε γεραὸν οὔτ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἰσήβαν</l><l n="215" part="N"> εἴργω τῶνδ’ ἑκὰ<choice><corr instant="false">ς</corr><sic>δ</sic></choice> ὕμνων·</l><l n="216" part="N"> 
+<lb n="19"/>τοὺς <surplus instant="false">ο</surplus>δὲ μουσοπαλαιολύ</l><l n="217" part="N">μας, τούτους δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἀπερύκω,</l><l n="218" part="N"> λωβητῆρας 
+<lb n="20"/>ἀοιδᾶν,</l><l n="219" part="N"> κηρύκων λιγυμακροφώ</l><l n="220" part="N">νων τείνοντας ἰυγ<surplus instant="false">γ</surplus>άς.</l><l n="221" part="N"> πρῶτος 
+<lb n="21"/>ποικιλόμουσο<choice><corr instant="false">ν</corr><sic>ς</sic></choice> Ὀρ</l><l n="222" part="N"><choice><corr instant="false">φε</corr><sic>ι</sic></choice>ὺς †υν† ἐτέκνωσεν</l><l n="223" part="N"> υἱὸς Καλλιόπα<supplied reason="omitted" instant="false">ς<seg met="brevis longa" part="N">⏑⏤</seg></supplied></l><l n="224" part="N">
+<lb n="22"/>†πιεριασενι†·</l><l n="225" part="N"> Τέρπανδρος <choice><corr instant="false">δ</corr><sic>α</sic></choice>’ ἐπὶ τῶι δέκα</l><l n="226" part="N"> <choice><corr instant="false">ζ</corr><sic>τ</sic></choice>εῦξε Μοῦσαν 
+<lb n="23"/>ἐν ὠιδαῖς·</l><l n="227" part="N"> Λέσβος δ<choice><corr instant="false">’</corr><sic>ε</sic></choice> Αἰολία ν<supplied reason="omitted" instant="false">ιν</supplied> Ἀν</l><l n="228" part="N">τίσσα<supplied reason="omitted" instant="false">ι</supplied> γείνατο κλεινόν·</l><l n="229" part="N"> νῦν δὲ 
+<lb n="24"/>Τιμόθεος μέτροις</l><l n="230" part="N"> ῥυθμοῖς τ<choice><corr instant="false">’</corr><sic>ε</sic></choice> ἑνδεκακρουμάτοις</l><l n="231" part="N"> κίθαριν 
+<lb n="25"/>ἐξανατέλλει,</l><l n="232" part="N"> θησαυρὸν πολύυμνον οἴ</l><l n="233" part="N">ξας Μουσᾶν 
+<lb n="26"/>θαλαμευτό<del rend="erasure" instant="false" status="unremarkable">σ</del>ν·</l><l n="234" part="N"> Μίλητος δὲ πόλις νιν ἁ</l><l n="235" part="N"> θρέψασ’ ἁ 
+</l></lg></div>
+<div n="6" subtype="column" type="textpart" corresp="#FR6238" part="N" org="uniform" sample="complete"><lg n="4" part="N" org="uniform" sample="complete"><l n="235" part="N">
+<lb n="1"/>δυωδεκατειχέος</l><l n="236" part="N"> λαοῦ πρωτέος ἐξ Ἀχαιῶν.</l><l n="237" part="N">
+<lb n="2"/>ἀλλ’ ἑκαταβόλε Πύθι’ ἁγνὰν</l><l n="238" part="N"> ἔλθοις τάν
+<lb n="3" break="no"/>δε πόλιν σὺν ὄλβωι,</l><l n="239" part="N"> πέμπων ἀπήμονι λαῶι</l><l n="240" part="N">
+<lb n="4"/>τῶ<supplied reason="omitted" instant="false">ι</supplied>δ’ εἰρήναν θάλλουσαν εὐνομία<choice><corr instant="false">ι</corr><sic>ν</sic></choice>. 
+<milestone rend="paragraphos" unit="undefined"/>
+</l></lg></div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author>Timotheus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/1033"
+                     >Persae</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Roberts, GLH pl.1</bibl>
+               <bibl type="printed" default="false" status="draft">Schubart, PGB tab.1</bibl>
+               <bibl type="printed" default="false" status="draft">Norsa, Scritt. Lett. Greca,
+                  pl.1</bibl>
+               <bibl type="printed" default="false" status="draft">R.Seider, Paläogr. griech. Papyri
+                  II.2, pl.II</bibl>
+               <bibl type="printed" default="false" status="draft">E.Crisci, Scrivere greco fuori
+                  d'Egitto, Pap. Flor. 27, pl.II</bibl>
+               <bibl type="printed" default="false" status="draft">B.Legras, Lire en Egypte
+                  d'Alexandre à l'Islam, 2002, p.54</bibl>
+               <bibl type="printed" default="false" status="draft">Atti del convegno internazionale
+                  "il libro e il testo", fig. 3 (Irigoin)</bibl>
+               <bibl type="printed" default="false" status="draft">M.A.Hussein, Vom Papyrus zum
+                  Codex, München 1972, no.68</bibl>
+               <bibl type="printed" default="false" status="draft">Scrittura e Civiltà 23 (1999),
+                  pl. 3</bibl>
+               <bibl type="printed" default="false" status="draft">D. Sider, The Library of the
+                  villa dei Papiri, Los Angeles 2005, pl.</bibl>
+               <bibl type="printed" default="false" status="draft">G. Cavallo, La scrittura greca e
+                  latina dei papiri, 2008, p. 24 [2]</bibl>
+               <bibl type="printed" default="false" status="draft">Cavallo-Maehler, Hellenistic
+                  Bookhands, 2008, no. 2 .</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.photo.rmn.fr/cf/htm/CPicZ.aspx?E=2C6NU00Z6I4J"/>
+               </bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02776/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m61327" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Oxy. 9 1183</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">61327</idno>
+            <idno type="TM">61327</idno>
+            <idno type="LDAB">2471</idno>
+            <idno type="filename">61327</idno>
+            <idno type="dclp-hybrid">p.oxy;9;1183</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Princeton, University Library AM 4097</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="29">
+                           <p part="N">papyrus roll (columns: 3, written lines: 29, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>formal round</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0050" notAfter="0099" instant="false">50 - 99</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR7828" from="1990" to="2016" xml:id="GR7828.01">
+                           <graphic url="http://www.princeton.edu/papyrus/images/Isocrates.jpeg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR7829" from="1990" to="2016" xml:id="GR7829.01">
+                           <graphic url="http://www.princeton.edu/papyrus/images/Isocrates.jpeg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR7830" from="1990" to="2016" xml:id="GR7830.01">
+                           <graphic url="http://www.princeton.edu/papyrus/images/Isocrates.jpeg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>oratory</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Isocrates; Trapeziticus 44-48</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="column" type="textpart" corresp="#FR7828" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">δραχμὰς ἐνεκ</supplied>άλεσέν μοι
+<lb n="2"/><supplied reason="lost" instant="false">χαριζόμενο</supplied>ς, <unclear instant="false">τῶ</unclear>ν δὲ
+<lb n="3"/><supplied reason="lost" instant="false">ἑπ</supplied>τὰ ταλάντων ἐγγυ
+<lb n="4" break="no"/><supplied reason="lost" instant="false">ητής μου ἐγέ</supplied>νετο ἡγού
+<lb n="5" break="no"/><supplied reason="lost" instant="false">μενος ἱκαν</supplied><unclear instant="false">ὴν</unclear> π<unclear instant="false">α</unclear>ρ' ἐ 
+<lb n="6" break="no"/><supplied reason="lost" instant="false">μοῦ πίστι</supplied><unclear instant="false">ν</unclear> ἔχειν τὸ 
+<lb n="7"/><supplied reason="lost" instant="false">χρυσίον τὸ π</supplied><unclear instant="false">α</unclear>ρ᾽ ἑαυτῷ
+<lb n="8"/><supplied reason="lost" instant="false">κείμενον.</supplied> <unclear instant="false">ὡ</unclear>ς μὲν τοί
+<lb n="9" break="no"/><supplied reason="lost" instant="false">νυν ἦν τέ μο</supplied><unclear instant="false">ι</unclear> <supplied reason="lost" instant="false">π</supplied><unclear instant="false">ο</unclear>λλὰ
+<lb n="10"/><supplied reason="lost" instant="false">χρήματ᾽ ἐνθάδ</supplied>ε καὶ 
+<lb n="11"/><supplied reason="lost" instant="false">ταῦτ᾽ ἐπὶ τῇ τούτου τρα</supplied>
+<lb n="12" break="no"/><supplied reason="lost" instant="false">πέζῃ κεῖταί μ</supplied>οι, καὶ 
+<lb n="13"/><supplied reason="lost" instant="false">ἐκ τῶν ἔργων</supplied> <unclear instant="false">τ</unclear>ῶν Πα
+<lb n="14" break="no"/><supplied reason="lost" instant="false">σίωνος ὑμῖν δ</supplied><unclear instant="false">εδήλω</unclear>
+<lb n="15" break="no"/><supplied reason="lost" instant="false">κα καὶ παρὰ τῶ</supplied><unclear instant="false">ν</unclear> ε<unclear instant="false">ἰδό</unclear>
+<lb n="16" break="no"/><supplied reason="lost" instant="false">των ἀκηκόατε. δ</supplied>οκεῖ
+<lb n="17" break="no"/><supplied reason="lost" instant="false">τε δέ μοι, ὦ ἄνδρ</supplied>ες δι
+<lb n="18" break="no"/><supplied reason="lost" instant="false">κασταί, ἄριστ᾽ ἂν γνῶ</supplied>
+<lb n="19" break="no"/><supplied reason="lost" instant="false">ναι περὶ ὧν ἀμφισβη</supplied>
+<lb n="20" break="no"/><supplied reason="lost" instant="false">τοῦμεν, ἀναμνησθέντες</supplied>
+<lb n="21"/><supplied reason="lost" instant="false">ἐκεῖνον τὸν χρόνον,</supplied>
+<lb n="22"/><supplied reason="lost" instant="false">καὶ τὰ πράγματα</supplied> <unclear instant="false">π</unclear>ῶς
+<lb n="23"/><supplied reason="lost" instant="false">εἶχεν ἡμῖν, ὅτ᾽</supplied> ἐγὼ 
+<lb n="24"/><supplied reason="lost" instant="false">Μενέξενον κα</supplied>ὶ Φιλό
+<lb n="25" break="no"/><supplied reason="lost" instant="false">μηλον προσέπ</supplied>εμψ᾽ 
+<lb n="26"/><supplied reason="lost" instant="false">ἀπαιτήσοντας</supplied> τὴν πα
+<lb n="27" break="no"/><supplied reason="lost" instant="false">ρακαταθήκην,</supplied> <unclear instant="false">κ</unclear>α<unclear instant="false">ὶ</unclear> Πασί
+<lb n="28" break="no"/><supplied reason="lost" instant="false">ων τὸ πρῶτον</supplied> <unclear instant="false">ἐ</unclear>τ<unclear instant="false">ό</unclear>λ
+<lb n="29" break="no"/><supplied reason="lost" instant="false">μησεν ἔξαρνος γε</supplied>νέ
+</ab></div>
+
+<div n="2" subtype="column" type="textpart" corresp="#FR7829" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1" break="no"/>σθαι. εὑρ<unclear instant="false">ή</unclear>σετε γὰρ τὸν 
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="2"/>μὲν πατέρα μου σ<supplied reason="lost" instant="false">υ</supplied>νει
+<lb n="3" break="no"/>λημμένον καὶ τὴν 
+<lb n="4"/><supplied reason="lost" instant="false">ο</supplied>ὐσίαν ἅπα<unclear instant="false">σ</unclear>αν <unclear instant="false">ἀ</unclear>φῃ
+<lb n="5" break="no"/><supplied reason="lost" instant="false">ρ</supplied><unclear instant="false">η</unclear>μένον, ἐ<unclear instant="false">μ</unclear>οὶ δ᾽ οὐ
+<lb n="6" break="no"/><supplied reason="lost" instant="false">χ</supplied> <unclear instant="false">ο</unclear>ἷόν τε ὂν διὰ τὰς <unclear instant="false">π</unclear><supplied reason="lost" instant="false">α</supplied>
+<lb n="7"/><supplied reason="lost" instant="false">ρούς</supplied>ας τύ<supplied reason="lost" instant="false">χας</supplied> <unclear instant="false">ο</unclear>ὔτε <unclear instant="false">α</unclear><supplied reason="lost" instant="false">ὐτοῦ</supplied>
+<lb n="8"/><supplied reason="lost" instant="false">μέ</supplied><unclear instant="false">ν</unclear>ειν <unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ὔτε εἰς τὸν</supplied>
+<lb n="9"/><supplied reason="lost" instant="false">Πό</supplied>ντον <unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ἰ</supplied><unclear instant="false">σ</unclear>πλεῖν. <unclear instant="false">κα</unclear><supplied reason="lost" instant="false">ί</supplied>
+<lb n="10" break="no"/><supplied reason="lost" instant="false">τοι πότε</supplied><unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">ον εἰκὸς</supplied> <unclear instant="false">ἐμ</unclear>ὲ
+<lb n="11"/><supplied reason="lost" instant="false">ἐ</supplied><unclear instant="false">ν</unclear> τοσούτ<unclear instant="false">οι</unclear>ς <supplied reason="lost" instant="false">ὄ</supplied><unclear instant="false">ν</unclear><supplied reason="lost" instant="false">τ</supplied><unclear instant="false">α</unclear> κα
+<lb n="12" break="no"/>κο<unclear instant="false">ῖ</unclear>ς ἀδίκω<supplied reason="omitted" instant="false">ς</supplied> <unclear instant="false">ἐ</unclear>πικα
+<lb n="13" break="no"/>λεῖν, ἢ Πασίων<supplied reason="omitted" instant="false">α</supplied> διὰ τὸ
+<lb n="14"/>μέγεθος τῶν ἡμε<unclear instant="false">τ</unclear><supplied reason="lost" instant="false">έ</supplied>
+<lb n="15" break="no"/>ρων συμφορ<unclear instant="false">ῶν</unclear> <supplied reason="lost" instant="false">καὶ</supplied>
+<lb n="16"/>διὰ τὸ πλῆθος τῶν 
+<lb n="17"/>χρημάτων ἐπαρθῆ
+<lb n="18" break="no"/>ναι καὶ τὴν ἀποστ<unclear instant="false">έ</unclear>
+<lb n="19" break="no"/>ρησιν ποιήσασθαι; τίς 
+<lb n="20"/>δὲ πώποτε εἰς τοσοῦ
+<lb n="21" break="no"/><supplied reason="lost" instant="false">τ</supplied>ο <unclear instant="false">συκοφαντ</unclear>ίας ἀφί
+<lb n="22" break="no"/>κετο, ὥστε αὐτὸς <supplied reason="lost" instant="false">πε</supplied><unclear instant="false">ρὶ</unclear>
+<lb n="23"/>τοῦ σώματος κινδυ
+<lb n="24" break="no"/>νεύων τοῖς ἀλλοτρίοις 
+<lb n="25"/>ἐ<unclear instant="false">π</unclear>ιβουλεύειν; μετὰ 
+<lb n="26"/>ποίας δ᾽ ἂν ἐλπ<unclear instant="false">ί</unclear>δος
+<lb n="27"/>ἢ τί διανοηθεὶς ἀδί
+<lb n="28" break="no"/>κως ἦλθον ἐπὶ τοῦ
+<lb n="29" break="no"/>τον; πότε<supplied reason="lost" instant="false">ρ</supplied>ον ὡς δεί
+</ab></div>
+
+<div n="3" subtype="column" type="textpart" corresp="#FR7830" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1" break="no"/>σας <supplied reason="lost" instant="false">τὴ</supplied><unclear instant="false">ν</unclear> <unclear instant="false">δ</unclear><supplied reason="lost" instant="false">ύναμιν τὴν</supplied>
+<lb n="2"/>ἐμὴν ἔμ<supplied reason="lost" instant="false">ελλ</supplied>εν <unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ὐθύς</supplied>
+<lb n="3"/>μοι δώσειν ἀργ<supplied reason="lost" instant="false">ύριον;</supplied>
+<lb n="4"/>ἀλλ᾽ <unclear instant="false">οὐχ</unclear> <unclear instant="false">οὕ</unclear>τως <supplied reason="lost" instant="false">ἡμῶν</supplied>
+<lb n="5"/><supplied reason="lost" instant="false">ἑκά</supplied>τερος <unclear instant="false">ἔπρ</unclear><supplied reason="lost" instant="false">αττεν.</supplied>
+<lb n="6"/>ἀλλ᾽ εἰς ἀγῶνα κατ<supplied reason="lost" instant="false">αστὰς</supplied>
+<lb n="7"/><supplied reason="lost" instant="false">ᾤ</supplied><unclear instant="false">μ</unclear>η<supplied reason="lost" instant="false">ν καὶ παρ</supplied><unclear instant="false">ὰ</unclear> <unclear instant="false">τὸ</unclear> <unclear instant="false">δί</unclear><supplied reason="lost" instant="false">καιον</supplied>
+<lb n="8"/><supplied reason="lost" instant="false">π</supplied><unclear instant="false">λέο</unclear>ν ἕξειν Πασί<supplied reason="lost" instant="false">ωνος</supplied>
+<lb n="9"/>παρ᾽ ὑμῖν; <unclear instant="false">ὃ</unclear><supplied reason="lost" instant="false">ς οὐ</supplied><unclear instant="false">δ</unclear><supplied reason="lost" instant="false">ὲ ἐν</supplied>
+<lb n="10" break="no"/>θάδε μένειν πα<supplied reason="lost" instant="false">ρε</supplied>
+<lb n="11" break="no"/>σκευαζόμην, <unclear instant="false">δεδ</unclear><supplied reason="lost" instant="false">ιὼς</supplied>
+<lb n="12"/>μή μ᾽ ἐξαιτ<unclear instant="false">οί</unclear>η Σάτ<supplied reason="lost" instant="false">υρος</supplied>
+<lb n="13"/>παρ᾽ ὑμῶν. ἀλ<unclear instant="false">λ</unclear>᾽ <unclear instant="false">ἵ</unclear>να μ<supplied reason="lost" instant="false">η</supplied>
+<lb n="14" break="no"/>δὲν διαπραττόμε<unclear instant="false">ν</unclear><supplied reason="lost" instant="false">ος</supplied> 
+<lb n="15"/>ἐχθ<supplied reason="omitted" instant="false">ρ</supplied>ὸς τούτῳ κατα<supplied reason="lost" instant="false">σταί</supplied>
+<lb n="16" break="no"/>ην, ᾧ μάλιστα ἐτύγ<unclear instant="false">χα</unclear>
+<lb n="17" break="no"/>νον πάντων τῶν <supplied reason="lost" instant="false">ἐν</supplied>
+<lb n="18"/>τῇ πόλει χρώμε<unclear instant="false">ν</unclear><supplied reason="lost" instant="false">ος;</supplied>
+<lb n="19"/>καὶ τίς ἂν ὑμῶν ἀξι<unclear instant="false">ώ</unclear>
+<lb n="20" break="no"/>σειεν καταγνῶναί μ<supplied reason="lost" instant="false">ου</supplied>
+<lb n="21"/>τοσαύτην μανίαν κ<supplied reason="lost" instant="false">αὶ</supplied>
+<lb n="22"/>ἀμαθίαν; ἐνθυμη<supplied reason="lost" instant="false">θῆ</supplied>
+<lb n="23" break="no"/>να<supplied reason="lost" instant="false">ι</supplied> δ᾽ ἄξιόν ἐστιν, ὦ 
+<lb n="24"/>ἄν<unclear instant="false">δ</unclear>ρες δικαστ<supplied reason="lost" instant="false">α</supplied>ί, τὴν 
+<lb n="25"/>ἀτοπίαν κ<unclear instant="false">α</unclear><supplied reason="lost" instant="false">ὶ ἀπι</supplied><unclear instant="false">σ</unclear><supplied reason="lost" instant="false">τίαν</supplied>
+<lb n="26"/>ὧν ἑκάστοτε <unclear instant="false">Π</unclear><supplied reason="lost" instant="false">ασίων</supplied>
+<lb n="27"/>ἐπιχειρεῖ λέγε<unclear instant="false">ιν</unclear>. <unclear instant="false">ὅ</unclear><supplied reason="lost" instant="false">τε</supplied>
+<lb n="28"/>μὲν γὰρ οὕτω<supplied reason="lost" instant="false">ς</supplied> ἔπ<supplied reason="lost" instant="false">ρατ</supplied>
+<lb n="29" break="no"/><unclear instant="false">τον</unclear>, ὥστε οὐδ᾽ ἄν, <unclear instant="false">εἰ</unclear> προ<supplied reason="lost" instant="false">σ</supplied> <g type="dagger"/>3<g type="dagger"/>3 ωμολόγει 
+</ab></div>
+      </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/95239"/>
+                  <biblScope unit="number">1183</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Oxy.</title>
+                  <biblScope unit="volume">9</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0010">Isocrates</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/821">Trapeziticus</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">PSI 11 pl.V</bibl>
+               <bibl type="printed" default="false" status="draft">CPF, pl. 122</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.princeton.edu/papyrus/APISIsocrates.html"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

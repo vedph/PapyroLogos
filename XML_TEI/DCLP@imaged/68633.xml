@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m68633" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Oxy. 67 4565</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">68633</idno>
+            <idno type="TM">68633</idno>
+            <idno type="LDAB">9904</idno>
+            <idno type="filename">68633</idno>
+            <idno type="dclp-hybrid">p.oxy;67;4565</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Oxford, Sackler Library, Papyrology Rooms 101/94(b)</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="39">
+                           <p part="N">papyrus roll (columns: 1, written lines: [39], pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>severe style</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR13284" xml:id="GR13284.01" from="1998" to="2015">
+                           <graphic url="http://www.csad.ox.ac.uk/POxy/papyri/vol67/300dpi/4565_300.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>tragedy</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Euripides; Iphigeneia Taurica 1340-1352, 1367-1378</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="a" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">ἐσ</supplied><unclear instant="false">ῆ</unclear>λθ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ν ἡμᾶς μὴ λυθέντες οἱ ξένοι</supplied>
+<lb n="2"/>κ<supplied reason="lost" instant="false">τ</supplied>ά<unclear instant="false">ν</unclear>οι<supplied reason="lost" instant="false">εν αὐτὴν δραπέται τ’ οἰχοίατο.</supplied>
+<lb n="3"/>φόβωι δ’ <supplied reason="lost" instant="false">ἃ μὴ χρῆν εἰσορᾶν καθήμεθα</supplied>
+<lb n="4"/>σιγῆ<unclear instant="false">ι</unclear>· <supplied reason="lost" instant="false">τέλος δὲ πᾶσιν ἦν αὑτὸς λόγος,</supplied>
+<lb n="5"/>στείχ<supplied reason="lost" instant="false">ειν ἵν’ ἦσαν, καίπερ οὐκ ἐωμένοις.</supplied>
+<lb n="6"/>κἀντ<supplied reason="lost" instant="false">αῦθ’ ὁρῶμεν Ἑλλάδος νεὼς σκάφος</supplied>
+<lb n="7"/>ταρ<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">ῶι κατήρει πίτυλον ἐπτερωμένον,</supplied>
+<lb n="8"/>ν<supplied reason="lost" instant="false">αύτας τε <num value="50">πεντήκοντ’</num> ἐπὶ σκαλμῶν πλάτας</supplied>
+<lb n="9"/><unclear instant="false">ἔ</unclear><supplied reason="lost" instant="false">χοντας, ἐκ δεσμῶν δὲ τοὺς νεανίας</supplied>
+<lb n="10"/>ἐλ<supplied reason="lost" instant="false">ευθέρους πρύμνηθεν ἑστῶτας νεώς.</supplied>
+<lb n="11"/>κον<unclear instant="false">το</unclear><supplied reason="lost" instant="false">ῖς δὲ πρῶιραν εἶχον, οἱ δ’ ἐπωτίδων</supplied>
+<lb n="12"/>ἄγκυ<supplied reason="lost" instant="false">ραν ἐξανῆπτον, οἱ δὲ κλίμακας</supplied>
+<lb n="13"/><app type="editorial"><lem resp="G. Menci, ZPE 183 (2012) 27-28"><app type="alternative"><lem>συ<supplied reason="lost" instant="false">σχόντες</supplied></lem><rdg>συ<supplied reason="lost" instant="false">νδοῦντες</supplied></rdg><rdg>σύ<supplied reason="lost" instant="false">ροντες</supplied></rdg></app></lem><rdg>σ<unclear instant="false">π</unclear><supplied reason="lost" instant="false">εύδοντες</supplied></rdg></app> <supplied reason="lost" instant="false">ἦγον διὰ χερῶν πρυμνήσια</supplied>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+<div n="b" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><unclear instant="false">κ</unclear><supplied reason="lost" instant="false">εῖνοί τε γὰρ σίδηρον οὐκ εἶχον χεροῖν</supplied>
+<lb n="2"/>ἡ<unclear instant="false">μ</unclear><supplied reason="lost" instant="false">εῖς τε, πυγμαὶ δ’ ἦσαν ἐγκροτούμεναι</supplied>
+<lb n="3"/>κα<supplied reason="lost" instant="false">ὶ κῶλ’ ἀπ’ ἀμφοῖν τοῖν νεανίαιν ἅμα</supplied>
+<lb n="4"/>εἰς <unclear instant="false">π</unclear><supplied reason="lost" instant="false">λευρὰ καὶ πρὸς ἧπαρ ἠκοντίζετο,</supplied>
+<lb n="5"/><app type="editorial"><lem resp="G. Menci, ZPE 183 (2012) 28-29"><subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">ὡς</add><del rend="corrected" instant="false" status="unremarkable">ωστ</del></subst> <supplied reason="lost" instant="false">ξύν τ’ ἀπειπεῖν</supplied></lem><rdg>ὥστ<supplied reason="lost" instant="false">ε ξυναλγεῖν</supplied></rdg></app> <supplied reason="lost" instant="false">καὶ συναποκαμεῖν μέλη.</supplied>
+<lb n="6"/>δει<unclear instant="false">ν</unclear><supplied reason="lost" instant="false">οῖς δὲ σημάντροισιν ἐσφραγισμένοι</supplied>
+<lb n="7"/>ἐφ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ύγομεν πρὸς κρημνόν, οἱ μὲν ἐν κάραι</supplied>
+<lb n="8"/><supplied reason="lost" instant="false">κ</supplied>ά<unclear instant="false">θ</unclear>α<supplied reason="lost" instant="false">ιμ’ ἔχοντες τραύμαθ’, οἱ δ’ ἐν ὄμμασιν·</supplied>
+<lb n="9"/>ὄχθοι<supplied reason="lost" instant="false">ς δ’ ἐπισταθέντες εὐλαβεστέρως</supplied>
+<lb n="10"/>ἐμαρν<supplied reason="lost" instant="false">άμεσθα καὶ πέτροις ἐβάλλομεν.</supplied>
+<lb n="11"/>ἀλλ’ <unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ἶργον ἡμᾶς τοξόται πρύμνης ἔπι</supplied>
+<lb n="12"/><unclear instant="false">στ</unclear><supplied reason="lost" instant="false">αθέντες ἰοῖς, ὥστ’ ἀναστεῖλαι πρόσω.</supplied> 
+</ab>
+</div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/16373"/>
+                  <biblScope unit="number">4565</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Oxy.</title>
+                  <biblScope unit="volume">67</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/761">Iphigenia Taurica</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://163.1.169.40/gsdl/collect/POxy/index/assoc/HASH015c/700081a8.dir/POxy.v0067.n4565.a.01.hires.jpg"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

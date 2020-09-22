@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m68949" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Oxy. 68 4640</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">68949</idno>
+            <idno type="TM">68949</idno>
+            <idno type="LDAB">10219</idno>
+            <idno type="filename">68949</idno>
+            <idno type="dclp-hybrid">p.oxy;68;4640</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Oxford, Sackler Library, Papyrology Rooms 100/1(a) [1]</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0050" notAfter="0150" instant="false">50 - 150</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR6556" xml:id="GR6556.01" from="2005" to="2016">
+                           <graphic url="http://163.1.169.40/gsdl/collect/POxy/index/assoc/HASH0129/f3aec928.dir/POxy.v0068.n4640.a.01.hires.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6557" xml:id="GR6557.01" from="2005" to="2016">
+                           <graphic url="http://163.1.169.40/gsdl/collect/POxy/index/assoc/HASH0129/f3aec928.dir/POxy.v0068.n4640.a.01.hires.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>tragedy</term>
+               <term>philology</term>
+               <term>hypothesis</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">Euripides; hypothesis to Theseus, Hippolytus</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR6556" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><num value="38">λη</num>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ν</unclear> ὑπομείνας· ἐπεὶ δ' <supplied reason="lost" instant="false"><supplied reason="lost" instant="false">η</supplied></supplied> εἰς τὴν Κρήτην
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> ρεγενεθη παίδων εἰσαχθεὶς εἰς τὸν
+<lb n="3"/><supplied reason="lost" instant="false">λαβύρινθον</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">τὸν Με</supplied>ινώταυρον ἀπέκτεινεν καὶ ῥᾳδί
+<lb n="4" break="no"/><supplied reason="lost" instant="false">ως</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">τὴν ἔξοδον εὗρε</supplied>ν Δαιδάλου βοηθήσαντος αὐτῶι
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> ς Ἀθηναῖος καὶ τῆς τοῦ βασιλέως
+<lb n="6"/><supplied reason="lost" instant="false">θυγατρὸς Ἀριάδνης</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/> Θησεῖ συναγωνιώσης πρὸς εὐσεβῆ
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>υχθεὶς διακονεῖν οὐκ ἀπώκνησεν·
+<lb n="8"/><supplied reason="lost" instant="false">ὁ δὲ Μείνως</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">τὴν ἀπ</supplied>ώλειαν αἰσθόμενος τοῦ Μεινωταύ
+<lb n="9" break="no"/><supplied reason="lost" instant="false">ρου</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>ω τοὺς περὶ Θησέα τὸν κίνδυνον
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ω</unclear>ς τῆς Ἀριάδνης ἐπιθυμίας ὑπη
+<lb n="11" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">τ</supplied><unclear instant="false">ὸ</unclear>ν μὲν πατέρα πρῶτον ε <gap reason="illegible" quantity="1" unit="character" instant="false"/> ειεν τὸν
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">α</supplied>ξιῶσαι, τὸν δὲ Θησέα παρεστήσατο
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> ντος ἀποπλεῖν ἑαυτὴν ἀναλαβόν
+<lb n="14" break="no"/><supplied reason="lost" instant="false">τα</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/> <unclear instant="false">Ἀθη</unclear>νας εὐπλόησεν, Ἀ<supplied reason="lost" instant="false">ρ</supplied>ιάδνην
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> ἔγημε· Μείνω δεθυμ <gap reason="illegible" quantity="6" unit="character" instant="false"/> με
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> κελεύσασα γάμῳ τὴν ὀ<unclear instant="false">ρ</unclear>γὴν μεσο
+<lb n="17" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> τὴν νεωτέραν θυγατ<unclear instant="false">έρ</unclear>α π<gap reason="lost" quantity="2" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="19"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>τος̆ ε̆<gap reason="lost" extent="unknown" unit="character" instant="false"/>⏑<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="20"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+
+<div n="2" subtype="column" type="textpart" corresp="#FR6557" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><unclear instant="false">τ</unclear>ων κατέσφαξ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/>χαράξασα π<unclear instant="false">αρ</unclear> <gap reason="illegible" quantity="2" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/>Ἱππολύτου δ <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/>μετὰ βίας το <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/>παρθενων <gap reason="illegible" quantity="3" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/>πλειονος γει <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/>πιστεύσας α <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/>καὶ με<supplied reason="lost" instant="false"><supplied reason="lost" instant="false">τα</supplied></supplied>τ' ο<unclear instant="false">ὐ</unclear> <unclear instant="false">π</unclear><supplied reason="lost" instant="false">ολὺ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/>τὸν ἀσεβή<unclear instant="false">σα</unclear><supplied reason="lost" instant="false">ντα</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/>λειπομεν<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="11"/>πον ἐκέλ<supplied reason="lost" instant="false">ευσε</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> οβον απ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> ιδ' ἀποτυχ<gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἐκέ</supplied>
+<lb n="14" break="no"/><unclear instant="false">λε</unclear>υσεν του<gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">κα</supplied>
+<lb n="15" break="no"/><unclear instant="false">θ</unclear><supplied reason="lost" instant="false">ί</supplied>σαι λημ<gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἔ</supplied>
+<lb n="16" break="no"/>λεγχον ων<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="17"/><unclear instant="false">ἐ</unclear>ζήτει π <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="18"/><gap reason="illegible" quantity="2" unit="character" instant="false"/> τροσ <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+</div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/17700"/>
+                  <biblScope unit="number">4640</biblScope>
+                  <biblScope unit="generic">[1]</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Oxy.</title>
+                  <biblScope unit="volume">68</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">P. Oxy. 68, pl.2</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

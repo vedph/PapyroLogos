@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m62202" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BKT 6 6.9 (PBerol. 5022)</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">62202</idno>
+            <idno type="TM">62202</idno>
+            <idno type="LDAB">3362</idno>
+            <idno type="filename">62202</idno>
+            <idno type="dclp-hybrid">tm;;62202</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 5022</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus fragment (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0500" notAfter="0699" instant="false">500 - 699</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR9047" xml:id="GR9047.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_05022_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prayer</term>
+               <term>commentary</term>
+               <term>theology</term>
+               <term type="culture">religion</term>
+               <term type="culture">science</term>
+               <term type="religion">christian</term>
+               <term type="overview">Old Testament; cento of psalms: 077, 078, 0137</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2019-06-18" who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="fragment" type="textpart" corresp="#FR9047" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> ὑπομονὴν ἐπ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>σεν. Ἐπιδὴ γὰρ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>τος ὃς ἐν ἀνύ<unclear instant="false">δ</unclear><supplied reason="lost" instant="false">ρῳ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">σπ</supplied>λάγχνον <unclear instant="false">κ</unclear>αὶ ἐκ το<supplied reason="lost" instant="false">ῦ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><app type="editorial"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>α vac. 1 θήκης</lem><rdg resp="ed. pr. 1910"><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">δι</supplied>αθήκης</rdg></app> αὐτοῦ ϛ<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>επι <unclear instant="false">ω</unclear>νο<unclear instant="false">μ</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/>τυνη<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">οι</unclear>μον ϛ Τελεσφόρος π<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> διὰ τῆς <choice><reg instant="false">πείρας ὡσεὶ</reg><orig>πύρας ὁσὺ</orig></choice> <hi rend="asper">ὕ</hi><unclear instant="false">ω</unclear>ν<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">λ</unclear>ην <app type="alternative"><lem>ῥαθυμίαις <expan instant="false">ἐβούλετ<ex instant="false">αι</ex></expan></lem><rdg>ῥαθυμίαι σε <expan instant="false">βούλετ<ex instant="false">αι</ex></expan></rdg></app> μᾶ<unclear instant="false">λ</unclear><supplied reason="lost" instant="false">λον</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="editorial"><lem><hi rend="supraline"><gap reason="lost" quantity="2" unit="character" instant="false"/>νος</hi></lem><rdg resp="ed. pr. 1910"><hi rend="supraline"><supplied reason="lost" instant="false">α</supplied>νος</hi></rdg><rdg resp="ed. pr. 1910"><hi rend="supraline"><supplied reason="lost" instant="false">ου</supplied>νος</hi></rdg></app> <space quantity="1" unit="character"/> ἡ λέξις <g type="cross"/> <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>τὸ ὄνομά σου τὸ ἅ<unclear instant="false">γιο</unclear><supplied reason="lost" instant="false">ν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><supplied reason="lost" instant="false">ταχὺ προκαταλαβέτωσ</supplied>αν ἡμᾶς οἱ <choice><reg instant="false">οἰκτιρμοί</reg><orig>ἰκτ<supplied reason="lost" instant="false">ιρμοί</supplied></orig></choice> <supplied reason="lost" instant="false">σου</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ς ἡμᾶς διε<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> τοῦ υἱοῦ <gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ίαν αὐτ<supplied reason="lost" instant="false">οῦ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="16"/><gap reason="illegible" quantity="1" unit="line" instant="false"><desc>vestiges</desc></gap>
+<gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0527">Testamentum Vetus (Septuaginta)</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/545">Psalmi</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:space="preserve" xml:lang="grc" part="N" org="uniform" sample="complete"/>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/01586/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

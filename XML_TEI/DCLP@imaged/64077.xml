@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m64077" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Koeln. 7 292</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">64077</idno>
+            <idno type="TM">64077</idno>
+            <idno type="LDAB">5294</idno>
+            <idno type="filename">64077</idno>
+            <idno type="dclp-hybrid">p.koeln;7;292</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Cologne, Papyrussammlung P. 928</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus roll ? (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>severe style</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0200" notAfter="0299" instant="false">200 - 299</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR12654" xml:id="GR12654.01" from="2003" to="2015">
+                           <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK928v.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR12653" xml:id="GR12653.01" from="2003" to="2015">
+                           <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK928r.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>medicine</term>
+               <term type="culture">science</term>
+               <term type="overview">medicine</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Medical text. Papyrus fragment (3 x 7.5 cm) originally belonging to a roll and preserving on the recto the remains of 11 lines. The text is badly damaged and the right-hand margin survives only in the last two lines. The verso was probably reused as a medicinal label: it has the appearance of being entirely preserved and contains the name of a medicine, i.e. digestive salt, variously attested by medical authors. However, the first editor does not exclude the possibility that the text on the back introduced a remedy whose main component was digestive salt. Paleography suggests a datation to the 3rd c. AD.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Francesca Corazza as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous editions (ed.pr. = M. Gronewald, P.Köln VII 292)</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>νην ἀρτη
+<lb n="2" break="no"/><supplied reason="lost" instant="false">ρίαν</supplied> <app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>αγίνεσθαι</lem><rdg><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> παρ</supplied>αγίνεσθαι</rdg></app> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>α</lem><rdg><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> δι</supplied>ὰ</rdg></app> δὲ τῶν <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4" xml:id="div1-lb5"/><app type="alternative"><lem><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> σ</supplied>κέ<unclear instant="false">λη</unclear> φε<supplied reason="lost" instant="false">ρ<gap reason="illegible" extent="unknown" unit="character" instant="false"/></supplied></lem><rdg><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> ἐπὶ τὰ σ</supplied>κέ<unclear instant="false">λη</unclear> φέ<supplied reason="lost" instant="false">ρεσθαι<gap reason="illegible" extent="unknown" unit="character" instant="false"/></supplied></rdg><rdg><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> ἐπὶ τὰ σ</supplied>κέ<unclear instant="false">λη</unclear> φέ<supplied reason="lost" instant="false">ρεσθαι<gap reason="illegible" extent="unknown" unit="character" instant="false"/></supplied></rdg></app>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="alternative"><lem><gap reason="illegible" quantity="1" unit="character" instant="false"/></lem><rdg><unclear instant="false">λ</unclear></rdg><rdg><unclear instant="false">δ</unclear></rdg></app> ε διὰ τῆς <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν κειμε<supplied reason="lost" instant="false">ν<gap reason="illegible" extent="unknown" unit="character" instant="false"/></supplied>
+<lb n="7"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>πιτετ<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> ἐ</supplied>πιτέτ<supplied reason="lost" instant="false">αται <gap reason="illegible" extent="unknown" unit="character" instant="false"/></supplied></rdg><rdg><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> ἐ</supplied>πιτέτ<supplied reason="lost" instant="false">ασθαι<gap reason="illegible" extent="unknown" unit="character" instant="false"/></supplied></rdg></app>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>αι τοὺς α<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν διω<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> των
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ιαγ<unclear instant="false">α</unclear>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="v" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1" xml:id="div2-lb1"/>ἅλας
+<lb n="2"/><expan instant="false">πεπτικό<ex instant="false">ν</ex></expan>
+</ab></div>
+      </div>
+         <div type="commentary" subtype="linebyline" part="N" org="uniform" sample="complete">
+            <list>
+               <item corresp="#div1-lb5" xml:space="preserve"><ref>4</ref> <p part="N">Cf. Gal., De foetuum formatione, 4,661 K.; De placitis Hippocratis et Platonis, CMG V 4,1,2.</p></item>
+               <item corresp="#div2-lb1" xml:space="preserve"><ref>1-2</ref> <p part="N">Cf. Aet. 6,10; Alex. Trall. II 577.</p></item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/12431"/>
+                  <biblScope unit="number">292</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Köln Gr.</title>
+                  <biblScope unit="volume">7</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">P.Köln 7, pl.V c and d</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/Karte/VII_292.html"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

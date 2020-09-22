@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m62817" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 62817</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">62817</idno>
+            <idno type="TM">62817</idno>
+            <idno type="LDAB">4007</idno>
+            <idno type="filename">62817</idno>
+            <idno type="dclp-hybrid">tm;;62817</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 5017</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>parchment</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">parchment codex (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0500" notAfter="0699" instant="false">500 - 699</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8709" xml:id="GR8709.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_05017_S1_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8710" xml:id="GR8710.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_05017_S2_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>epic</term>
+               <term>bucolic</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Theocritus; Idylls 011.20-24 and 014.59-63</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2019-07-31" who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div n="r" type="textpart" corresp="#FR8709" part="N" org="uniform" sample="complete"><ab part="N">
+            <lb n="1"/><supplied reason="lost" instant="false">μόσχω γαυροτέρα, φιαρ</supplied>ωτέρα ὄμφ<supplied reason="lost" instant="false">ακος ὠμᾶς.</supplied>
+            <lb n="2"/><supplied reason="lost" instant="false">φοιτῆις δ' αὖθ' οὑτῶς, ὅκ</supplied>κα γλυκὺς ὕ<supplied reason="lost" instant="false">πνος ἔχηι με,</supplied>
+            <lb n="3"/><supplied reason="lost" instant="false">οἴχηι δ' εὐθὺς ἰοῖσ', ὅκκα γλυκ</supplied>ὺς ὕπνος ἀ<supplied reason="lost" instant="false">νῆι με,</supplied>
+            <lb n="4"/><supplied reason="lost" instant="false">φεύγεις δ' ὥσπερ ὄις πολιὸν</supplied> λύκον ἀθ<supplied reason="lost" instant="false">ρήσασα.</supplied>
+            <lb n="5"/><supplied reason="lost" instant="false">ἠράσθην μὲν ἔγωγα τεοῦς κ</supplied>όρ<del rend="erasure" instant="false" status="unremarkable">λ</del><add place="above" instant="false" status="unremarkable">α</add>, ἁν<supplied reason="lost" instant="false">ίκα πρᾶτον</supplied>
+            <gap reason="lost" extent="unknown" unit="line" instant="false"/>
+         </ab></div>
+         
+         <div n="v" type="textpart" corresp="#FR8710" part="N" org="uniform" sample="complete"><ab part="N">
+            <lb n="1"/><supplied reason="lost" instant="false">μισθο</supplied>δότας Πτο<supplied reason="lost" instant="false">λεμαῖος ἐλευθέρῳ οἷος ἄριστος,</supplied>
+            <lb n="2"/><supplied reason="lost" instant="false">τἄλλα δ'</supplied> ἀνὴρ <app type="editorial"><lem>oἷός</lem><rdg resp="codd.">ποῖός</rdg></app> τ<supplied reason="lost" instant="false">ις</supplied><gap reason="lost" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+            <lb n="3"/><supplied reason="lost" instant="false">εὐγν</supplied>ώμων, φιλό<supplied reason="lost" instant="false">μουσος, ἐρωτικός, εἰς ἄκρον ἁδύς,</supplied>
+            <lb n="4"/><supplied reason="lost" instant="false">εἰδὼς</supplied> τὸν φιλέο<supplied reason="lost" instant="false">ντα, τὸν οὐ φιλέοντ' ἔτι μᾶλλον,</supplied>
+            <lb n="5"/><supplied reason="lost" instant="false">πολλοῖς</supplied> πολλὰ <supplied reason="lost" instant="false">διδούς, αἰτεύμενος οὐκ ἀνανεύων</supplied>
+            <gap reason="lost" extent="unknown" unit="line" instant="false"/>
+         </ab></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0005">Theocritus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/409">Idyllia</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:space="preserve" xml:lang="grc" part="N" org="uniform" sample="complete"/>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Liège</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/01583/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63976" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 9 117</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63976</idno>
+            <idno type="TM">63976</idno>
+            <idno type="LDAB">5191</idno>
+            <idno type="filename">63976</idno>
+            <idno type="dclp-hybrid">bkt;9;117</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 21213</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus fragment (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Hermopolis (Hermopolites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0200" notAfter="0299" instant="false">200 - 299</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720" instant="false" full="yes">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/816" instant="false" full="yes">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR11004" xml:id="GR11004.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_21213_R.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>history of philosophy</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">philosophical treatise?</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2017-07-27T17:28:22+02:00" who="http://papyri.info/users/RodneyAst" status="draft">Finalized - ready</change>
+         <change when="2017-07-27T16:41:47+02:00" who="http://papyri.info/users/RodneyAst" status="draft">Vote - Accept-Straight-to-Finalization - &lt;note xml:lang="en"&gt;This line is numbered as line 5 in the editio princeps, where ]κ̣αινα[ is considered as a line in itself, while, according to Bastianini and Sedley, it is an interlinear addition. So, in the second edition there are 20 lines, not 21 like in the editio princeps.&lt;/note&gt;</change>
+         <change when="2017-07-27T16:39:55+02:00" who="http://papyri.info/users/RodneyAst" status="draft">Submit - Removed the note that was embedded in line 5 because it was out of place there.  To preserve its content I am pasting it here.&#xD;
+&#xD;
+"This line is numbered as line 5 in the editio princeps, where ]κ̣αινα[ is considered as a line in itself, while, according to Bastianini and Sedley, it is an interlinear addition. So, in the second edition there are 20 lines, not 21 like in the editio princeps."</change>
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2014-08-08" who="B. Borrelli" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" corresp="#FR11004" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ολο<gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">δ</unclear>ω<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">στ</unclear>ησ<unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ω<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><app type="editorial"><lem resp="Bastianini-Sedley"><space quantity="1" unit="line"/></lem><rdg>vac. <gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="alternative"><lem><gap reason="illegible" quantity="1" unit="character" instant="false"/>αινα</lem><rdg><unclear instant="false">κ</unclear>αινα<certainty match=".." locus="value"/></rdg></app></rdg></app>
+<lb n="4"/><app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false">αἱ δὲ Σ</supplied>ωκρα<supplied reason="lost" instant="false">τι</supplied>καὶ <add place="above" instant="false" status="unremarkable"><supplied reason="lost" instant="false">αἱ</supplied> <unclear instant="false">κ</unclear>αινα<supplied reason="lost" instant="false">ὶ δοκοῦσι σχολαὶ</supplied></add> <unclear instant="false">ἐκσ</unclear>τή<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">ασθαι</supplied></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">Σ</supplied>ωκρα<supplied reason="lost" instant="false">τι</supplied>κα<gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">σ</unclear>τη<unclear instant="false">σ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="5"/><app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false">μὲν ἐπί</supplied> ποσ<unclear instant="false">ον</unclear> τῆς φυσικ<supplied reason="lost" instant="false">ῆς, πα</supplied></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">π</unclear>οσ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">σ</unclear>τη<gap reason="lost" quantity="1" unit="character" instant="false"/>φυσικ<gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="6" break="no"/><app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false">σῶν οὔσης</supplied> πρώτης, <add place="above" instant="false" status="unremarkable">σ</add>υστήσασθα<supplied reason="lost" instant="false">ι δὲ τὴν</supplied></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/>πρωτ<unclear instant="false">η</unclear> συ<add place="above" instant="false" status="unremarkable">σ</add>στησασθα<supplied reason="lost" instant="false">ι</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="7"/><app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false">ἠθική</supplied><unclear instant="false">ν</unclear>, <unclear instant="false">ἧ</unclear>ς ἐφήνατο</lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>σεφηνατο</rdg></app> <app type="editorial"><lem resp="Bastianini-Sedley">πολυφων<supplied reason="lost" instant="false">ία μεί</supplied></lem><rdg>πολυφω<unclear instant="false">ν</unclear><supplied reason="lost" cert="low" instant="false">ια </supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="8" break="no"/><app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false">ζων ὅση</supplied><unclear instant="false">ς</unclear></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/></rdg></app> <app type="editorial"><lem resp="Manfredi in Bastianini-Sedley">προεπέφα<supplied reason="omitted" instant="false">ν</supplied>το</lem><rdg><unclear instant="false">π</unclear>ροεπεφα<unclear instant="false">το</unclear></rdg></app>. <app type="editorial"><lem resp="Bastianini-Sedley">ὧν</lem><rdg><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">ω</unclear>ν</rdg></app> ἕκασ<unclear instant="false">τ</unclear>ος ἀ<unclear instant="false">πὸ</unclear>
+<app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false"><milestone rend="paragraphos" unit="undefined"/></supplied></lem><rdg/></app>
+<lb n="9"/><app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false">τῶν <app type="alternative"><lem>ἰδίᾳ</lem><rdg>αὑτῷ<certainty match=".." locus="value"/></rdg></app> ἐπ</supplied><unclear instant="false">ικε</unclear></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/></rdg></app>χειρημένων προέστη,
+<lb n="10"/><app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false">ὥστε συ</supplied></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">συ</supplied></rdg></app>ν<unclear instant="false">έ</unclear>βη τὰς αἱρέσεις κτ<app type="editorial"><lem resp="Bastianini-Sedley">ι</lem><rdg><unclear instant="false">ι</unclear></rdg></app><unclear instant="false">σ</unclear>θῆναι
+<lb n="11"/><app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false">Ἠλιακὴν</supplied></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app> <unclear instant="false">Κυ</unclear>νικὴν Μεγαρικὴν Ἐρετρι
+<lb n="12" break="no"/><app type="editorial"><lem resp="Bastianini-Sedley"><supplied reason="lost" instant="false">κὴν. ὁ δὲ ἔλ</supplied><unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ι</supplied>πεν</lem><rdg><supplied reason="lost" instant="false">κην</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>.πεν</rdg></app> οὐδὲν <gap reason="lost" quantity="2" unit="character" instant="false"/><unclear instant="false">δην</unclear>ε<gap reason="illegible" quantity="3" unit="character" instant="false"/>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">λ</unclear>ον <app type="editorial"><lem resp="Bastianini-Sedley"><unclear instant="false">κ</unclear><supplied reason="lost" instant="false">α</supplied><unclear instant="false">τ</unclear>αλογ<unclear instant="false">άδη</unclear><supplied reason="lost" instant="false">ν</supplied></lem><rdg><gap reason="illegible" quantity="2" unit="character" instant="false"/>αλογ<unclear instant="false">α</unclear><gap reason="illegible" quantity="3" unit="character" instant="false"/></rdg></app> τοῦ ου
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>νοι<gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ι</unclear>. πολὺ γὰρ
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>τι <unclear instant="false">ἐ</unclear>βο<unclear instant="false">ύ</unclear><supplied reason="lost" instant="false">λε</supplied>το αὐτοῦ τὰ ἀπο
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/>τ<gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="17"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">των</unclear>ι
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="editorial"><lem resp="Bastianini-Sedley"><gap reason="illegible" quantity="2" unit="character" instant="false"/></lem><rdg><gap reason="illegible" quantity="3" unit="character" instant="false"/></rdg></app><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>χινη
+<lb n="19"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/>
+<lb n="20"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>
+<lb n="20"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/14433"/>
+                  <biblScope unit="number">117</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">9</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 9, pl.53</bibl>
+               <bibl type="printed" default="false" status="draft">CPF IV 2, pl. 56</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/04414/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

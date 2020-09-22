@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m62628" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 62628</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">62628</idno>
+            <idno type="TM">62628</idno>
+            <idno type="LDAB">3813</idno>
+            <idno type="filename">62628</idno>
+            <idno type="dclp-hybrid">tm;;62628</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9766</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>severe style</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Theadelpheia (Arsinoites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0200" notAfter="0295" instant="false">200 - 295</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/2349" instant="false" full="yes">Theadelpheia</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8861" xml:id="GR8861.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_09766_R_3_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose philosophy dialogue commentary</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">Plato philosophus; Leges 08 832e-837d</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2017-10-11" who="E. Alletto" status="draft">Entered Greek text from reference edition</change>
+         <change when="2017-10-11" who="S. Bertone" status="draft">Entered Greek text from reference edition</change>
+         <change when="2017-12-01" who="V. Damiani" status="draft">Revised Greek text</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+          <p part="N">This papyrus has been digitally edited by Elisabetta Alletto and Susanna Bertone and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+          </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR8861" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>ἐπιτηδείοις γίνεσθαι
+<lb n="2"/>ἐθιστέον δρόμῳ καὶ τά
+<lb n="3" break="no"/>χει καὶ ὅτι οὐ ψιλοὺς δεῖ
+<lb n="4"/>τρέχειν ἀλλὰ μεθ᾽ ὅπλων.
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="5"/>ἐφίππους δὲ λέγει δρό
+<lb n="6" break="no"/>μους τοὺς διαύλους τρέ
+<lb n="7" break="no"/>χοντας τέσσαρας. τά
+<lb n="8"/>δὲ βαρέα ἀντὶ πάλης ἐν
+<lb n="9"/>ὅπλοις <unclear instant="false">π</unclear>οιε<unclear instant="false">ῖ</unclear> ἕνα πρὸς
+<lb n="10"/>ἕνα καὶ δύο πρὸς δύο
+<lb n="11"/>ἕως δέκα καὶ δέκα. καὶ
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="12"/>γυναιξὶ δέ φησι μεταδο 
+<lb n="13" break="no"/>τέο<unclear instant="false">ν</unclear> κ<unclear instant="false">όρ</unclear>αις, εἶτα ὅτ<unclear instant="false">ι</unclear> <unclear instant="false">καὶ</unclear>
+<lb n="14"/>ἵπποις ἀγωνιστέον. με 
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="15" break="no"/>τὰ ταῦτα πρὸς σωφρο
+<lb n="16" break="no"/>σύνην ἀσκῆσαι βουλό
+<lb n="17" break="no"/>μενος περὶ τῆς συνου
+<lb n="18" break="no"/>σ<unclear instant="false">ίας</unclear> <unclear instant="false">β</unclear>ούλεται παραινεῖν 
+<lb n="19"/>ὅπως μὴ ἥττους ὦσι, καὶ
+<lb n="20"/>περὶ ἔρωτος ὅτι τριττός
+<lb n="21"/><unclear instant="false">ἐσ</unclear>τιν ὁ μὲν ψυχῆς καὶ
+<lb n="22"/><unclear instant="false">το</unclear>ῦ κα<unclear instant="false">λ</unclear><supplied reason="lost" instant="false">ο</supplied><unclear instant="false">ῦ</unclear> κ<unclear instant="false">ατα</unclear><gap reason="illegible" quantity="4" unit="character" instant="false"/>
+<gap reason="lost" extent="unknown" unit="line" instant="false"/> </ab>
+</div>  
+<div n="2" subtype="column" type="textpart" corresp="#FR8862" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="2"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line" instant="false"/> </ab>
+</div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0059">Plato philosophus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/953">Leges</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT pl.2</bibl>
+               <bibl type="printed" default="false" status="draft">R.Seider, Paläogr. griech. Papyri II.2, pl.XVI.33</bibl>
+               <bibl type="printed" default="false" status="draft">CPF IV.2, pl.13</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02714/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

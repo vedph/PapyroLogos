@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63382" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 63382</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63382</idno>
+            <idno type="TM">63382</idno>
+            <idno type="LDAB">4589</idno>
+            <idno type="filename">63382</idno>
+            <idno type="dclp-hybrid">tm;;63382</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 8439</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8866" xml:id="GR8866.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_08439_R_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8867" xml:id="GR8867.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_08439_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>philology</term>
+               <term>grammar</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">commentary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2017-10-11" who="G.R. Russo" status="draft">Entered Greek text from reference edition</change>
+         <change when="2017-10-11" who="E. Perazzoli" status="draft">Entered Greek text from reference edition</change>
+         <change when="2017-12-01" who="V. Damiani" status="draft">Revised Greek text</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+          <p part="N">This papyrus has been digitally edited by Gabriella Rita Russo and Elisabetta Perazzoli and revised by Vincenzo Damiani as part of the Project Anagnosis and the Würzburger Zentrum für Epikureismusforschung</p>
+          </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="fragment" type="textpart" corresp="#FR8866" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" quantity="3" unit="character" instant="false"/> ἐ<unclear instant="false">π</unclear>ὶ τοῦ ζώιου τιθε
+<lb n="2" break="no"/><gap reason="lost" quantity="3" unit="character" instant="false"/>ως καὶ ἐπὶ τοῦ τιθε
+<lb n="3" break="no"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">κ</unclear>ήποις ξυλίνου μετη
+<lb n="4" break="no"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">ν</unclear> <space atLeast="3" atMost="4" unit="character"/>  Ἀπολλώνιος δ' ὁ Ῥόδιο 
+<lb n="5"/><gap reason="lost" quantity="3" unit="character" instant="false"/> <supplied reason="lost" instant="false">Ἀ</supplied><unclear instant="false">ν</unclear>τιμάχου προσθεὶς 
+<lb n="6"/><gap reason="lost" quantity="3" unit="character" instant="false"/> <unclear instant="false">π</unclear>αιπαλέη τῆι τε πτερὰ
+<lb n="7"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">ασι</unclear> τὴν πιπώ φησιν
+<lb n="8"/><gap reason="lost" quantity="3" unit="character" instant="false"/> ἀκανθυλλίδα, ὑφ᾽ ὧν δ'
+<lb n="9"/><gap reason="lost" quantity="3" unit="character" instant="false"/> ἀποδίδοσθαι· εἰ μὲ<unclear instant="false">ν</unclear>
+<lb n="10"/><gap reason="lost" quantity="3" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ς</unclear> Ἀπολλώνιος <unclear instant="false">σ</unclear>υν
+<lb n="11"/><gap reason="lost" quantity="3" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">υτ</unclear>οις ἁμαρτάνει
+<lb n="12"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">σ</unclear>υνκατατίθεται
+<lb n="13"/><gap reason="lost" quantity="3" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">λλο</unclear> <supplied reason="lost" instant="false">ἀ</supplied>ποδι<unclear instant="false">δ</unclear>όντες
+<lb n="14"/><gap reason="lost" quantity="3" unit="character" instant="false"/><supplied reason="lost" instant="false">γ</supplied><unclear instant="false">ὰ</unclear>ρ πιπὼ τῶν δρυο
+<lb n="15" break="no"/><gap reason="lost" quantity="3" unit="character" instant="false"/> <unclear instant="false">εἶ</unclear>δός ἐστιν ὥς φη
+<lb n="16"/><gap reason="lost" quantity="3" unit="character" instant="false"/> δ<unclear instant="false">έ</unclear> ἐστι σκνιπο
+<lb n="17" break="no"/><gap reason="illegible" quantity="1" unit="line" instant="false"><desc>vestiges</desc></gap>
+</ab>
+</div>
+<div n="2" subtype="fragment" type="textpart" corresp="#FR8867" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><unclear instant="false">κ</unclear>αλλι<unclear instant="false">σ</unclear>τ<unclear instant="false">ρ</unclear><gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="2"/><unclear instant="false">το</unclear>ύτους δ<unclear instant="false">α</unclear><gap reason="lost" quantity="3" unit="character" instant="false"/><supplied reason="lost" instant="false">πα</supplied>
+<lb n="3"/>ραδέξαιτ<unclear instant="false">ο</unclear><gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="4"/>νον τὸ δια<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="5"/>όμενον αλ<gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="6"/>προσῆκ<unclear instant="false">ε</unclear>ν <gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="7"/>οὐχ ἕν· ἧς <unclear instant="false">δ</unclear><supplied reason="lost" instant="false">ὲ</supplied> <gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="8"/>περὶ τῆς ἐ<unclear instant="false">χ</unclear><gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="9"/>οὕτω<unclear instant="false">ς</unclear> ες <gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="10"/>πετραίων ο<gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="11"/>νηϊδα κ<unclear instant="false">α</unclear>ὶ χρ<gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="12"/>πρὸς δι<unclear instant="false">κ</unclear>ασ<unclear instant="false">τ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="13"/>ἄβρωτον του<unclear instant="false">τ</unclear><gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="14"/><unclear instant="false">π</unclear>όδας οὐκ ἔχ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ν</supplied><gap reason="lost" quantity="2" unit="character" instant="false"/>
+<lb n="15"/>πτέρυγας ἐχ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="16"/>τουτ<unclear instant="false">ο</unclear><add place="above" instant="false" status="unremarkable"><unclear instant="false">ων</unclear></add> ἐπιστα<gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="17"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>κ<gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><unclear instant="false">ν</unclear>α<unclear instant="false">ξ</unclear>αθ<gap reason="lost" quantity="3" unit="character" instant="false"/>
+</ab>
+</div></div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT pl. 7</bibl>
+               <bibl type="printed" default="false" status="draft">CPF IV.2, pl.12</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02438/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

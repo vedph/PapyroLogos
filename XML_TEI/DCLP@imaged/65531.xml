@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m65531" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Koeln. 7 284</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">65531</idno>
+            <idno type="TM">65531</idno>
+            <idno type="LDAB">6782</idno>
+            <idno type="filename">65531</idno>
+            <idno type="dclp-hybrid">p.koeln;7;284</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Cologne, Papyrussammlung P. 5856 a</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="30">
+                           <p part="N">papyrus roll? (columns: 1, written lines: 30+, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>capitals</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="-0100" notAfter="-0001" precision="low" instant="false">I v. Chr.</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR7854" xml:id="GR7854.01" from="2003" to="2015">
+                           <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK5856ar.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>comedy</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">comedy</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="column" type="textpart" corresp="#FR7854" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>ἴσως δ' <unclear instant="false">ἀ</unclear>ε<unclear instant="false">ὶ</unclear> <supplied reason="lost" instant="false">λ</supplied>οιπὸν τ<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="2"/>εὑρεῖν τι καινὸν <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/>ἅπαντ' ἀπολύσων<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="4"/>οὐ μὴν διά γε του<unclear instant="false">τ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/>τὰς ἀλλοτρίας ωδ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/>κἂν ᾖ<surplus instant="false">ν</surplus> <unclear instant="false">γ</unclear>ὰρ ἐπιν<unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="7"/>τοῦτ' ἴδιον ἐξε<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">γάζομαι</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" quantity="3" unit="character" instant="false"/> <gap reason="illegible" quantity="2" unit="character" instant="false"/> υ <gap reason="illegible" quantity="2" unit="character" instant="false"/> με <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/>γλυκ<gap reason="lost" quantity="4" unit="character" instant="false"/>ετε<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="10"/>πόσα δεῖ φ <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" quantity="1" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">ι</unclear> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="11"/>τύχην <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="13"/><unclear instant="false">τι</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="14"/>ενα<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="15"/>πλ<unclear instant="false">η</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="16"/>πρωτ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="17"/>καὶ <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="18"/>στρεβ<unclear instant="false">λ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="19"/>ἑτερ<unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="20"/>λαβόντ<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="21"/>καὶ <gap reason="illegible" quantity="2" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="22"/>γλαῦκον <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="23"/>ὄξος σε π<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="24"/>σὲ μόνον <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="25"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="26"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="27"/>ἅ<unclear instant="false">μ</unclear>α τῶι <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="28"/>ει <gap reason="illegible" quantity="1" unit="character" instant="false"/> οι <gap reason="illegible" quantity="1" unit="character" instant="false"/> ε<unclear instant="false">τ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="29"/>αὐτὸς ὑ<unclear instant="false">πο</unclear>λήξ <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="30"/>ὥστ' <unclear instant="false">ἀ</unclear>ν<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/12431"/>
+                  <biblScope unit="number">284</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Köln Gr.</title>
+                  <biblScope unit="volume">7</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">P.Köln 7, pl.2</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/Karte/VII_284.html"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

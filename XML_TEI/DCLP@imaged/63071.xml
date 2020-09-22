@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63071" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 63071</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63071</idno>
+            <idno type="TM">63071</idno>
+            <idno type="LDAB">4274</idno>
+            <idno type="filename">63071</idno>
+            <idno type="dclp-hybrid">tm;;63071</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9095</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus roll (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0099" instant="false">1 - 99</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR11011" xml:id="GR11011.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09095_R_3.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>medicine</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">Medical treatise</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Medical treatise. The papyrus fragment (14 x 9 cm) belongs to a roll. On the recto, it contains 18 lines of a column whose upper and right margins are entirely preserved; scanty traces of a second column are visible on the right-hand side. The verso was reused for the copy of a tax list. The medical content deals with the treatment of constipation; the author is unknown, but the employed terminology (πυκνοσύνκριτον, σύγκρισις, μετασυγκριτικός) shows some correspondence with the vocabulary of the Methodic school. The manuscript is written in an elegant book hand dated to the 1st c. AD.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Francesca Corazza as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous editions (ed.pr. = K. Kalbfleisch, "Papyri Graecae Musei Britannici et Musei Berolinensis", pp. 8-9; ed.alt. = K. Kalbfleisch, BKT III pp. 19-21 r).</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" quantity="1" unit="character" instant="false"/>οιτο ἡ τῶν παρακειμένων σκυβάλων ἔκ <g type="coronis"/>
+<lb n="2" break="no"/><supplied reason="lost" instant="false">κρι</supplied>σις, βραχὺ διαστήσαντες, <unclear instant="false">ἕω</unclear><supplied reason="lost" instant="false">ς</supplied> οὗ <app type="alternative"><lem>οτ<unclear instant="false">η</unclear></lem><rdg>οτ<unclear instant="false">ν</unclear></rdg></app> ἀπὸ τῆς 
+<lb n="3"/><supplied reason="lost" instant="false">τῆς</supplied> <unclear instant="false">χ</unclear>ρίσεως ἀποκαταστῆι τα<supplied reason="lost" instant="false">ρ</supplied>αχῆ<supplied reason="lost" instant="false">ς, δ</supplied>ι' ἐλαίου
+<lb n="4"/><supplied reason="lost" instant="false">π</supplied>λείονος ἀποθεραπεύσομεν τὸ σ<unclear instant="false">ω</unclear>μάτιον
+<lb n="5"/><supplied reason="lost" instant="false">καὶ</supplied> τροφὴν τὴν ἀκόλουθον προσοίσομεν· εἰ δὲ
+<lb n="6" xml:id="div1-lb6"/><supplied reason="lost" instant="false">ἤτ</supplied>οι διὰ τὸ πυκνο<unclear instant="false">σύ</unclear>ν<unclear instant="false">κρι</unclear>τον τῶν καμνόν <g type="coronis"/>
+<lb n="7" break="no"/><supplied reason="lost" instant="false">τω</supplied><unclear instant="false">ν</unclear> ἢ δι' ἄλλην αἰτίαν μὴ γένοιτο σύνμετρος 
+<lb n="8" xml:id="div1-lb8"/><supplied reason="lost" instant="false">κο</supplied><unclear instant="false">μ</unclear>ιδὴ <supplied reason="lost" instant="false">τῶ</supplied>ν παρακ<supplied reason="lost" instant="false">ε</supplied>ιμένων, ἢ αὐτίκα π<unclear instant="false">άλ</unclear>ιν
+<lb n="9"/><supplied reason="lost" instant="false">αἰο</supplied>νή<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">ομεν</supplied> πρὸ τῆς ἀποθεραπείας κ<hi rend="acute">α</hi>ὶ τὴς
+<lb n="10"/><supplied reason="lost" instant="false">παρ</supplied>αθέσεως τ<supplied reason="lost" instant="false">ῶ</supplied>ν σειτίων ἤ, εἰ στενοχωροίμε
+<lb n="11" break="no"/><supplied reason="lost" instant="false">θα π</supplied>ερὶ τὴν εὐκαιρίαν, <unclear instant="false">τ</unclear>ῆς <unclear instant="false">ἑ</unclear>ξῆς. δηγμοῦ δὲ πα
+<lb n="12" break="no"/><supplied reason="lost" instant="false">ρακ</supplied>ολο<supplied reason="lost" instant="false">υθο</supplied>ῦντ<supplied reason="lost" instant="false">ος</supplied> διὰ τὴν ποιότητα τῶν ὑγρῶν,
+<lb n="13" xml:id="div1-lb13"/><supplied reason="lost" instant="false">τὸ μὲν πρ</supplied>ῶτ<supplied reason="lost" instant="false">ον</supplied> <unclear instant="false">μαλακ</unclear>ῶν σπόγγων ἀτμί<supplied reason="lost" instant="false">δ</supplied>ι
+<lb n="14" xml:id="div1-lb14"/><supplied reason="lost" instant="false">χρη</supplied>σό<unclear instant="false">μ</unclear><supplied reason="lost" instant="false">ε</supplied><unclear instant="false">θα</unclear>, <supplied reason="lost" instant="false">τῶι π</supplied>άσχ<unclear instant="false">οντι</unclear> <unclear instant="false">ἐκ</unclear> τούτου σ<unclear instant="false">τερέμ</unclear><supplied reason="lost" instant="false">νια</supplied>
+<lb n="15"/><supplied reason="lost" instant="false">παρα</supplied><unclear instant="false">τ</unclear>ιθέντες, τ<supplied reason="lost" instant="false">ὸ</supplied> δὲ <unclear instant="false">δε</unclear>ύτ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ρ</supplied><unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ν</supplied> καὶ ἐνκαθί<supplied reason="lost" instant="false">σ</supplied>μα 
+<lb n="16" break="no"/><supplied reason="lost" instant="false">σιν</supplied> ἐν τῇ ἀποθεραπείᾳ· εἰ δὲ μεδ' οὕτως πα
+<lb n="17" break="no"/><supplied reason="lost" instant="false">ραλύ</supplied>οιντο <unclear instant="false">οἱ</unclear> <unclear instant="false">δηγμοί</unclear>, <unclear instant="false">δ</unclear><supplied reason="lost" instant="false">ύο ἢ</supplied> καὶ τρεῖς κυάθους
+<lb n="18" xml:id="div1-lb18"/><supplied reason="lost" instant="false">τοῦ λ</supplied>ιπαροῦ θε<supplied reason="lost" instant="false">ίου</supplied> <app type="alternative"><lem><gap reason="lost" quantity="14" unit="character" instant="false"/>νου</lem><rdg><supplied reason="lost" instant="false">λειώσαντες δι' οἴ</supplied>νου</rdg></app> <g type="coronis"/>
+<lb n="18"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+      </div>
+         <div type="commentary" subtype="linebyline" part="N" org="uniform" sample="complete">
+            <list>
+               <item corresp="#div1-lb6" xml:space="preserve"><ref>6</ref> <p part="N">πυκνοσύνκριτον is <emph rend="italics">hapax legomenon</emph>.</p></item>
+               <item corresp="#div1-lb8" xml:space="preserve"><ref>8</ref> <p part="N">Cf. Orib. V 547.10; II 207.259,6.</p></item>
+               <item corresp="#div1-lb13" xml:space="preserve"><ref>13</ref> <p part="N">Cf. Hipp. II 270 Littré; Gal. XV 518ff. K.</p></item>
+               <item corresp="#div1-lb14" xml:space="preserve"><ref>14</ref> <p part="N">Cf. Sor. I 116, p. 289.4f.</p></item>
+               <item corresp="#div1-lb18" xml:space="preserve"><ref>18</ref> <p part="N">Cf. Dsc. V 123; Gal. VII 600.11; XII 88.4.</p></item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Liège</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02600/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63064" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 63064</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63064</idno>
+            <idno type="TM">63064</idno>
+            <idno type="LDAB">4267</idno>
+            <idno type="filename">63064</idno>
+            <idno type="dclp-hybrid">tm;;63064</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 11526</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus fragment (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0099" instant="false">1 - 99</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR11022" xml:id="GR11022.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_11526_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR11021" xml:id="GR11021.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_11526_V.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>philosophy (?) history (?)</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">moral lessons from the careers of the Diadochi (philosophy or history?)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-08-08" who="M. Chalkedas" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" corresp="#FR11022" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" quantity="4" unit="character" instant="false"/> <gap reason="illegible" quantity="2" unit="character" instant="false"/> <gap reason="lost" quantity="1" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" quantity="1" unit="character" instant="false"/> <unclear instant="false">ρα</unclear>τηι δυσθυμ<supplied reason="lost" instant="false">ία</supplied> <gap reason="lost" quantity="2" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">ς</unclear> τὸν ἄλκιμον Πύρρον <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" quantity="3" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> ψασης καθ᾽ οὕς μὲν κε <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" quantity="3" unit="character" instant="false"/> δεν <gap reason="illegible" quantity="1" unit="character" instant="false"/> υρια<del rend="erasure" instant="false" status="unremarkable">ν</del>ι μύλην εξ<unclear instant="false">ε</unclear> <gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="5"/><supplied reason="lost" instant="false">Λυ</supplied><unclear instant="false">σ</unclear>ίμαχον δρομιχαίτου ερ . <gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" quantity="3" unit="character" instant="false"/>ν καὶ Πτολεμαῖον τὸν Κερ<unclear instant="false">α</unclear><supplied reason="lost" instant="false">υνὸν</supplied>
+<lb n="7"/><supplied reason="lost" instant="false">τῆι Σ</supplied><unclear instant="false">ε</unclear>λεύκου μιαιφονίαι κλη<unclear instant="false">ρ</unclear> <gap reason="lost" quantity="4" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" quantity="3" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">ν</unclear>ειας ὑπὸ Γαλατῶν δ<unclear instant="false">ι</unclear> <gap reason="lost" quantity="4" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">ν</unclear> καλῶς οὖν εἶπεν Ἀρίστ<supplied reason="lost" instant="false">ων μη</supplied>
+<lb n="10" break="no"/><supplied reason="lost" instant="false">δέν</supplied>α οὕτως ἀνόητον εὑρ<supplied reason="lost" instant="false">εθῆναι</supplied>
+<lb n="11"/><supplied reason="lost" instant="false">ὅς οὐ</supplied><unclear instant="false">κ</unclear> εὔξαιτο μᾶλλον Ὅ<unclear instant="false">μ</unclear><supplied reason="lost" instant="false">ηρος</supplied>
+<lb n="12"/><supplied reason="lost" instant="false">εἶν</supplied><unclear instant="false">αι</unclear> ἤ Μίδας καὶ Σόλων <unclear instant="false">μ</unclear><supplied reason="lost" instant="false">ᾶλλον</supplied>
+<lb n="13"/><supplied reason="lost" instant="false">ἤ Κροῖσο</supplied><unclear instant="false">ς</unclear> καὶ Ἀριστείδης καὶ <unclear instant="false">Σ</unclear><supplied reason="lost" instant="false">ωκρά</supplied>
+<lb n="14" break="no"/><supplied reason="lost" instant="false">της καὶ Πλάτ</supplied><unclear instant="false">ω</unclear>ν ἤ Περδ<unclear instant="false">ι</unclear><supplied reason="lost" instant="false">κκας</supplied> <gap reason="lost" quantity="3" unit="character" instant="false"/>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+</div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Frösen-Westman, fig. 2</bibl>
+               <bibl type="printed" default="false" status="draft">CPF IV.2, pl.245</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/03101/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

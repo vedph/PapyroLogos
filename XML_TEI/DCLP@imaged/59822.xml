@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m59822" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Oxy. 27 2457, P. Oxy. 52 3650</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">59822</idno>
+            <idno type="TM">59822</idno>
+            <idno type="LDAB">927</idno>
+            <idno type="filename">59822</idno>
+            <idno type="dclp-hybrid">tm;;59822</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno>
+                     <idno type="invNo">London, British Library Pap 3040 Vo</idno>
+                     <idno type="invNo">Oxford, Sackler Library, Papyrology Rooms 42 5B 78/J(3-4) b Vo</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0125" instant="false">100 - 125</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR9124" xml:id="GR9124.01" from="1998" to="2015">
+                           <graphic url="http://163.1.169.40/gsdl/collect/POxy/index/assoc/HASH11bf/d2c6e662.dir/POxy.v0052.n3650.a.01.hires.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>tragedy</term>
+               <term>philology</term>
+               <term>hypothesis</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">Euripides; Alcestis, Aeolus, Alexander, Andromacha hypotheseis</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2019-01-15" who="E. Chetta" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+            <p part="N">This papyrus has been digitally edited by Eugenia Chetta (Università di Parma) and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" corresp="#FR9124" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">Ἀλέξαν</supplied><unclear instant="false">δρ</unclear><supplied reason="lost" instant="false">ος, οὗ ἀρχή·</supplied> 
+<lb n="2"/><gap reason="lost" atLeast="8" atMost="13" unit="character" instant="false"/>καὶ τὸ κλεινὸν <supplied reason="lost" instant="false"> Ἴ</supplied><unclear instant="false">λ</unclear>ιον
+<lb n="3"/><supplied reason="lost" instant="false">ἡ δ'ὑ</supplied>πόθεσις·
+<lb n="4"/><gap reason="lost" atLeast="8" atMost="13" unit="character" instant="false"/>Ἑκάβης καθ' ὕπνον ὄψεις
+<lb n="5"/><gap reason="lost" atLeast="7" atMost="12" unit="character" instant="false"/><supplied reason="lost" instant="false">ἔ</supplied><unclear instant="false">δ</unclear>ωκεν ἐκθεῖναι βρέφος
+<lb n="6"/><gap reason="lost" atLeast="8" atMost="13" unit="character" instant="false"/>ν ἐξέθρεψεν υἱὸν Ἀλέ
+<lb n="7" break="no"/>ξανδρ<supplied reason="lost" instant="false">ον Π</supplied>άριν προσαγορεύσας· Ἑκά
+<lb n="8" break="no"/>βη δ<unclear instant="false">ὲ</unclear> <unclear instant="false">τὴ</unclear><supplied reason="lost" instant="false">ν ἡ</supplied>μέραν ἐκείνην πενθοῦ
+<lb n="9" break="no"/>σα <unclear instant="false">ἅμ</unclear>α <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">αὶ</supplied> τιμῆς ἁξιοῦσα κατω<unclear instant="false">δύ</unclear>
+<lb n="10" break="no"/>ρα<unclear instant="false">το</unclear> <unclear instant="false">μὲν</unclear> <supplied reason="lost" instant="false">τὸ</supplied>ν ἐκτεθέντα, Πρί<unclear instant="false">αμον</unclear> <supplied reason="lost" instant="false">δ' ἔ</supplied>
+<lb n="11" break="no"/>πε<supplied reason="lost" instant="false">ι</supplied><unclear instant="false">σ</unclear>ε<unclear instant="false">ν</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">ε</unclear>λεις ἀγῶνας ἐπ' α<supplied reason="lost" instant="false">'ὐ</supplied><unclear instant="false">τ</unclear>ῷ κα
+<lb n="12" break="no"/>ταστ<unclear instant="false">ήσ</unclear><supplied reason="lost" instant="false">ασ</supplied><unclear instant="false">θα</unclear><supplied reason="lost" instant="false">ι</supplied>· διελθόν<unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ων δὲ ἐτῶ</supplied>ν εἴ
+<lb n="13" break="no"/>κοσ<unclear instant="false">ι</unclear> <unclear instant="false">ὀ</unclear> μ<unclear instant="false">ὲ</unclear>ν <unclear instant="false">παῖς</unclear> <unclear instant="false">ἔδοξε</unclear> <supplied reason="lost" instant="false">κρείττων τ</supplied>ὴν
+<lb n="14"/>φύσιν εἶναι βουκόλ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">υ τοῦ θρέψα</supplied>ντος,
+<lb n="15"/>οἱ δ' ἄλλοι νομεῖς διὰ <unclear instant="false">τὴ</unclear>ν ὑ<unclear instant="false">π</unclear>ερήφανον
+<lb n="16"/>συμβί<unclear instant="false">ω</unclear>σιν <unclear instant="false">δή</unclear>σαντες ἐ<unclear instant="false">π</unclear><supplied reason="lost" instant="false">ὶ</supplied> Πρί<unclear instant="false">α</unclear>μον ἀνήγα
+<lb n="17" break="no"/>γον αὐ<unclear instant="false">τ</unclear>ό<unclear instant="false">ν</unclear>· <gap reason="illegible" quantity="6" unit="character" instant="false"/>ηθεὶς <supplied reason="lost" instant="false">δ</supplied>ὲ ἐπὶ τοῦ δυνά
+<lb n="18" break="no"/>στ<unclear instant="false">ου</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/> <unclear instant="false">ιω</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="4" unit="character" instant="false"/><unclear instant="false">η</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/>ρειτο καὶ τοὺς δι
+<lb n="19" break="no"/>αβάλ<unclear instant="false">λο</unclear>ντ<unclear instant="false">α</unclear>ς ἑ<unclear instant="false">κάστ</unclear><supplied reason="lost" instant="false">ο</supplied>υς ἔλαβε καὶ τῶν
+<lb n="20"/>ἐπ' αὐτῶι τελ<supplied reason="lost" instant="false">ο</supplied><unclear instant="false">υ</unclear>μέ<unclear instant="false">ν</unclear><supplied reason="lost" instant="false">ων</supplied> ἀγώνων εἰάθη
+<lb n="21"/>μετασ<unclear instant="false">χ</unclear>εῖ<unclear instant="false">ν</unclear>· <unclear instant="false">δρό</unclear>μο<unclear instant="false">ν</unclear> δὲ καὶ πένταθλον,
+<lb n="22"/>ἔτι <g type="dagger"/>δαπα<gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">η</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/>ην<unclear instant="false">τ</unclear>τεφ<gap reason="illegible" quantity="4" unit="character" instant="false"/><unclear instant="false">ἀπε</unclear>θηρίωσε
+<lb n="23"/>τοὺς περὶ Δηίφοβον· οἵτινες ἡττᾶσθαι δια
+<lb n="24" break="no"/>λα<unclear instant="false">β</unclear><supplied reason="lost" instant="false">ό</supplied>ντες ὑπὸ δούλου κατεξίωσαν τὴν
+<lb n="25"/>Ἑκάβην, ὅ<unclear instant="false">π</unclear>ω<unclear instant="false">ς</unclear> ἂν αὐτὸν ἀποκτεί<unclear instant="false">νη</unclear><supplied reason="omitted" instant="false">ι</supplied>· πα
+<lb n="26" break="no"/>ραγεν<unclear instant="false">ηθέντ</unclear>α δὲ τὸν Ἀλέξανδρον
+<lb n="27"/>Κασ<supplied reason="lost" instant="false">σάν</supplied>δρ<supplied reason="lost" instant="false">α μ</supplied>ὲν ἐμμανὴς ἐπέγνω
+<lb n="28"/>κ<unclear instant="false">αὶ</unclear> <unclear instant="false">π</unclear><supplied reason="lost" instant="false">ερὶ τῶ</supplied><unclear instant="false">ν</unclear> <unclear instant="false">μ</unclear>ελλόντων ἐθέσπισεν,
+<lb n="29"/>Ἑκάβ<unclear instant="false">η</unclear> <supplied reason="lost" instant="false">δὲ ἀπο</supplied><unclear instant="false">κτ</unclear>εῖναι θέλουσα διεκω
+<lb n="30" break="no"/>λύθε· <unclear instant="false">π</unclear><supplied reason="lost" instant="false">α</supplied><unclear instant="false">ρ</unclear>α<supplied reason="lost" instant="false">γενό</supplied>μενος δ' <unclear instant="false">ὁ</unclear> <unclear instant="false">θ</unclear>ρέψας αὐτὸν
+<lb n="31"/>διὰ τὸν κίνδυνον ἠναγκάσθη λέγειν τὴν
+<lb n="32"/>ἀλή<unclear instant="false">θ</unclear>ειαν· Ἑκάβη μὲν οὖν υἱὸν ἀνεῦρε
+</ab>
+</div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="reference" subtype="partial" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/6307"/>
+                  <biblScope unit="number">2457</biblScope>
+                  <biblScope unit="side">V</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Oxy.</title>
+                  <biblScope unit="volume">27</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+               <bibl type="reference" subtype="partial" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/10432"/>
+                  <biblScope unit="number">3650</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Oxy.</title>
+                  <biblScope unit="volume">52</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:space="preserve" xml:lang="grc" part="N" org="uniform" sample="complete"/>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">P. Oxy. 27 pl.IV</bibl>
+               <bibl type="printed" default="false" status="draft">BICS Suppl. 32, pl.i-ii</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.csad.ox.ac.uk/POxy/papyri/vol52/pages/3650.htm"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

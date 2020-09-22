@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m59814" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Harris. 1 38</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">59814</idno>
+            <idno type="TM">59814</idno>
+            <idno type="LDAB">918</idno>
+            <idno type="filename">59814</idno>
+            <idno type="dclp-hybrid">p.harris;1;38</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno>
+                     <idno type="invNo">Oxford, Sackler Library, Papyrology Rooms 23 3B 1/Q(1-3)b</idno>
+                     <idno type="invNo">Birmingham, Cadbury Research Library P. Harris 179</idno>
+                     <idno type="invNo">Cambridge, Fitzwilliam Museum Add 109</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>formal round, with apices</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR13118" xml:id="GR13118.01" from="1998" to="2015">
+                           <graphic url="http://www.csad.ox.ac.uk/POxy/papyri/vol67/300dpi/4550_300.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>tragedy</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Euripides; Medea 719-723; 748-752; 1007-1009; 1046-1053; 1156-1160; 1165-1177; 1191-1199; 1279-1328; (deest 1300); 1345-1346</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false">τί χρῆμα δράσειν ἢ τί</supplied> <unclear instant="false">μὴ</unclear> <supplied reason="lost" instant="false">δρασειν; λέγε.</supplied></rdg></app>
+<lb n="2"/><supplied reason="lost" instant="false">μήτ’ αὐτὸς ἐκ γῆς σῆ</supplied>ς ἔμ’ ἐ<supplied reason="lost" instant="false">κβαλεῖν ποτε,</supplied>
+<lb n="3"/><supplied reason="lost" instant="false">μήτ’ ἄλλος ἤν τις τῶ</supplied>ν ἐμ<unclear instant="false">ῶ</unclear><supplied reason="lost" instant="false">ν ἐχθρῶν ἄγειν</supplied>
+<lb n="4"/><supplied reason="lost" instant="false">χρήιζηι, μεθήσειν γ</supplied><unclear instant="false">ῆ</unclear>ς <hi rend="asper">ἑ</hi>κου<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">ίωι τρόπωι.</supplied>
+<lb n="5"/><supplied reason="lost" instant="false">ὄμνυμι Γαῖαν</supplied> <app type="alternative"><lem><supplied reason="lost" instant="false">λαμ</supplied><unclear instant="false">π</unclear>ρὸν <unclear instant="false">Ἡ</unclear><supplied reason="lost" instant="false">λίου τε φῶς</supplied></lem><rdg><supplied reason="lost" instant="false">λαμ</supplied><unclear instant="false">π</unclear>ρόν <supplied reason="lost" instant="false">θ</supplied><g type="apostrophe"/> <supplied reason="lost" instant="false">Ἡλίου φάος</supplied></rdg></app>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+<div n="2" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><supplied reason="lost" instant="false">κοὐκ</supplied> <unclear instant="false">ἀ</unclear>σμ<hi rend="acute">έ</hi>νη τόν<supplied reason="lost" instant="false">δ’ ἐξ ἐμοῦ δέχηι λόγον;</supplied>
+<lb n="2"/><supplied reason="lost" instant="false">αἰαῖ.</supplied>
+<lb n="3"/><supplied reason="lost" instant="false">τάδ’ ο</supplied><unclear instant="false">ὐ</unclear> ξ<hi rend="grave">υ</hi>νῳδὰ<g type="apostrophe"/> τοῖ<unclear instant="false">σιν</unclear> <supplied reason="lost" instant="false">ἐξηγγελμένοις.</supplied>
+<lb n="4"/><supplied reason="lost" instant="false">αἰαῖ</supplied> <unclear instant="false">μ</unclear>άλ<g type="apostrophe"/> α<hi rend="circumflex">ὖ</hi>θις.
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+<div n="3" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><supplied reason="lost" instant="false">δάκοιμι· τοιόνδ’ ἐμπέφυκέ σοι θρ</supplied>ά<unclear instant="false">σος</unclear>;
+<lb n="2"/><supplied reason="lost" instant="false">ἔρρ’, αἰσχροποιὲ καὶ τέκνων μιαιφόν</supplied><unclear instant="false">ε</unclear>·
+</ab>
+</div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/3522"/>
+                  <biblScope unit="number">38</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Harris</title>
+                  <biblScope unit="volume">1</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/1433">Medea</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">P.Harris pl.I</bibl>
+               <bibl type="printed" default="false" status="draft">Liège</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://163.1.169.40/gsdl/collect/POxy/index/assoc/HASHf7a3/f5b00d8f.dir/POxy.v0067.n4550.a.01.hires.jpg"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

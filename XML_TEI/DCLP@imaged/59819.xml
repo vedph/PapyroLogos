@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m59819" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Koeln. 1 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">59819</idno>
+            <idno type="TM">59819</idno>
+            <idno type="LDAB">924</idno>
+            <idno type="filename">59819</idno>
+            <idno type="dclp-hybrid">p.koeln;1;1</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Cologne, Papyrussammlung P. 264</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus fragment (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR12519" xml:id="GR12519.01" from="2003" to="2015">
+                           <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK264v.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>tragedy</term>
+               <term>philology</term>
+               <term>hypothesis</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">Euripides; Auge hypothesis</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This Papyrus has been digitally edited by Massimo Magnani within the joint project "Ekdosis: Digitizing literary and paraliterary papyri, revision by Vincenzo Damiani (Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref>)</p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="fragment" type="textpart" corresp="#FR12519" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">Αὔγη,</supplied> ἧς ἡ ἀρχή<surplus instant="false">ι</surplus>· <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ν</unclear>ας ὅδε πο<unclear instant="false">λ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false">Ἀλέας Ἀθά</supplied><unclear instant="false">ν</unclear>ας ὅδε πο<unclear instant="false">λ</unclear><supplied reason="lost" instant="false">ύχρυσος δόμος</supplied></rdg></app>
+<lb n="3"/><supplied reason="lost" instant="false">ἡ δ’ ὑπ</supplied><unclear instant="false">ο</unclear>θεσις· <space atLeast="6" atMost="7" unit="character"/>
+<lb n="4"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> Ἀρκαδίας δ<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>σας κάλλε<supplied reason="lost" instant="false">ι</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">α</unclear>ν τῆc Ἀλέα<supplied reason="lost" instant="false">ς</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> ἡ δὲ τῆς π<unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false">Ἄλεοc ὁ βαcιλεὺ</supplied>c Ἀρκαδίαc δ<supplied reason="lost" instant="false">ύο εἶχεν υἱοὺc καὶ θυ</supplied><lb n="5" break="no"/><supplied reason="lost" instant="false">γατέρα Αὔγην π</supplied><unclear instant="false">ά</unclear>cαc κάλλε<unclear instant="false">ι</unclear> <supplied reason="lost" instant="false">τε καὶ cωφροcύνῃ διαφέ</supplied><lb n="6" break="no"/><supplied reason="lost" instant="false">ρουcαν καὶ ἱέρει</supplied>αν τῆc Ἀλέα<supplied reason="lost" instant="false">c τῆc ἐν Τεγέᾳ Ἀθηνᾶc αὐ</supplied><lb n="7" break="no"/><supplied reason="lost" instant="false">τὴν κατέcτηcεν.</supplied> ἡ δὲ τῆc πα<supplied reason="lost" instant="false">ννυχίδοc τῆc τῇ Ἀλέᾳ</supplied></rdg><rdg><supplied reason="lost" instant="false">Ἄλεοc ὁ τῆ</supplied>c Ἀρκαδίαc δ<supplied reason="lost" instant="false">υνάcτηc ἔχων θυγατέ</supplied><lb n="5" break="no"/><supplied reason="lost" instant="false">ρα Αὔγην π</supplied><unclear instant="false">ά</unclear>cαc κάλλε<supplied reason="lost" instant="false">ι τε καὶ cωφροcύνηι ὑ</supplied><lb n="6" break="no"/><supplied reason="lost" instant="false">περέχουc</supplied>αν τῆc Ἀλέα<supplied reason="lost" instant="false">c Ἀθηνᾶc ἱέρειαν αὐτὴν</supplied> <lb n="7"/><supplied reason="lost" instant="false">ἐποίηcεν.</supplied> ἡ δὲ τῆc πα<supplied reason="lost" instant="false">ννυχίδοc τῆc ἐν τῆι</supplied></rdg><rdg><supplied reason="lost" instant="false">Ἄλεοc ἁπάcη</supplied>c Ἀρκαδίαc δ<supplied reason="lost" instant="false">υναcτεύων θυ</supplied><lb n="5" break="no"/><supplied reason="lost" instant="false">γατέρα γενν</supplied><unclear instant="false">ή</unclear>cαc κάλλε<unclear instant="false">ι</unclear> <supplied reason="lost" instant="false">διαφέρουcαν</supplied> <lb n="6"/><supplied reason="lost" instant="false">Αὔγην ἱέρει</supplied>αν τῆc Ἀλέα<supplied reason="lost" instant="false">c Ἀθηνᾶc ἐποίη</supplied><lb n="7" break="no"/><supplied reason="lost" instant="false">cεν ἐν Τεγέαι.</supplied> ἡ δὲ τῆc πα<supplied reason="lost" instant="false">ννυχίδοc τῆc ἐ</supplied></rdg></app>
+<lb n="8"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>στάσης χο<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>σωλισθεν <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ητα πλυν<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>σιον κρη<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false">τελουμένης ἐπι</supplied>στάσης χο<supplied reason="lost" instant="false">ρῶν ἡγήσασθαι ἡ<supplied reason="omitted" instant="false">ι</supplied>ρέθη. ἰδὼν δὲ</supplied> <lb n="9"/><supplied reason="lost" instant="false">αὐτὴν ὁ Ἡρακλῆ</supplied>ς ὤλισθεν <supplied reason="lost" instant="false">εἰς ἐπιθυμίαν καὶ αὐτὴν</supplied> <lb n="10"/><supplied reason="lost" instant="false">τὴν τῆς θεᾶς ἐσθ</supplied>ῆτα πλύν<supplied reason="lost" instant="false">ουσαν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="11"/><supplied reason="lost" instant="false">ἐβίασεν λάθρᾳ πλ</supplied><unclear instant="false">η</unclear>σίον κρ<unclear instant="false">ή</unclear><supplied reason="lost" instant="false">νης</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/> </rdg><rdg> <supplied reason="lost" instant="false"> Ἀλέαι παρα</supplied>στάσης χο<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">είας δὲ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/> <lb n="9"/><supplied reason="lost" instant="false">εἰς ὄνειδο</supplied>ς ὤλισθεν<supplied reason="lost" instant="false">· ἰδὼν γὰρ αὐτὴν τὴν τῆς Ἀ</supplied> <lb n="10" break="no"/><supplied reason="lost" instant="false">θηνᾶς ἐσθ</supplied>ῆτα πλύν<supplied reason="lost" instant="false">ουσαν ὁ Ἡρακλῆς ἐρασθεὶς</supplied> <lb n="10"/><supplied reason="lost" instant="false">ἔφθειρε πλ</supplied><unclear instant="false">η</unclear>σίον κρ<unclear instant="false">ή</unclear><supplied reason="lost" instant="false">νης</supplied></rdg><rdg><supplied reason="lost" instant="false">νιαυσίας περι</supplied>στάσης χο<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">εύουσα ἐπὶ πηλώ</supplied><lb n="8" break="no"/><supplied reason="lost" instant="false">δους ἐδάφου</supplied>ς ὤλισθεν· <supplied reason="lost" instant="false">καταμιάνασα δὲ</supplied> <lb n="9"/><supplied reason="lost" instant="false">ἰλύϊ τὴν ἑσθ</supplied>ῆτα πλύν<supplied reason="lost" instant="false">ειν εὐθὺς ὥρμη</supplied><lb n="10" break="no"/><supplied reason="lost" instant="false">σεν ἐπί τινα π</supplied>λησίον κρή<supplied reason="lost" instant="false">νην μεταχωρή</supplied></rdg></app>
+<lb n="12"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>δε κατὰ τ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>οινωμενο<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false">σασα. Ἡρακλῆς</supplied> δὲ κατὰ <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ύχην παρὰ τῷ Ἀλέ</supplied><lb n="13" break="no"/><supplied reason="lost" instant="false">ῳ καταλύσας</supplied> οἰνωμένο<supplied reason="lost" instant="false">ς ἀπὸ τῆς εὐωχίας</supplied></rdg><rdg><lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">θ</supplied>οινώμενο<supplied reason="lost" instant="false">ς</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="14"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">ε</unclear>ν<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false">εἰς ταὐτὸ παραγεν</supplied><unclear instant="false">ό</unclear>μεν<supplied reason="lost" instant="false">ος</supplied></rdg></app>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+</div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/8842"/>
+                  <biblScope unit="number">1</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Köln Gr.</title>
+                  <biblScope unit="volume">1</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"/>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">ZPE 4, pl.IIIa-IV</bibl>
+               <bibl type="printed" default="false" status="draft">Studi e Testi di Papirologia N.S. 7 (2005), p.123</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/Karte/I_001.html"/>
+               </bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="https://papyri.uni-koeln.de/stueck/tm59819"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

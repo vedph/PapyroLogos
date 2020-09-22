@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m59116" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 59116</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">59116</idno>
+            <idno type="TM">59116</idno>
+            <idno type="LDAB">211</idno>
+            <idno type="filename">59116</idno>
+            <idno type="dclp-hybrid">tm;;59116</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9812</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll? (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" precision="low" instant="false">III v. Chr.</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR9189" xml:id="GR9189.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_09812_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>lyric</term>
+               <term>epigram</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Anthologia Palatina; anthology of epigrams, including 06.3</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2019-07-31" who="M .Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" type="textpart" subtype="fragment" corresp="#FR9189" part="N" org="uniform" sample="complete"><ab part="N">                
+<lb n="1"/><app type="editorial"><lem><supplied evidence="parallel" reason="lost" instant="false">χλωρὸν ἀπὸ</supplied></lem><rdg resp="ed. pr."><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">ἀκμῆι</supplied></rdg></app> <app type="editorial"><lem>δρεπάν<supplied reason="omitted" instant="false">ωι</supplied></lem><rdg resp="ed. pr.">δρ<unclear instant="false">α</unclear>πάνου</rdg></app> θῆκε <app type="editorial"><lem>τ<supplied reason="omitted" instant="false">α</supplied>μὼν</lem><rdg resp="ed. pr.">τεμὼν</rdg></app> ῥόπαλον.
+<lb n="2"/><supplied reason="lost" instant="false">Ἦ μεγάλα</supplied> <app type="editorial"><lem>τέχνα· τὸ</lem><rdg resp="ed. pr."><supplied reason="lost" instant="false">ἐ</supplied>τεχνᾶτο</rdg></app> γὰρ εὖ μέγα· τοὶ δ' ἀναθέντ<supplied reason="lost" instant="false">ες</supplied>
+<lb n="3"/><app type="editorial"><lem><supplied reason="lost" instant="false">εἰσὶ τίνες; σὲ δὲ τίς τ</supplied></lem><rdg resp="ed. pr."><supplied reason="lost" instant="false">σηκὸν ὅπου λαὸς τ</supplied></rdg></app>εῦχ<supplied reason="lost" instant="false">ε</supplied> παληοσέβης;
+<lb n="4"/><app type="editorial"><lem><supplied reason="lost" instant="false">νικᾶις δ' ἀν</supplied></lem><rdg resp="ed. pr."><supplied reason="lost" instant="false">νικᾶτ' ἀν</supplied></rdg></app><unclear instant="false">τι</unclear>πάλους <app type="editorial"><lem>ἀπτώς. - ἴτ'</lem><rdg resp="ed. pr.">ἀπτῶσί τ':</rdg></app> ἐλέγχετε <app type="editorial"><lem>π<supplied reason="lost" instant="false">άντας</supplied></lem><rdg resp="ed. pr.">π<supplied reason="lost" instant="false">αντα</supplied></rdg></app>
+<lb n="5"/><app type="editorial"><lem><supplied reason="lost" instant="false">ἀνθεμένους,</supplied></lem><rdg resp="ed. pr."><supplied reason="lost" instant="false">εὐτεχνίαις</supplied></rdg></app> πλάσταν καὶ τὸν ἀριστοπάλαν.
+<lb n="6"/><app type="editorial"><lem><supplied reason="lost" instant="false">Ἦ που τὴν</supplied></lem><rdg resp="ed. pr."><supplied reason="lost" instant="false">ὅς ποτε καὶ</supplied></rdg></app> <unclear instant="false">χρυ</unclear><supplied reason="lost" instant="false">σ</supplied>ῆν θηήσατο Κ<supplied reason="lost" instant="false">ύπ</supplied><unclear instant="false">ριν</unclear> Ἀπελλῆς
+<lb n="7"/><app type="editorial"><lem><supplied reason="lost" instant="false">γυμνὴν ἐκ μητρὸς πό</supplied></lem><rdg resp="ed. pr."><supplied reason="lost" instant="false">γυμνὴν ἐκ μέλανος πό</supplied></rdg></app>ντου ἀνερχ<supplied reason="lost" instant="false">ομ</supplied>ένην·
+<lb n="8"/><app type="editorial"><lem><supplied reason="lost" instant="false">μέχρι δὲ τῶν στέρνω</supplied><unclear instant="false">ν</unclear>, ὅσα</lem><rdg resp="ed.pr."><supplied reason="lost" instant="false">ἐξ οὗ πάνθ' ὅγε μοῦ</supplied><unclear instant="false">ν</unclear>ος ἃ</rdg></app> καὶ θέμις, <app type="editorial"><lem><supplied reason="lost" instant="false">εἴσιδε</supplied>ν αὐτ<supplied reason="lost" instant="false">ὴν</supplied></lem><rdg resp="ed. pr."><supplied reason="lost" instant="false">ἔγραφε</supplied>ν αὐτ<supplied reason="lost" instant="false">ῆς</supplied></rdg></app>
+<lb n="9"/><supplied reason="lost" instant="false">κἄγραψεν τοίην,</supplied> θαῦμα <supplied reason="lost" instant="false">βροτοῖσιν ὁρᾶν.</supplied>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg7000">Anthologia Palatina</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/2180">Anthologia Palatina</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:space="preserve" xml:lang="grc" part="N" org="uniform" sample="complete"/>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">ZPE 13, pl.xiiib</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02753/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

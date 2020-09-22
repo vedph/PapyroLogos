@@ -1,1 +1,145 @@
-
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m59061" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 59061</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">59061</idno>
+            <idno type="TM">59061</idno>
+            <idno type="LDAB">156</idno>
+            <idno type="filename">59061</idno>
+            <idno type="dclp-hybrid">tm;;59061</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9810</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Theadelpheia (Arsinoites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/2349" instant="false" full="yes">Theadelpheia</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR6973" xml:id="GR6973.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09810_R.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>lyric</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change who="B. Breuer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Birgit Breuer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR6973" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="10" unit="character" instant="false"/>τε κατθάνη<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="10" unit="character" instant="false"/><unclear instant="false">ι</unclear>ς δόμοις 
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="10" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>αν 
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="10" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><supplied reason="lost" instant="false">δ</supplied>έκεσθαι 
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="10" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">ο</unclear>ν οὐδέ τ<unclear instant="false">οι</unclear>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="10" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>ωμένω 
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="10" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>πει
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="10" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/>σης
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν ἀρύστηρ’ ἐς κέραμ<app type="editorial"><lem resp="corr. BKT V.2">ο</lem><rdg resp="pap.">ε</rdg></app>ν μέγαν
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>μόχθεις τοῦτ’ ἔμεθεν σύνεις
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>μητωξαυος ἀλλως·
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>μοι μεθύων ἀείση<supplied reason="omitted" instant="false">ι</supplied>ς 
+<lb n="13"/><app type="editorial"><lem resp="suppl. BKT V.2 probabilissime ut vid."><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">θα</supplied></lem><rdg resp="pap."><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>λάσσας φειδόμεθ’ <app type="editorial"><lem resp="dub. Lobel Page">ὦ σκύρον</lem><rdg resp="pap.">ωσκ<gap reason="illegible" quantity="1" unit="character" instant="false"/>ρον</rdg></app>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>νοείδην αἶθρον ἐπήμενοι 
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ταθεντες ὠς τάχιστα
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>άδαν καμάκων ἔλοντες 
+<lb n="17"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="alternative"><lem><unclear instant="false">λ</unclear></lem><rdg><unclear instant="false">α</unclear></rdg></app>ύσαμεν <app type="alternative"><lem>πρό τ’ ενωπια</lem><rdg>πρό τε νωπια</rdg></app> 
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ποντες καί κ’ ἰθαρώτεροι
+<lb n="19"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ε</unclear>ν ἰλλαεντι θύμωι
+<lb n="20"/><app type="editorial"><lem resp="suppl. BKT V.2"><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἀ</supplied></lem><rdg resp="pap."><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>μύστιδος ἔργον <unclear instant="false">ε</unclear>ἴη 
+<lb n="21"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">τ</unclear>’ ὀνάρταις χέρρ’ ἀ<unclear instant="false">π</unclear>ύ μ’ ἐμμάτων
+<lb n="22"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="6" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>φ<app type="editorial"><lem resp="dub. Lobel Page"><gap reason="lost" quantity="1" unit="character" instant="false"/><supplied reason="lost" instant="false">κα</supplied>τωκάρα</lem><rdg resp="pap."><gap reason="lost" quantity="3" unit="character" instant="false"/>τωκάραι</rdg></app>
+<lb n="23"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="8" unit="character" instant="false"/>εις τίθησιν 
+<lb n="24"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="8" unit="character" instant="false"/><unclear instant="false">δ</unclear>εταιδ’ ἀοίδα 
+<lb n="25"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="8" unit="character" instant="false"/> ἄγι ταῦτά μοι
+<lb n="26"/><space quantity="1" unit="line"/>
+<lb n="27"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="8" unit="character" instant="false"/><orig>αττε</orig> πῦρ μέγα 
+<lb n="28"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="lost" quantity="8" unit="character" instant="false"/>τίθησθα
+</ab></div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author>Alcaeus</author>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Schubart, Papyri Graecae Berolinenses Taf. 29b</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02751/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

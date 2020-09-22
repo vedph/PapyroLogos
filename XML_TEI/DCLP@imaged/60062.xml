@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60062" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 60062</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60062</idno>
+            <idno type="TM">60062</idno>
+            <idno type="LDAB">1176</idno>
+            <idno type="filename">60062</idno>
+            <idno type="dclp-hybrid">tm;;60062</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9739 b Ro</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 5, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Arsinoites (Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR6667" from="2000" to="2015" xml:id="GR6667.01">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09739_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6668" from="2000" to="2015" xml:id="GR6668.01">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09739_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6669" from="2000" to="2015" xml:id="GR6669.01">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09739_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6670" from="2000" to="2015" xml:id="GR6670.01">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09739_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6671" from="2000" to="2015" xml:id="GR6671.01">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09739_R.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+                This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>epic</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Hesiodus; Catalogus 1 (The Suitors of Helen)</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+         <change who="dclp" when="2016-08-12" status="draft">set date for change log</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="196" corresp="#FR6667" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>της ἀγὸς ἀνδρῶν <supplied reason="lost" instant="false">αἰχμ</supplied>ητάων
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ης πάντων ἀριδε<supplied reason="lost" instant="false">ίκετ</supplied>ος ἀνδρῶν·
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ας τε καὶ ἔγχεϊ ὀξ<supplied reason="lost" instant="false">υόε</supplied>ν<unclear instant="false">τ</unclear>ι·
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ου λιπαρὴν πόλι<supplied reason="lost" instant="false">ν ε</supplied>ἵνεκα κούρης
+<lb n="5"/><supplied reason="lost" instant="false">Ἀργεΐης, ἣ εἶ</supplied><unclear instant="false">δ</unclear>ος ἔχε χρυσέης Ἀφ<supplied reason="lost" instant="false">ροδί</supplied>της·
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν Χαρίτων ἀμαρ<supplied reason="lost" instant="false">ύγμ</supplied>ατ᾽ ἔχουσαν·
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>Τυνδαρέω βασ<supplied reason="lost" instant="false">ιλῆ</supplied><unclear instant="false">ο</unclear>ς
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ροισι δόμοις <gap reason="lost" quantity="5" unit="character" instant="false"/> κυανῶπις·
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="5" unit="character" instant="false"/>μεγε<gap reason="lost" quantity="7" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>υτ<unclear instant="false">ε</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>κῶν<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+<div n="197" corresp="#FR6668" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="11"/>τοσσαύτας δὲ γυναῖκας ἀμύμονα ἔργ᾽ ἰδυίας,
+<lb n="12"/>πάσας χρυσείας φιάλας ἐν χερσὶν ἐχούσας.
+<lb n="13"/>καί νύ κε δὴ Κάστωρ τε καὶ ὁ κρατερὸς Πολυδεύκης
+<lb n="14"/>γαμβρὸν ποιήσαντο κατὰ κράτος, ἀλλ᾽ Ἀγαμέμνων
+<lb n="15"/>γαμβρὸς ἐὼν ἐμνᾶτο κασιγνήτωι Μενελάωι.
+<lb n="16"/>υἱὼ δ᾽ Ἀμφιαρήου Ὀϊκλεΐδαο ἄνακτος
+<lb n="17"/><unclear instant="false">ἐ</unclear>ξ Ἄρ<unclear instant="false">γ</unclear>εος ἐμνῶντο μ<unclear instant="false">ά</unclear><supplied reason="lost" instant="false">λ᾽ ἐγ</supplied>γύ<unclear instant="false">θ</unclear>εν· ἀλλ᾽ ἄρα καὶ τοὺς
+<lb n="18"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">ε</unclear> θεῶν <gap reason="lost" quantity="12" unit="character" instant="false"/><supplied reason="lost" instant="false">νέ</supplied>μεσίς <unclear instant="false">τ</unclear>᾽ <unclear instant="false">ἀ</unclear><supplied reason="lost" instant="false">νθρώπων</supplied>
+<lb n="19"/><supplied reason="lost" instant="false">5</supplied>θη<unclear instant="false">τ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+<div n="198" corresp="#FR6669" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="20"/>ἀλλ᾽ οὐκ ἦν ἀπάτης ἔργον παρὰ Τυνδαρίδηισιν.
+<lb n="21"/>ἐκ δ᾽ Ἰθάκης ἐμνᾶτο Ὀδυσσῆος ἱερὴ ἴς,
+<lb n="22"/>υἱὸς Λαέρταο πολύκροτα μήδεα εἰδώς.
+<lb n="23"/>δῶρα μὲν οὔποτ᾽ ἔπεμπε τανισφύρου εἵνεκα κούρης·
+<lb n="24"/>ἤιδεε γὰρ κατὰ θυμὸν ὅτι ξανθὸς Μενέλαος
+<lb n="25"/>νικήσει, κτήν<supplied reason="omitted" instant="false">ε</supplied>ι γὰρ Ἀχαιῶν φέρτατος ἦεν·
+<lb n="26"/>ἀγγελίην δ᾽ αἰεὶ Λακεδαίμονάδε προΐαλλεν
+<lb n="27"/>Κά<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">τ</supplied><unclear instant="false">ορ</unclear><supplied reason="lost" instant="false">ί θ᾽</supplied> ἱππο<unclear instant="false">δάμωι</unclear> <unclear instant="false">κ</unclear>αὶ ἀεθλοφόρωι Πολυδεύκει·
+<lb n="28"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">ο</supplied>νος υἱὸς
+<lb n="29"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">ἔε</supplied><unclear instant="false">δ</unclear>να
+<lb n="30"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">λ</unclear><supplied reason="lost" instant="false">α</supplied><unclear instant="false">βοῦσα</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/>
+</ab></div>
+<div n="199" corresp="#FR6670" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="31"/>Κάστορί θ᾽ ἱπποδάμωι καὶ ἀεθλοφόρωι Πολυδεύκει
+<lb n="32"/>ἱμείρων Ἑλένης πόσις ἔμμεναι ἠϋκόμοιο,
+<lb n="33"/>εἶδος οὔτι ἰδών, ἀλλ᾽ ἄλλων μῦθον ἀκούων.
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="34"/>ἐκ Φυλάκης δ᾽ ἐμνῶντο δύ᾽ ἀνέρες ἔξοχ᾽ ἄριστο<unclear instant="false">ι</unclear>,
+<lb n="35"/>υἱός τ᾽ Ἰφίκλοιο Ποδάρκης Φυλακίδαο
+<lb n="36"/>ἠΰς τ᾽ Ἀκτορίδης ὑπερήνωρ Πρωτεσίλαος·
+<lb n="37"/>ἄμφω δ᾽ ἀγγελίην Λακεδαίμονάδε προΐαλλον
+<lb n="38"/>Τυνδαρέου π<supplied reason="lost" instant="false">οτ</supplied><unclear instant="false">ὶ</unclear> δῶμα δαΐφρονος Οἰβαλίδαο,
+<lb n="39"/>πολλὰ δ᾽ ἔεδν<supplied reason="lost" instant="false">α δίδον,</supplied> μέγα γὰρ κλέ<unclear instant="false">ος</unclear> <supplied reason="lost" instant="false">ἔσκε γυ</supplied>ναικός,
+<lb n="40"/>χα<unclear instant="false">λκ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="41"/>χρ<unclear instant="false">υ</unclear><supplied reason="lost" instant="false">σ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+<div n="200" corresp="#FR6671" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="42"/>Ἀργεΐης Ἑλένης πόσις ἔμμενα<supplied reason="lost" instant="false">ι ἠϋκόμοιο.</supplied>
+<lb n="43"/>ἐκ δ᾽ ἄρ᾽ Ἀθηνέων μνᾶθ᾽ υἱὸς Π<supplied reason="lost" instant="false">ετεῶο Μενεσθεύς</supplied>
+<lb n="44"/>πολλὰ δ᾽ ἔεδνα δίδου· κειμήλια γ<supplied reason="lost" instant="false">ὰρ μάλα πολλὰ</supplied>
+<lb n="45"/>ἔκτητο χρυσόν τε λέβητάς τ<supplied reason="lost" instant="false">ε τρίποδάς τε</supplied>
+<lb n="46"/>καλά, τά ῥ᾽ ἔνδοθι κεῦθε δόμος <supplied reason="lost" instant="false">Πετεῶο ἄνακτος.</supplied>
+<lb n="47"/>οἷς μιν θυμὸς ἀνῆκεν ἐεδνώσ<supplied reason="lost" instant="false">ασθαι ἄκοιτιν</supplied>
+<lb n="48"/>πλεῖστα πορόντ᾽, ἐπεὶ ο<supplied reason="lost" instant="false">ὔ</supplied>τιν᾽ ἐέλπ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">το φέρτερον εἶαι</supplied>
+<lb n="49"/><supplied reason="lost" instant="false">πάντω</supplied>ν ἡρώων κτήνεσσί τε δ<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">τίναις τε.</supplied>
+<lb n="50"/><gap reason="lost" quantity="6" unit="character" instant="false"/><unclear instant="false">τ</unclear>εί<unclear instant="false">δαο</unclear> <unclear instant="false">δό</unclear>μους κρατερὸς <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="51"/><gap reason="lost" quantity="12" unit="character" instant="false"/><supplied reason="lost" instant="false">Ἑλένη</supplied><unclear instant="false">ς</unclear> ἕνεκ᾽ ἠ<unclear instant="false">ϋ</unclear><supplied reason="lost" instant="false">κόμοιο</supplied>
+</ab></div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0020">Hesiodus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/794">Catalogus</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Sitzungsber. Berlin 1900, pl.V</bibl>
+               <bibl type="printed" default="false" status="draft">Schubart, PGB tab. 19a</bibl>
+               <bibl type="printed" default="false" status="draft">Merkelbach-West, pl.IV</bibl>
+               <bibl type="printed" default="false" status="draft">R.Seider, Paläogr. griech. Papyri II.2, pl.XII.22</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02696/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

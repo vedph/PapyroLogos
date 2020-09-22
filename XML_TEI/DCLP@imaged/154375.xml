@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m154375" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 18</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">154375</idno>
+            <idno type="TM">154375</idno>
+            <idno type="LDAB">154375</idno>
+            <idno type="filename">154375</idno>
+            <idno type="dclp-hybrid">bkt;10;18</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 13278</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>parchment</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="10 11">
+                           <p part="N">parchment codex miniature (4 foll. = 2 bifoll.) (columns: 1, written lines: 10, 11)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>Alexandrian majuscule</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Hermopolis (Hermopolites, Egypt); written: Hermopolis (Hermopolites, Egypt)</origPlace>
+                     <origDate notBefore="0300" notAfter="0399" instant="false">300 - 399</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720" instant="false" full="yes">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/816" instant="false" full="yes">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720" instant="false" full="yes">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/816" instant="false" full="yes">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8547 #FR8552" xml:id="GR8547.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_13278-Fr-a_S1_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8546 #FR8553" xml:id="GR8546.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_13278-Fr-a_S2_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8549" xml:id="GR8549.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_13278-Fr-b_S1_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8548" xml:id="GR8548.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_13278-Fr-b_S2_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>philology</term>
+               <term>grammar</term>
+               <term>metrics</term>
+               <term type="culture">science</term>
+               <term type="overview">grammatical-metrical treatise</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-12-05" who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1" subtype="page" type="textpart" corresp="#FR8546" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><unclear instant="false">κ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="8" unit="character" precision="low" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>υ
+<lb n="2"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="9" unit="character" precision="low" instant="false"/>
+<lb n="3"/><gap reason="lost" quantity="11" unit="character" precision="low" instant="false"/>
+<lb n="4"/><gap reason="lost" quantity="11" unit="character" precision="low" instant="false"/>
+<lb n="5"/><gap reason="lost" quantity="11" unit="character" precision="low" instant="false"/>
+<lb n="6"/><gap reason="lost" quantity="11" unit="character" precision="low" instant="false"/>
+<lb n="7"/><gap reason="lost" quantity="6" unit="character" precision="low" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="4" unit="character" precision="low" instant="false"/>
+<lb n="8"/>ι<gap reason="lost" quantity="4" unit="character" precision="low" instant="false"/><gap reason="illegible" quantity="4" unit="character" instant="false"/>μ<unclear instant="false">α</unclear>.
+<lb n="9"/>τινὲς <unclear instant="false">δ</unclear><supplied reason="lost" instant="false">ὲ λέγ</supplied><unclear instant="false">ου</unclear>
+<lb n="10" break="no"/><unclear instant="false">σ</unclear>ιν ὅτι <unclear instant="false">ο</unclear><gap reason="lost" quantity="4" unit="character" precision="low" instant="false"/>
+<lb n="11"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ι</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="8" unit="character" precision="low" instant="false"/>
+</ab></div>
+<div n="2" subtype="page" type="textpart" corresp="#FR8547" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>λόγου μέρη, αλ
+<lb n="2" break="no"/><unclear instant="false">λ</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ε <unclear instant="false">τ</unclear>ρία. <expan instant="false">λοιπὸ<ex instant="false">ν</ex></expan>
+<lb n="3"/><gap reason="lost" quantity="6" unit="character" precision="low" instant="false"/>γαλω
+<lb n="4"/><gap reason="lost" quantity="6" unit="character" precision="low" instant="false"/> μανθα
+<lb n="5" break="no"/><gap reason="lost" quantity="3" unit="character" precision="low" instant="false"/><unclear instant="false">εν</unclear> τὴ<unclear instant="false">ν</unclear> <unclear instant="false">ε</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" quantity="2" unit="character" precision="low" instant="false"/><unclear instant="false">ητ</unclear><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">τ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" quantity="2" unit="character" precision="low" instant="false"/> πρωτ<unclear instant="false">ε</unclear>ρε<add place="above" instant="false" status="unremarkable"><unclear instant="false">ύ</unclear></add>ουσ<unclear instant="false">ι</unclear>
+<lb n="8"/><unclear instant="false">δύ</unclear>ο, ὄνομα τε
+<lb n="9"/><unclear instant="false">κ</unclear><supplied reason="lost" instant="false">αὶ</supplied> ῥῆμα. αὐτὰ
+<lb n="10"/><supplied reason="lost" instant="false">γὰρ</supplied> αὐτοτελῆ
+<lb n="11"/><supplied reason="lost" instant="false">λόγο</supplied><unclear instant="false">ν</unclear> ἀποτε
+</ab></div>
+</div>
+<div n="2" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1" subtype="page" type="textpart" corresp="#FR8548" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" atLeast="8" atMost="9" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἔγ</supplied>
+<lb n="2" break="no"/>κλισις <gap reason="lost" atLeast="6" atMost="7" unit="character" instant="false"/>
+<lb n="3"/>διάθεσιν. δ<unclear instant="false">ιὸ</unclear>
+<lb n="4"/>καὶ φασιν ὅτι οὐ
+<lb n="5" break="no"/><unclear instant="false">κ</unclear>οῦν οὐκ ἔσ<unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ι</supplied><unclear instant="false">ν</unclear>
+<lb n="6"/>ἔγκλισ<unclear instant="false">ις</unclear> <gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">ο</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="7"/>α<gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">αλ</unclear><gap reason="illegible" quantity="5" unit="character" instant="false"/><unclear instant="false">σ</unclear>
+</ab></div>
+<div n="2" subtype="page" type="textpart" corresp="#FR8549" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" quantity="8" unit="character" precision="low" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ενει
+<lb n="2"/><gap reason="lost" quantity="4" unit="character" precision="low" instant="false"/><unclear instant="false">ησ</unclear>ις, ὑπο
+<lb n="3" break="no"/>τακτικὴ δὲ οἷον
+<lb n="4"/>ἐὰν γράφω ἐ<unclear instant="false">ὰν</unclear>
+<lb n="5"/>ποιήσω ἵνα τ<unclear instant="false">υπῶ</unclear>
+<lb n="6"/>καὶ ἐρεῖ τις <unclear instant="false">ὅτι</unclear>
+<lb n="7"/>οὐκοῦν ο<unclear instant="false">ὐ</unclear> προσ
+<lb n="8"/><add place="interlinear" instant="false" status="unremarkable"><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">δ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></add>
+</ab></div>
+</div>
+<div n="3" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1" subtype="page" type="textpart" corresp="#FR8550" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><unclear instant="false">τισ</unclear><gap reason="lost" quantity="9" unit="character" precision="low" instant="false"/>
+<lb n="2"/>δειουσ<gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" precision="low" instant="false"/>
+<lb n="3"/><unclear instant="false">δ</unclear><gap reason="lost" quantity="11" unit="character" precision="low" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="2" subtype="page" type="textpart" corresp="#FR8551" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" quantity="6" unit="character" precision="low" instant="false"/><gap reason="illegible" quantity="4" unit="character" instant="false"/>ο<gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+</div>
+<div n="4" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1" subtype="page" type="textpart" corresp="#FR8552" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>δεῖον κ<unclear instant="false">αὶ</unclear> <unclear instant="false">τρο</unclear>
+<lb n="2" break="no"/>χ<unclear instant="false">αῖ</unclear>ον <gap reason="lost" quantity="6" unit="character" precision="low" instant="false"/>
+<lb n="3"/>τομαὶ <unclear instant="false">τ</unclear>οῦ ἰάμ
+<lb n="4" break="no"/>βου δύ<unclear instant="false">ο</unclear> <unclear instant="false">μ</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" precision="low" instant="false"/>
+<lb n="5"/>κ<gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" precision="low" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">αι</unclear>
+<lb n="6"/>πε<gap reason="illegible" quantity="3" unit="character" instant="false"/><unclear instant="false">μ</unclear><gap reason="illegible" quantity="3" unit="character" instant="false"/>
+<lb n="7"/>πάντως <unclear instant="false">οὖν</unclear>
+<lb n="8"/>θέλει ἔχειν
+<lb n="9"/>ὁ ἴαμβος μίαν
+<lb n="10"/>ἐκ τῶν δύο.
+</ab></div>
+<div n="2" subtype="page" type="textpart" corresp="#FR8553" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><unclear instant="false">ρυ</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">α</unclear>τ<unclear instant="false">α</unclear>τ<gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">σ</unclear>
+<lb n="2"/><unclear instant="false">α</unclear><gap reason="illegible" quantity="3" unit="character" instant="false"/><unclear instant="false">οσ</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">λλο</unclear>
+<lb n="3"/><gap reason="lost" quantity="11" unit="character" precision="low" instant="false"/>
+<lb n="4"/><gap reason="lost" quantity="11" unit="character" precision="low" instant="false"/>
+<lb n="5"/><gap reason="lost" quantity="11" unit="character" precision="low" instant="false"/>
+<lb n="6"/><gap reason="lost" quantity="11" unit="character" precision="low" instant="false"/>
+<lb n="7"/><gap reason="illegible" quantity="5" unit="character" instant="false"/><gap reason="lost" quantity="4" unit="character" precision="low" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>
+<lb n="8"/>σ<unclear instant="false">υ</unclear><gap reason="illegible" quantity="3" unit="character" instant="false"/><unclear instant="false">σο</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/>ε<gap reason="lost" quantity="2" unit="character" precision="low" instant="false"/>
+<lb n="9"/>τὸ ῥῆμα <unclear instant="false">θε</unclear><gap reason="lost" quantity="2" unit="character" precision="low" instant="false"/>
+<lb n="10"/><g rend="extension" type="filler"/><g rend="extension" type="filler"/><g rend="extension" type="filler"/><g rend="extension" type="filler"/><g rend="extension" type="filler"/><g rend="extension" type="filler"/><g rend="extension" type="filler"/>
+</ab></div>
+</div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">18</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl. 25-26</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/06084/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

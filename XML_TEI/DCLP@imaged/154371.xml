@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m154371" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 22</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">154371</idno>
+            <idno type="TM">154371</idno>
+            <idno type="LDAB">154371</idno>
+            <idno type="filename">154371</idno>
+            <idno type="dclp-hybrid">bkt;10;22</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 10561</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll? (columns: 1)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>informal majuscule</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0050" notAfter="0150" instant="false">50 - 150</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10541" xml:id="GR10541.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_10561_V.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR10540" xml:id="GR10540.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_10561_R.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>medicine</term>
+               <term type="culture">science</term>
+               <term type="overview">gynaecological treatise</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Gynaecological treatise. The papyrus fragment (7.1 x 5.7 cm) is part of a roll and preserves 16 lines of a column whose margins are lost. No lectional sign survives and corrections occur in lines 12 and 13. A few technical medical terms, such as μήτρα, ὑμήν, στόμα, τράχηλος, suggest the fragment contains part of a gynecological treatise probably describing the different complications that may arise at childbirth, that can be compared in a few points with Soranus, Gynaecia. The papyrus is written in an upright, informal majuscule script of small dimensions, which shows some cursive element (see ε, κ). It could be dated to the second half of 1st-first half of the 2nd c. AD.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Francesca Corazza as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous edition (D. Manetti, BKT X 22)</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ρ</unclear>ας ὑμήν <unclear instant="false">τ</unclear>ις ο<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">η</unclear>σιν δι'ἧς τὸ στ<unclear instant="false">ό</unclear><supplied reason="lost" instant="false">μα τῆς μήτρας</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <space extent="unknown" unit="character"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/>αιτο μήτρα<gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> αἱ τοιαῦται οὐ δύν<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">νται</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> ἢ τύχωσιν τῆς δεού<supplied reason="lost" instant="false">σης</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>ομιας</lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">φλεβοτ</supplied>ομίας</rdg><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ὀμφαλοτ</supplied>ομίας</rdg><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἐμβρυοτ</supplied>ομίας</rdg></app> <unclear instant="false">ἔτι</unclear> δυστοκίαι <unclear instant="false">σε</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> καὶ ὅταν μέγας λ<unclear instant="false">ί</unclear>θ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ς</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> ἢ εἰς τὸ<unclear instant="false">ν</unclear> τράχηλο<unclear instant="false">ν</unclear> <supplied reason="lost" instant="false">τῆς κύστεως</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ὅ</supplied>ταν τὸ πλάδο<unclear instant="false">ν</unclear> <unclear instant="false">βλ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ρ</unclear>ινος ἢ <unclear instant="false">π</unclear>ληθ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="11"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>φοραι</lem><rdg><supplied reason="lost" instant="false">δια</supplied>φοραὶ</rdg><rdg><choice><reg instant="false"><supplied reason="lost" instant="false">δια</supplied>φορᾷ</reg><orig><supplied reason="lost" instant="false">δια</supplied>φορᾶι</orig></choice></rdg></app> καὶ φ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">δι</unclear> <del rend="slashes" instant="false" status="unremarkable">π</del> ἐνποδίζο<supplied reason="lost" instant="false">υ</supplied>σ<unclear instant="false">ι</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ν</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ω</unclear>ς ἂν στέ<add place="above" instant="false" status="unremarkable">ρ</add>νο<unclear instant="false">ν</unclear> <gap reason="illegible" quantity="2" unit="character" instant="false"/>ι<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> τρά</supplied><unclear instant="false">χ</unclear>η<unclear instant="false">λ</unclear>ος τ<unclear instant="false">ῆς</unclear> μ<unclear instant="false">ήτ</unclear><supplied reason="lost" instant="false">ρας</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ρ</unclear>ιον κα<unclear instant="false">τ</unclear>απειμ<supplied reason="lost" instant="false">ελ</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">κ</unclear><supplied reason="lost" instant="false">υ</supplied>οφορ<unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+      </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">22</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl. 30</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/06559/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

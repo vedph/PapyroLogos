@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m154383" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 9</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">154383</idno>
+            <idno type="TM">154383</idno>
+            <idno type="LDAB">154383</idno>
+            <idno type="filename">154383</idno>
+            <idno type="dclp-hybrid">bkt;10;9</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 21378 Ro</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus sheet ?</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0500" notAfter="0599" instant="false">500 - 599</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8532" xml:id="GR8532.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_21378_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term type="culture">literature</term>
+               <term type="religion">christian</term>
+               <term type="overview">Ephraim Syrus; in secundum adventum domini nostri</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-12-05" who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" corresp="#FR8532" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="0"/><supplied evidence="parallel" reason="lost" instant="false">Ἀσφαλισώμεθα ἑαυτούς, ἀγαπητοί μου, ὅτι οὐκ οἴδαμεν πότε ὁ</supplied>
+<lb n="1"/><supplied evidence="parallel" reason="lost" instant="false"><expan instant="false">κ<ex instant="false">ύριο</ex>ς</expan> ἡμῶν ἔρχε</supplied><unclear instant="false">τ</unclear>αι· ὡς κλ<unclear instant="false">έ</unclear>π<unclear instant="false">της</unclear> <unclear instant="false">γὰρ</unclear> <supplied evidence="parallel" reason="lost" instant="false">ἐν νυκτί, καὶ ὡς παγίς, οὕτως</supplied>
+<lb n="2"/><supplied evidence="parallel" reason="lost" instant="false">ἡ ἡμέρα ἐκεί</supplied><unclear instant="false">ν</unclear>η ἔρχεται· καὶ ὥσπερ ἡ <supplied evidence="parallel" reason="lost" instant="false">ὀξυτάτη ἀστραπὴ οὕτως ἡ πα</supplied>
+<lb n="3" break="no"/><supplied evidence="parallel" reason="lost" instant="false">ρουσία τοῦ</supplied> <expan instant="false"><supplied evidence="parallel" reason="lost" instant="false">κ<ex instant="false">υρίο</ex></supplied><unclear instant="false">υ</unclear></expan> γίνεται· σαλπίσει γά<unclear instant="false">ρ</unclear>, <supplied evidence="parallel" reason="lost" instant="false">καὶ ἡ γῆ ἐκ τῶν θεμελίων</supplied>
+<lb n="4"/><supplied evidence="parallel" reason="lost" instant="false">αὐτῆς τρομάσ</supplied>ει. οἵ τε <expan instant="false">οὐ<ex instant="false">ραν</ex>οὶ</expan> σὺν τα<unclear instant="false">ῖ</unclear><supplied evidence="parallel" reason="lost" instant="false">ς δυνάμεσιν αὐτῶν</supplied>
+<lb n="5"/><supplied evidence="parallel" reason="lost" instant="false">σαλευθήσονται,</supplied> <unclear instant="false">καὶ</unclear> <unclear instant="false">οἱ</unclear> <unclear instant="false">νεκροὶ</unclear> <unclear instant="false">π</unclear><supplied evidence="parallel" reason="lost" instant="false">άντες ἐγερθήσονται.</supplied>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+</div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">9</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl. 8a</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/06612/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

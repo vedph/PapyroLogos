@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m154379" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 16</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">154379</idno>
+            <idno type="TM">154379</idno>
+            <idno type="LDAB">154379</idno>
+            <idno type="filename">154379</idno>
+            <idno type="dclp-hybrid">bkt;10;16</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 13924</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="11 10">
+                           <p part="N">papyrus codex (columns: 1, written lines: 11, 10)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>sloping pointed majuscule</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0500" notAfter="0599" instant="false">500 - 599</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8544" xml:id="GR8544.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_13924_R_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8545" xml:id="GR8545.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_13924_V_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>law</term>
+               <term type="culture">science</term>
+               <term type="overview">juridical codex, with marginal glosses</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-12-05" who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR8544" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><add place="left" instant="false" status="unremarkable"> <unclear instant="false">πολλ</unclear>οὶ γ<unclear instant="false">ὰρ</unclear> <unclear instant="false">π</unclear><supplied reason="lost" instant="false">ολ</supplied></add> <gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="2" break="no"/><add place="left" instant="false" status="unremarkable"> λ<unclear instant="false">άκ</unclear>ις και<unclear instant="false">τ</unclear>ων</add> <gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="3"/><add place="left" instant="false" status="unremarkable"> <gap reason="illegible" quantity="1" unit="character" instant="false"/>εωνδοτες ἑαυ</add>
+<lb n="4" break="no"/><add place="left" instant="false" status="unremarkable"> τοὺς χρεωστεῖν</add> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><add place="left" instant="false" status="unremarkable"> <unclear instant="false">ἀ</unclear>γνωμονοῦσιν</add> <unclear instant="false">δ</unclear>
+<lb n="6"/><add place="left" instant="false" status="unremarkable"> <expan instant="false">κ<ex instant="false">αὶ</ex></expan> τρέχουσιν εἰς</add> <gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="7"/><add place="left" instant="false" status="unremarkable"> τὰ δικαστήρια</add> 
+<lb n="8"/><add place="left" instant="false" status="unremarkable"> τὴν ἐντεῦθεν</add> <unclear instant="false">τ</unclear>
+<lb n="9"/><add place="left" instant="false" status="unremarkable"> τυχ<unclear instant="false">η</unclear>ρὰν <expan instant="false">νίκη<ex instant="false">ν</ex></expan></add> 
+<lb n="10"/><add place="left" instant="false" status="unremarkable"> <unclear instant="false">κ</unclear>ερ<gap reason="lost" quantity="2" unit="character" precision="low" instant="false"/><unclear instant="false">νε</unclear> <expan instant="false">δοκοῦ<ex instant="false">ν</ex></expan></add> 
+<lb n="11" break="no"/><add place="left" instant="false" status="unremarkable"> τ<unclear instant="false">ες</unclear></add>
+</ab></div>
+<div n="v" type="textpart" corresp="#FR8545" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">σα</unclear>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> <add place="right" instant="false" status="unremarkable"> <gap reason="illegible" quantity="2" unit="character" instant="false"/>ασι</add>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><expan instant="false"><unclear instant="false">ι</unclear>α<ex instant="false">ν</ex></expan> <add place="right" instant="false" status="unremarkable"><unclear instant="false">f</unclear>ec<gap reason="illegible" quantity="1" unit="character" instant="false"/></add>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ης <add place="right" instant="false" status="unremarkable"> <gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">μ</unclear><gap reason="illegible" quantity="3" unit="character" instant="false"/></add>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> <add place="right" instant="false" status="unremarkable"> <gap reason="illegible" quantity="4" unit="character" instant="false"/><unclear instant="false">oc</unclear></add>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ς</unclear> <add place="right" instant="false" status="unremarkable"> p<unclear instant="false">r</unclear>o<unclear instant="false">a</unclear>u<unclear instant="false">c</unclear>to</add>
+<lb n="8" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ει</unclear> <add place="right" instant="false" status="unremarkable"><unclear instant="false">r</unclear>itas</add>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><expan instant="false">ε<ex instant="false">ν</ex></expan>
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">16</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl.17-18</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/06216/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m175242" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">175242</idno>
+            <idno type="TM">175242</idno>
+            <idno type="LDAB">175242</idno>
+            <idno type="filename">175242</idno>
+            <idno type="dclp-hybrid">bkt;10;1</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 18125</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>formal round</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0150" notAfter="0199" instant="false">150 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8526" xml:id="GR8526.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_18125_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>epic</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Homerus; Ilias 02 238-251</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" corresp="#FR8526" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><g type="diple"/> ἤ <supplied evidence="parallel" reason="lost" instant="false">ῥά τί οἱ χἠμεῖς προσαμύνομεν ἦε καὶ οὐκί</supplied>
+<lb n="2"/><g type="diple"/> <unclear instant="false">ὃ</unclear><supplied evidence="parallel" reason="lost" instant="false">ς καὶ νῦν Ἀχιλῆα ἕο μέγ’ ἀμείνονα φῶτα</supplied>
+<lb n="3"/><unclear instant="false">ἠ</unclear><supplied evidence="parallel" reason="lost" instant="false">τίμησεν ἑλὼν γὰρ ἔχει γέρας αὐτὸς ἀπούρας.</supplied>
+<lb n="4"/>ἀ<supplied evidence="parallel" reason="lost" instant="false">λλὰ μάλ’ οὐκ Ἀχιλῆϊ χόλος φρεσίν, ἀλλὰ μεθήμων·</supplied>
+<lb n="5"/>ἦ <supplied evidence="parallel" reason="lost" instant="false">γὰρ ἂν Ἀτρεΐδη νῦν ὕστατα λωβήσαιο·</supplied>
+<lb n="6"/>Ὣ<supplied evidence="parallel" reason="lost" instant="false">ς φάτο νεικείων Ἀγαμέμνονα ποιμένα λαῶν,</supplied>
+<lb n="7"/>Θ<supplied evidence="parallel" reason="lost" instant="false">ερσίτης τῷ δ’ ὦκα παρίστατο δῖος Ὀδυσσεύς,</supplied>
+<lb n="8"/>κ<supplied evidence="parallel" reason="lost" instant="false">αί μιν ὑπόδρα ἰδὼν χαλεπῷ ἠνίπαπε μύθῳ</supplied>
+<lb n="9"/>Θ<supplied evidence="parallel" reason="lost" instant="false">ερσῖτ’ ἀκριτόμυθε, λιγύς περ ἐὼν ἀγορητής,</supplied>
+<lb n="10"/><g type="diple"/> ἴσ<supplied evidence="parallel" reason="lost" instant="false">χεο, μηδ’ ἔθελ’ οἶος ἐριζέμεναι βασιλεῦσιν·</supplied>
+<lb n="11"/>ο<unclear instant="false">ὐ</unclear> <supplied evidence="parallel" reason="lost" instant="false">γὰρ ἐγὼ σέο φημὶ χερειότερον βροτὸν ἄλλον</supplied>
+<lb n="12"/>ἔ<unclear instant="false">μ</unclear><supplied evidence="parallel" reason="lost" instant="false">μεναι, ὅσσοι ἅμ’ Ἀτρεΐδῃς ὑπὸ Ἴλιον ἦλθον.</supplied>
+<lb n="13"/>τ<unclear instant="false">ὼ</unclear> <supplied evidence="parallel" reason="lost" instant="false">οὐκ ἂν βασιλῆας ἀνὰ στόμ’ ἔχων ἀγορεύοις,</supplied>
+<lb n="14"/>κ<unclear instant="false">α</unclear><supplied evidence="parallel" reason="lost" instant="false">ί σφιν ὀνείδεά τε προφέροις, νόστόν τε φυλάσσοις</supplied>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+</div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">1</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012">Homerus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/511">Ilias</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl. 1</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/06358/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

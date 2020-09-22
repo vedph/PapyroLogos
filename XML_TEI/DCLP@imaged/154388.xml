@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m154388" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 15</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">154388</idno>
+            <idno type="TM">154388</idno>
+            <idno type="LDAB">154388</idno>
+            <idno type="filename">154388</idno>
+            <idno type="dclp-hybrid">bkt;10;15</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9872 Ro</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus fragment</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="-0200" notAfter="-0101" precision="low" instant="false">II v. Chr.</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8542 #FR8543" xml:id="GR8542.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_09872_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>oratory</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">speech on Odysseus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2016-12-05" who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="a" subtype="fragment" type="textpart" corresp="#FR8542" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ετ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ερι<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"><certainty match=".." locus="name"/></gap><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">νω</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ωντ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" atLeast="2" atMost="3" unit="character" instant="false"/> <unclear instant="false">ἐ</unclear>κδο<supplied reason="lost" instant="false">ὺς</supplied> <unclear instant="false">ω</unclear><gap reason="lost" quantity="1" unit="character" instant="false"/>ν<unclear instant="false">τ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">βού</supplied>
+<lb n="6" break="no"/>λομαι κα<supplied reason="lost" instant="false">ὶ</supplied> <unclear instant="false">τα</unclear>ῦτα <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/>εἰς τὸ κοινὸν α<unclear instant="false">ἰτ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><supplied reason="lost" instant="false">τ</supplied>οὺς ἀναλαμβά<supplied reason="lost" instant="false">νον</supplied><unclear instant="false">τ</unclear>ας <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><supplied reason="lost" instant="false">δ</supplied>ιὸ ἔδοξα πρῶτον ἐπισ<unclear instant="false">τ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/>ἀνενεγκεῖν· ἀκούων γ<unclear instant="false">ὰρ</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="11"/>τὴν φιλαργ<supplied reason="lost" instant="false">α</supplied><unclear instant="false">θ</unclear>ίαν <supplied reason="lost" instant="false">τε</supplied> καὶ τ<supplied reason="lost" instant="false">ὴ</supplied>ν <gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">ι</supplied>
+<lb n="12" break="no"/>αν ἐκδότω<supplied reason="lost" instant="false">ι τῶι</supplied> περὶ τὸν Ὀδυσσέα <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/>ἀναθεῖναι σ<unclear instant="false">υ</unclear><supplied reason="lost" instant="false">ν</supplied><unclear instant="false">έ</unclear>χοντα <unclear instant="false">ἐ</unclear>πὶ <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+<div n="b" subtype="fragment" type="textpart" corresp="#FR8543" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>η<gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>παρα<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ο<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+</div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">15</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl.27</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/06622/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m154385" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 23</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">154385</idno>
+            <idno type="TM">154385</idno>
+            <idno type="LDAB">154385</idno>
+            <idno type="filename">154385</idno>
+            <idno type="dclp-hybrid">bkt;10;23</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 6941 Vo</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="22">
+                           <p part="N">papyrus roll (columns: 2, written lines: 22)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>cursive hand</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Arsinoites (Egypt); written: Arsinoites (Egypt)</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10526" xml:id="GR10526.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_06941_V.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>medicine</term>
+               <term type="culture">science</term>
+               <term type="overview">anatomical treatise</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Anatomical treatise. Fragment (14 x 15 cm) from a papyrus roll containing a document on the recto and a medical text on the verso. The medical text, copied across the fibers, is arranged in two columns: Col. I is damaged on the left side, while Col. II is almost entirely preserved on lateral margins; the upper margin is lost. Spelling mistakes, sometimes corrected by the scribe, occur in both columns, and the text appears fairly heavily articulated with sense units divided by paratextual devices (paragraphoi, horizontal strokes). 
+The papyrus contains an anatomical treatise which provides not only a morphological description but also a physiological explanation enriched with philosophical and philological definitions. Col. I and the first part of Col. II are concerned with heart (καρδία) and pericardium (περικάρδιος), the second part of Col. II is dedicated to the thymus gland (θύμος); the anatomical nomenclature is also attested by Rufus, Galen and Oribasius. The manuscript, excavated in the Arsinoite Nome, is written in a medium-sized, informal hand dated to the 2nd c. AD.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Francesca Corazza as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous editions (ed.pr. = M. Gronewald, BKT X 23)</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="v" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" quantity="10" unit="character" instant="false"/><app type="alternative"><lem><gap reason="illegible" quantity="3" unit="character" instant="false"/></lem><rdg><unclear instant="false">τιν</unclear></rdg></app><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" quantity="11" unit="character" instant="false"/><app type="alternative"><lem><gap reason="illegible" quantity="8" unit="character" instant="false"/>ατων</lem><rdg><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">καιειζ</unclear>ατων</rdg></app>
+<lb n="3"/><gap reason="lost" quantity="11" unit="character" instant="false"/><app type="alternative"><lem><gap reason="illegible" quantity="3" unit="character" instant="false"/><unclear instant="false">α</unclear></lem><rdg><unclear instant="false">σῶμα</unclear></rdg></app> κατεσχι
+<lb n="4" break="no"/><supplied reason="lost" instant="false">σ</supplied> <gap reason="lost" quantity="9" unit="character" instant="false"/><app type="alternative"><lem><gap reason="illegible" quantity="3" unit="character" instant="false"/>ων</lem><rdg><unclear instant="false">πηγ</unclear>ων</rdg></app>. <unclear instant="false">ο</unclear><hi rend="supraline">̔ δὲ</hi>
+<lb n="5"/><supplied reason="lost" instant="false">περικάρδ</supplied><unclear instant="false">ι</unclear>ος <app type="alternative"><lem>ὑμ<unclear instant="false">ὴν</unclear></lem><rdg><unclear instant="false">ουδε</unclear></rdg></app> <gap reason="illegible" quantity="4" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" quantity="5" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἐκ τῆ</supplied>ς ἀρτηρίας ἄρχ
+<lb n="7" break="no"/><supplied reason="lost" instant="false">εται, ἣ δια</supplied>πείρει εὕδοντα
+<lb n="8"/><supplied reason="lost" instant="false">τὸν ὑμένα σ</supplied><unclear instant="false">ὺ</unclear>ν ταῖς ἄλλαις
+<lb n="9"/><supplied reason="lost" instant="false">ἀρτερίαι</supplied><unclear instant="false">ς</unclear>. <choice><reg instant="false">ὁμοιοτρόπως</reg><orig>ὁμοιοτρώπ<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">ς</supplied></orig></choice> <supplied reason="lost" instant="false">δὲ</supplied>
+<lb n="10"/><supplied reason="lost" instant="false">τῇ περὶ τὴ</supplied><unclear instant="false">ν</unclear> καρδίαν <choice><reg instant="false">κινήσ
+<lb n="11" break="no"/><supplied reason="lost" instant="false">ει</supplied></reg><orig>κεινίσ<lb n="11" break="no"/><supplied reason="lost" instant="false">ει</supplied></orig></choice><supplied reason="lost" instant="false"><gap reason="illegible" quantity="4" unit="character" instant="false"/> ἐ</supplied>θάρσησάν <space extent="unknown" unit="character"/> τινες
+<lb n="12"/><gap reason="lost" quantity="6" unit="character" instant="false"/> <supplied reason="lost" instant="false">κα</supplied>ὶ ἡ μὲν καρδία <app type="alternative"><lem>ουδα
+<lb n="13" break="no"/><gap reason="lost" quantity="8" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/></lem><rdg>οὐδ' ἀ<lb n="13" break="no"/><supplied reason="lost" instant="false">νδρώδεσι</supplied><unclear instant="false">ν</unclear></rdg></app><app type="alternative"><lem>ε<gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ει</unclear></lem><rdg>εκει</rdg><rdg>ευ<add place="above" instant="false" status="unremarkable">ζ</add>ει</rdg></app>, ὁ δὲ περικάρ
+<lb n="14" break="no"/><supplied reason="lost" instant="false">διος ὑμὴν</supplied> ἀντιποιεῖται τῆς
+<lb n="15"/><supplied reason="lost" instant="false">καρδίας</supplied> <unclear instant="false">ὡ</unclear>ς <choice><reg instant="false">γείτονος</reg><orig>γίτ<supplied reason="lost" instant="false">ο</supplied><unclear instant="false">ν</unclear>ος</orig></choice>. ἰσωμένου
+<lb n="16"/><supplied reason="lost" instant="false">δὲ αὐτῇ το</supplied>ῦ περ<supplied reason="omitted" instant="false">ι</supplied>καρδίου ὑμέν
+<lb n="17" break="no"/><supplied reason="lost" instant="false">ος</supplied> <gap reason="lost" quantity="5" unit="character" instant="false"/><app type="alternative"><lem><gap reason="illegible" quantity="1" unit="character" instant="false"/></lem><rdg><unclear instant="false">μ</unclear></rdg><rdg><unclear instant="false">αλ</unclear></rdg><rdg><unclear instant="false">λλ</unclear></rdg></app>ος ὁ <subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">πεπονθ<add place="above" instant="false" status="unremarkable">ὼ</add>ς</add><del rend="corrected" instant="false" status="unremarkable">πεπονθὸς</del></subst> δια
+<lb n="18" break="no"/><gap reason="lost" quantity="8" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> ταῦτα δὲ ἀνδρω
+<lb n="19" break="no"/><supplied reason="lost" instant="false">δ</supplied><app type="alternative"><lem><gap reason="lost" quantity="7" unit="character" instant="false"/> ἡ <choice><reg instant="false">ἀλήθεια</reg><orig>ἀλή<supplied reason="lost" instant="false">θ</supplied>ια</orig></choice></lem><rdg><gap reason="lost" quantity="6" unit="character" instant="false"/> <supplied reason="lost" instant="false">τ</supplied>ῇ <choice><reg instant="false">ἀληθείᾳ</reg><orig>ἀλη<supplied reason="lost" instant="false">θ</supplied>ίᾳ</orig></choice></rdg></app> κατα
+</ab></div>
+
+<div n="2" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2" break="no"/>μεν</lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">λέγοι</supplied><lb n="2" break="no"/>μεν</rdg></app> ἂν <choice><reg instant="false">γίνεσθαι</reg><orig>γείνεσθαι</orig></choice> <unclear instant="false">τὸν</unclear> <supplied reason="lost" instant="false">πυρε</supplied>
+<lb n="3" break="no"/>τὸν κατὰ <choice><reg instant="false">συμπάθειαν</reg><orig>συνπάθειαν</orig></choice> τῆς 
+<lb n="4"/>καρδίας. <hi rend="supraline">ἔτι </hi><subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable"><hi rend="supraline">λ</hi>αμβανέσ  
+<lb n="5" break="no"/>θω</add><del rend="corrected" instant="false" status="unremarkable"><hi rend="supraline">λ</hi>αμβανέσ<surplus instant="false">θαι</surplus></del></subst> ἐξ ἐπιλογισμοῦ, οὐκ ἐκ
+<lb n="6"/>πείρας, καὶ τὸ δυσε<supplied reason="lost" instant="false">λ</supplied><unclear instant="false">κ</unclear>ὲς τοῦ 
+<lb n="7"/>περικαρδίου <hi rend="diaeresis">ὑ</hi>μένος. <g type="filler-extension"/>
+<lb n="8"/><hi rend="supraline">πρῶτο</hi>ν <unclear instant="false">μὲ</unclear>ν ὅτι νευρώ
+<lb n="9" break="no"/>δης ἐ<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">τὶ</supplied><unclear instant="false">ν</unclear> ὁ <hi rend="diaeresis">ὑ</hi>μήν,<hi rend="supraline"> δεύτερ</hi>
+<lb n="10" break="no"/>ον δὲ ὅτι <choice><reg instant="false">κινεῖται</reg><orig>κεινῖται</orig></choice> συνεχ
+<lb n="11" break="no"/>ῶς <space extent="unknown" unit="character"/> <hi rend="diaeresis">ὑ</hi>πὸ τῆς καρδίας <subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable"><choice><reg instant="false">ἀναγ
+<lb n="12" break="no"/>καζόμενος</reg><orig>ἀναν<lb n="12" break="no"/>καζόμενος</orig></choice></add><del rend="corrected" instant="false" status="unremarkable">ἀναν<lb n="12" break="no"/>καζόμενας</del></subst>. ταῦτα καὶ πε
+<lb n="13" break="no"/>ρὶ περικαρδίου <hi rend="diaeresis">ὑ</hi>μένος <subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable"><choice><reg instant="false">λα
+<lb n="14" break="no"/>λήσαντες</reg><orig>ἀλ<lb n="14" break="no"/>λήσαντες</orig></choice></add><del rend="corrected" instant="false" status="unremarkable">ἀλ<lb n="14" break="no"/>λησαντας</del></subst> ἀκολούθως καὶ
+<lb n="15"/>περὶ θύμου vac.ca1 σκεψώμ<unclear instant="false">ε</unclear>θα. <g type="filler-extension"/>
+<lb n="16"/><space extent="unknown" unit="character"/> <hi rend="supraline-underline">περὶ θούμου</hi> <space extent="unknown" unit="character"/>
+<lb n="17"/>τὸ τοῦ <choice><reg instant="false">θύμου</reg><orig>θούμου</orig></choice> ὄνομα ἄλ
+<lb n="18" break="no"/>λοι ἄλλως ἐκλαμβάνουσι.
+<lb n="19"/><choice><reg instant="false">φιλόσοφοι</reg><orig><hi rend="supraline">φιλώ</hi>σοφοι</orig></choice> μὲν γὰρ πάθος 
+<lb n="20"/><choice><reg instant="false">εἶναι</reg><orig><hi rend="diaeresis">ἶ</hi>ναι</orig></choice> ψυχῆς τὸν θυμὸν λέ
+<lb n="21" break="no"/>γουσιν <surplus instant="false"><choice><reg instant="false">εἶναι</reg><orig><hi rend="diaeresis">ἶ</hi>ναι</orig></choice></surplus>, <space extent="unknown" unit="character"/> <hi rend="supraline">γραμμ</hi>ατικῶ
+<lb n="22" break="no"/>ν δὲ πα<supplied reason="omitted" instant="false">ῖ</supplied>δες ψυχὴν λέγου
+</ab></div></div>
+      </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">23</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl. 31</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/06004/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

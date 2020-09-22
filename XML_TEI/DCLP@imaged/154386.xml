@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m154386" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 7</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">154386</idno>
+            <idno type="TM">154386</idno>
+            <idno type="LDAB">154386</idno>
+            <idno type="filename">154386</idno>
+            <idno type="dclp-hybrid">bkt;10;7</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 7505</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="39 40">
+                           <p part="N">papyrus roll (columns: 2, written lines: [39, 40])</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0099" instant="false">1 - 99</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8133" xml:id="GR8133.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_07505_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8134" xml:id="GR8134.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_07505_R.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>history</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Thucydides; Historiae 04 59-60</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-09-28" who="T. Heindel" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Tina Heindel and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR8133" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><supplied reason="lost" instant="false">τε πόλεως</supplied> ὢν <supplied reason="lost" instant="false">έλαχίστης</supplied>
+<lb n="3"/><supplied reason="lost" instant="false">Σικελιῶ</supplied>ται το<supplied reason="lost" instant="false">ὺ</supplied>ς <unclear instant="false">λ</unclear><supplied reason="lost" instant="false">όγους</supplied>
+<lb n="4"/><supplied reason="lost" instant="false">ποιήσομ</supplied>αι οὔτε π<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">νου</supplied>
+<lb n="5" break="no"/><supplied reason="lost" instant="false">μένης μάλ</supplied>ιστα τῶ<unclear instant="false">ι</unclear> <supplied reason="lost" instant="false">πολέ</supplied>
+<lb n="6" break="no"/><supplied reason="lost" instant="false">μωι, ἐς κο</supplied>ινὸν δ<supplied reason="lost" instant="false">ὲ τὴν</supplied>
+<lb n="7"/><supplied reason="lost" instant="false">δοκοῦσάν</supplied> μο<supplied reason="lost" instant="false">ι β</supplied>ε<unclear instant="false">λτίστη</unclear><supplied reason="lost" instant="false">ν</supplied>
+<lb n="8"/><supplied reason="lost" instant="false">γνώμην</supplied> <unclear instant="false">ἀπ</unclear><supplied reason="lost" instant="false">ο</supplied>φ<supplied reason="lost" instant="false">αι</supplied><unclear instant="false">ν</unclear>όμενος 
+<lb n="9"/><supplied reason="lost" instant="false">τῆι Σικελίαι</supplied> πάση<unclear instant="false">ι</unclear>. <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">α</supplied><unclear instant="false">ὶ</unclear> πε
+<lb n="10" break="no"/><supplied reason="lost" instant="false">ρὶ μὲν τοῦ</supplied> πολεμεῖ<unclear instant="false">ν</unclear> <unclear instant="false">ὼ</unclear>ς
+<lb n="11"/><supplied reason="lost" instant="false">χαλεπὸν</supplied> τί ἄν τις πᾶν τὸ;
+<lb n="12"/><supplied reason="lost" instant="false">ἐνὸν ἐκλέγων</supplied> έν <unclear instant="false">ε</unclear>ἰ<unclear instant="false">δό</unclear>σ<supplied reason="lost" instant="false">ι</supplied> μα
+<lb n="13" break="no"/><supplied reason="lost" instant="false">κρηγοποί</supplied>η; οὐθ<supplied reason="lost" instant="false">εὶ</supplied>ς <supplied reason="lost" instant="false">γὰ</supplied>ρ ο<supplied reason="lost" instant="false">ὔ</supplied> τε
+<lb n="14"/><supplied reason="lost" instant="false">ἀμαθίαι ἀ</supplied>ναγκάζ<supplied reason="lost" instant="false">ε</supplied><unclear instant="false">τ</unclear>αι αὐ
+<lb n="15" break="no"/><supplied reason="lost" instant="false">τὸ δρᾶν κτλ<gap reason="illegible" quantity="1" unit="character" instant="false"/></supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>      
+<div n="2" subtype="column" type="textpart" corresp="#FR8134" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">διαλλα</supplied>
+<lb n="2" break="no"/><unclear instant="false">κ</unclear><supplied reason="lost" instant="false">τὰς πολὺ τῶν έμῶν λόγων ἀ</supplied>
+<lb n="3" break="no"/>ναγκ<supplied reason="lost" instant="false">αιοτέρους περὶ τῶνδε</supplied>
+<lb n="4"/>Ἀ<unclear instant="false">θ</unclear>η<supplied reason="lost" instant="false">ναίο</supplied><unclear instant="false">υ</unclear><supplied reason="lost" instant="false">ς νομίσαι, οἵ δύ</supplied>
+<lb n="5" break="no"/>να<supplied reason="lost" instant="false">μιν ἔ</supplied>χ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ν</supplied>τες <supplied reason="lost" instant="false">μεγίστην</supplied>
+<lb n="6"/>τῶ<supplied reason="lost" instant="false">ν Ἑ</supplied>λλήνω<unclear instant="false">ν</unclear> <supplied reason="lost" instant="false">τάς τε ἀμαρ</supplied>
+<lb n="7" break="no"/>τίας ἡμῶν τηρ<supplied reason="lost" instant="false">οῦσιν ὀλί</supplied>
+<lb n="8" break="no"/>γα<supplied reason="lost" instant="false">ι</supplied>ς ναυσὶ παρόν<supplied reason="lost" instant="false">τες, καὶ ὀ</supplied> 
+<lb n="9" break="no"/>νόματι ἐννόμω<supplied reason="lost" instant="false">ι ξυμμαχί-</supplied>
+</ab></div>
+<div n="3" subtype="column" type="textpart" corresp="#FR8135" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1" break="no"/><supplied reason="lost" instant="false">ας</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">7</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0003">Thucydides</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/1394">Historiae</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl. 7</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/06608/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

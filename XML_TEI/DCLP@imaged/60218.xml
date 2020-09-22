@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60218" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 5</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60218</idno>
+            <idno type="TM">60218</idno>
+            <idno type="LDAB">1336</idno>
+            <idno type="filename">60218</idno>
+            <idno type="dclp-hybrid">bkt;10;5</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9964</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Bousiris (Herakleopolites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="-0075" notAfter="-0025" instant="false">75 - 25 v. Chr.</origDate>
+                  </origin>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2713" instant="false" full="yes">Herakleopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/471" instant="false" full="yes">Bousiris</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8528 #FR8529" xml:id="GR8528.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_09964_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>epic</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Homerus; Odyssea 09.43-45, 75-92</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-12-05" who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR8528" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><supplied evidence="parallel" reason="lost" instant="false">ἔνθ’ ἤτοι μὲν ἐγὼ διερῷ ποδὶ φευγέμεν ἡμ</supplied>ας
+<lb n="2"/><supplied evidence="parallel" reason="lost" instant="false">ἠνώγεα, τοὶ δὲ μέγα νήπιοι οὐκ ἐπίθοντο.</supplied>
+<lb n="3"/><supplied evidence="parallel" reason="lost" instant="false">ἔνθα δὲ πολλὸν μὲν μέθυ πίνετο, πολλὰ δὲ μ</supplied>ῆλα
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="2" subtype="column" type="textpart" corresp="#FR8529" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><unclear instant="false">κε</unclear>ίμε<supplied evidence="parallel" reason="lost" instant="false">θ’, ὁμοῦ καμάτῳ τε καὶ ἄλγεσι θυμὸν ἔδοντες.</supplied>
+<lb n="2"/><add place="left" instant="false" status="unremarkable">•</add> ἀλλ’ ὅτ<unclear instant="false">ε</unclear> <supplied evidence="parallel" reason="lost" instant="false">δὴ τρίτον ἦμαρ ἐϋπλόκαμος τέλεσ’ Ἠώς,</supplied>
+<lb n="3"/>ἱστοὺς <supplied evidence="parallel" reason="lost" instant="false">στησάμενοι ἀνά θ’ ἱστία λεύκ’ ἐρύσαντες</supplied>
+<lb n="4"/>ἥμεθα<supplied evidence="parallel" reason="lost" instant="false">· τὰς δ’ ἄνεμός τε κυβερνῆταί τ’ ἴθυνον.</supplied>
+<lb n="5"/>κα<unclear instant="false">ί</unclear> <unclear instant="false">νύ</unclear><supplied evidence="parallel" reason="lost" instant="false">κε</supplied>ν ἀσκηθὴς <unclear instant="false">ἱκ</unclear><supplied evidence="parallel" reason="lost" instant="false">όμην ἐς πατρίδα γαῖαν,</supplied>
+<lb n="6"/><supplied evidence="parallel" reason="lost" instant="false">ἀλλά με κ</supplied><unclear instant="false">ῦμα</unclear> ῥό<unclear instant="false">ος</unclear> τε <supplied evidence="parallel" reason="lost" instant="false">περιγνάμπτοντα Μάλειαν</supplied>
+<lb n="7"/><supplied evidence="parallel" reason="lost" instant="false">καὶ βορέ</supplied><unclear instant="false">ης</unclear> <unclear instant="false">ἀ</unclear>πέωσ<surplus instant="false">δ</surplus>ε, <unclear instant="false">πα</unclear><supplied evidence="parallel" reason="lost" instant="false">ρέπλαγξεν δὲ Κυθήρων.</supplied>
+<lb n="8"/><supplied evidence="parallel" reason="lost" instant="false">ἔνθεν δ’ ἐ</supplied>ννῆμ<unclear instant="false">α</unclear>ρ φ<unclear instant="false">ερό</unclear><supplied evidence="parallel" reason="lost" instant="false">μην ὀλοοῖς ἀνέμοισι</supplied>
+<lb n="9"/><supplied evidence="parallel" reason="lost" instant="false">πόντον ἐ</supplied><unclear instant="false">π</unclear>’ ἰχθυόεντ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">τὰρ</unclear> <unclear instant="false">δεκά</unclear><supplied evidence="parallel" reason="lost" instant="false">τῃ ἐπέβημεν</supplied>
+<lb n="10"/><supplied evidence="parallel" reason="lost" instant="false">γαίης Λ</supplied><unclear instant="false">ω</unclear>τοφ<unclear instant="false">άγ</unclear><supplied evidence="parallel" reason="lost" instant="false">ων, οἵ τ’ ἄνθιν</supplied><unclear instant="false">ο</unclear>ν εἶ<unclear instant="false">δαρ</unclear> <supplied evidence="parallel" reason="lost" instant="false">ἔδουσιν.</supplied>
+<lb n="11"/><supplied evidence="parallel" reason="lost" instant="false">ἔνθα δ’ ἐ</supplied>π’ ἠπ<unclear instant="false">ε</unclear><supplied evidence="parallel" reason="lost" instant="false">ίρ</supplied><unclear instant="false">ο</unclear><supplied evidence="parallel" reason="lost" instant="false">υ βῆ</supplied><unclear instant="false">μ</unclear>εν καὶ ἀφυσσά<supplied evidence="parallel" reason="lost" instant="false">μεθ’ ὕδωρ,</supplied>
+<lb n="12"/><supplied evidence="parallel" reason="lost" instant="false">αἶψα δὲ δ</supplied>εῖπνο<unclear instant="false">ν</unclear> <supplied evidence="parallel" reason="lost" instant="false">ἕλο</supplied><unclear instant="false">ν</unclear>το θοῇς παρὰ <unclear instant="false">ν</unclear><supplied evidence="parallel" reason="lost" instant="false">ηυσὶν ἑταῖροι.</supplied>
+<lb n="13"/><supplied evidence="parallel" reason="lost" instant="false">αὐτὰρ ἐπ</supplied>εὶ σίτοιό <unclear instant="false">τ</unclear>’ <unclear instant="false">ἐπ</unclear>ασσάμεθ’ <unclear instant="false">ἠ</unclear>δὲ πο<supplied evidence="parallel" reason="lost" instant="false">τῆτος,</supplied>
+<lb n="14"/><supplied evidence="parallel" reason="lost" instant="false">δὴ τότ’ ἐ</supplied>γὼν <unclear instant="false">ἑ</unclear>τάρους προΐειν πεύθε<unclear instant="false">σ</unclear><supplied evidence="parallel" reason="lost" instant="false">θαι ἰόντας,</supplied>
+<lb n="15"/><supplied evidence="parallel" reason="lost" instant="false">οἵ τινες</supplied> <unclear instant="false">ἀ</unclear>νέρες εἰσίν ἐπὶ χθονὶ σῖτο<unclear instant="false">ν</unclear> <supplied evidence="parallel" reason="lost" instant="false">ἔδοντες,</supplied>
+<lb n="16"/><supplied evidence="parallel" reason="lost" instant="false">ἄνδρε δύ</supplied>ω κρίνας, τρίτατον κήρυ<unclear instant="false">χ</unclear>’ <supplied evidence="parallel" reason="lost" instant="false">ἅμ’ ὀπάσσας.</supplied>
+<lb n="17"/><supplied evidence="parallel" reason="lost" instant="false">οἳ δ’ αἶψ’ οἰ</supplied>χόμενοι μίγεν ἀνδ<unclear instant="false">ρ</unclear><supplied evidence="parallel" reason="lost" instant="false">άσι Λωτοφάγοισιν·</supplied>
+<lb n="18"/><supplied evidence="parallel" reason="lost" instant="false">οὐδ’ ἄρα Λ</supplied><unclear instant="false">ω</unclear>τοφάγοι μήδονθ’ ἑτά<supplied evidence="parallel" reason="lost" instant="false">ροισιν ὄλεθρον</supplied>
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">5</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012">Homerus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/512">Odyssea</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl. 6a</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02807/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

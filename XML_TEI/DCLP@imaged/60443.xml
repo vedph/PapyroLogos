@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60443" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 60443</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60443</idno>
+            <idno type="TM">60443</idno>
+            <idno type="LDAB">1565</idno>
+            <idno type="filename">60443</idno>
+            <idno type="dclp-hybrid">tm;;60443</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Durham (NC), Duke University P. 970</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus roll (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0099" instant="false">1 - 99</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR7833" xml:id="GR7833.01" from="1993" to="1995">
+                           <graphic url="http://library.duke.edu/rubenstein/scriptorium/papyrus/images/150dpi/970-at150.gif"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>epic</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Homerus; Ilias 01.127-139</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="column" type="textpart" corresp="#FR7833" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">ἀλλὰ σὺ μὲν νῦν τήνδε θεῷ πρό</supplied><unclear instant="false">ες</unclear>· αὐτὰ<unclear instant="false">ρ</unclear> Ἀχαιο<supplied reason="lost" instant="false">ὶ</supplied>
+<lb n="2"/><supplied reason="lost" instant="false">τριπλῇ τετραπλῇ τ᾽ ἀποτίσομεν</supplied>, <unclear instant="false">αἴ</unclear> κέ ποθι Ζεὺς
+<lb n="3"/><supplied reason="lost" instant="false">δῷσι πόλιν Τροίην εὐτείχεον ἐξ</supplied>αλαπάξαι.
+<lb n="4"/><supplied reason="lost" instant="false">τὸν δ᾽ ἀπαμειβόμενος προσέφη κ</supplied><unclear instant="false">ρ</unclear>είων Ἀγαμ<supplied reason="omitted" instant="false">έμ</supplied>ν<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">ν·</supplied>
+<lb n="5"/><q type="spoken"><supplied reason="lost" instant="false">μὴ δ᾽ οὕτως ἀγαθός περ ἐὼν θεοε</supplied><unclear instant="false">ίκ</unclear>ε<unclear instant="false">λ</unclear>᾽ Ἀχιλλεῦ
+<lb n="6"/><supplied reason="lost" instant="false">κλέπτε νόῳ, ἐπεὶ οὐ παρελεύσε</supplied>αι <unclear instant="false">οὐ</unclear>δέ μ<unclear instant="false">ε</unclear> πείσε<unclear instant="false">ι</unclear><supplied reason="lost" instant="false">ς.</supplied>
+<lb n="7"/><supplied reason="lost" instant="false">ἦ ἐθέλεις ὄφρ᾽ αὐτὸς ἔχῃς γέρας, αὐ</supplied><unclear instant="false">τ</unclear>ὰ<unclear instant="false">ρ</unclear> <unclear instant="false">ἔμ</unclear>᾽ αὔτως
+<lb n="8"/><supplied reason="lost" instant="false">ἧσθαι δευόμενον, κέλεαι δέ με τ</supplied><unclear instant="false">ή</unclear>ν<unclear instant="false">δ</unclear>᾽ ἀποδοῦνα<supplied reason="lost" instant="false">ι</supplied>;
+<lb n="9"/><supplied reason="lost" instant="false">ἀλλ᾽ εἰ μὲν δώσουσι γέρας μεγάθυ</supplied><unclear instant="false">μ</unclear>οι Ἀχαιοὶ
+<lb n="10"/><supplied reason="lost" instant="false">ἄρσαντες κατὰ θυμὸν ὅπως ἀν</supplied><unclear instant="false">τ</unclear>άξιον ἔσται·
+<lb n="11"/><supplied reason="lost" instant="false">εἰ δέ κε μὴ δώωσιν ἐγὼ δέ κεν αὐτ</supplied>ὸς ἕλωμαι
+<lb n="12"/><supplied reason="lost" instant="false">ἢ τεὸν ἢ Αἴαντος ἰὼν γέρας, ἢ Ὀδ</supplied><unclear instant="false">υ</unclear>σῆος</q> 
+</ab></div>
+
+      </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012">Homerus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/511">Ilias</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">ZPE 141 (2002), p. 72</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://scriptorium.lib.duke.edu/papyrus/records/970.html"/>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="reference" subtype="catalogue" default="false" status="draft">
+                  <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <title level="m" type="main">Studies in the Text and Transmission of the Iliad.</title>
+                  <author>
+                     <surname full="yes">West</surname>
+                     <forename full="yes">Martin L.</forename>
+                  </author>
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/16711"/>
+                  <biblScope unit="number">676</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

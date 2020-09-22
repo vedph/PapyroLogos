@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m59838" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Oxy. 67 4557</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">59838</idno>
+            <idno type="TM">59838</idno>
+            <idno type="LDAB">943</idno>
+            <idno type="filename">59838</idno>
+            <idno type="dclp-hybrid">p.oxy;67;4557</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Oxford, Sackler Library, Papyrology Rooms 26 3B 48/C(1-2)a</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR13087" xml:id="GR13087.01" from="1998" to="2015">
+                           <graphic url="http://www.csad.ox.ac.uk/POxy/papyri/vol67/300dpi/4557_300.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>tragedy</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Euripides; Hecuba 651-669; 710-738, 742-773</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="i" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">Λάκαινα πολυδά</supplied>κρ<unclear instant="false">υ</unclear>τ<supplied reason="lost" instant="false">ος ἐ</supplied>ν δ<supplied reason="lost" instant="false">όμ</supplied><unclear instant="false">ο</unclear>ις <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">ό</supplied>ρ<supplied reason="lost" instant="false">α,</supplied>
+<lb n="2"/><g type="eisthesis"/><supplied reason="lost" instant="false">πολιόν τ᾽ ἐπὶ</supplied> κρᾶτα <supplied reason="lost" instant="false">μάτηρ</supplied>
+<lb n="3"/><g type="eisthesis"/><supplied reason="lost" instant="false">τέκν</supplied><unclear instant="false">ω</unclear>ν θα<supplied reason="lost" instant="false">νόντων</supplied>
+<lb n="4"/><supplied reason="lost" instant="false">τίθεται χέρα δρύπτε</supplied><unclear instant="false">τα</unclear><supplied reason="lost" instant="false">ι παρ</supplied><unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ιάν,</supplied>
+<lb n="5"/><g type="eisthesis"/><supplied reason="lost" instant="false">δίαιμον ὄνυ</supplied><unclear instant="false">χ</unclear>α τι<supplied reason="lost" instant="false">θ</supplied><unclear instant="false">ε</unclear>μ<supplied reason="lost" instant="false">έ</supplied>να.
+<lb n="6"/><supplied reason="lost" instant="false">γυναῖκες, Ἑκάβη</supplied> ποῦ ποθ᾽ ἡ πα<supplied reason="lost" instant="false">ναθ</supplied><unclear instant="false">λ</unclear>ία,
+<lb n="7"/><supplied reason="lost" instant="false">ἡ πάντα νικῶσ᾽ ἄνδ</supplied>ρα καὶ θ<supplied reason="lost" instant="false">ῆ</supplied><unclear instant="false">λ</unclear>υ<unclear instant="false">ν</unclear> <supplied reason="lost" instant="false">σπο</supplied><unclear instant="false">ρ</unclear>ὰν
+<lb n="8"/><supplied reason="lost" instant="false">κακοῖσιν; οὐδεὶς στέ</supplied>φ<unclear instant="false">α</unclear>νον ἀνθ<unclear instant="false">α</unclear><supplied reason="lost" instant="false">ιρή</supplied><unclear instant="false">σε</unclear><supplied reason="lost" instant="false">τ</supplied>αι.
+<lb n="9"/><supplied reason="lost" instant="false">τί δ᾽, ὦ τάλαινα σῆς κ</supplied>α<unclear instant="false">κ</unclear><supplied reason="lost" instant="false">ογ</supplied><unclear instant="false">λ</unclear>ώ<supplied reason="lost" instant="false">σσου</supplied> βο<unclear instant="false">ῆ</unclear><supplied reason="lost" instant="false">ς;</supplied>
+<lb n="10"/><supplied reason="lost" instant="false">ὡς οὔποθ᾽ εὕδει λυπ</supplied>ρά σου κ<supplied reason="lost" instant="false">η</supplied>ρ<unclear instant="false">ύγ</unclear><supplied reason="lost" instant="false">μ</supplied><unclear instant="false">ατα</unclear>.
+<lb n="11"/><supplied reason="lost" instant="false">Ἑκάβῃ φέρω τόδ᾽ ἄλγος</supplied> <unclear instant="false">ἐ</unclear>ν <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">ακ</supplied>οῖ<supplied reason="lost" instant="false">σ</supplied>ι γὰρ
+<lb n="12"/><supplied reason="lost" instant="false">οὐ ῥᾴδιον βροτοῖσιν εὐ</supplied><unclear instant="false">φ</unclear>η<supplied reason="lost" instant="false">μεῖν σ</supplied>τόμ<unclear instant="false">α</unclear>.
+<lb n="13"/><supplied reason="lost" instant="false">καὶ μὴν περῶσα τυγχά</supplied><unclear instant="false">ν</unclear>ει <unclear instant="false">δ</unclear><supplied reason="lost" instant="false">όμ</supplied><unclear instant="false">ων</unclear> <supplied reason="lost" instant="false">ὕ</supplied><unclear instant="false">π</unclear>ερ
+<lb n="14"/><supplied reason="lost" instant="false">ἥδ᾽, ἐς δὲ καιρὸν σοῖσι φαί</supplied><unclear instant="false">ν</unclear>εται λ<unclear instant="false">ό</unclear><supplied reason="lost" instant="false">γοις.</supplied>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="17"/><supplied reason="lost" instant="false">ἄπαις ἄνανδρος ἄπολις ἐξ</supplied><unclear instant="false">εφθ</unclear><supplied reason="lost" instant="false">αρμένη.</supplied>
+<lb n="17"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+<div n="ii" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><add place="left" instant="false" status="unremarkable"><expan instant="false"><supplied reason="lost" instant="false">Ἑ</supplied><unclear instant="false">κ</unclear><ex instant="false">άβη</ex></expan></add> <g type="eisthesis"/>ἐμ<supplied reason="lost" instant="false">ὸ</supplied>ς ἐμὸς ξ<unclear instant="false">έ</unclear>νο<unclear instant="false">ς</unclear>, <supplied reason="lost" instant="false">Θρ</supplied><unclear instant="false">ῄ</unclear><supplied reason="lost" instant="false">κιος ἱππότας,</supplied>
+<lb n="2"/><g type="eisthesis"/>ἵν᾽ ὁ <supplied reason="lost" instant="false">γ</supplied>έρων <supplied reason="lost" instant="false">πα</supplied><unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ὴρ ἔθε</supplied><unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ό νιν κρύψας.</supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/>οἴμοι, τί λέξεις; χρ<unclear instant="false">υ</unclear><supplied reason="lost" instant="false">σὸν ὡς ἔχοι κτανών;</supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="4"/><unclear instant="false">ἄ</unclear>ρρη<unclear instant="false">τ</unclear><g type="apostrophe"/> <unclear instant="false">ἀ</unclear>νωνόμ<supplied reason="lost" instant="false">αστα, θαυ</supplied><unclear instant="false">μ</unclear>άτ<supplied reason="lost" instant="false">ων πέρα,</supplied>
+<lb n="5"/><supplied reason="lost" instant="false">οὐ</supplied><unclear instant="false">χ</unclear> <supplied reason="lost" instant="false">ὅσι</supplied>α οὐδ᾽ <supplied reason="lost" instant="false">ἀ</supplied>ν<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">κτά. ποῦ δί</supplied><unclear instant="false">κα</unclear> <unclear instant="false">ξ</unclear><supplied reason="lost" instant="false">ένων;</supplied>
+<lb n="6"/><g type="eisthesis"/>ἰὼ <unclear instant="false">κ</unclear>ατ<unclear instant="false">ά</unclear>ρ<unclear instant="false">ατ</unclear>᾽ ἀ<supplied reason="lost" instant="false">νδ</supplied><unclear instant="false">ρῶν</unclear>, <supplied reason="lost" instant="false">ὡ</supplied><unclear instant="false">ς</unclear> <supplied reason="lost" instant="false">διεμοιράσω</supplied>
+<lb n="7"/><g type="eisthesis"/>χρό<supplied reason="lost" instant="false">α,</supplied> σιδα<unclear instant="false">ρέῳ</unclear> τεμ<unclear instant="false">ὼ</unclear><supplied reason="lost" instant="false">ν φα</supplied><unclear instant="false">σγάν</unclear><supplied reason="lost" instant="false">ῳ</supplied>
+<lb n="8"/><g type="eisthesis"/>μέλ<unclear instant="false">ε</unclear>α τοῦδ<unclear instant="false">ε</unclear> <unclear instant="false">π</unclear>α<supplied reason="lost" instant="false">ι</supplied>δ<unclear instant="false">ὸς</unclear> <supplied reason="lost" instant="false">ο</supplied><unclear instant="false">ὐ</unclear>δ᾽ οι<unclear instant="false">κ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="9"/><add place="left" instant="false" status="unremarkable"><expan instant="false">χ<add place="above" instant="false" status="unremarkable">ο</add><ex instant="false">ρός</ex></expan></add> ὦ τλ<unclear instant="false">ῆ</unclear>μον, ὥς σε <unclear instant="false">π</unclear><supplied reason="lost" instant="false">ο</supplied>λυ<supplied reason="lost" instant="false">π</supplied><unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ν</supplied><unclear instant="false">ωτά</unclear>τ<supplied reason="lost" instant="false">ην βροτῶν</supplied>
+<lb n="10"/><unclear instant="false">δ</unclear>αί<unclear instant="false">μ</unclear>ων ἔθηκεν <supplied reason="lost" instant="false">ὅ</supplied><unclear instant="false">σ</unclear>τ<unclear instant="false">ι</unclear><supplied reason="lost" instant="false">ς ἐστί σοι β</supplied>α<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">ύς.</supplied>
+<lb n="11"/><supplied reason="lost" instant="false">ἀ</supplied><unclear instant="false">λ</unclear>λ᾽ <unclear instant="false">ε</unclear>ἰσ<unclear instant="false">ο</unclear>ρῶ γὰρ τοῦ<unclear instant="false">δ</unclear><supplied reason="lost" instant="false">ε</supplied> <unclear instant="false">δ</unclear>ε<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">πότου</supplied> <unclear instant="false">δ</unclear><supplied reason="lost" instant="false">έμας</supplied>
+<lb n="12"/><supplied reason="lost" instant="false">Ἀγ</supplied>α<unclear instant="false">μ</unclear>έμνονος, τοὐ<unclear instant="false">ν</unclear>θέ<supplied reason="lost" instant="false">νδε σι</supplied><unclear instant="false">γῶ</unclear><supplied reason="lost" instant="false">μεν, φίλαι.</supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="13"/><add place="left" instant="false" status="unremarkable"><supplied reason="lost" instant="false"><expan instant="false">Ἀγ<ex instant="false">αμέμνων</ex></expan></supplied></add> <supplied reason="lost" instant="false">Ἑκ</supplied>άβη, τί μέλλεις <supplied reason="lost" instant="false">π</supplied><unclear instant="false">α</unclear>ῖ<unclear instant="false">δα</unclear> <unclear instant="false">σ</unclear><supplied reason="lost" instant="false">ὴν κ</supplied><unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">ύπ</supplied><unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ειν τάφῳ</supplied>
+<lb n="14"/>ἐλθ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ῦ</supplied>σα, ἐφ᾽ οἷ<unclear instant="false">σπ</unclear>ερ <unclear instant="false">Τ</unclear><supplied reason="lost" instant="false">α</supplied><unclear instant="false">λθ</unclear>ύβιος <unclear instant="false">ἤγγε</unclear><supplied reason="lost" instant="false">ιλέ μοι</supplied>
+<lb n="15"/>μὴ <choice><reg instant="false">θιγγάνειν</reg><orig><unclear instant="false">θι</unclear>νγάνειν</orig></choice> <unclear instant="false">σ</unclear>ῆς μ<supplied reason="lost" instant="false">η</supplied><unclear instant="false">δ</unclear>ένα <unclear instant="false">Ἀ</unclear>ργ<unclear instant="false">ε</unclear>ίω<supplied reason="lost" instant="false">ν κόρης;</supplied>
+<lb n="16"/>ἡμεῖς μὲν οὖν ἐῶμ<supplied reason="lost" instant="false">εν</supplied> <app type="alternative"><lem><unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ὐ</supplied><unclear instant="false">δ</unclear><supplied reason="lost" instant="false">εψ</supplied><unclear instant="false">αυομ</unclear><supplied reason="lost" instant="false">εν</supplied></lem><rdg><unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ὐ</supplied><unclear instant="false">δ</unclear><supplied reason="lost" instant="false">ὲ ψ</supplied><unclear instant="false">αύομ</unclear><supplied reason="lost" instant="false">εν</supplied></rdg><rdg><unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ὐ</supplied><unclear instant="false">δ</unclear>’ <supplied reason="lost" instant="false">ἐψ</supplied><unclear instant="false">αύομ</unclear><supplied reason="lost" instant="false">εν</supplied></rdg></app>·
+<lb n="17"/><unclear instant="false">σὺ</unclear> <unclear instant="false">δ</unclear>ὲ <unclear instant="false">σχο</unclear>λάζ<unclear instant="false">εις</unclear>, <supplied reason="lost" instant="false">ὥ</supplied><unclear instant="false">στ</unclear><supplied reason="lost" instant="false">ε θ</supplied><unclear instant="false">α</unclear><supplied reason="lost" instant="false">υμάζ</supplied><unclear instant="false">ε</unclear>ιν <unclear instant="false">ἐ</unclear><supplied reason="lost" instant="false">μέ.</supplied>
+<lb n="18"/><supplied reason="lost" instant="false">ἥ</supplied><unclear instant="false">κω</unclear> <supplied reason="lost" instant="false">δ᾽</supplied> <unclear instant="false">ἀ</unclear>ποσ<supplied reason="lost" instant="false">τε</supplied>λ<supplied reason="lost" instant="false">ῶ</supplied><unclear instant="false">ν</unclear> <supplied reason="lost" instant="false">σε· τἀκεῖ</supplied><unclear instant="false">θ</unclear><supplied reason="lost" instant="false">εν γὰρ εὖ</supplied>
+<lb n="19"/><supplied reason="lost" instant="false">π</supplied><unclear instant="false">ε</unclear><supplied reason="lost" instant="false">πρ</supplied>αγμέ<unclear instant="false">ν</unclear>᾽ <supplied reason="lost" instant="false">ἐ</supplied><unclear instant="false">στίν</unclear>· <unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ἴ τι τῶν</supplied><unclear instant="false">δ</unclear>᾽ <unclear instant="false">ἐ</unclear><supplied reason="lost" instant="false">στὶν καλῶς.</supplied>
+<lb n="20"/><supplied reason="lost" instant="false">ἔα· τίν᾽</supplied> <unclear instant="false">ἄν</unclear>δρ<unclear instant="false">α</unclear> <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ό</supplied><unclear instant="false">ν</unclear><supplied reason="lost" instant="false">δ᾽</supplied> <unclear instant="false">ἐπ</unclear><supplied reason="lost" instant="false">ὶ σκηναῖς ὁρῶ</supplied>
+<lb n="21"/><supplied reason="lost" instant="false">θανόντ</supplied>α Τρώω<unclear instant="false">ν</unclear>; <supplied reason="lost" instant="false">οὐ γὰρ Ἀργεῖον πέπλοι</supplied>
+<lb n="22"/><supplied reason="lost" instant="false">δέμα</supplied><unclear instant="false">ς</unclear> περιπ<unclear instant="false">τ</unclear>ύσ<supplied reason="lost" instant="false">σοντες ἀγγέλλουσί μοι.</supplied>
+<lb n="23"/><supplied reason="lost" instant="false">δύστην᾽,</supplied> ἐμα<supplied reason="lost" instant="false">υ</supplied><unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ὴν γὰρ λέγω λέγουσα σέ,</supplied>
+<lb n="24"/><supplied reason="lost" instant="false">Ἑκάβη, τί</supplied> δρά<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">ω; πότερα προσπέσω γόνυ</supplied>
+<lb n="25"/><supplied reason="lost" instant="false">Ἀγαμέμ</supplied><unclear instant="false">ν</unclear>ονο<supplied reason="lost" instant="false">ς τοῦδ᾽ ἢ φέρω σιγῇ κακά;</supplied>
+<lb n="25"/><gap reason="lost" quantity="3" unit="line" instant="false"/>
+<lb n="29"/><supplied reason="lost" instant="false">γο</supplied><unclear instant="false">ν</unclear>άτ<supplied reason="lost" instant="false">ων ἀπώσ</supplied>αιτ᾽, <supplied reason="lost" instant="false">ἄλγος ἂν προσθείμεθ᾽ ἄν.</supplied>
+<lb n="30"/><supplied reason="lost" instant="false">οὔ</supplied><unclear instant="false">τ</unclear>οι π<supplied reason="lost" instant="false">έ</supplied><unclear instant="false">φ</unclear><supplied reason="lost" instant="false">υκα μά</supplied><unclear instant="false">ντι</unclear><supplied reason="lost" instant="false">ς, ὥστε μὴ κλύων</supplied>
+<lb n="31"/><supplied reason="lost" instant="false">ἐξ</supplied><unclear instant="false">ι</unclear>στορῆ<unclear instant="false">σα</unclear><supplied reason="lost" instant="false">ι σῶ</supplied>ν ὁδ<unclear instant="false">ὸν</unclear> <supplied reason="lost" instant="false">βουλευμάτων.</supplied>
+<lb n="32"/><supplied reason="lost" instant="false">ἆ</supplied><unclear instant="false">ρ</unclear>᾽ ἐκλογίζ<supplied reason="lost" instant="false">ο</supplied><unclear instant="false">μ</unclear>αί γε π<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">ὸς τὸ δυσμενὲς</supplied>
+<lb n="33"/>μᾶ<unclear instant="false">λ</unclear>λον φρέ<unclear instant="false">να</unclear>ς τοῦδ᾽, ὄ<unclear instant="false">ν</unclear><supplied reason="lost" instant="false">τος οὐχὶ δυσμενοῦς;</supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="34"/>εἴ τ<supplied reason="lost" instant="false">ο</supplied>ί <unclear instant="false">μ</unclear>ε βο<unclear instant="false">ύ</unclear><supplied reason="lost" instant="false">λῃ</supplied> <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ῶν</supplied><unclear instant="false">δε</unclear> <unclear instant="false">μ</unclear><supplied reason="lost" instant="false">ηδὲν εἰδέναι,</supplied>
+<lb n="35"/><unclear instant="false">ε</unclear>ἰς <supplied reason="lost" instant="false">τ</supplied><unclear instant="false">α</unclear>ὐτὸν ἥ<supplied reason="lost" instant="false">κεις·</supplied> <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">α</supplied><unclear instant="false">ὶ</unclear> <supplied reason="lost" instant="false">γὰ</supplied><unclear instant="false">ρ</unclear> <unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ὐδ᾽ ἐγὼ κλύειν.</supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="36"/><supplied reason="lost" instant="false">ο</supplied><unclear instant="false">ὐ</unclear><supplied reason="lost" instant="false">κ ἂ</supplied><unclear instant="false">ν</unclear> <unclear instant="false">δ</unclear><supplied reason="lost" instant="false">υναί</supplied><unclear instant="false">μη</unclear><supplied reason="lost" instant="false">ν το</supplied><unclear instant="false">ῦ</unclear><supplied reason="lost" instant="false">δε</supplied> <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ιμωρεῖν ἄτερ</supplied>
+<lb n="37"/><supplied reason="lost" instant="false">τέκνοισι τοῖς ἐ</supplied><unclear instant="false">μ</unclear>οῖ<supplied reason="lost" instant="false">σι. τί σ</supplied><unclear instant="false">τρέφ</unclear><supplied reason="lost" instant="false">ω τάδε;</supplied>
+<lb n="38"/><supplied reason="lost" instant="false">τολμᾶν ἀνάγκ</supplied><unclear instant="false">η</unclear>, <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">ἂν</supplied> <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ύ</supplied><unclear instant="false">χ</unclear>ω <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">ἂν μὴ τύχω.</supplied>
+<lb n="39"/><supplied reason="lost" instant="false">Ἀγάμεμνον, ἱ</supplied><unclear instant="false">κ</unclear>ετεύω σε τ<unclear instant="false">ῶ</unclear><supplied reason="lost" instant="false">νδε γουνάτων</supplied>
+<lb n="40"/><supplied reason="lost" instant="false">καὶ σοῦ γενείου</supplied> δεξ<unclear instant="false">ιᾶ</unclear>ς τ᾽ <unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ὐ</supplied><unclear instant="false">δα</unclear><supplied reason="lost" instant="false">ίμονος.</supplied>
+<lb n="41"/><supplied reason="lost" instant="false">τί χρῆμα μασ</supplied><unclear instant="false">τ</unclear>εύουσα; μῶ<supplied reason="lost" instant="false">ν ἐλεύθερον</supplied>
+<lb n="42"/><supplied reason="lost" instant="false">αἰῶνα θέ</supplied>σθ<supplied reason="lost" instant="false">αι;</supplied> <unclear instant="false">ῥ</unclear>ᾴδιον γάρ <unclear instant="false">ἐ</unclear><supplied reason="lost" instant="false">στί σοι.</supplied>
+<lb n="43"/><supplied reason="lost" instant="false">ὁρᾷς νεκ</supplied><unclear instant="false">ρὸν</unclear> <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ό</supplied><unclear instant="false">νδ</unclear>᾽, <unclear instant="false">οὗ</unclear> <unclear instant="false">κα</unclear><supplied reason="lost" instant="false">ταστάζω δάκρυ;</supplied>
+<lb n="44"/><supplied reason="lost" instant="false">ὁρῶ τὸ μ</supplied><unclear instant="false">έ</unclear>ντ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ι μέλλ</supplied><unclear instant="false">ον</unclear> <supplied reason="lost" instant="false">οὐκ ἔχω μαθεῖν.</supplied>
+<lb n="45"/><supplied reason="lost" instant="false">ἔστιν δὲ τ</supplied>ίς <unclear instant="false">σῶ</unclear><supplied reason="lost" instant="false">ν οὗτος,</supplied> <unclear instant="false">ὦ</unclear> <unclear instant="false">τλ</unclear><supplied reason="lost" instant="false">ῆμον, τέκνων;</supplied>
+<lb n="47"/><supplied reason="lost" instant="false">οὐ τῶν θα</supplied>νόντ<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">ν Πριαμιδ</supplied><unclear instant="false">ῶ</unclear><supplied reason="lost" instant="false">ν ὑ</supplied><unclear instant="false">π</unclear>᾽ <supplied reason="lost" instant="false">Ἰλίῳ.</supplied>
+<lb n="48"/><supplied reason="lost" instant="false">ἦ γάρ τιν᾽ ἄλ</supplied><unclear instant="false">λ</unclear>ο<unclear instant="false">ν</unclear> ἔτ<supplied reason="lost" instant="false">εκες ἢ κείνους, γύναι;</supplied>
+<lb n="49"/><supplied reason="lost" instant="false">ἀνόνητά</supplied> <unclear instant="false">γ</unclear>᾽, ὡς ἔο<supplied reason="lost" instant="false">ικε, τόνδ᾽ ὃν εἰσορᾷς.</supplied>
+<lb n="50"/><supplied reason="lost" instant="false">ποῦ δ᾽ ὢν</supplied> ἐτ<unclear instant="false">ύ</unclear>γχα<unclear instant="false">ν</unclear>᾽, <supplied reason="lost" instant="false">ἡνίκ᾽ ὤλλυ</supplied><unclear instant="false">το</unclear> <supplied reason="lost" instant="false">πτόλις;</supplied>
+<lb n="51"/><supplied reason="lost" instant="false">πατήρ νιν</supplied> <unclear instant="false">ἐ</unclear>ξέ<unclear instant="false">π</unclear>εμψεν ὀρρωδ<unclear instant="false">ῶν</unclear> <supplied reason="lost" instant="false">θανεῖν.</supplied>
+<lb n="52"/><supplied reason="lost" instant="false">ποῖ τῶν τότ᾽</supplied> <unclear instant="false">ὄ</unclear>ν<unclear instant="false">τ</unclear>ων χωρίσ<unclear instant="false">ας</unclear> <supplied reason="lost" instant="false">τέκνων μόνον;</supplied>
+<lb n="53"/><supplied reason="lost" instant="false">ἐς τήνδε χ</supplied><unclear instant="false">ώ</unclear>ρ<unclear instant="false">α</unclear>ν, ο<supplied reason="lost" instant="false">ὗ</supplied>περ ε<unclear instant="false">ὑ</unclear>ρ<supplied reason="lost" instant="false">έ</supplied><unclear instant="false">θ</unclear><supplied reason="lost" instant="false">η θανών.</supplied>
+<lb n="54"/><supplied reason="lost" instant="false">πρὸς ἄνδ</supplied><unclear instant="false">ρ</unclear><g type="apostrophe"/> <unclear instant="false">ὃ</unclear>ς ἄ<unclear instant="false">ρ</unclear>χει τῆ<unclear instant="false">σδ</unclear><supplied reason="lost" instant="false">ε</supplied> <unclear instant="false">Πολ</unclear>υ<unclear instant="false">μ</unclear><supplied reason="lost" instant="false">ήστωρ χθονός;</supplied>
+<lb n="55"/><supplied reason="lost" instant="false">ἐνταῦθ᾽ ἐπέμ</supplied><unclear instant="false">φ</unclear><supplied reason="lost" instant="false">θ</supplied><unclear instant="false">η</unclear> πικροτ<unclear instant="false">ά</unclear><supplied reason="lost" instant="false">τ</supplied><unclear instant="false">ου</unclear> χρυ<supplied reason="lost" instant="false">σοῦ φύλαξ.</supplied>
+<lb n="56"/><supplied reason="lost" instant="false">θνῄσκει δὲ πρὸς τ</supplied>οῦ καὶ τίνο<unclear instant="false">ς</unclear> <unclear instant="false">π</unclear><supplied reason="lost" instant="false">ότμου τυχών;</supplied> 
+<lb n="56a"/><supplied reason="lost" instant="false">τοῦτόν ποτ᾽ ἔτεκο</supplied>ν <unclear instant="false">καὶ</unclear> <unclear instant="false">ἔ</unclear>φ<unclear instant="false">ερο</unclear>ν ζ<unclear instant="false">ώ</unclear><supplied reason="lost" instant="false">νης ὕπο.</supplied>
+</ab>
+</div>      </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/16373"/>
+                  <biblScope unit="number">4557</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Oxy.</title>
+                  <biblScope unit="volume">67</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/751">Hecuba</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://163.1.169.40/gsdl/collect/POxy/index/assoc/HASH0180/60208119.dir/POxy.v0067.n4557.a.01.hires.jpg"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

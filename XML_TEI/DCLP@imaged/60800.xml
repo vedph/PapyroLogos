@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60800" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Psi. 7 755</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60800</idno>
+            <idno type="TM">60800</idno>
+            <idno type="LDAB">1927</idno>
+            <idno type="filename">60800</idno>
+            <idno type="dclp-hybrid">psi;7;755</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Florence, Biblioteca Medicea Laurenziana 18684</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>severe style</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0150" notAfter="0249" instant="false">150 - 249</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR6675" from="2000" to="2015" xml:id="GR6675.01">
+                           <graphic url="http://www.psi-online.it/images/orig/PSI%20VII%20755%20r.jpg?1365957988"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+                This file encoded to comply with EpiDoc Guidelines and Schema version 8
+                <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>epic</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Homerus; Odyssea 08.537-554</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+         <change who="dclp" when="2016-08-12" status="draft">set date for change log</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" corresp="#FR6675" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="537"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="538"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ζόμενο<unclear instant="false">ς</unclear> τά<unclear instant="false">δ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="539"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ρ</unclear>πέομέν τε καὶ <supplied evidence="parallel" reason="lost" instant="false">ὤ</supplied>ρορε θεῖος ἀοιδός,
+<lb n="540"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ύπω παύσατ᾽ ὀϊζυροῖο γόοιο
+<lb n="541"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>νος· με<add place="above" instant="false" status="unremarkable">αλ</add>γα πού μιν ἄχος φρένας ἀμφιβ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="542"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">λ</unclear>άγ᾽ ὁ μὲν σχεθέτω, ἵν᾽ <unclear instant="false">ὁ</unclear>μῶς τερπώμεθ<unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="543"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>νοδόκοι καὶ ξεῖνος, ἐπεὶ πολὺ κάλλιο<supplied evidence="parallel" reason="lost" instant="false">ν</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="544"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>νεκα γὰρ ξείνοιο τάδ᾽ <unclear instant="false">α</unclear>ἰδοίοιο τέτυκτα<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="545"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>πὴ καὶ φίλα δῶρα, τά οἱ<add place="above" instant="false" status="unremarkable">μιν</add> δίδομεν φιλ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="546"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>τὶ κα<unclear instant="false">σ</unclear>ιγν<unclear instant="false">ή</unclear><supplied evidence="parallel" reason="lost" instant="false">του ξε</supplied>ῖνός <unclear instant="false">θ</unclear>᾽ ἱκέτης τε τέτυκ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="547"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ρ</unclear>ι, ὅς <supplied evidence="parallel" reason="lost" instant="false">τ᾽</supplied> ὀλί<unclear instant="false">γ</unclear><supplied evidence="parallel" reason="lost" instant="false">ον περ ἐπιψαύ</supplied>ηι πραπ<unclear instant="false">ί</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="548"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν μηδ<unclear instant="false">ὲ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="549"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>κέ σ᾽ εἴρω<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="550"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">π</unclear>᾽ ὄνομ᾽ ὅττ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="551"/><unclear instant="false">ἄ</unclear>λλοι θ᾽ οἳ κατ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="552"/>οὐ μὲν γάρ τις<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="553"/>οὐ κακὸς <supplied evidence="parallel" reason="lost" instant="false">ο</supplied>ὐδ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="554"/><unclear instant="false">ἀλλ</unclear>᾽ <unclear instant="false">ἐ</unclear>π<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+</div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">PSI</title>
+                  <biblScope unit="volume">7</biblScope>
+                  <biblScope unit="number">755</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012">Homerus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/512">Odyssea</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Liège</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.psi-online.it/documents/psi;7;755"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

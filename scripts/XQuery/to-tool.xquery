@@ -31,8 +31,7 @@ declare function to:extract-numeral($text as xs:string) {
             "0"
 };
 (: wandelt übergebene Reihe von Strings in Initialien um :)
-declare function to:get-initials
-($stringSequence as xs:string*) as xs:string {
+declare function to:get-initials($stringSequence as xs:string*) as xs:string {
     if ($stringSequence)
     then
         let $tokens := for $string in $stringSequence
@@ -50,8 +49,7 @@ declare function to:get-initials
         ""
 };
 
-declare function to:roman-numeral-to-integer(: imported from r: :)
-($input as xs:string) as xs:integer {
+declare function to:roman-numeral-to-integer($input as xs:string) as xs:integer { (: imported from r: :)
     let $characters := string-to-codepoints(upper-case($input)) ! codepoints-to-string(.)
     let $character-to-integer :=
     function ($character as xs:string) {

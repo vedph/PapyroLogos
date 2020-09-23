@@ -1,10 +1,13 @@
-xquery version "3.0";
+xquery version "3.1";
 module namespace to = "tool";
 declare namespace TEI = "http://www.tei-c.org/ns/1.0";
 declare namespace ar = "https://beatechnologies.wordpress.com/2008/09/25/stripping-namespace-from-an-xml-using-xquery/";
 declare namespace functx = "http://www.functx.com";
 declare namespace ex = "http://www.ex.com";
 declare namespace r = "http://joewiz.org/ns/xquery/roman-numerals";
+
+(: general auxiliary functions by different authors :)
+
 (:
 declare function to:shorten-link
 ($link as xs:string, $regex as xs:string, $n as xs:integer,             (: call parameter :)
@@ -49,7 +52,7 @@ declare function to:get-initials($stringSequence as xs:string*) as xs:string {
         ""
 };
 
-declare function to:roman-numeral-to-integer($input as xs:string) as xs:integer { (: imported from r: :)
+declare function to:roman-numeral-to-integer($input as xs:string) as xs:integer {           (: imported from r: :)
     let $characters := string-to-codepoints(upper-case($input)) ! codepoints-to-string(.)
     let $character-to-integer :=
     function ($character as xs:string) {

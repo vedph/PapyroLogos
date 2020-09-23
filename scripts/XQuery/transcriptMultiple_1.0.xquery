@@ -33,25 +33,25 @@ declare variable $repository := 'C:/Datenbanken/OCR/';      (: UPDATE PATH :)
 
 (: ## Vorstrukturierung der Transkriptionen ## :)
 (: # 1. SCHALTER II = true # :)
-declare variable $fileTranscript := concat($repository,'corpusTranscript_3.4.xml');
+declare variable $fileTranscript := concat($repository,'PapyroLogos/documents/corpusTranscript.xml'); (: aus alto-Version 3.4:)
 
 (: # 2. SCHALTER II = false # :)
 (: Zuordnungstabelle von Griechisch mit Akzenten zu normalisierten Majuskeln ist im transcript-Modul zu definieren, falls $loadTranscriptFile = false() :)
 declare variable $tableGreek := $ts:tableGreek; 
 
 (: Ordner oder Verzeichnis der ursprünglichen XML-Dateien, aus denen Transkript-Daten extrahiert werden sollen :)
-declare variable $corpusXML := concat($repository,"1-IN/TEI") ;  
+declare variable $corpusXML := concat($repository,"PapyroLogos/XML_TEI/DCLP@imaged") ;  
 
 (: Umstrukturierung der Transkriptionen wird by default in Variable $corpusTranscript gespeichert, 
    kann jedoch auch (ab Zeile 364) als Datei ausgegeben werden, um sie bei zwetem Durchlauf per SCHALTER II = true abzurufen :)
 (: Zielverzeichnis für corpusTranscript.xml, die alle Transkript-Dateien des Korpus enthält:)
-declare variable $destinationXML := concat($repository, '1-OUT/');
+declare variable $destinationXML := concat($repository, 'PapyroLogos/documents/');
 
 
 (: ## Generierung der XML-Alto Dateien ## :)
 (: Ordner oder Verzeichnis der ursprünglichen XML-Alto Dateien :)
-declare variable $corpusAlto := concat($repository,'1-IN/ALTO-1');                                                        
-declare variable $destinationAlto := "1-OUT/";     
+declare variable $corpusAlto := concat($repository,'PapyroLogos/XML_ALTO/input_test');                                                        
+declare variable $destinationAlto := "PapyroLogos/XML_ALTO/output_xquery/";     
 
 
 declare variable $destinationTEXT := 'PapyroLogos/TEXT/';
@@ -280,7 +280,7 @@ let $hiddenLB := count($x//TEI:lb[not(parent::element()[name()='ab' or name()='l
 let $restructure1 := ($hiddenLB = 0) or ($hiddenLB = count($x//TEI:lb[parent::TEI:add]))
 
 let $text :=
-    <text default="{$default}" restructure1="{$restructure1}" editionType="normalized">
+    <text default="{$default}" restructure1="{$restructure1}" editionType="normalised">
     { 
 if (not($default))
     then   
@@ -603,7 +603,7 @@ file:write(concat("file:///", $destinationXML, 'insertTree_3.5',".xml"), $insert
 
 (: ### for every column/textpart in cohesive/TextBlock in Alto ? ### :)
 
-let $Normalized := <norm>{for $textpart in $match//textpart return <textpart>{$textpart//text[data(@editionType)='normalized']//line}</textpart>}</norm>
+let $Normalised := <norm>{for $textpart in $match//textpart return <textpart>{$textpart//text[data(@editionType)='normalised']//line}</textpart>}</norm>
 let $Diplomatic := <dipl>{for $textpart in $match//textpart return <textpart>{$textpart//text[data(@editionType)='diplomatic']//line}</textpart>}</dipl>
 
 let $fileNameVersion := to:substring-before-match($fileNameAlto,'.xml')
@@ -611,7 +611,7 @@ let $fileNameVersion := to:substring-before-match($fileNameAlto,'.xml')
 
 (: für Parameter der Insert-Funktion benötigt :)
 let $startValue := 0
-let $lineNo := count($Normalized//line)
+let $lineNo := count($Normalised//line)
 
 let $transcriptionI := 1
 let $transcriptionII := 2
@@ -622,7 +622,7 @@ let $fileVersions := ('D1','D2','D3','D4','N1','N2','N3','N4')
 
 (:
 return
-file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '_normTransII_3.5.xml'), lo:transcription-format($Normalized, $transcriptionII))
+file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '_normTransII_3.5.xml'), lo:transcription-format($Normalised, $transcriptionII))
 
 :)
 (:
@@ -630,22 +630,23 @@ let $rawD1 := lo:transcription-format($Diplomatic, $transcriptionI)
 let $rawD2 := lo:transcription-format($Diplomatic, $transcriptionII)
 let $rawD3 := lo:transcription-format($Diplomatic, $transcriptionIII)
 let $rawD4 := lo:transcription-format($Diplomatic, $transcriptionIV)
-let $rawN1 := lo:transcription-format($Normalized, $transcriptionI)
-let $rawN2 := lo:transcription-format($Normalized, $transcriptionII)
-let $rawN3 := lo:transcription-format($Normalized, $transcriptionIII)
-let $rawN4 := lo:transcription-format($Normalized, $transcriptionIV)
+let $rawN1 := lo:transcription-format($Normalised, $transcriptionI)
+let $rawN2 := lo:transcription-format($Normalised, $transcriptionII)
+let $rawN3 := lo:transcription-format($Normalised, $transcriptionIII)
+let $rawN4 := lo:transcription-format($Normalised, $transcriptionIV)
 :)
 
 let $raw := (lo:transcription-format($Diplomatic, $transcriptionI),
             lo:transcription-format($Diplomatic, $transcriptionII),
             lo:transcription-format($Diplomatic, $transcriptionIII),
             lo:transcription-format($Diplomatic, $transcriptionIV),
-            lo:transcription-format($Normalized, $transcriptionI),
-            lo:transcription-format($Normalized, $transcriptionII),
-            lo:transcription-format($Normalized, $transcriptionIII),
-            lo:transcription-format($Normalized, $transcriptionIV))      
+            lo:transcription-format($Normalised, $transcriptionI),
+            lo:transcription-format($Normalised, $transcriptionII),
+            lo:transcription-format($Normalised, $transcriptionIII),
+            lo:transcription-format($Normalised, $transcriptionIV))      
 
 return
+
 if ($textOutput) then
 for $version at $pos in $fileVersions 
 let $textFile := fn:string-join(for $line in $raw[$pos]//line//text()
@@ -656,6 +657,8 @@ return file:write-text(concat("file:///", $repository, 'PapyroLogos/TXT/', $vers
 
 (:file:write(concat("file:///", $repository, $destinationTEXT, $fileNameVersion, '.txt'), $rawD1):)
 
+else if ($jsonOutput) then
+()
 
 else if ($altoOutput) then
 
@@ -663,59 +666,54 @@ else if ($altoOutput) then
 let $q := ($linesAlto = xs:integer(count($match//textpart/text[1]//line))) or not($onlyMatchingLines) 
 
 (: Beide Quelltranskriptionen (Normalisiert und diplomatisch) werden jeweils in 4 Formate übertragen :)
-let $copyD1 := if ($q)           
-    then lo:copy-or-insert-node($i, 
+return if ($q) then
+for $version at $pos in $fileVersions 
+let $alto := lo:copy-or-insert-node($i, 
+        $raw[$pos],
+        $startValue, $startValue, $lineNo)
+(:
+let $alto := (
+
+lo:copy-or-insert-node($i, 
         $raw[1]
-        , $startValue, $startValue, $lineNo)
-    else () 
+        , $startValue, $startValue, $lineNo),
     
-let $copyD2 := if ($q)           
-    then lo:copy-or-insert-node($i, 
-        lo:transcription-format($Diplomatic, $transcriptionII)
-        , $startValue, $startValue, $lineNo)
-    else () 
+lo:copy-or-insert-node($i, 
+        $raw[2]
+        , $startValue, $startValue, $lineNo),
     
-let $copyD3 := if ($q)           
-    then lo:copy-or-insert-node($i, 
-        lo:transcription-format($Diplomatic, $transcriptionIII)
-        , $startValue, $startValue, $lineNo)
-    else () 
-    
-let $copyD4 := if ($q)           
-    then lo:copy-or-insert-node($i,  
-        lo:transcription-format($Diplomatic, $transcriptionIV)
-        , $startValue, $startValue, $lineNo)
-    else () 
+lo:copy-or-insert-node($i, 
+        $raw[3]
+        , $startValue, $startValue, $lineNo),
 
+lo:copy-or-insert-node($i,  
+        $raw[4]
+        , $startValue, $startValue, $lineNo), 
 
-let $copyN1 := if ($q)           
-    then lo:copy-or-insert-node($i, 
-        lo:transcription-format($Normalized, $transcriptionI)
-        , $startValue, $startValue, $lineNo)
-    else () 
+lo:copy-or-insert-node($i, 
+        $raw[5]
+        , $startValue, $startValue, $lineNo),
 
-let $copyN2 := if ($q)           
-    then lo:copy-or-insert-node($i, 
-        lo:transcription-format($Normalized, $transcriptionII)
-        , $startValue, $startValue, $lineNo)
-    else ()
+lo:copy-or-insert-node($i, 
+        $raw[6]
+        , $startValue, $startValue, $lineNo),
 
-let $copyN3 := if ($q)           
-    then lo:copy-or-insert-node($i, 
-        lo:transcription-format($Normalized, $transcriptionIII)
-        , $startValue, $startValue, $lineNo)
-    else ()
+lo:copy-or-insert-node($i, 
+        $raw[7]
+        , $startValue, $startValue, $lineNo),
 
-let $copyN4 := if ($q)           
-    then lo:copy-or-insert-node($i, 
-        lo:transcription-format($Normalized, $transcriptionIV)
+lo:copy-or-insert-node($i, 
+        $raw[8]
         , $startValue, $startValue, $lineNo)
-    else ()
-    
-where exists($copyD1/element())
+        )
+:)    
+where exists($alto[$pos]/element())
 
 
 return 
+
+file:write(concat("file:///", $repository, $destinationAlto, $version, '/', $fileNameVersion, '.xml'), $alto[$pos])
+
 (:file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '(d1)', '.xml'), $copyD1), :)
 
 (: Enthält die TEI-textparts mit reduziertem Markup, Metadaten und zusätzlicher Ebene der cohesiveTextparts, 
@@ -728,11 +726,9 @@ file:write(concat("file:///", $destinationXML, 'transcriptTextpart_3.3',".xml"),
 file:write(concat("file:///", $destinationXML, 'match_3.3',".xml"), $match) 
 :)
 
+
+(:
 (
-
-
-
-
 file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '(d2)', '.xml'), $copyD2),
 file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '(d3)', '.xml'), $copyD3), 
 file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '(d4)', '.xml'), $copyD4), 
@@ -741,7 +737,7 @@ file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '
 file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '(n3)', '.xml'), $copyN3),
 file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '(n4)', '.xml'), $copyN4)  
 )
-
+:)
 else ()
 
-
+else ()

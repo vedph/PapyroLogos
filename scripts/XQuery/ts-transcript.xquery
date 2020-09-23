@@ -4,13 +4,16 @@ import module namespace to = "tool" at "file:///C:/Datenbanken/OCR/PapyroLogos/s
 
 
 (: ### Pfade zu Verzeichnissen und Dateien ### :)
-declare variable $ts:repository := 'C:/Datenbanken/OCR/PapyroLogos';                           (: UPDATE PATH :)
+
+(: parent folder containing PapyroLogos :)
+declare variable $ts:repository := 'C:/Datenbanken/OCR/';                           (: UPDATE PATH :)
+
 (: # 2. SCHALTER II = false # :)
-(: Nur falls im Korpus Verweise auf Drittdateien vorkommen
-    declare variable $ts:fileCustEvent := concat($ts:repository, 'custEvent.xml'); :)
+(: Nur falls im Korpus Verweise auf Drittdateien vorkommen, was nach aktuellen Stand nicht mehr relevant sein sollte
+    declare variable $ts:fileCustEvent := concat($ts:repository, 'PapyroLogos/documents/', 'custEvent.xml'); :)
 
 (: Zuordnungstabelle von Griechisch mit Akzenten zu normalisierten Majuskeln :)
-declare variable $ts:tableGreek := doc(concat('file:///', $ts:repository, 'greek_norm.xml'));   (: UPDATE PATH :)
+declare variable $ts:tableGreek := doc(concat('file:///', $ts:repository, 'PapyroLogos/documents/', 'greek_norm.xml'));   (: UPDATE PATH :)
 
 
 (: ### Lokale Variablen und Funktionen ### :)

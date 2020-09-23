@@ -1,6 +1,6 @@
 xquery version "3.1";
-import module namespace to = "tool" at "file:///C:/Datenbanken/OCR/2020-05-22_alto/to-tool.xquery";                           (: UPDATE PATH :)
-import module namespace ts = "transcript" at "file:///C:/Datenbanken/OCR/2020-05-22_alto/ts-transcript.xquery";               (: UPDATE PATH :)
+import module namespace to = "tool" at "file:///C:/Datenbanken/OCR/PapyroLogos/scripts/XQuery/to-tool.xquery";                           (: UPDATE PATH :)
+import module namespace ts = "transcript" at "file:///C:/Datenbanken/OCR/PapyroLogos/scripts/XQuery/ts-transcript.xquery";               (: UPDATE PATH :)
 declare namespace lo = "http://www.w3.org/2005/xquery-local-functions"; 
 declare namespace TEI = "http://www.tei-c.org/ns/1.0";
 declare namespace ns-v4 = "http://www.loc.gov/standards/alto/ns-v4#";
@@ -24,9 +24,9 @@ declare variable $loadTranscriptFile := true();
 
 (:  ### SCHALTER III ###
     Drei Booleans zur Steuerung der Outputformate   :)
-declare variable $textOutput := true();
+declare variable $textOutput := false();
 declare variable $jsonOutput := true();
-declare variable $altoOutput := true();
+declare variable $altoOutput := false();
 
 (:  ### Pfade zu Verzeichnissen und Dateien ###  :)
 declare variable $repository := 'C:/Datenbanken/OCR/';      (: UPDATE PATH :)
@@ -280,7 +280,7 @@ let $hiddenLB := count($x//TEI:lb[not(parent::element()[name()='ab' or name()='l
 let $restructure1 := ($hiddenLB = 0) or ($hiddenLB = count($x//TEI:lb[parent::TEI:add]))
 
 let $text :=
-    <text default="{$default}" restructure1="{$restructure1}" editionType="normalised">
+    <text default="{$default}" restructure1="{$restructure1}" editionType="normalized">
     { 
 if (not($default))
     then   
@@ -601,9 +601,7 @@ file:write(concat("file:///", $destinationXML, 'insertTree_3.5',".xml"), $insert
 
 
 
-(: ### for every column/textpart in cohesive/TextBlock in Alto ? ### :)
-
-let $Normalised := <norm>{for $textpart in $match//textpart return <textpart>{$textpart//text[data(@editionType)='normalised']//line}</textpart>}</norm>
+let $Normalised := <norm>{for $textpart in $match//textpart return <textpart>{$textpart//text[data(@editionType)='normalized']//line}</textpart>}</norm>
 let $Diplomatic := <dipl>{for $textpart in $match//textpart return <textpart>{$textpart//text[data(@editionType)='diplomatic']//line}</textpart>}</dipl>
 
 let $fileNameVersion := to:substring-before-match($fileNameAlto,'.xml')
@@ -649,7 +647,7 @@ return
 
 if ($textOutput) then
 for $version at $pos in $fileVersions 
-let $textFile := fn:string-join(for $line in $raw[$pos]//line//text()
+let $textFile := string-join(for $line in $raw[$pos]//line//text()
 return concat($line,'
 '))
 
@@ -658,7 +656,50 @@ return file:write-text(concat("file:///", $repository, 'PapyroLogos/TXT/', $vers
 (:file:write(concat("file:///", $repository, $destinationTEXT, $fileNameVersion, '.txt'), $rawD1):)
 
 else if ($jsonOutput) then
-()
+for $version at $pos in $fileVersions 
+let $jsonFile := string-join((
+'{
+"textpart": [',
+for $textpart at $posT in $raw[$pos]//textpart return (
+    '{
+    "n": "',$posT,'",
+    "subtype": "'
+    
+    
+    ,$textpart/data(@subtype),'",
+    "graphicURL": "',
+    $textpart//graphic/text(),'",
+    "graphicType": "',
+    $textpart//type/text(),'",
+    "text": 
+    [
+    ',     
+    for $line at $posE in $textpart/line 
+    return concat('{"',$line,
+        if ($posE < count($textpart/line))
+        then '},'
+        else '}]'
+    )    (:ts:transform-element-to-json($line, $posE, count($textpart/line ), false()):)
+    
+    (:,
+    ', 
+    "diplomatic": [
+    ',
+    for $element at $posE in $textpart/text[2]/element() 
+    return ts:transform-element-to-json($element, $posE, count($textpart//text[2]/element()), false())
+    
+        ,'}',']}',        
+        if ($posT = count($raw[$pos]//textpart))
+            then ']'
+            else ',
+            '
+            
+            :)
+            ),'
+}'))
+
+return file:write-text(concat("file:///", $repository, 'PapyroLogos/JSON/', $version, '/', $fileNameVersion, '.json'), $jsonFile)
+
 
 else if ($altoOutput) then
 
@@ -668,10 +709,10 @@ let $q := ($linesAlto = xs:integer(count($match//textpart/text[1]//line))) or no
 (: Beide Quelltranskriptionen (Normalisiert und diplomatisch) werden jeweils in 4 Formate übertragen :)
 return if ($q) then
 for $version at $pos in $fileVersions 
-let $alto := lo:copy-or-insert-node($i, 
+(:let $alto := lo:copy-or-insert-node($i, 
         $raw[$pos],
         $startValue, $startValue, $lineNo)
-(:
+:)
 let $alto := (
 
 lo:copy-or-insert-node($i, 
@@ -706,7 +747,7 @@ lo:copy-or-insert-node($i,
         $raw[8]
         , $startValue, $startValue, $lineNo)
         )
-:)    
+
 where exists($alto[$pos]/element())
 
 

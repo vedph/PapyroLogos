@@ -224,3 +224,61 @@ if ($node instance of element())
     else $node
     
 };
+
+(: Wandelt XML-Markup in JSON-Struktur um :)
+declare function ts:transform-element-to-json($element as node(), $pos as xs:integer,  $count as xs:integer, $recurse as xs:boolean) as xs:string {
+(:(: In jedem Textpart befinden sich eine Version 'normalized' und eine Version 'diplomatic' :)
+if ($element/name()='editionType')
+then concat('{"editionType": "',$element/text(),'"},
+')
+:)
+
+(: Line ist immer ancestor der übrigen Elemente in Textparts und kommt in manchen add-Elementen vor  :)
+if ($element/name()='line') 
+then 
+concat(
+'{"line":', '[{"number": "',$element/data(@n),'"}',
+    if (empty($element/element())) 
+        then concat(']}',       
+        if ($pos = $count)
+            then ']'      
+            else ',')
+        else concat(',
+        ',       
+        string-join(for $node at $posN in $element/element() 
+        return (ts:transform-element-to-json($node, $posN, count($element/element()), $recurse)))           
+            ,'}',
+            if ($pos = $count)
+            then if ($recurse = false()) then ']'
+                else if ($recurse and $element/parent::add)
+                    then ']}' 
+                    else ''
+                else ',
+                '))           
+else 
+(: Alle übrigen Elemente werden entweder übernommen, oder in spezielles Format gebracht :)
+let $copy := ('token', 'unclear', 'place')
+let $gap := ('gap', 'supplied', 'space')
+return
+concat('{ "',
+$element/name(),'": ',
+string-join(
+    if (to:is-value-in-sequence($element/name(), $copy))
+    then ('"',$element,'"','}')
+    else if (to:is-value-in-sequence($element/name(), $gap))       
+        then             
+        ('{ "quantity": "',$element/quantity,'","unit": "',$element//unit,'"}}')
+        else if ($element/name() = "add")
+            then ('[',
+            for $child at $posC in $element/node() 
+            return ts:transform-element-to-json($child, $posC, count($element/node()), true()))
+        else ''
+    ),'',
+if ($pos = $count)
+    then concat(']',
+    if ($element/parent::add) 
+        then '}' 
+        else '')      
+    else ',
+')
+};

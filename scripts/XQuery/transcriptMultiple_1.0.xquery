@@ -23,7 +23,7 @@ declare variable $loadTranscriptFile := true();
 
 
 (:  ### SCHALTER III ###
-    Drei Booleans zur Steuerung der Outputformate   :)
+    Drei Booleans zur Steuerung der Outputformate – nur eines auf true() setzen  :)
 declare variable $textOutput := false();
 declare variable $jsonOutput := true();
 declare variable $altoOutput := false();
@@ -370,6 +370,11 @@ let $insertTree :=
 <root>{ 
 :)
 
+
+(: Iterierung über Alto-Korpus primär um Metadaten aus Dateinamen auszulesen – kann auch durch Liste etc. erreicht werden :)
+(: Sekundär um in die Dateien den Textinhalt zu schreiben – nur relevant in zu ersetzendem Ansatz wenn $altoOutput=true() :)
+(: Liste der insertFiles muss in neuer Version dementsprechend anders generiert werden :)
+
 for $TM at $posTM in $insertFiles 
 
 (:
@@ -427,7 +432,7 @@ return (
     then $pos1
     else if (matches($pos3, '[ABCDEFGHIJKLMNOPQRSTUVWXYZ]'))
         then $pos3
-    else ''
+    else '0'
     }</part>
 )}    
 </metaAlto>
@@ -508,7 +513,7 @@ return (
     <part>{
     if (matches($body,'Pl-\w_R'))
         then substring-before(substring-after($body, 'Pl-'), '_')
-        else ''
+        else '0'
     }</part>
 )}    
 </metaTEI>    
@@ -545,7 +550,7 @@ for $alto in $dataAlto
 let $match := 
 
 let $graphics := distinct-values($transcriptTextpart/textpartMeta//metaTEI/data(@source))
- let $altoNo := $metaAlto/noRom/xs:integer(node())
+let $altoNo := $metaAlto/noRom/xs:integer(node())
     
 
 (:for $t in $transcriptTextpart/textpartMeta         :)        (:### $transcriptTextpart ###:)
@@ -562,9 +567,9 @@ for $t in $transcriptTextpart/textpartMeta(:[to:is-value-in-sequence(metaTEI/dat
         $t/metaTEI/noRom/to/xs:integer(node()) >= $altoNo))                 (: and xs:integer($t//textpart/data(@n)) = $altoNo):)  
     and $t/metaTEI/part = $metaAlto/part 
     
-    return 
-      
-        (:for $i in $text return :)<match name="{$name}">
+    return    
+        (:for $i in $text return :)
+  <match name="{$name}">
     {$metaAlto}
     <linesAlto>{$linesAlto}</linesAlto>
     <altoGraphic>{$jpgAlto}</altoGraphic>
@@ -574,7 +579,7 @@ for $t in $transcriptTextpart/textpartMeta(:[to:is-value-in-sequence(metaTEI/dat
     <name>{$name}</name>,
     $text//textpart
     )}
-    </match>
+  </match>
 
 
 (:  (: Liste der engeren Auswahl passender Zuordnungen von Alto und TEI Dateien in $transcriptTextpart und abgeschlossene Zuordnung in $match :)
@@ -659,45 +664,42 @@ else if ($jsonOutput) then
 for $version at $pos in $fileVersions 
 let $jsonFile := string-join((
 '{
-"textpart": [',
-for $textpart at $posT in $raw[$pos]//textpart return (
+"head": {
+    "tm": "', $match/data(@name), '",
+    "side": "', $metaAlto/side/text(), '",
+    "noRom": "', $metaAlto/noRom/text(), '",
+    "part": "', $metaAlto/part/text(), '",
+    "graphicURL": "', $match/graphic/text(), '",
+    "graphicName": "', $metaAlto/data(@source), '",
+    "textparts": "', count($raw[$pos]//textpart), '",
+    "lines": "', count($raw[$pos]//line), '"
+    },
+    
+"body": [
+    {
+    "textpart": [',
+    for $textpart at $posT in $raw[$pos]//textpart return (
     '{
-    "n": "',$posT,'",
-    "subtype": "'
-    
-    
-    ,$textpart/data(@subtype),'",
-    "graphicURL": "',
-    $textpart//graphic/text(),'",
-    "graphicType": "',
-    $textpart//type/text(),'",
-    "text": 
-    [
-    ',     
-    for $line at $posE in $textpart/line 
-    return concat('{"',$line,
-        if ($posE < count($textpart/line))
-        then '},'
-        else '}]'
-    )    (:ts:transform-element-to-json($line, $posE, count($textpart/line ), false()):)
-    
-    (:,
-    ', 
-    "diplomatic": [
-    ',
-    for $element at $posE in $textpart/text[2]/element() 
-    return ts:transform-element-to-json($element, $posE, count($textpart//text[2]/element()), false())
-    
-        ,'}',']}',        
-        if ($posT = count($raw[$pos]//textpart))
-            then ']'
-            else ',
+        "n": "',$posT,'",
+        "textpartLines": "', count($textpart//lines),'",
+        "text": [
+            ',
+        for $line at $posL in $textpart//line return (
+        '"', $line//text(), '"',
+        if ($posL < count($textpart//line))
+            then ', 
             '
-            
-            :)
-            ),'
-}'))
-
+            else ']'
+            ),
+    if ($posT < count($raw[$pos]//textpart))
+        then '}, 
+        '
+        else '}]'
+        ),'
+    }]
+}'       
+)) 
+    
 return file:write-text(concat("file:///", $repository, 'PapyroLogos/JSON/', $version, '/', $fileNameVersion, '.json'), $jsonFile)
 
 

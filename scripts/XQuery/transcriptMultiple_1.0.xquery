@@ -24,8 +24,8 @@ declare variable $loadTranscriptFile := true();
 
 (:  ### SCHALTER III ###
     Drei Booleans zur Steuerung der Outputformate – nur eines auf true() setzen  :)
-declare variable $textOutput := false();
-declare variable $jsonOutput := true();
+declare variable $textOutput := true();
+declare variable $jsonOutput := false();
 declare variable $altoOutput := false();
 
 (:  ### Pfade zu Verzeichnissen und Dateien ###  :)

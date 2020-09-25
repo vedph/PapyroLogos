@@ -10,7 +10,7 @@ Jeweils 4 Versionen für **D**iplomatische bzw. **N**ormalisierte Transkription
 * tm-Nummer aus XML_TEI bzw. Namenskonvention aus XML_ALTO
 * side: ggf. recto '1' oder verso '2' aus Namenskonvention; sonst '0'  
 * noRom: ggf. römische Nummerierung aus Namenskonvention; sonst '0'
-* part: ggf. Unterabschnitt eines zusammenhängenden Zeugen mit eigener Grafik, in Namenskonvention z.B. 'A' bei 62580; sonst (bei keiner derartigen Unterteilung) '0' 
+* part: ggf. Unterabschnitt eines zusammenhängenden Zeugen mit eigener Grafik, in Namenskonvention z.B. 'A' bei 62580; sonst (bei keiner derartigen Unterteilung) '_' 
 * graphicURL: Link zu Grafik
 * graphicName: Grafik entspricht letztem Pfadabschnitt von graphicURL
 * textparts: Anzahl der in JSON vorhandenen textparts. Textparts (nach TEI-Bezeichnung) sollten TextBlock (in ALTO) entsprechen

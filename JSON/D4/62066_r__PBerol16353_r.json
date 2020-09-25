@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_16353_S1_4_001.jpg",
     "graphicName": "62066_r__PBerol16353_r.jpg",
     "textparts": "1",
-    "lines": "12"
+    "lines": "12",
+    "version": "D4"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "r",
+        "subtype": "N/A",
+        "textpartLines": "12",
         "text": [
             "ΟΓ", 
             "ΠΡΟΤΕΡΟΝΑΝΑΜΕΣΟΝΒΑΙ", 

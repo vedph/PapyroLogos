@@ -7,14 +7,16 @@
     "graphicURL": "http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK5605v.jpg",
     "graphicName": "60671__PKöln_2_75.jpg",
     "textparts": "1",
-    "lines": "24"
+    "lines": "24",
+    "version": "D4"
     },
     
 "body": [
     {
     "textpart": [{
         "n": "1",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "24",
         "text": [
             "[....]Τ[.]ΚΤΑΜ[....][.]", 
             "[...]ΦΑΤΟΥΔ[.......][.]", 

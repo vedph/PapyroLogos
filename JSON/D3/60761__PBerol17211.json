@@ -7,14 +7,16 @@
     "graphicURL": "http://ww2.smb.museum/berlpap/Original/P_17211_R_2.jpg",
     "graphicName": "60761__PBerol17211.jpg",
     "textparts": "1",
-    "lines": "18"
+    "lines": "18",
+    "version": "D3"
     },
     
 "body": [
     {
     "textpart": [{
         "n": "1",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "18",
         "text": [
             "ΤΡΟΙΖ", 
             "ΟΙΤΕΧΟΝ", 

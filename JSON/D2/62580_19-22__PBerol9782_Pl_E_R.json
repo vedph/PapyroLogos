@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-E_R_001.jpg",
     "graphicName": "62580_19-22__PBerol9782_Pl_E_R.jpg",
     "textparts": "4",
-    "lines": "187"
+    "lines": "187",
+    "version": "D2"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "19",
+        "subtype": "column",
+        "textpartLines": "47",
         "text": [
             "ΤΟ_ΕΝΟΥΝΠΟΛΛΑΔΙ", 
             "ΔΩΣΕΠΙΤΗΗΣΕΞΑΡΙ", 
@@ -64,8 +66,9 @@
             "_ΙΚΗΗΣΠΑΡΕΚΔΕΔΕ", 
             "ΚΤΑΙΦΑΣΙΝΑΝΤΙΣΤΡ_"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "20",
+        "subtype": "column",
+        "textpartLines": "46",
         "text": [
             "ΦΕΙΜΕΝΓΑΡΑΛΛΗΛΟΙΣ", 
             "ΤΟΤΕΠΡΑΓΜΑΚΑΙΟΟ", 
@@ -114,8 +117,9 @@
             "ΑΥΤΟΥΟ_ Ε_ΑΙΩΣΕΙ", 
             "_ΙΣΕΡΟ_ΝΟΥΤΙΕΣΤΙΝ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "21",
+        "subtype": "column",
+        "textpartLines": "47",
         "text": [
             "ΑΝΘΡΩΠΟΣΕΙΠΟΙΣΩ", 
             "ΚΡΑΤΗΣΑ ΤΟΔΙΕΑΥ", 
@@ -165,8 +169,9 @@
             "ΤΑΣΑΛΛΑΣΟΙΟΝΠΕΡΙ", 
             "ΠΗΛΟΥΟΤΙΠΟΤΕΣΤΙΝ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "22",
+        "subtype": "column",
+        "textpartLines": "47",
         "text": [
             "ΕΙΑΠΟΚΡΙΝΑΙΜΕΘΑ", 
             "Α_ΩΠΗΛΟΣΟΤ_Ν", 

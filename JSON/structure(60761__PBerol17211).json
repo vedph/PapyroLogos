@@ -7,7 +7,8 @@
     "textparts": "2",
     "lines": "7",
     "graphicURL": "http://ww2.smb.museum/berlpap/Original/P_17211_R_2.jpg",
-    "graphicName": "P_17211_R_2.jpg"
+    "graphicName": "P_17211_R_2.jpg",
+    "version": "D3"
     },
     
 "body": [
@@ -15,6 +16,7 @@
     "textpart": [
             {
         "n":"1", 
+        "subtype": "column",
         "textpartLines": "4",
         "text": [
         "ΤΡΟΙΖ",
@@ -24,6 +26,7 @@
             },
             {
         "n":"2",  
+        "subtype": "N/A",
         "textpartLines": "3",
         "text": [
         "ΤΡΟΙΖ",

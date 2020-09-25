@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-D_R_001.jpg",
     "graphicName": "62580_15-18__PBerol9782_Pl_D_R.jpg",
     "textparts": "4",
-    "lines": "185"
+    "lines": "185",
+    "version": "N1"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "15",
+        "subtype": "N/A",
+        "textpartLines": "45",
         "text": [
             "μετρίαν ἀλλ ιν ς", 
             "γεωμετρία γ ρ", 
@@ -62,8 +64,9 @@
             "ράτηςτ κόσδε", 
             "ὢνἀόκν άνθα"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "16",
+        "subtype": "N/A",
+        "textpartLines": "45",
         "text": [
             "νεν ἆροὐτὸμανθά", 
             "νεινἐστὶτὸσοφώ", 
@@ -111,8 +114,9 @@
             "ῦταὐτοὺς", 
             "οφούςδο ήσε"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "17",
+        "subtype": "N/A",
+        "textpartLines": "49",
         "text": [
             "ταιτὸεἶναιταὐτὸν", 
             "ἐπιστήμηνκαὶσο", 
@@ -164,8 +168,9 @@
             "λεύςκαὶ προσ", 
             "έτασσεντ ς μαρ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "18",
+        "subtype": "N/A",
+        "textpartLines": "46",
         "text": [
             "τάνου ιν καὶφίλους", 
             "τεκαὶπροσηγόρους", 

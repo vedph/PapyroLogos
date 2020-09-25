@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-E_R_001.jpg",
     "graphicName": "62580_19-22__PBerol9782_Pl_E_R.jpg",
     "textparts": "4",
-    "lines": "187"
+    "lines": "187",
+    "version": "N3"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "19",
+        "subtype": "N/A",
+        "textpartLines": "47",
         "text": [
             "τὸ̣μὲνοὖνπολλὰδί", 
             "δωςἐπὶτῆςἐξαρι", 
@@ -64,8 +66,9 @@
             "̣τικῆςπαρεκδέδε", 
             "κταιφασίνἀντιστρ̣έ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "20",
+        "subtype": "N/A",
+        "textpartLines": "46",
         "text": [
             "φειμὲνγὰρἀλλήλοις", 
             "τότεπρᾶγμακαὶὁὅ", 
@@ -114,8 +117,9 @@
             "αυτοῦὁ̣ρ ε̣ῖταιὡςεἴ", 
             "̣τιςἐρο̣μένουτίἐστιν"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "21",
+        "subtype": "N/A",
+        "textpartLines": "47",
         "text": [
             "ἄνθρωποςεἴποιΣω", 
             "κράτηςα τὸδιἑαυ", 
@@ -165,8 +169,9 @@
             "τὰςἄλλαςοἷονπερὶ", 
             "πηλοῦὅτιποτἐστίν"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "22",
+        "subtype": "N/A",
+        "textpartLines": "47",
         "text": [
             "εἰἀποκριναίμεθα", 
             "α̣ὐτῷπηλὸςὁτ̣ῶν", 

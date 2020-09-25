@@ -24,8 +24,8 @@ declare variable $loadTranscriptFile := true();
 
 (:  ### SCHALTER III ###
     Drei Booleans zur Steuerung der Outputformate – nur eines auf true() setzen  :)
-declare variable $textOutput := true();
-declare variable $jsonOutput := false();
+declare variable $textOutput := false();
+declare variable $jsonOutput := true();
 declare variable $altoOutput := false();
 
 (:  ### Pfade zu Verzeichnissen und Dateien ###  :)
@@ -680,8 +680,9 @@ let $jsonFile := string-join((
     "textpart": [',
     for $textpart at $posT in $raw[$pos]//textpart return (
     '{
-        "n": "',$posT,'",
-        "textpartLines": "', count($textpart//lines),'",
+        "n": "', $match//textpart[$posT]/data(@n),'",
+        "subtype": "', if (exists($match//textpart[$pos]/@subtype)) then $match//textpart[$pos]/data(@subtype) else 'N/A','",
+        "textpartLines": "', count($textpart//line),'",
         "text": [
             ',
         for $line at $posL in $textpart//line return (

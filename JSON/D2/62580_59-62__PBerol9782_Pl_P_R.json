@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-P_R_001.jpg",
     "graphicName": "62580_59-62__PBerol9782_Pl_P_R.jpg",
     "textparts": "4",
-    "lines": "195"
+    "lines": "195",
+    "version": "D2"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "59",
+        "subtype": "column",
+        "textpartLines": "50",
         "text": [
             "ΠΡΟΝΟΕΙΤΩΝ_Υ ΒΑΛ", 
             "ΛΟΝΤΩΝΠΩ__Ε", 
@@ -67,8 +69,9 @@
             "ΨΙΝΗΝΤΙΝΟΥΝΠΩΣ", 
             "ΘΕΑΙΤΗΤΟΣΑΝ ΕΠΕ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "60",
+        "subtype": "column",
+        "textpartLines": "48",
         "text": [
             "ΡΩ_ΗΘΕΙΣΠΕΡΙΕ_ΙΣ_Η", 
             "ΜΗΣΤΙΕΣΤΙΝΚΑΙΕ", 
@@ -119,8 +122,9 @@
             "Ω _ΟΦΑ ΝΟΜΕ", 
             "ΛΕΓΕ_ΕΠΕΙΟ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "61",
+        "subtype": "column",
+        "textpartLines": "51",
         "text": [
             "ΘΕΑΙΤΗΤΟΣΕΠΕΡΩΤΗ", 
             "ΘΕΙΣΠΕΡΙΕΠΙΣΤΗΜΗΣ", 
@@ -174,8 +178,9 @@
             "ΕΛΕΓΕΝΚΑΙΠΡΩΤΑΓΟ", 
             "ΡΑΣΤΡΟΠΟΝΔΕΤΙΝΑ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "62",
+        "subtype": "column",
+        "textpartLines": "46",
         "text": [
             "ΑΛ_ΟΝΕΙΡΗΚΕΝΤΑΑΥ", 
             "ΤΑΤΑΥΤΑΦΗΣΙΝΓ_", 

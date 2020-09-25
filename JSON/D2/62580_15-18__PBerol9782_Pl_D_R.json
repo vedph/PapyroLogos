@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-D_R_001.jpg",
     "graphicName": "62580_15-18__PBerol9782_Pl_D_R.jpg",
     "textparts": "4",
-    "lines": "185"
+    "lines": "185",
+    "version": "D2"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "15",
+        "subtype": "column",
+        "textpartLines": "45",
         "text": [
             "ΜΕΤΡΙΑΝΑΛΛ _ΙΝ__Σ", 
             "ΓΕΩΜΕΤΡΙΑ _Γ_Ρ", 
@@ -62,8 +64,9 @@
             "_ΡΑΤΗΣΤ_ ΚΟΣΔΕ", 
             "ΩΝΑΟΚΝ_ _ΑΝΘΑ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "16",
+        "subtype": "column",
+        "textpartLines": "45",
         "text": [
             "ΝΕΝΑΡΟΥΤΟΜΑΝΘΑ", 
             "ΝΕΙΝΕΣΤΙΤΟΣΟΦΩ", 
@@ -111,8 +114,9 @@
             "__ΥΤΑΥΤΟΥΣ", 
             "ΟΦΟΥΣΔΟ_ΗΣΕ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "17",
+        "subtype": "column",
+        "textpartLines": "49",
         "text": [
             "ΤΑΙΤΟΕΙΝΑΙΤΑΥΤΟΝ", 
             "ΕΠΙΣΤΗΜΗΝΚΑΙΣΟ", 
@@ -164,8 +168,9 @@
             "ΛΕΥΣΚΑΙ_ _ΠΡΟΣ", 
             "ΕΤΑΣΣΕΝΤ _Σ ΜΑΡ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "18",
+        "subtype": "column",
+        "textpartLines": "46",
         "text": [
             "ΤΑΝΟΥ_ΙΝΚΑΙΦΙΛΟΥΣ", 
             "ΤΕΚΑΙΠΡΟΣΗΓΟΡΟΥΣ", 

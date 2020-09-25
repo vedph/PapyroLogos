@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-F_R_001.jpg",
     "graphicName": "62580_23_26__PBerol9782_Pl_F_R.jpg",
     "textparts": "4",
-    "lines": "195"
+    "lines": "195",
+    "version": "D2"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "23",
+        "subtype": "column",
+        "textpartLines": "48",
         "text": [
             "ΑΛΛΑΟΙΟΡΟΙΟΥΤΕΠΡΟΣ", 
             "ΤΟΑΣΠΑΖΕΣΘΑΙΟΥΤ_", 
@@ -65,8 +67,9 @@
             "ΝΕΣΘΑΙΠ_ ΡΧ_ΤΑΙ", 
             "ΑΠΕΡΑ_Ο_ _ΦΑΥ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "24",
+        "subtype": "column",
+        "textpartLines": "49",
         "text": [
             "ΛΩΣΜΕ ΑΠΛΩ _ΡΑ", 
             "ΧΕΩΣ__ΟΙ_ΡΟΙ", 
@@ -118,8 +121,9 @@
             "ΑΛΛΕΦΟΣΩΝΚ_ΤΗ", 
             "ΓΟΡΕΙΤΑΙΑΛΗ_Σ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "25",
+        "subtype": "column",
+        "textpartLines": "49",
         "text": [
             "ΠΟΔΟΘΕΝΓΕΝΟΣ", 
             "ΩΕΠΙΤΟΥ_ΙΝΟΥ", 
@@ -171,8 +175,9 @@
             "_ΠΟΥΝΚ_ΤΑΤΑΣΠΛΕΥ", 
             "ΣΑ ΩΝ_ΑΣΤΟΝ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "26",
+        "subtype": "column",
+        "textpartLines": "49",
         "text": [
             "_ΓΕ_ΚΑΙ ΘΜΟΥ", 
             "ΜΕ_ΟΣΤΑΑΣ Ε", 

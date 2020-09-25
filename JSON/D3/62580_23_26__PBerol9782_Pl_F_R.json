@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-F_R_001.jpg",
     "graphicName": "62580_23_26__PBerol9782_Pl_F_R.jpg",
     "textparts": "4",
-    "lines": "195"
+    "lines": "195",
+    "version": "D3"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "23",
+        "subtype": "column",
+        "textpartLines": "48",
         "text": [
             "ΑΛΛΑΟΙΟΡΟΙΟΥΤΕΠΡΟΣ", 
             "ΤΟΑΣΠΑΖΕΣΘΑΙΟΥΤ̣Ε", 
@@ -65,8 +67,9 @@
             "ΝΕΣΘΑΙΠ̣Ε ΡΧ̣ΕΤΑΙ", 
             "ΑΠΕΡΑ̣ΤΟ̣Ν ̣ΟΝΦΑΥ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "24",
+        "subtype": "column",
+        "textpartLines": "49",
         "text": [
             "ΛΩΣΜΕ ΑΠΛΩ ̣ΒΡΑ", 
             "ΧΕΩΣ̣ΔΕ̣ΟΤΙΟΙ̣ΟΡΟΙ", 
@@ -118,8 +121,9 @@
             "ΑΛΛΕΦΟΣΩΝΚ̣ΑΤΗ", 
             "ΓΟΡΕΙΤΑΙΑΛΗ̣ΘΩΣ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "25",
+        "subtype": "column",
+        "textpartLines": "49",
         "text": [
             "ΠΟΔΟΘΕΝΓΕΝΟΣ", 
             "ΩΕΠΙΤΟΥ̣ΟΙΝΟΥ", 
@@ -171,8 +175,9 @@
             "̣ΤΑΠΟΥΝΚ̣ΑΤΑΤΑΣΠΛΕΥ", 
             "ΣΑ ΩΝ̣ΕΚΑΣΤΟΝ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "26",
+        "subtype": "column",
+        "textpartLines": "49",
         "text": [
             "̣ΕΓΕ̣ΝΕΤΟΚΑΙ ΘΜΟΥ", 
             "ΜΕ̣ΝΟΣΤΑΑΣ Ε", 

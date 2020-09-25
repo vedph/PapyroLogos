@@ -7,14 +7,16 @@
     "graphicURL": "http://ww2.smb.museum/berlpap/Original/P_16971_R_001.jpg",
     "graphicName": "58911_r__P_16971_R_001.jpg",
     "textparts": "1",
-    "lines": "18"
+    "lines": "18",
+    "version": "N3"
     },
     
 "body": [
     {
     "textpart": [{
         "n": "1",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "18",
         "text": [
             "̣ν", 
             "καὶὁβο ἔπεινενοὔ", 

@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-B_R_001.jpg",
     "graphicName": "P_09782-Pl-B_R_001.jpg",
     "textparts": "4",
-    "lines": "179"
+    "lines": "179",
+    "version": "N4"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "7",
+        "subtype": "N/A",
+        "textpartLines": "45",
         "text": [
             "πλησίονἐὰνοὖνἀπο", 
             "λείπητεὑμεῖςἀνο", 
@@ -62,8 +64,9 @@
             "δὲἑαυτῷεἶναικήδε", 
             "ταιδὲἑαυτοῦκαὶτῶν"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "8",
+        "subtype": "N/A",
+        "textpartLines": "46",
         "text": [
             "πλησίονδιὰτοῦτοἔ", 
             "φηεἰμὲντῶνἐνΚυ", 
@@ -112,8 +115,9 @@
             "τοὺςεὐφυε[.]ςνῦνδέ", 
             "καὶμήμοιἄχθουοὐ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "9",
+        "subtype": "N/A",
+        "textpartLines": "44",
         "text": [
             "κἔστινκαλόςπροσ", 
             "έοικεδὲσοὶτήντε", 
@@ -160,8 +164,9 @@
             "πὶτῶνεὐφυϊῶνἐ", 
             "ξἀνάγκηςἡἀντ[.]κο"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "10",
+        "subtype": "N/A",
+        "textpartLines": "44",
         "text": [
             "λουθίαἀλλὰτὰπολλὰ", 
             "καὶἐναντιοῦνταιἀλ", 

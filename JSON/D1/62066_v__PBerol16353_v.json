@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_16353_S2_4_001.jpg",
     "graphicName": "62066_v__PBerol16353_v.jpg",
     "textparts": "1",
-    "lines": "12"
+    "lines": "12",
+    "version": "D1"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "v",
+        "subtype": "N/A",
+        "textpartLines": "12",
         "text": [
             "ΟΔ", 
             "ΜΗΕΣΤΩΜΑΧΗΑΝΑΜΕ", 

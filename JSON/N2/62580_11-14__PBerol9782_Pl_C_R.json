@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-C_R_001.jpg",
     "graphicName": "62580_11-14__PBerol9782_Pl_C_R.jpg",
     "textparts": "4",
-    "lines": "186"
+    "lines": "186",
+    "version": "N2"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "11",
+        "subtype": "N/A",
+        "textpartLines": "48",
         "text": [
             "ἀ_δρεῖονοὐκἔμπλη", 
             "κτονἀλλὰστάσιμον", 
@@ -65,8 +67,9 @@
             "ψοφητὶῥέοντοςοἷ", 
             "ονδεῖεἶναιἐντα_ζη"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "12",
+        "subtype": "N/A",
+        "textpartLines": "46",
         "text": [
             "τήσεσι_αὶμαθήσεσι", 
             "ὑπογρ_φειὅτιδεῖλεί", 
@@ -115,8 +118,9 @@
             "_ _ ἐλ_υθέ _ον", 
             "_ ν_ῇὡς_ε_νι"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "13",
+        "subtype": "N/A",
+        "textpartLines": "46",
         "text": [
             "κόνἐνγὰ_τοῖςμάλι", 
             "στακαὶτοῦτοσ_οπεῖεἰ", 
@@ -165,8 +169,9 @@
             "ἐπιδεικ _ν _μ_", 
             "λογήθηα _τα"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "14",
+        "subtype": "N/A",
+        "textpartLines": "46",
         "text": [
             "ἕκα_τον κανὸνεἶναι", 
             "ἀπ φαίνεσθαιἅπερ", 

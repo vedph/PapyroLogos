@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-F_R_001.jpg",
     "graphicName": "62580_23_26__PBerol9782_Pl_F_R.jpg",
     "textparts": "4",
-    "lines": "195"
+    "lines": "195",
+    "version": "N3"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "23",
+        "subtype": "N/A",
+        "textpartLines": "48",
         "text": [
             "ἀλλὰοἱὅροιοὔτεπρὸς", 
             "τὸἀσπάζεσθαιοὔτ̣ε", 
@@ -65,8 +67,9 @@
             "νεσθαιπ̣ε ρχ̣εται", 
             "ἀπέρα̣το̣ν ̣όνφαύ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "24",
+        "subtype": "N/A",
+        "textpartLines": "49",
         "text": [
             "λωςμὲ ἁπλῶ ̣βρα", 
             "χέως̣δέ̣ὅτιοἱ̣ὅροι", 
@@ -118,8 +121,9 @@
             "ἀλλἐφὅσωνκ̣ατη", 
             "γορεῖταιἀλη̣θῶς"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "25",
+        "subtype": "N/A",
+        "textpartLines": "49",
         "text": [
             "ποδοθὲνγένος", 
             "ωἐπὶτοῦ̣οἴνου", 
@@ -171,8 +175,9 @@
             "̣τάπουνκ̣ατὰτὰςπλευ", 
             "ςἀ ὧν̣ἕκαστον"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "26",
+        "subtype": "N/A",
+        "textpartLines": "49",
         "text": [
             "̣ἐγέ̣νετοκαὶ θμού", 
             "με̣νοςτὰἀσ ε", 

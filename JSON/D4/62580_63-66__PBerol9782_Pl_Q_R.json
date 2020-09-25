@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-Q_R_001.jpg",
     "graphicName": "62580_63-66__PBerol9782_Pl_Q_R.jpg",
     "textparts": "4",
-    "lines": "193"
+    "lines": "193",
+    "version": "D4"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "63",
+        "subtype": "column",
+        "textpartLines": "48",
         "text": [
             "ΠΡΟΣΤΟΜΙΚΡΟΝΑΛ", 
             "ΛΩΣΔΕΠΑΝΤΑΠΡΟΣ", 
@@ -65,8 +67,9 @@
             "ΣΥΤΕΚΑΓΩ", 
             "ΑΚΟΛΟΥΘΕΙΤΩΠΑΝ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "64",
+        "subtype": "column",
+        "textpartLines": "47",
         "text": [
             "ΤΑΡΕΙΝΤΟΜΗΔΕΝΕΙ", 
             "ΝΑΙΠΑ[..]ΟΝΜ[.]ΔΕ[.]Ο", 
@@ -116,8 +119,9 @@
             "ΚΑΙΕΝΤΩΑΥΤΩΟΝ", 
             "ΤΩΝΤΟΠΩΩΚΑΙΚΑΤΑ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "65",
+        "subtype": "column",
+        "textpartLines": "50",
         "text": [
             "Τ[.]ΝΑΥΤΗΝΩΡΑΝΘΗ", 
             "ΣΕΙΓΑΡΚΑΙΤΑΥΤΑΟΠΡΩ", 
@@ -170,8 +174,9 @@
             "ΤΙΕΙΓΑΡΗΝΨΥΧΡΟΣ", 
             "Ε[.]ΙΓΟΥΑΝΚΑΙΟΥΤΟΣ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "66",
+        "subtype": "column",
+        "textpartLines": "48",
         "text": [
             "ΓΙΝΕΤΑΙΟΥ[......]", 
             "ΟΔΕΞΙΟΣ[.....]ΕΝ", 

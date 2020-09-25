@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-A_R_001.jpg",
     "graphicName": "P_09782-Pl-A_R_001.jpg",
     "textparts": "6",
-    "lines": "280"
+    "lines": "280",
+    "version": "N3"
     },
     
 "body": [
     {
     "textpart": [{
         "n": "1",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "27",
         "text": [
             "ωταγό", 
             "χρη", 
@@ -45,7 +47,8 @@
             ""]}, 
         {
         "n": "2",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "52",
         "text": [
             "αυτῃἅμαδὲκαὶΘ̣ε", 
             "ροςμὲνἑταῖροςἦ̣ν", 
@@ -101,7 +104,8 @@
             "πραγματεύοντ̣αιἐ"]}, 
         {
         "n": "3",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "53",
         "text": [
             "π̣εὶ̣δ στήμηἦν", 
             "δόξαὀρθὴδεθεῖσααἰ", 
@@ -158,7 +162,8 @@
             "τ̣ῆςὀνομ̣ασθείσης"]}, 
         {
         "n": "4",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "52",
         "text": [
             "Μεγαρικῆς̣αἱ ̣έσεωςἥ", 
             "τιςὕστερον̣ἐγένετο", 
@@ -214,7 +219,8 @@
             "ὁτοι̣οῦτοςγίνεταιἐλ"]}, 
         {
         "n": "5",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "49",
         "text": [
             "λόγιμο ἐὰν̣μήτικω", 
             "λύσῃ̣πα ὰ ὴνἔξω", 
@@ -267,7 +273,8 @@
             "κἀποδέχονταιμὲν"]}, 
         {
         "n": "6",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "47",
         "text": [
             "̣τὰ̣γ̣ἐχό̣μεναοὐδύναν", 
             "τ̣α ̣δὲμισῆσαιαὑτούς", 

@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-B_R_001.jpg",
     "graphicName": "P_09782-Pl-B_R_001.jpg",
     "textparts": "4",
-    "lines": "179"
+    "lines": "179",
+    "version": "D3"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "7",
+        "subtype": "column",
+        "textpartLines": "45",
         "text": [
             "ΠΛΗΣΙΟΝΕΑΝΟΥΝΑΠ̣Ο", 
             "ΛΕΙΠ̣ΗΤΕΥΜΕΙΣΑΝΟ", 
@@ -62,8 +64,9 @@
             "ΔΕΕΑΥΤΩΕΙΝΑΙΚΗΔΕ", 
             "ΤΑΙΔΕΕΑΥ̣ΤΟΥΚΑΙΤΩΝ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "8",
+        "subtype": "column",
+        "textpartLines": "46",
         "text": [
             "ΠΛΗΣΙΟΝΔΙΑΤΟΥΤΟΕ", 
             "ΦΗΕΙΜΕΝΤΩΝΕΝΚΥ", 
@@ -112,8 +115,9 @@
             "ΤΟΥΣΕΥΦΥΕ ΣΝΥΝΔΕ", 
             "ΚΑΙΜΗΜΟΙΑΧΘΟΥΟΥ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "9",
+        "subtype": "column",
+        "textpartLines": "44",
         "text": [
             "ΚΕΣΤ̣ΙΝΚΑΛΟΣΠΡΟΣ", 
             "ΕΟ̣ΙΚΕΔ̣Ε̣ΣΟΙΤΗΝΤΕ", 
@@ -160,8 +164,9 @@
             "ΠΙΤΩΝΕΥΦΥΙΩ̣Ν̣Ε", 
             "ΞΑΝ̣ΑΓΚ̣ΗΣΗΑ̣ΝΤ ΚΟ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "10",
+        "subtype": "column",
+        "textpartLines": "44",
         "text": [
             "ΛΟΥΘΙΑΑΛΛΑΤΑΠΟΛΛΑ", 
             "ΚΑΙΕΝΑΝΤΙΟΥΝΤΑΙΑΛ", 

@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-P_R_001.jpg",
     "graphicName": "62580_59-62__PBerol9782_Pl_P_R.jpg",
     "textparts": "4",
-    "lines": "195"
+    "lines": "195",
+    "version": "N1"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "59",
+        "subtype": "N/A",
+        "textpartLines": "50",
         "text": [
             "προνοεῖτῶν υ βαλ", 
             "λόντωνπῶ ὲ", 
@@ -67,8 +69,9 @@
             "ψινἡντινοῦνπῶς", 
             "Θεαίτητοςἄν ἐπε"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "60",
+        "subtype": "N/A",
+        "textpartLines": "48",
         "text": [
             "ρω ηθεὶςπερὶἐ ισ ή", 
             "μηςτίἐστινκαὶε", 
@@ -119,8 +122,9 @@
             "ω οφα νόμε", 
             "λέγε ἐπεὶὁ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "61",
+        "subtype": "N/A",
+        "textpartLines": "51",
         "text": [
             "Θεαίτητοςἐπερωτη", 
             "θεὶςπερὶἐπιστήμης", 
@@ -174,8 +178,9 @@
             "ἔλεγενκαὶΠρωταγό", 
             "ραςτρόπονδέτινα"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "62",
+        "subtype": "N/A",
+        "textpartLines": "46",
         "text": [
             "ἄλ ονεἴρηκεντὰαὐ", 
             "τὰταῦταφησὶνγ", 

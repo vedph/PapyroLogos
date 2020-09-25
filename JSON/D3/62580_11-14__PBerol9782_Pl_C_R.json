@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-C_R_001.jpg",
     "graphicName": "62580_11-14__PBerol9782_Pl_C_R.jpg",
     "textparts": "4",
-    "lines": "186"
+    "lines": "186",
+    "version": "D3"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "11",
+        "subtype": "column",
+        "textpartLines": "48",
         "text": [
             "Α̣ΝΔΡΕΙΟΝΟΥΚΕΜΠΛΗ", 
             "ΚΤΟΝΑΛΛΑΣΤΑΣΙΜΟΝ", 
@@ -65,8 +67,9 @@
             "ΨΟΦΗΤΙΡΕΟΝΤΟΣΟΙ", 
             "ΟΝΔΕΙΕΙΝΑΙΕΝΤΑ̣ΙΣΖΗ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "12",
+        "subtype": "column",
+        "textpartLines": "46",
         "text": [
             "ΤΗΣΕΣΙ̣ΚΑΙΜΑΘΗΣΕΣΙ", 
             "ΥΠΟΓΡ̣ΑΦΕΙΟΤΙΔΕΙΛΕΙ", 
@@ -115,8 +118,9 @@
             "̣Ξ ̣Τ ΕΛ̣ΕΥΘΕ ̣ΙΟΝ", 
             "̣Ε Ν̣ΘΗΩΣ̣ΓΕ̣ΝΝΙ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "13",
+        "subtype": "column",
+        "textpartLines": "46",
         "text": [
             "ΚΟΝΕΝΓΑ̣ΡΤΟΙΣΜΑΛΙ", 
             "ΣΤΑΚΑΙΤΟΥΤΟΣ̣ΚΟΠΕΙΕΙ", 
@@ -165,8 +169,9 @@
             "ΕΠΙΔΕΙΚ ̣ΥΝ ̣ΩΜ̣Ο", 
             "ΛΟΓΗΘΗΑ ̣ΥΤΑ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "14",
+        "subtype": "column",
+        "textpartLines": "46",
         "text": [
             "ΕΚΑ̣ΣΤΟΝ ΚΑΝΟΝΕΙΝΑΙ", 
             "ΑΠ ΦΑΙΝΕΣΘΑΙΑΠΕΡ", 

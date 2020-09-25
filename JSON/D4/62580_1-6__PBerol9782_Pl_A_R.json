@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-A_R_001.jpg",
     "graphicName": "P_09782-Pl-A_R_001.jpg",
     "textparts": "6",
-    "lines": "280"
+    "lines": "280",
+    "version": "D4"
     },
     
 "body": [
     {
     "textpart": [{
         "n": "1",
-        "textpartLines": "0",
+        "subtype": "column",
+        "textpartLines": "27",
         "text": [
             "[..........][..]ΩΤΑΓΟ", 
             "[.][..............]ΧΡΗ", 
@@ -45,7 +47,8 @@
             "[..]"]}, 
         {
         "n": "2",
-        "textpartLines": "0",
+        "subtype": "column",
+        "textpartLines": "52",
         "text": [
             "ΑΥΤΗΑΜΑΔΕΚΑΙΘΕ[...]", 
             "ΡΟΣΜΕΝΕΤΑΙΡΟΣΗΝ", 
@@ -101,7 +104,8 @@
             "ΠΡΑΓΜΑΤΕΥΟΝΤΑΙΕ"]}, 
         {
         "n": "3",
-        "textpartLines": "0",
+        "subtype": "column",
+        "textpartLines": "53",
         "text": [
             "ΠΕΙΔ[....]ΣΤΗΜΗΗΝ", 
             "ΔΟΞΑΟΡΘΗΔΕΘΕΙΣΑΑΙ", 
@@ -158,7 +162,8 @@
             "ΤΗΗΣΟΝΟΜΑΣΘΕΙΣΗΣ"]}, 
         {
         "n": "4",
-        "textpartLines": "0",
+        "subtype": "column",
+        "textpartLines": "52",
         "text": [
             "ΜΕΓΑΡΙΚΗΗΣΑΙ[.]ΕΣΕΩΣΗ", 
             "ΤΙΣΥΣΤΕΡΟΝΕΓΕΝΕΤΟ", 
@@ -214,7 +219,8 @@
             "ΟΤΟΙΟΥΤΟΣΓΙΝΕΤΑΙΕΛ"]}, 
         {
         "n": "5",
-        "textpartLines": "0",
+        "subtype": "column",
+        "textpartLines": "49",
         "text": [
             "ΛΟΓΙΜΟ[.]ΕΑΝΜΗΤΙΚΩ", 
             "ΛΥΣΗΠΑ[.]Α[.]ΗΝΕΞΩ", 
@@ -267,7 +273,8 @@
             "ΚΑΠΟΔΕΧΟΝΤΑΙΜΕΝ"]}, 
         {
         "n": "6",
-        "textpartLines": "0",
+        "subtype": "column",
+        "textpartLines": "47",
         "text": [
             "ΤΑΓΕΧΟΜΕΝΑΟΥΔΥΝΑΝ", 
             "ΤΑ[.]ΔΕΜΙΣΗΗΣΑΙΑΥΤΟΥΣ", 

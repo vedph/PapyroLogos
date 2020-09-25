@@ -7,14 +7,16 @@
     "graphicURL": "http://ww2.smb.museum/berlpap/Original/P_10677-Kol-VII_R_4.jpg",
     "graphicName": "59099__PBerol10677_07_R.jpg",
     "textparts": "1",
-    "lines": "34"
+    "lines": "34",
+    "version": "N1"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "7",
+        "subtype": "N/A",
+        "textpartLines": "34",
         "text": [
             "αὐτ ςὢ υ αὶ υ ς ἀν ου ο προσώπω μονογενὴςγὰροὗτοςὡς θ ῦ υ ς ἐνᾧ", 
             "καὶοἱπιστεύ ντεςσωζόμεθα Ἰούλιοςδὲὁτῆςαὐτῆςἀποστολικῆςκαθέ", 

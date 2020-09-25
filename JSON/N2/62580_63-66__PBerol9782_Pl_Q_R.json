@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-Q_R_001.jpg",
     "graphicName": "62580_63-66__PBerol9782_Pl_Q_R.jpg",
     "textparts": "4",
-    "lines": "193"
+    "lines": "193",
+    "version": "N2"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "63",
+        "subtype": "N/A",
+        "textpartLines": "48",
         "text": [
             "πρὸςτὸμικρόνἄλ", 
             "λωςδ_πάνταπρός", 
@@ -65,8 +67,9 @@
             "σ_τεκἀγώ", 
             "_ολουθεῖτῷπάν"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "64",
+        "subtype": "N/A",
+        "textpartLines": "47",
         "text": [
             "ταῥε_τὸμηδὲνεἶ", 
             "ναιπ_ ονμ δὲ ὸ", 
@@ -116,8 +119,9 @@
             "κα_ἐντῷαὐτῷὄ_", 
             "τωντόπῳκαὶκατὰ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "65",
+        "subtype": "N/A",
+        "textpartLines": "50",
         "text": [
             "_ _α_τὴνὥρανθή", 
             "σει_ρκαὶταῦταὁΠρω", 
@@ -170,8 +174,9 @@
             "τ_εἰγὰρ_ψυχρός", 
             "ἐ ίγουἂ_καὶοὗτος"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "66",
+        "subtype": "N/A",
+        "textpartLines": "48",
         "text": [
             "γίνε_αιοὕ", 
             "ὁδεξιὸς ὲ_", 

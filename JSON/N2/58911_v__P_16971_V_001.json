@@ -7,14 +7,16 @@
     "graphicURL": "http://ww2.smb.museum/berlpap/Original/P_16971_V_001.jpg",
     "graphicName": "58911_v__P_16971_V_001.jpg",
     "textparts": "2",
-    "lines": "26"
+    "lines": "26",
+    "version": "N2"
     },
     
 "body": [
     {
     "textpart": [{
         "n": "1",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "4",
         "text": [
             "δυ", 
             "και", 
@@ -22,7 +24,8 @@
             ""]}, 
         {
         "n": "2",
-        "textpartLines": "0",
+        "subtype": "N/A",
+        "textpartLines": "22",
         "text": [
             "ρὸ", 
             "τὸ_ εω", 

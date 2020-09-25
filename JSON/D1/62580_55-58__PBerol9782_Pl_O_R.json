@@ -7,14 +7,16 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-O_R_001.jpg",
     "graphicName": "62580_55-58__PBerol9782_Pl_O_R.jpg",
     "textparts": "4",
-    "lines": "199"
+    "lines": "199",
+    "version": "D1"
     },
     
 "body": [
     {
     "textpart": [{
-        "n": "1",
-        "textpartLines": "0",
+        "n": "55",
+        "subtype": "column",
+        "textpartLines": "48",
         "text": [
             "Γ ΔΟΓΜΑΤΙΖΟΝ", 
             "ΤΑΣ Α ΜΙΑΝΟΥΣΑΝ", 
@@ -65,8 +67,9 @@
             "ΤΟΙΟΥΤΟΓΕΓΟΝΟΣ", 
             "ΤΗΗΣΕΜΗΗΣΨΥΧΗΗΣΕΚ"]}, 
         {
-        "n": "2",
-        "textpartLines": "0",
+        "n": "56",
+        "subtype": "column",
+        "textpartLines": "50",
         "text": [
             "Ο ΟΝ", 
             "ΕΥ ΑΚΑΙΕΓΓΟΝΟΝ", 
@@ -119,8 +122,9 @@
             "ΝΑΕΓΕΙΡΕΙΝΤΕΚΑΙΑ", 
             "ΠΟΠΑΥΕΙΝΗΕΜΗΤΕ"]}, 
         {
-        "n": "3",
-        "textpartLines": "0",
+        "n": "57",
+        "subtype": "column",
+        "textpartLines": "49",
         "text": [
             "ΧΝΗΔΥΝΑΤΑΙ", 
             "ΤΗΝΕΚΤ ΙΑΣ", 
@@ -172,8 +176,9 @@
             "ΣΙ ΓΑ Φ ΟΣΟΦΟΣ", 
             "ΣΥΓΚΑΘ ΙΜΕΝ"]}, 
         {
-        "n": "4",
-        "textpartLines": "0",
+        "n": "58",
+        "subtype": "column",
+        "textpartLines": "52",
         "text": [
             "Τ ΞΙΟΙΣ ΟΥΣΔΕ", 
             "Μ Υ ΣΚΑΤΑ", 

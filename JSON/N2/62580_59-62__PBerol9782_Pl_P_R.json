@@ -7,7 +7,7 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-P_R_001.jpg",
     "graphicName": "62580_59-62__PBerol9782_Pl_P_R.jpg",
     "textparts": "4",
-    "lines": "195",
+    "lines": "194",
     "version": "N2"
     },
     
@@ -180,7 +180,7 @@
         {
         "n": "62",
         "subtype": "N/A",
-        "textpartLines": "46",
+        "textpartLines": "45",
         "text": [
             "ἄλ_ονεἴρηκεντὰαὐ", 
             "τὰταῦταφησὶνγ_", 
@@ -204,7 +204,6 @@
             "_α", 
             "_", 
             "_ν", 
-            "", 
             "σ", 
             "δ σι", 
             "ἀλη_η νον", 

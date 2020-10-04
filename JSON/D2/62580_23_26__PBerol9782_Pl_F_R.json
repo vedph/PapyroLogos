@@ -7,7 +7,7 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-F_R_001.jpg",
     "graphicName": "62580_23_26__PBerol9782_Pl_F_R.jpg",
     "textparts": "4",
-    "lines": "195",
+    "lines": "194",
     "version": "D2"
     },
     
@@ -177,7 +177,7 @@
         {
         "n": "26",
         "subtype": "column",
-        "textpartLines": "49",
+        "textpartLines": "48",
         "text": [
             "_ΓΕ_ΚΑΙ ΘΜΟΥ", 
             "ΜΕ_ΟΣΤΑΑΣ Ε", 
@@ -200,7 +200,6 @@
             "Υ_ _ΥΝΗ", 
             "_Α_ΙΣΙ_ΟΝΤ", 
             "_ ΡΟΣ", 
-            "", 
             "Ν_", 
             "_ ΕΙ ΕΤΕ", 
             "_ _ _ΕΤΡΑ", 

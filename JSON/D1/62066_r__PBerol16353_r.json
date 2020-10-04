@@ -7,7 +7,7 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_16353_S1_4_001.jpg",
     "graphicName": "62066_r__PBerol16353_r.jpg",
     "textparts": "1",
-    "lines": "12",
+    "lines": "11",
     "version": "D1"
     },
     
@@ -16,7 +16,7 @@
     "textpart": [{
         "n": "r",
         "subtype": "N/A",
-        "textpartLines": "12",
+        "textpartLines": "11",
         "text": [
             "ΟΓ", 
             "ΠΡΟΤΕΡΟΝΑΝΑΜΕΣΟΝΒΑΙ", 
@@ -28,7 +28,6 @@
             "Υ ΚΑΙΛΩΤ", 
             "ΡΕΥΟΜΕΝΩΩΜ", 
             "ΡΟΒΑΤΑΚΑΙΒΟ", 
-            "ΗΚΑΙΟΥΚΕ", 
-            ""]}]
+            "ΗΚΑΙΟΥΚΕ"]}]
     }]
 }

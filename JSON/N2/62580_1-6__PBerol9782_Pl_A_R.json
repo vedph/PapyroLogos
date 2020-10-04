@@ -7,7 +7,7 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-A_R_001.jpg",
     "graphicName": "P_09782-Pl-A_R_001.jpg",
     "textparts": "6",
-    "lines": "280",
+    "lines": "279",
     "version": "N2"
     },
     
@@ -16,7 +16,7 @@
     "textpart": [{
         "n": "1",
         "subtype": "column",
-        "textpartLines": "27",
+        "textpartLines": "26",
         "text": [
             "ωταγό", 
             "χρη", 
@@ -43,8 +43,7 @@
             "ως", 
             "e", 
             "ος", 
-            "ρι", 
-            ""]}, 
+            "ρι"]}, 
         {
         "n": "2",
         "subtype": "column",

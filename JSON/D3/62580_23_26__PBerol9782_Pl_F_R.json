@@ -7,7 +7,7 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-F_R_001.jpg",
     "graphicName": "62580_23_26__PBerol9782_Pl_F_R.jpg",
     "textparts": "4",
-    "lines": "195",
+    "lines": "194",
     "version": "D3"
     },
     
@@ -177,7 +177,7 @@
         {
         "n": "26",
         "subtype": "column",
-        "textpartLines": "49",
+        "textpartLines": "48",
         "text": [
             "̣ΕΓΕ̣ΝΕΤΟΚΑΙ ΘΜΟΥ", 
             "ΜΕ̣ΝΟΣΤΑΑΣ Ε", 
@@ -200,7 +200,6 @@
             "Υ̣Τ ̣ΝΥΝΗ", 
             "̣ΣΑ̣ΚΙΣΙ̣ΣΟΝΤ", 
             "̣Ν ΡΟΣ", 
-            "", 
             "Ν̣Π", 
             "̣Μ ΕΙ ΕΤΕ", 
             "̣ΒΑΘ ̣Ε ̣ΤΕΤΡΑ", 

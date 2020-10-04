@@ -109,7 +109,9 @@ let $token :=
 (:if ($node instance of text() and not(ts:normalize-string(xs:string($node), true())='')) 
     then <token>{ts:normalize-string($node)}</token> #2.0# :)
 if ($node instance of text() and not(xs:string($node)='')) 
-    then <token>{ts:strip-string($node, false())}</token>
+    then if (not(ts:strip-string($node, false()) = '')) 
+        then <token>{ts:strip-string($node, false())}</token> 
+        else ()
     
     else if ($node instance of element())
   then 

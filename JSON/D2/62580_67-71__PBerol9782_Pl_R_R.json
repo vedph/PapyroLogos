@@ -7,7 +7,7 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-R_R_001.jpg",
     "graphicName": "62580_67-71__PBerol9782_Pl_R_R.jpg",
     "textparts": "5",
-    "lines": "221",
+    "lines": "215",
     "version": "D2"
     },
     
@@ -16,19 +16,15 @@
     "textpart": [{
         "n": "67",
         "subtype": "column",
-        "textpartLines": "47",
+        "textpartLines": "43",
         "text": [
             "ΤΑΙΕΚ _ _Α", 
             "ΣΤ ΔΕ", 
             "ΩΚ _", 
             "_", 
             "_", 
-            "", 
             "_", 
             "_", 
-            "", 
-            "", 
-            "", 
             "", 
             "_ΑΤ_", 
             "ΕΣΤΙΝ_", 
@@ -122,10 +118,8 @@
         {
         "n": "69",
         "subtype": "column",
-        "textpartLines": "26",
+        "textpartLines": "24",
         "text": [
-            "", 
-            "", 
             "Ν_", 
             "ΣΥΜΒΑΛΗ_", 
             "ΟΥΤΟΑΠΕΤ", 

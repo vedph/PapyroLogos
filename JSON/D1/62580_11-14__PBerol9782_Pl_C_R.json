@@ -7,7 +7,7 @@
     "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-C_R_001.jpg",
     "graphicName": "62580_11-14__PBerol9782_Pl_C_R.jpg",
     "textparts": "4",
-    "lines": "186",
+    "lines": "184",
     "version": "D1"
     },
     
@@ -120,7 +120,7 @@
         {
         "n": "13",
         "subtype": "column",
-        "textpartLines": "46",
+        "textpartLines": "45",
         "text": [
             "ΚΟΝΕΝΓΑ ΤΟΙΣΜΑΛΙ", 
             "ΣΤΑΚΑΙΤΟΥΤΟΣ ΟΠΕΙΕΙ", 
@@ -154,7 +154,6 @@
             "ΠΡΟ", 
             "ΤΟ", 
             "", 
-            "", 
             "ΙΟ", 
             "", 
             "ΡΟΥ", 
@@ -171,7 +170,7 @@
         {
         "n": "14",
         "subtype": "column",
-        "textpartLines": "46",
+        "textpartLines": "45",
         "text": [
             "ΕΚΑ ΤΟΝ ΚΑΝΟΝΕΙΝΑΙ", 
             "ΑΠ ΦΑΙΝΕΣΘΑΙΑΠΕΡ", 
@@ -203,7 +202,6 @@
             "ΕΙΤ", 
             "Ε", 
             "Ε", 
-            "", 
             "", 
             "", 
             "ΚΑΙ ΟΡΑ", 

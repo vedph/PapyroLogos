@@ -353,7 +353,7 @@ return $textpart
 
 (:
 return 
-file:write(concat("file:///", $destinationXML, 'corpusTranscript_3.4',".xml"), $corpusTranscript)
+file:write(concat("file:///", $destinationXML, 'corpusTranscript',".xml"), $corpusTranscript)
 :)
 
 (: ### Implementierung für ALTO-XML ### :)
@@ -606,8 +606,8 @@ file:write(concat("file:///", $destinationXML, 'insertTree_3.5',".xml"), $insert
 
 
 
-let $Normalised := <norm>{for $textpart in $match//textpart return <textpart>{$textpart//text[data(@editionType)='normalized']//line}</textpart>}</norm>
-let $Diplomatic := <dipl>{for $textpart in $match//textpart return <textpart>{$textpart//text[data(@editionType)='diplomatic']//line}</textpart>}</dipl>
+let $Normalised := <norm>{for $textpart in $match//textpart return <textpart>{for $i in $textpart//text[data(@editionType)='normalized']//line[child::token or child::unclear or child::supplied] return $i}</textpart>}</norm>     (: Zeilen, die ausschließlich "gap" beinhalten, werden ausgeschlossen:)
+let $Diplomatic := <dipl>{for $textpart in $match//textpart return <textpart>{for $i in $textpart//text[data(@editionType)='diplomatic']//line[child::token or child::unclear or child::supplied] return $i}</textpart>}</dipl>
 
 let $fileNameVersion := to:substring-before-match($fileNameAlto,'.xml')
 
@@ -672,7 +672,8 @@ let $jsonFile := string-join((
     "graphicURL": "', $match/graphic/text(), '",
     "graphicName": "', $metaAlto/data(@source), '",
     "textparts": "', count($raw[$pos]//textpart), '",
-    "lines": "', count($raw[$pos]//line), '"
+    "lines": "', count($raw[$pos]//line), '",
+    "version": "', $version, '"
     },
     
 "body": [

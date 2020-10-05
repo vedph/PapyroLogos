@@ -23,9 +23,10 @@ declare variable $loadTranscriptFile := true();
 
 
 (:  ### SCHALTER III ###
-    Drei Booleans zur Steuerung der Outputformate – nur eines auf true() setzen  :)
+    Vier Booleans zur Steuerung der Outputformate – nur eines auf true() setzen, ansonsten wird nur das jeweils erste ausgegeben  :)
 declare variable $textOutput := false();
-declare variable $jsonOutput := true();
+declare variable $jsonOutput := false();
+declare variable $xmlOutput  := true();
 declare variable $altoOutput := false();
 
 (:  ### Pfade zu Verzeichnissen und Dateien ###  :)
@@ -40,23 +41,23 @@ declare variable $fileTranscript := concat($repository,'PapyroLogos/documents/co
 declare variable $tableGreek := $ts:tableGreek; 
 
 (: Ordner oder Verzeichnis der ursprünglichen XML-Dateien, aus denen Transkript-Daten extrahiert werden sollen :)
-declare variable $corpusXML := concat($repository,"PapyroLogos/XML_TEI/DCLP@imaged") ;  
+declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP@imaged") ;  
 
 (: Umstrukturierung der Transkriptionen wird by default in Variable $corpusTranscript gespeichert, 
    kann jedoch auch (ab Zeile 364) als Datei ausgegeben werden, um sie bei zwetem Durchlauf per SCHALTER II = true abzurufen :)
 (: Zielverzeichnis für corpusTranscript.xml, die alle Transkript-Dateien des Korpus enthält:)
-declare variable $destinationXML := concat($repository, 'PapyroLogos/documents/');
+declare variable $destinationAUX := concat($repository, 'PapyroLogos/documents/');
 
 
 (: ## Generierung der XML-Alto Dateien ## :)
 (: Ordner oder Verzeichnis der ursprünglichen XML-Alto Dateien :)
-declare variable $corpusAlto := concat($repository,'PapyroLogos/XML_ALTO/input_test');                                                        
-declare variable $destinationAlto := "PapyroLogos/XML_ALTO/output_xquery/";     
+declare variable $corpusAlto := concat($repository,'PapyroLogos/XML/ALTO/input_test');                                                        
+declare variable $destinationAlto := "PapyroLogos/XML/ALTO/output_xquery/";     
 
 
-declare variable $destinationTEXT := 'PapyroLogos/TEXT/';
+declare variable $destinationTXT := 'PapyroLogos/TEXT/';
 declare variable $destinationJSON := 'PapyroLogos/JSON/';
-
+declare variable $destinationXML := 'PapyroLogos/XML/JSON_structure/';
 
 
 (: Kopiert alle Elemente, die keine String-Elemente enthalten;
@@ -353,7 +354,7 @@ return $textpart
 
 (:
 return 
-file:write(concat("file:///", $destinationXML, 'corpusTranscript',".xml"), $corpusTranscript)
+file:write(concat("file:///", $destinationAUX, 'corpusTranscript',".xml"), $corpusTranscript)
 :)
 
 (: ### Implementierung für ALTO-XML ### :)
@@ -449,7 +450,7 @@ let $transcriptFile := for $file in $corpusTranscript//file
 (:  (: Zusammenhängende Teile der Transkription der einzelnen Dateien :)
 let $fileNameVersion := to:substring-before-match($fileNameAlto,'.xml')
 return 
-file:write(concat("file:///", $destinationXML, $fileNameVersion, '_tF_3.4',".xml"), $transcriptFile)
+file:write(concat("file:///", $destinationAUX, $fileNameVersion, '_tF_3.4',".xml"), $transcriptFile)
 :)
 
 
@@ -585,7 +586,7 @@ for $t in $transcriptTextpart/textpartMeta(:[to:is-value-in-sequence(metaTEI/dat
 (:  (: Liste der engeren Auswahl passender Zuordnungen von Alto und TEI Dateien in $transcriptTextpart und abgeschlossene Zuordnung in $match :)
 let $fileNameVersion := to:substring-before-match($fileNameAlto,'.xml')
 return (
-file:write(concat("file:///", $destinationXML, $fileNameVersion, '_tT_3.4',".xml"), $transcriptTextpart),
+file:write(concat("file:///", $destinationAUX, $fileNameVersion, '_tT_3.4',".xml"), $transcriptTextpart),
 file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '_match', '.xml'), $match)
 )
 :)
@@ -598,15 +599,15 @@ else ()
 }</root>
 
 return
-file:write(concat("file:///", $destinationXML, 'insertTree_3.5',".xml"), $insertTree) 
+file:write(concat("file:///", $destinationAUX, 'insertTree_3.5',".xml"), $insertTree) 
 
 :)
 
 (: Sammlung der Zeilen aus den beiden Transkriptionsformen :)
 
+(: Zeilen, die ausschließlich "gap" beinhalten, werden ausgeschlossen. Bzw. nur wenn (auch) token/unknown/supplied vorhanden ist, wird sie verarbeitet. :)
 
-
-let $Normalised := <norm>{for $textpart in $match//textpart return <textpart>{for $i in $textpart//text[data(@editionType)='normalized']//line[child::token or child::unclear or child::supplied] return $i}</textpart>}</norm>     (: Zeilen, die ausschließlich "gap" beinhalten, werden ausgeschlossen:)
+let $Normalised := <norm>{for $textpart in $match//textpart return <textpart>{for $i in $textpart//text[data(@editionType)='normalized']//line[child::token or child::unclear or child::supplied] return $i}</textpart>}</norm>     
 let $Diplomatic := <dipl>{for $textpart in $match//textpart return <textpart>{for $i in $textpart//text[data(@editionType)='diplomatic']//line[child::token or child::unclear or child::supplied] return $i}</textpart>}</dipl>
 
 let $fileNameVersion := to:substring-before-match($fileNameAlto,'.xml')
@@ -628,16 +629,6 @@ return
 file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '_normTransII_3.5.xml'), lo:transcription-format($Normalised, $transcriptionII))
 
 :)
-(:
-let $rawD1 := lo:transcription-format($Diplomatic, $transcriptionI)
-let $rawD2 := lo:transcription-format($Diplomatic, $transcriptionII)
-let $rawD3 := lo:transcription-format($Diplomatic, $transcriptionIII)
-let $rawD4 := lo:transcription-format($Diplomatic, $transcriptionIV)
-let $rawN1 := lo:transcription-format($Normalised, $transcriptionI)
-let $rawN2 := lo:transcription-format($Normalised, $transcriptionII)
-let $rawN3 := lo:transcription-format($Normalised, $transcriptionIII)
-let $rawN4 := lo:transcription-format($Normalised, $transcriptionIV)
-:)
 
 let $raw := (lo:transcription-format($Diplomatic, $transcriptionI),
             lo:transcription-format($Diplomatic, $transcriptionII),
@@ -656,11 +647,10 @@ let $textFile := string-join(for $line in $raw[$pos]//line//text()
 return concat($line,'
 '))
 
-return file:write-text(concat("file:///", $repository, 'PapyroLogos/TXT/', $version, '/', $fileNameVersion, '.txt'), $textFile)
+return file:write-text(concat("file:///", $repository, $destinationTXT, $version, '/', $fileNameVersion, '.txt'), $textFile)
 
-(:file:write(concat("file:///", $repository, $destinationTEXT, $fileNameVersion, '.txt'), $rawD1):)
 
-else if ($jsonOutput) then
+else if ($jsonOutput or $xmlOutput) then
 for $version at $pos in $fileVersions 
 let $jsonFile := string-join((
 '{
@@ -701,9 +691,12 @@ let $jsonFile := string-join((
     }]
 }'       
 )) 
-    
-return file:write-text(concat("file:///", $repository, 'PapyroLogos/JSON/', $version, '/', $fileNameVersion, '.json'), $jsonFile)
 
+let $xmlFile := fn:json-to-xml($jsonFile)
+
+return if ($jsonOutput)
+    then file:write-text(concat("file:///", $repository, $destinationJSON, $version, '/', $fileNameVersion, '.json'), $jsonFile)
+    else file:write-text(concat("file:///", $repository, $destinationXML, $version, '/', $fileNameVersion, '.xml'), $xmlFile)
 
 else if ($altoOutput) then
 
@@ -763,12 +756,12 @@ file:write(concat("file:///", $repository, $destinationAlto, $version, '/', $fil
 
 (: Enthält die TEI-textparts mit reduziertem Markup, Metadaten und zusätzlicher Ebene der cohesiveTextparts, 
 in der zusammanhängende Textparts nach Grafik-Zugehörigkeit gebündelt sind. Diese Bündelung entspricht dem Inhalt einer Alto-Datei :)
-(:file:write(concat("file:///", $destinationXML, 'corpusTranscript_3.3',".xml"), $corpusTranscript),
+(:file:write(concat("file:///", $destinationAUX, 'corpusTranscript_3.3',".xml"), $corpusTranscript),
 
 (: enthält für jede Alto-Datei der Iteration eine Vergleichstabelle mit möglicherweise passenden Textparts der TEI-Dateien, 
 aus denen anschließend die Übereinstimmungen ausgewählt werden. Nur für Fälle mit mehreren Kolumnen notwendig :)
-file:write(concat("file:///", $destinationXML, 'transcriptTextpart_3.3',".xml"), $transcriptTextpart),
-file:write(concat("file:///", $destinationXML, 'match_3.3',".xml"), $match) 
+file:write(concat("file:///", $destinationAUX, 'transcriptTextpart_3.3',".xml"), $transcriptTextpart),
+file:write(concat("file:///", $destinationAUX, 'match_3.3',".xml"), $match) 
 :)
 
 

@@ -1,6 +1,6 @@
 xquery version "3.1";
-import module namespace to = "tool" at "file:///C:/Datenbanken/OCR/PapyroLogos/scripts/XQuery/to-tool.xquery";                           (: UPDATE PATH :)
-import module namespace ts = "transcript" at "file:///C:/Datenbanken/OCR/PapyroLogos/scripts/XQuery/ts-transcript.xquery";               (: UPDATE PATH :)
+import module namespace to = "tool" at "file:///F:/PapyroLogos/scripts/XQuery/to-tool.xquery";                           (: UPDATE PATH :)
+import module namespace ts = "transcript" at "file:///F:/PapyroLogos/scripts/XQuery/ts-transcript.xquery";               (: UPDATE PATH :)
 declare namespace lo = "http://www.w3.org/2005/xquery-local-functions"; 
 declare namespace TEI = "http://www.tei-c.org/ns/1.0";
 declare namespace ns-v4 = "http://www.loc.gov/standards/alto/ns-v4#";
@@ -30,7 +30,7 @@ declare variable $xmlOutput  := true();
 declare variable $altoOutput := false();
 
 (:  ### Pfade zu Verzeichnissen und Dateien ###  :)
-declare variable $repository := 'C:/Datenbanken/OCR/';      (: UPDATE PATH :)
+declare variable $repository := 'F:/'; (: 'C:/Datenbanken/OCR/'; :)      (: UPDATE PATH :)
 
 (: ## Vorstrukturierung der Transkriptionen ## :)
 (: # 1. SCHALTER II = true # :)
@@ -696,7 +696,7 @@ let $xmlFile := fn:json-to-xml($jsonFile)
 
 return if ($jsonOutput)
     then file:write-text(concat("file:///", $repository, $destinationJSON, $version, '/', $fileNameVersion, '.json'), $jsonFile)
-    else file:write-text(concat("file:///", $repository, $destinationXML, $version, '/', $fileNameVersion, '.xml'), $xmlFile)
+    else file:write(concat("file:///", $repository, $destinationXML, $version, '/', $fileNameVersion, '.xml'), $xmlFile)
 
 else if ($altoOutput) then
 
@@ -779,3 +779,4 @@ file:write(concat("file:///", $repository, $destinationAlto, $fileNameVersion, '
 else ()
 
 else ()
+

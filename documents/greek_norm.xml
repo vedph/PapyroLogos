@@ -4,7 +4,6 @@
 	<assign><orig></orig><maju></maju></assign>
 	<assign><orig></orig><maju></maju></assign>
 	<assign><orig></orig><maju></maju></assign>
-	<assign><orig></orig><maju></maju></assign>
 	
 	
 	<assign><orig>ϝ</orig><maju>Ϝ</maju></assign>
@@ -223,10 +222,6 @@
 	</assign>
 	<assign>
 		<orig>ὴ</orig>
-		<maju>Η</maju>
-	</assign>
-	<assign>
-		<orig>ῆ</orig>
 		<maju>Η</maju>
 	</assign>
 	<assign>
@@ -840,10 +835,6 @@
 	<assign>
 		<orig>Ῡ</orig>
 		<maju>Υ</maju>
-	</assign>
-	<assign>
-		<orig>ῳ</orig>
-		<maju>Ω</maju>
 	</assign>
 	<assign>
 		<orig>Ὠ</orig>

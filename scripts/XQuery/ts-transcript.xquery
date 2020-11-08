@@ -1,12 +1,12 @@
 xquery version "3.1";
 module namespace ts = "transcript";
-import module namespace to = "tool" at "file:///C:/Datenbanken/OCR/PapyroLogos/scripts/XQuery/to-tool.xquery";     (: UPDATE PATH :)
+import module namespace to = "tool" at "file:///F:/PapyroLogos/scripts/XQuery/to-tool.xquery";     (: UPDATE PATH :)
 
 
 (: ### Pfade zu Verzeichnissen und Dateien ### :)
 
 (: parent folder containing PapyroLogos :)
-declare variable $ts:repository := 'C:/Datenbanken/OCR/';                           (: UPDATE PATH :)
+declare variable $ts:repository := 'F:/';                           (: UPDATE PATH :)
 
 (: # 2. SCHALTER II = false # :)
 (: Nur falls im Korpus Verweise auf Drittdateien vorkommen, was nach aktuellen Stand nicht mehr relevant sein sollte
@@ -32,15 +32,17 @@ if (to:is-value-in-sequence(name($element), $ts:ignore))
 (: Über die Variablen normalize und diplomatic kann eingestellt werden, wann welche Zeichen entfernt werden sollen:
  normalize wird immer angewendet, diplomatic nur für die zweite part des Textparts, sowie zum zählen für Zeichen (z.B. für supplied)
 :)
+
+
 declare function ts:strip-string($string as xs:string*, $diplomatic as xs:boolean) as xs:string*{
-let $normalize := "†∙•\n\{\}\(\)\\"
-let $diplomatic := "͂“”:̆⏑,᾽᾿῎῞῾\-;`΄’'̓ʽ‘·\s\."
+let $normalizeString := "†∙·•\n\{\}\(\)\\',;:\.\-"
+let $diplomaticString := "⏑̆͂᾽᾿῎῞῾`΄“”’̓ʽ‘\s"
 return
 if ($diplomatic)
     then string-join(tokenize(
-        normalize-space(normalize-unicode($string)), concat("[",$normalize,$diplomatic,"]")))
+        normalize-space(normalize-unicode($string)), concat("[",$normalizeString,$diplomaticString,"]")))
     else string-join(tokenize(
-        normalize-unicode($string), concat("[",$normalize,"]")))
+        normalize-space(normalize-unicode($string)), concat("[",$normalizeString,"]")))
 };
 
 (: Normalisiert die Zeichen entsprechend der Zuordnungsdatei 'greek-norm.xml' zu Großbuchstaben ohne Ergänzungen :)
@@ -51,8 +53,8 @@ for $char in to:chars($stripped) return
 if (to:is-value-in-sequence($char, $ts:tableGreek//orig//fn:normalize-unicode(string())))
     then for $entry in $ts:tableGreek//orig where fn:normalize-unicode($entry/string())=$char 
     return $entry/following-sibling::maju/string()
-else (:if (to:is-value-in-sequence($char, $ts:tableGreek//maju)) then :)             (: zu griechischer Zuordnungstabelle hinzukommende Zeichen befinden sich in additionalCharacter.xml|_distinct.xlsx:)
-$char 
+else ()(:if (to:is-value-in-sequence($char, $ts:tableGreek//maju)) then :)             (: zu griechischer Zuordnungstabelle hinzukommende Zeichen befinden sich in additionalCharacter.xml|_distinct.xlsx:)
+(:$char :)      (: Hier würden Zeichen Ausgegeben werden, die nicht in der Tabelle erfasst sind, jedoch auch die eigentlich zu Ignorierenden von $nomralizedString: Corpus durchsuchen und Tabelle aktualisieren :)
 (: else concat('additionalCharacter[',$char,']') :)
 return string-join($norm)
 };

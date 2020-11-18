@@ -14,7 +14,7 @@ document_transcription_url = base_url + document_nu + "/transcriptions/"
 # transcription level in which the text will be saved
 transcription_level = "manual"
 # path to the folder with the transcriptions (as txt files); no slash "/" at the end
-transcription_path = "C:/Users/Oliver/Desktop/json/" + transcription_level
+transcription_path = "localPath/" + transcription_level
 
 
 # get all keys with a particular name in a dictionary object

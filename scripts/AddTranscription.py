@@ -3,7 +3,7 @@ import json
 import os.path
 
 headers = {'Content-type': 'application/json', 'Accept': 'application/json',
-           'Authorization': 'Token ac4e7ccd26af1a474a56576907215fd8de59319f'}
+           'Authorization': 'Token'}
 
 base_url = 'https://www.escriptorium.fr/api/documents/'
 document_nu = '30'

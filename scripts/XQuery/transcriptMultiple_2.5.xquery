@@ -751,53 +751,7 @@ for $entryName in $entryNames order by xs:int(to:substring-before-match($entryNa
 )
 }</matchTreeSort>
  
-    (:let $text := $corpusTranscript//cohesiveTextparts[to:substring-after-last-match(data(@graphic),'/') = $t//metaTEI/data(@source)]    
-    let $name := distinct-values($text//textpart/name/text())
-    :)
-    
-(:    where 
-    $t/metaTEI/side = $metaAlto/side and 
-    ($t/metaTEI/noRom = $metaAlto/noRom or 
-        ($t/metaTEI/noRom/from/xs:integer(node()) <= $altoNo and 
-        $t/metaTEI/noRom/to/xs:integer(node()) >= $altoNo))                 (: and xs:integer($t//textpart/data(@n)) = $altoNo):)  
-    and $t/metaTEI/part = $metaAlto/part 
-:)    
-(:    return    
-        
-        (:{$metaAlto}
-    <linesAlto>{$linesAlto}</linesAlto>
-    <altoGraphic>{$jpgAlto}</altoGraphic>:)
-  <match name="{$name}">
-    
-    {(
-    <lines>{count($text//text[1]//line)}</lines>,
-    <graphic>{distinct-values($text//graphic/text())}</graphic>,
-    <name>{$name}</name>,
-    $text//textpart
-    )}
-  </match>
-:)
-
-
-
-(:  Ausgabe von matchTreeSort, um Zuordnung der Textparts anhand der MetaDaten zu überprüfen
-
-return
-file:write(concat("file:///", $destinationAUX, 'transcriptTextpart/', 'matchTreeSort', '.xml'), $matchSort)
-:)
-
-
-
-
-(: Sammlung der Zeilen aus den beiden Transkriptionsformen :)
-
-(: Zeilen, die ausschließlich "gap" beinhalten, werden ausgeschlossen. Bzw. nur wenn (auch) token/unknown/supplied vorhanden ist, wird sie verarbeitet. :)
-
   
-
-
-(: distinct-values(for $graphic in $match//graphic return to:substring-before-last-match(to:substring-after-last-match($graphic/text(),'/'),'\.')):)
-
 (: Iteration um Output zu erzeugen :)
 
 for $match in $matchSort//match where not($match/data(@type)='_')

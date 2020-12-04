@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 
 
 "body": [
@@ -3249,6 +3250,25 @@
         {
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+"head": {
+    "tm": "62580",
+    "side": "1",
+    "noRom": "0",
+    "part": "F",
+    "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-F_R_001.jpg",
+    "graphicName": "62580_23_26__PBerol9782_Pl_F_R.jpg",
+    "textparts": "4",
+    "lines": "194",
+    "version": "D1"
+    },
+    
+"body": [
+    {
+    "textpart": [{
+        "n": "23",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "48",
         "text": [
             "ΑΛΛΑΟΙΟΡΟΙΟΥΤΕΠΡΟΣ", 
@@ -3300,8 +3320,13 @@
             "ΝΕΣΘΑΙΠ ΡΧ ΤΑΙ", 
             "ΑΠΕΡΑ Ο ΦΑΥ"]}, 
         {
+<<<<<<< HEAD
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+        "n": "24",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "49",
         "text": [
             "ΛΩΣΜΕ ΑΠΛΩ ΡΑ", 
@@ -3317,25 +3342,38 @@
             "ΤΗΤΟΥΠΗΛΟΥ", 
             "ΤΗΣΕΙΦΑΥΛΟ", 
             "ΚΑΙΑΠΛΟΥ Ν", 
+<<<<<<< HEAD
             "ΟΤΙΓΗΥΓΡΩ Θ", 
+=======
+            "ΟΤΙΓΗΗΥΓΡΩ Θ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΣΑΠΗΛΟΣΑ", 
             "ΔΟΤΟΥΧΑΙΡ Ι Α", 
             "ΩΣΚΑΙΠΡ Τ Ε", 
             "ΡΟΜΕΝΟΝ Τ ΙΝ", 
             "ΠΗΛΟΣ ΡΑΔ Ν ΑΙ", 
             "ΑΠΛΟΥΝΕΙΠ Ν", 
+<<<<<<< HEAD
             "ΓΗΥΓΡΩΦΥΡ", 
+=======
+            "ΓΗΗΥΓΡΩΦΥΡ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΣΑΟΥΓΑΡΜΟ ΔΑ", 
             "ΤΙΑΛΛΑΚΑΙΟ ΚΑΙ", 
             "ΕΤΕΡΟΙΣΤΙΣΙ Ξ Ε", 
             "ΟΥΝΟΥΤΩΣΟ ΙΖ ΑΙ", 
+<<<<<<< HEAD
             "ΓΗΥΓΡΩΦΥ Α ΣΑ", 
+=======
+            "ΓΗΗΥΓΡΩΦΥ Α ΣΑ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΤΙΝΟΣΔΕΕΣΤΙΝ Υ Ε", 
             "ΤΙΔΕΙΠΡΟΣΤΙΘΕ ΑΙ", 
             "ΟΙΟΝΠΛΙΝΘΟΥΛ ΟΥ", 
             "ΙΠΝΟΠΛΑΘΟΥΜΕΜΦΕ", 
             "ΤΑΙΤΟΙΣΤΟΙΟΥΤΟΙΣΟ", 
             "ΡΟΙΣΑΡΙΣΤΟΤΕΛΗΣ", 
+<<<<<<< HEAD
             "ΩΣΤΩΤΗΣΧΙΟΝ", 
             "ΟΤΙΥΔΩΡΠΕΠΗΓΟΣ", 
             "ΚΑΙΤΩΤΟΥΠΗΛΟΥ", 
@@ -3347,6 +3385,19 @@
             "ΔΩΡ ΟΥΤΕΓΑΡΗΧΙΩΝ", 
             "ΦΗΣΙΝΥΔΩΡΟΥΘΟ", 
             "ΠΗΛΟΣΓΗΟΥΔΕΜΗΝ", 
+=======
+            "ΩΣΤΩΤΗΗΣΧΙΟΝ", 
+            "ΟΤΙΥΔΩΡΠΕΠΗΓΟΣ", 
+            "ΚΑΙΤΩΤΟΥΠΗΛΟΥ", 
+            "ΟΤΙΓΗΗΥΓΡΩΠΕΦΥ", 
+            "ΡΑΜΕΝΗΚΑΙ ΩΤΟ", 
+            "ΟΙΝΟΥΟΤΙΥΔΩΡΣΕΣ", 
+            "ΠΟΣΩΣΕΜΠΕΔΟΚΛΗΗΣ", 
+            "ΣΑΠΕΝΕΝΞΥΛΩΩΥ", 
+            "ΔΩΡ ΟΥΤΕΓΑΡΗΧΙΩΝ", 
+            "ΦΗΣΙΝΥΔΩΡΟΥΘΟ", 
+            "ΠΗΛΟΣΓΗΗΟΥΔΕΜΗΝ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΟΟΙΝΟΣΕΤΙΥΔ ΟΥ", 
             "ΓΑΡΑΠΟΔΕΙΚ ΟΝ", 
             "ΦΗΣΙΝΚΑΘΩΝΜΗΑ", 
@@ -3354,8 +3405,13 @@
             "ΑΛΛΕΦΟΣΩΝΚ ΤΗ", 
             "ΓΟΡΕΙΤΑΙΑΛΗ Σ"]}, 
         {
+<<<<<<< HEAD
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+        "n": "25",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "49",
         "text": [
             "ΠΟΔΟΘΕΝΓΕΝΟΣ", 
@@ -3371,10 +3427,17 @@
             "Π ΥΚΕΡΟΥΜΕΝ", 
             "ΟΤΙ ΤΙΝΤΟΙΟΥΤΟ", 
             "ΤΙΥ ΓΡΟΥΠΕΠΟΝ", 
+<<<<<<< HEAD
             "ΘΥΙ Μ ΝΕΙΓΑΡΕΤΙΓΗ", 
             "ΟΘΕ ΑΝΑΞΗΡΑΝ", 
             "ΘΕΝ ΥΥΓΡΟΥΠΑ", 
             "Ν ΣΤ ΓΗΕΔΕΙΔΑΥ", 
+=======
+            "ΘΥΙ Μ ΝΕΙΓΑΡΕΤΙΓΗΗ", 
+            "ΟΘΕ ΑΝΑΞΗΡΑΝ", 
+            "ΘΕΝ ΥΥΓΡΟΥΠΑ", 
+            "Ν ΣΤ ΓΗΗΕΔΕΙΔΑΥ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΩΣΠΕΡΕΠΙΤΟΥ", 
             "ΕΟ ΟΣΕΝΔΟΙΑ", 
             "ΟΙΦΑΝΑΙΟΤΙ", 
@@ -3388,8 +3451,13 @@
             "ΤΟΟΜΟΙΟΝΑΠΕ", 
             "ΗΣΑΝΟΙΟΡΟΙ", 
             "ΝΑΜΕΩΝΤΙ", 
+<<<<<<< HEAD
             "ΜΙΝΕΟΔΩΡΟΣ", 
             "ΔΕΕΓΡΑΦΕΝΤΗΣ", 
+=======
+            "ΜΙΝΘΕΟΔΩΡΟΣ", 
+            "ΔΕΕΓΡΑΦΕΝΤΗΗΣ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΕΤΡΙΠΟΔΟΣΠΕΡΙ", 
             "ΑΙ ΕΝΤΕΠΟΔΟΣΑ", 
             "ΟΦΑΙΝΩΝΟΤΙΜΗ", 
@@ -3397,30 +3465,52 @@
             "ΠΟΔΙΕΙΑ ΕΠΙ", 
             "ΕΦΑΛΑΙΩΝΤΑΛΕΓΟ", 
             "ΜΕΝΑΕΣΤΙΝΤΑΥΤΑ", 
+<<<<<<< HEAD
             "ΕΟΔΩΡΟΣΕΚΤΑΞΑΣ", 
             "ΤΕΤΡΑΓΩΝΟΝΠΟΔΟΣ", 
             "ΕΝΟΣΕΔΕΙ ΝΥΕΝΤ Ι", 
             "ΠΕΡΙΕΑΙΤΗΤΟΝΟΤΙ", 
             "ΟΥΤΩΤΩΤΕΤΡΑΓΩ", 
             "ΝΩΑΣΥΜΜΕΤΡΟΝ", 
+=======
+            "ΘΕΟΔΩΡΟΣΕΚΤΑΞΑΣ", 
+            "ΤΕΤΡΑΓΩΝΟΝΠΟΔΟΣ", 
+            "ΕΝΟΣΕΔΕΙ ΝΥΕΝΤ Ι", 
+            "ΠΕΡΙΘΕΑΙΤΗΤΟΝΟΤΙ", 
+            "ΟΥΤΩΩΤΩΤΕΤΡΑΓΩ", 
+            "ΝΩΩΑΣΥΜΜΕΤΡΟΝ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΕΣΤΙΝΤΟΤΡΙΠΟΥΝΤΕ", 
             "Τ ΑΓΩΝΟΝΚΑΙΠΕΝ", 
             "ΠΟΥΝΚ ΤΑΤΑΣΠΛΕΥ", 
             "ΣΑ ΩΝ ΑΣΤΟΝ"]}, 
         {
+<<<<<<< HEAD
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+        "n": "26",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "48",
         "text": [
             "ΓΕ ΚΑΙ ΘΜΟΥ", 
             "ΜΕ ΟΣΤΑΑΣ Ε", 
             "ΤΡΑ ΕΤΡΑΓ", 
+<<<<<<< HEAD
             "ΗΛ ΝΜΕΧ Υ", 
+=======
+            "ΗΗΛ ΝΜΕΧ Υ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΠΤ ΙΔΕΚ Ο Σ", 
             "Ε ΙΝΥΝΑΠΕ", 
             "Η ΤΟΙΑΥ ΑΤ Α", 
             "ΓΩ ΠΕ Ρ", 
+<<<<<<< HEAD
             "ΟΙ ΤΟΝΕΑΙ", 
+=======
+            "ΟΙ ΤΟΝΘΕΑΙ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΤΟ ΘΟ ΙΚΩ", 
             "ΠΕ ΒΕ ΩΣ", 
             "ΝΙ ΜΑ ΙΥΠΟ Α", 
@@ -3459,6 +3549,7 @@
             "ΣΑ ΑΚΑΙΕΝΝ Α ΑΙ", 
             "ΕΚΚΑΙΔΕΚΑΤ", 
             "ΩΝΟΜΑΣΑΝ", 
+<<<<<<< HEAD
             "ΟΥΓΑΡΜΟΝΟΝ Ε"]}, 
         {
         "n": "",
@@ -6638,5 +6729,8 @@
         "text": [
             "ΝΤ", 
             "ΚΥΘ"]}]
+=======
+            "ΟΥΓΑΡΜΟΝΟΝ Ε"]}]
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
     }]
 }

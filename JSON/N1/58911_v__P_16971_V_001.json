@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 
 
 "body": [
@@ -160,18 +161,43 @@
         {
         "n": "849992368",
         "subtype": "fragmentfragmentcolumncolumncolumncolumncolumnfragmentcolumnpagefragmentfragmentfragment",
+=======
+"head": {
+    "tm": "58911",
+    "side": "2",
+    "noRom": "0",
+    "part": "0",
+    "graphicURL": "http://ww2.smb.museum/berlpap/Original/P_16971_V_001.jpg",
+    "graphicName": "58911_v__P_16971_V_001.jpg",
+    "textparts": "2",
+    "lines": "25",
+    "version": "N1"
+    },
+    
+"body": [
+    {
+    "textpart": [{
+        "n": "1",
+        "subtype": "N/A",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "3",
         "text": [
             "δυ", 
             "και", 
             "ρε ν"]}, 
         {
+<<<<<<< HEAD
         "n": "95010102469",
         "subtype": "fragmentfragmentcolumncolumncolumncolumncolumnfragmentcolumnpagefragmentfragmentfragment",
+=======
+        "n": "2",
+        "subtype": "N/A",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "22",
         "text": [
             "ρὸ", 
             "τὸ εω", 
+<<<<<<< HEAD
             "πυρὸ ς φιλία κα", 
             "τως οὐ φεύγει", 
             "στον πέρα τοῦ τό", 
@@ -179,17 +205,31 @@
             "τοῦ Σωστράτου μ", 
             "πεὶ πατρόθεν", 
             "ἐκθι ν αὐτὸ", 
+=======
+            "πυρὸ ς φιλίακα", 
+            "τωςοὐφεύγει", 
+            "στονπέρατοῦτό", 
+            "Χαιρεφῶνσυστ", 
+            "τοῦΣωστράτουμ", 
+            "πεὶπατρόθεν", 
+            "ἐκθι ναὐτὸ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "τὸν χρησ", 
             "ξηγ καλῶς", 
             "τοι ὴ", 
             "πρὸ τ ἐλαία", 
+<<<<<<< HEAD
             "υρὸς μό", 
+=======
+            "υρὸςμό", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "τος ἐθε", 
             "γὰρ", 
             "ὕδωρ", 
             "ρ αὶ", 
             "ω", 
             "ομένην", 
+<<<<<<< HEAD
             "δέ σοι τὸ", 
             "ὥσπερ"]}, 
         {
@@ -6734,5 +6774,9 @@
         "text": [
             "ντ", 
             "κυθ"]}]
+=======
+            "δέσοιτὸ", 
+            "ὥσπερ"]}]
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
     }]
 }

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 
 
 "body": [
@@ -3046,6 +3047,29 @@
         "text": [
             "ΤΟ ΕΝΟΥΝ ΠΟΛΛΑΔΙ", 
             "ΔΩΣ ΕΠΙΤΗΣΕΞΑΡΙ", 
+=======
+"head": {
+    "tm": "62580",
+    "side": "1",
+    "noRom": "0",
+    "part": "E",
+    "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-E_R_001.jpg",
+    "graphicName": "62580_19-22__PBerol9782_Pl_E_R.jpg",
+    "textparts": "4",
+    "lines": "187",
+    "version": "D1"
+    },
+    
+"body": [
+    {
+    "textpart": [{
+        "n": "19",
+        "subtype": "column",
+        "textpartLines": "47",
+        "text": [
+            "ΤΟ ΕΝΟΥΝ ΠΟΛΛΑΔΙ", 
+            "ΔΩΣ ΕΠΙΤΗΗΣΕΞΑΡΙ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΘΜΗΣΕΩΣΤΩΝΕΠΙ", 
             "ΣΤΗΜΩΝΤΟΔΕ ΠΟΙ", 
             "ΚΙΛΑΑΝΤΙΑΠΛΟΥ Ο", 
@@ -3071,14 +3095,22 @@
             "ΟΥΔΕΝΤΙΔΟΤ ΝΤΕ", 
             "ΚΤΟΝΙΚΗΝΜΗΤΙ Λ", 
             "ΟΗΕΠΙΣΤΗΜΗ", 
+<<<<<<< HEAD
             "ΗΣΤΩΝΞΥΛΙΝΩΝ", 
+=======
+            "ΗΗΣΤΩΝΞΥΛΙΝΩΝ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "Σ ΕΥΩΝ ΓΑΣΙΑΣΟΥ", 
             "ΔΕΤΟΥΤΟ Ν Υ", 
             "ΤΙΕΣΤΙΝΕ ΙΣΤ ΜΗ", 
             "ΑΠΟΚΡΙΝΟ ΟΣ", 
             "ΣΚΥΤΙΚΗΝΟΥΔΕ ΑΛΛΟ", 
             "ΛΕΓΕΙΣΗΕ ΙΣΤΗΜΗΝ", 
+<<<<<<< HEAD
             "ΤΗΣΤΩΝ ΠΟΔΗΜΑ", 
+=======
+            "ΤΗΗΣΤΩΝ ΠΟΔΗΜΑ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΤΩΝΕΡΓΑΣΙΑΣΗΓΑΡ", 
             "ΣΚΥΤΙΚΗΕΠΙΣΤΗΜΗ", 
             "ΗΝΥΠΟΔΗΜΑΤΩΝ", 
@@ -3088,12 +3120,21 @@
             "ΛΕΓΕΙΣΗΕΠΙΣΤΗΜ Ν", 
             "ΤΟΥΤΑΞΥΛΙΝΑΣΚΕΥΗ", 
             "ΕΡΓΑΖΕΣΘΑΙΤΟΥΤΟ", 
+<<<<<<< HEAD
             "ΓΑΡΙΔΙΟΝΤΗΣΣΚΥ", 
             "ΙΚΗΣΠΑΡΕΚΔΕΔΕ", 
             "ΚΤΑΙΦΑΣΙΝΑΝΤΙΣΤΡ"]}, 
         {
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+            "ΓΑΡΙΔΙΟΝΤΗΗΣΣΚΥ", 
+            "ΙΚΗΗΣΠΑΡΕΚΔΕΔΕ", 
+            "ΚΤΑΙΦΑΣΙΝΑΝΤΙΣΤΡ"]}, 
+        {
+        "n": "20",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "46",
         "text": [
             "ΦΕΙΜΕΝΓΑΡΑΛΛΗΛΟΙΣ", 
@@ -3113,7 +3154,11 @@
             "ΝΓΑΡΕΠΕΡ Η", 
             "ΣΤΙΝΑ ΤΙΝΟ ΗΝ", 
             "ΧΙΛΛΕΥΣ Ο ΟΔΕΕΙ", 
+<<<<<<< HEAD
             "Η ΗΛΕ ΣΥΙΟΣΑ", 
+=======
+            "Η ΠΗΛΕ ΣΥΙΟΣΑ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΧΙ ΥΣΗΝ ΦΗΣΟΜΕΝ", 
             "ΠΕΡ ΗΘΕΙΣ", 
             "ΟΣΗΝ ΟΣΑΧΙΛ", 
@@ -3143,6 +3188,7 @@
             "ΑΥΤΟΥΟ Ε ΑΙΩΣΕΙ", 
             "ΙΣΕΡΟ ΝΟΥ ΤΙΕΣΤΙΝ"]}, 
         {
+<<<<<<< HEAD
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
         "textpartLines": "47",
@@ -3151,13 +3197,27 @@
             "ΚΡΑΤΗΣ Α ΤΟΔΙΕΑΥ", 
             "ΤΟΥΩΡΙΣΑΤΟΟΓΑΡ", 
             "ΩΚΡΑΤΗΣΑΝΘΡΩ", 
+=======
+        "n": "21",
+        "subtype": "column",
+        "textpartLines": "47",
+        "text": [
+            "ΑΝΘΡΩΠΟΣ ΕΙΠΟΙ ΣΩ", 
+            "ΚΡΑΤΗΣ Α ΤΟΔΙΕΑΥ", 
+            "ΤΟΥΩΡΙΣΑΤΟΟΓΑΡ", 
+            "ΣΩΚΡΑΤΗΣΑΝΘΡΩ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΠΟΣΕΣΤΙΝΟΥΤΩΣ", 
             "ΚΑΙΕΙΤΙΣΕΡΟΜΕΝΟΥ", 
             "ΤΙΕΣΤΙΝΕΠΙΣΤΗΜΗ", 
             "ΕΙΠΟΙ ΣΚΥΤΙΚΗ ΔΙΑ", 
             "ΤΩΝΥΣΤΕΡΟ Ω ΙΣΑ", 
             "ΤΟΗΓΑΡΕΠΙΣΤΗ Η", 
+<<<<<<< HEAD
             "ΤΗΣΤΩΝΥ ΜΑ", 
+=======
+            "ΤΗΗΣΤΩΝΥ ΜΑ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΤΩΝΕΡΓΑΣΙΑΣΕΠΙ", 
             "ΣΤΗΜΗΕΣΤΙΝ ΟΥ ΟΥΝ", 
             "ΕΝΑΜΦΟΙΝΟΥΕΚΑΤΕ", 
@@ -3171,12 +3231,20 @@
             "ΠΟΙΕΙΣΗΛ ΓΕΙ Ο", 
             "ΗΕΠΙΣΤΗΜΗ", 
             "ΣΤΗΜΗΕΣ Ι ΟΔ", 
+<<<<<<< HEAD
             "ΓΕΕΡΩΤΗΘΕ", 
+=======
+            "ΓΕΕΡΩΤΗΘΕ Θ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΑΙΤΗΤΕΟΥΤΟΥΤΟ Ν", 
             "ΤΙΝΩΝΗΕΠΙΣΤ", 
             "ΜΗΟΥΔΕΟΠ ΣΑΙ", 
             "ΤΙΝΕΣΟΥΓΑΡΑΡΙ", 
+<<<<<<< HEAD
             "ΘΜΗΣΑΙ ΤΑΣΒΟ", 
+=======
+            "ΘΜΗΗΣΑΙ ΤΑΣΒΟ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΛΟΜΕΝΟΙΗΡΟΜ", 
             "ΛΛΑΓΝΩΝΑΙ Ι", 
             "ΣΤΗΜΗΝΑΥΤΟΟΤ", 
@@ -3185,7 +3253,11 @@
             "ΠΙΣΤΗΜΗ ΑΝΤΙΤΟΥ ΤΟΥ", 
             "ΤΙΝΩΝΕΣΤΙΝΑΠΕ", 
             "ΔΩΚΕΝΑΙΓΑΡΕΝΕΙ", 
+<<<<<<< HEAD
             "ΔΕΙΕΠΙΣΤΗΜΑΙΤΙΝΩΝ", 
+=======
+            "ΔΕΙΕΠΙΣΤΗΗΜΑΙΤΙΝΩΝ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΕΙΣΙΝΩΣΓΕΩΜΕΤΡΙΑ", 
             "ΣΚΥΤΙΚΗΑΛΛΑΚΑΙΜΙ", 
             "ΑΣΕΡΩΤΗΘΕΙΣΤΟΝ", 
@@ -3195,8 +3267,13 @@
             "ΤΑΣΑΛΛΑΣ ΟΙΟΝΠΕΡΙ", 
             "ΠΗΛΟΥΟΤΙΠΟΤΕΣΤΙΝ"]}, 
         {
+<<<<<<< HEAD
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+        "n": "22",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "47",
         "text": [
             "ΕΙΑΠΟΚΡΙΝΑΙΜΕΘΑ", 
@@ -3225,7 +3302,11 @@
             "ΑΥΤΟΙΣ ΗΟΙΕΙΤΙΣΤΙ", 
             "ΝΙΗΣΙΤΙΝΟΣΟΝΟ", 
             "ΑΟΜΗΟΙΔΕΝΟΤΙΕ", 
+<<<<<<< HEAD
             "Σ ΙΝ ΤΟΕΞΗΣΕΝΤΗ", 
+=======
+            "Σ ΙΝ ΤΟΕΞΗΗΣΕΝΤΗ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΕΙΟΙΕΙΣΥΝΙΗΣΙΝ", 
             "ΣΤΙΝΟΣΟΝΟΜΑΟ", 
             "ΟΙΔΕΝΟΤΙΕΣΤΙΝ", 
@@ -3243,6 +3324,7 @@
             "ΤΩΝΟΡΩΝΚΑΙΜΕΝ", 
             "ΤΟΙΚΑΙΓΕΛΟΙΟΝΕΙ", 
             "ΕΙΤΙΣΑΝΤΙΤΟΥΕΙ", 
+<<<<<<< HEAD
             "ΠΕΙΝ ΑΙΡΕΩΚΡΑ", 
             "ΕΣ Λ ΓΟΙ ΧΑΙΡΕ ΖΩ", 
             "ΝΛΟ ΙΚΟΝΘΝΗΤΟ"]}, 
@@ -6638,5 +6720,10 @@
         "text": [
             "ΝΤ", 
             "ΚΥΘ"]}]
+=======
+            "ΠΕΙΝ ΑΙΡΕΣΩΚΡΑ", 
+            "ΕΣ Λ ΓΟΙ ΧΑΙΡΕ ΖΩ", 
+            "ΝΛΟ ΙΚΟΝΘΝΗΤΟ"]}]
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
     }]
 }

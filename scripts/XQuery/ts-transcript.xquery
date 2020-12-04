@@ -93,8 +93,13 @@ if (exists($node//element()[name()=$s]))
     element {$s} {attribute {'n'} 
         {
         $node//element()[name()=$s]
+<<<<<<< HEAD
         [not(to:is-value-in-sequence(true(), for $iE in ancestor::element() 
             return to:is-value-in-sequence(name($iE), ($ts:ignore))))]/data(@n)  
+=======
+        [not(to:is-value-in-sequence(true(), for $i in ancestor::element() 
+            return to:is-value-in-sequence(name($i), ($ts:ignore))))]/data(@n)  
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         }, 
         attribute type {'constructed'}},
     ts:construct-element($node, $s, 'tail')
@@ -137,7 +142,11 @@ if ($node instance of text() and not(xs:string($node)=''))
           <add>
             <place>{$node/data(@place)}</place>
              {if (exists($node//element()[name()='lb']))
+<<<<<<< HEAD
              then let $textpart := <asTextpart><ab>{for $iN in $node/node() return $iN}</ab></asTextpart> 
+=======
+             then let $textpart := <asTextpart><ab>{for $i in $node/node() return $i}</ab></asTextpart> 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
              return ts:restructure-lines($textpart, false(), true())
              else for $child in $node/node() 
              return ts:handle-markup($child, true()) 
@@ -203,7 +212,11 @@ else let $textpart := <ab>{
     return 
         if (exists($node//element()[name()='lb']))
             then if (name($node)='add') then ts:handle-markup($node, not($restructure1))
+<<<<<<< HEAD
             else for $iR in ts:restructure-node($node, 'lb', '') where not(to:is-value-in-sequence(name($iR),($ts:ignore,'add'))) return ts:handle-markup($iR, $restructure1) 
+=======
+            else for $i in ts:restructure-node($node, 'lb', '') where not(to:is-value-in-sequence(name($i),($ts:ignore,'add'))) return ts:handle-markup($i, $restructure1) 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         else ts:handle-markup($node, $restructure1)
     }</ab>
     return ts:restructure-lines($textpart, $restructure2, $restructure2) 

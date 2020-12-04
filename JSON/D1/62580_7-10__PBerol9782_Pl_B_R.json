@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 
 
 "body": [
@@ -2434,6 +2435,25 @@
         {
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+"head": {
+    "tm": "62580",
+    "side": "1",
+    "noRom": "0",
+    "part": "B",
+    "graphicURL": "http://berlpap.smb.museum/Original/P_09782-Pl-B_R_001.jpg",
+    "graphicName": "P_09782-Pl-B_R_001.jpg",
+    "textparts": "4",
+    "lines": "179",
+    "version": "D1"
+    },
+    
+"body": [
+    {
+    "textpart": [{
+        "n": "7",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "45",
         "text": [
             "ΠΛΗΣΙΟΝΕΑΝΟΥΝΑΠ", 
@@ -2446,6 +2466,7 @@
             "ΛΥΣΙΤΕΛΟΥΣΚΑΙΤΟΥ", 
             "ΩΝΠ Η ΟΝΕ", 
             "ΚΕΙΔΕ ΑΙΕΠΙ", 
+<<<<<<< HEAD
             "ΑΙΕΠΙΑΡΕΤΗΣ ΡΑ", 
             "ΒΑΘΕΙΣΚΑΝΕΙΣΑΡΙΘΜΟΣ", 
             "ΕΚΑΤΕΡΟΝ ΤΩΝΑ", 
@@ -2454,14 +2475,31 @@
             "ΕΙΣΑΓΕΙΟΛΑΤΩΝΤΗΝΔΙ", 
             "ΟΣΥ ΗΝΑΛΛΑ", 
             "ΤΗ Τ Ε", 
+=======
+            "ΑΙΕΠΙΑΡΕΤΗΗΣ ΡΑ", 
+            "ΒΑΘΕΙΣΚΑΝΕΙΣΑΡΙΘΜΟΣ", 
+            "ΕΚΑΤΕΡΟΝ ΤΩΝΑ", 
+            "ΦΑΝΙΣΑΙΟ ΝΟΥΚΑ", 
+            "ΠΟΤΗΗΣΟΙΚΕ ΩΣΕΩΣ", 
+            "ΕΙΣΑΓΕΙΟΠΛΑΤΩΝΤΗΝΔΙ", 
+            "ΟΣΥ ΗΝΑΛΛΑ", 
+            "ΤΗΗ Τ Ε", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΟΝΟΜΟΙ ΔΕΙ", 
             "ΟΜΕΝ Ι", 
             "ΩΣΙΝΤΑ ΛΥ", 
             "ΘΡΥΛΗΤΟΝΟΥΜΟ Ν", 
+<<<<<<< HEAD
             "ΟΩΚΡΑΤΗΣΕ Σ Ι", 
             "ΑΛΛΑΚΑΙΟΙΠΑΡΑΤΩ", 
             "ΑΤΩΝ ΣΟΦΙΣ", 
             "ΗΣΔ", 
+=======
+            "ΟΣΩΚΡΑΤΗΣΕ Σ Ι", 
+            "ΑΛΛΑΚΑΙΟΙΠΑΡΑΤΩ", 
+            "ΑΤΩΝ ΣΟΦΙΣ", 
+            "ΗΗΣΔ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "Ω ΜΕ", 
             "ΔΕ Ο Η", 
             "", 
@@ -2482,12 +2520,21 @@
             "ΔΕΕΑΥΤΩΕΙΝΑΙΚΗΔΕ", 
             "ΤΑΙΔΕΕΑΥ ΟΥΚΑΙΤΩΝ"]}, 
         {
+<<<<<<< HEAD
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
         "textpartLines": "46",
         "text": [
             "ΠΛΗΣΙΟΝΔΙΑΤΟΥΤΟΕ", 
             "ΦΗ ΕΙΜΕΝΤΩΝΕΝΥ", 
+=======
+        "n": "8",
+        "subtype": "column",
+        "textpartLines": "46",
+        "text": [
+            "ΠΛΗΣΙΟΝΔΙΑΤΟΥΤΟΕ", 
+            "ΦΗ ΕΙΜΕΝΤΩΝΕΝΚΥ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΡΗΝΗΜΑΛΛΟΝΕΚΗ", 
             "ΔΟΜΗΝ ΔΗΛΩΝΟΤΙΗ", 
             "ΤΟΙΑΥΤΗΟΙΚΕΙΩΣΙΣ", 
@@ -2533,8 +2580,13 @@
             "ΤΟΥΣΕΥΦΥΕ Σ ΝΥΝΔΕ", 
             "ΚΑΙΜΗΜΟΙΑΧΘΟΥΟΥ"]}, 
         {
+<<<<<<< HEAD
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+        "n": "9",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "44",
         "text": [
             "ΚΕΣΤ ΚΑΛΟΣΠΡΟΣ", 
@@ -2542,27 +2594,47 @@
             "Σ ΟΤ ΤΑΚΑΙΤΟΕ", 
             "Ξ ΤΩΝΟΜΜΑΤΩΝ", 
             "ΗΤΤ ΝΔΕΗΣΥΤΑΥΤΕ", 
+<<<<<<< HEAD
             "ΧΕΙ ΟΕΟΔΩΡΟΣΤΟΝ", 
             "ΚΑ ΝΚΑΤΑΤΑΥ", 
             "ΤΩ ΠΟΛΛΩΝΝΟΜΙ", 
             "Ζ ΜΕΝΑΤΟΝΕΚΤΗΣ", 
             "ΜΟΡΦΗΣΤΟΙΟΥΤΟΝΟ", 
+=======
+            "ΧΕΙ ΟΘΕΟΔΩΡΟΣΤΟΝ", 
+            "ΚΑ ΝΚΑΤΑΤΑΥ", 
+            "ΤΩ ΠΟΛΛΩΝΝΟΜΙ", 
+            "Ζ ΜΕΝΑΤΟΝΕΚΤΗΗΣ", 
+            "ΜΟΡΦΗΗΣΤΟΙΟΥΤΟΝΟ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "Μ Ι ΔΕ Κ ΩΝΑΥ", 
             "ΤΩ ΑΙ Ν ΧΡΟΝ", 
             "ΦΗ ΤΕΤΟΝ ΕΑΙ", 
             "ΤΗΤΟ ΕΟ ΚΕΝΑΙΤΩ", 
+<<<<<<< HEAD
             "ΩΚΡΑΤΕΙ ΑΤΑΤ", 
             "ΤΗΝΣΕΙΜ ΤΑ Ι", 
             "ΤΟΕΞ ΕΧ Ι ΤΑ Μ", 
             "ΜΑ ΥΜΕ ΕΠΙ", 
             "ΣΗ ΩΚ", 
+=======
+            "ΣΩΚΡΑΤΕΙ ΑΤΑΤ", 
+            "ΤΗΝΣΕΙΜ ΤΑ Ι", 
+            "ΤΟΕΞ ΕΧ Ι ΤΑ Μ", 
+            "ΜΑ ΥΜΕ ΕΠΙ", 
+            "ΣΗ ΣΩΚ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΟΔΕ ΡΑΤ", 
             "ΛΟ ΚΑΛΟ", 
             "ΚΑΛ ΕΓΟΝΤΑ", 
             "ΤΕΣ ΤΟ ΦΡΟΝ", 
             "ΩΣ Ε ΕΙ", 
             "ΤΟΓ ΕΥ Ο Α", 
+<<<<<<< HEAD
             "ΩΣ ΩΧ", 
+=======
+            "ΩΣ ΩΩΧ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΠΡΑΟΝ Υ Α", 
             "ΦΕΡΟ", 
             "ΤΟΥΤ Ν Ι Ν", 
@@ -2570,7 +2642,11 @@
             "ΜΕ Υ ΑΝΩΟΜΗΝ", 
             "ΓΕΝΕΣΘΑΙΟ Ρ ΟΜΕΝΟΝ ΤΟΕΥΜΑ", 
             "ΘΕΣΚΑΤ ΤΟΛΟΓΙΣΤΙ", 
+<<<<<<< HEAD
             "ΚΟΝΤΗΣΨΥΧΗΣΤΟ", 
+=======
+            "ΚΟΝΤΗΗΣΨΥΧΗΗΣΤΟ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΠΡΑΟΝ ΑΝΔΡΕΙΟΝ", 
             "ΚΑΤΑΤΟ ΜΟΕΙΔΕΣ", 
             "ΔΟΚΕΙΔ Τ ΤΟΙΑΥΤΑ", 
@@ -2582,21 +2658,34 @@
             "ΠΙΤΩΝΕΥΦΥΙΩ", 
             "ΞΑΝ ΓΚ ΗΑ ΚΟ"]}, 
         {
+<<<<<<< HEAD
         "n": "",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+        "n": "10",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "44",
         "text": [
             "ΛΟΥΘΙΑΑΛΛΑΤΑΠΟΛΛΑ", 
             "ΚΑΙΕΝΑΝΤΙΟΥΝΤΑΙΑΛ", 
             "ΛΗΛΑΙΣΔΙΑΤΟΥΤΟΚΑΙ", 
+<<<<<<< HEAD
             "ΦΗΣΙΝΟΕΟΔΩΡΟΣ", 
+=======
+            "ΦΗΣΙΝΟΘΕΟΔΩΡΟΣ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΟΥΤΕΩΟΜΗΝΓΕΝΕ", 
             "ΣΘΑΙΟΥΤΕΟΡΩΓΙΓΝΟ", 
             "ΜΕΝΟΝ ΟΥΚΕΙΑΝΕΛΠΙ", 
             "ΣΤΟΝΔΑΥΤΩΚΑΙΟΥΧ", 
             "ΡΑΓΙΓΝΟΜΕΝΟΝΕΥ", 
             "ΩΣΚΑΙΑΔΥΝΑΤΟΝΤΩ", 
+<<<<<<< HEAD
             "ΓΟΥΝΕΑΙΤΗΤΩΜΑ", 
+=======
+            "ΓΟΥΝΘΕΑΙΤΗΤΩΩΜΑ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΤΥΡΕΙΩΣΕΧΟΝΤΙΤΑΥ Α", 
             "ΑΛΛΟΙΤΕΟΞΕΙΣΩ", 
             "ΟΥΤΟΣΚΑΙΑΓΧΙΝΟ", 
@@ -2629,6 +2718,7 @@
             "ΜΑΚΑΙΟΙΤΟΙΟΥΤΟΙΟΥΝ", 
             "ΤΩΝΝΕΩ ΜΑΝ", 
             "ΤΕΡΟΙ ΡΑΝΔΡΕΙ", 
+<<<<<<< HEAD
             "Ο ΡΟΙΦΥΟ ΤΑΙΤΟΓΑΡ"]}, 
         {
         "n": "",
@@ -6638,5 +6728,8 @@
         "text": [
             "ΝΤ", 
             "ΚΥΘ"]}]
+=======
+            "Ο ΡΟΙΦΥΟ ΤΑΙΤΟΓΑΡ"]}]
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
     }]
 }

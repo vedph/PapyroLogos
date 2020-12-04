@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 
 
 "body": [
@@ -1583,6 +1584,25 @@
         {
         "n": "107",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+"head": {
+    "tm": "60671",
+    "side": "2",
+    "noRom": "0",
+    "part": "0",
+    "graphicURL": "http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK5605v.jpg",
+    "graphicName": "60671__PKöln_2_75.jpg",
+    "textparts": "1",
+    "lines": "24",
+    "version": "D1"
+    },
+    
+"body": [
+    {
+    "textpart": [{
+        "n": "1",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "24",
         "text": [
             "", 
@@ -1599,7 +1619,11 @@
             "ΣΔΕΚΛΟ", 
             "ΕΥΡΥΓΑΡΑΜΦΩ", 
             "ΣΙΠΠΟΥΣ", 
+<<<<<<< HEAD
             "ΠΗ ΣΠΕ", 
+=======
+            "ΠΗΗ ΣΠΕ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΗΛΟΥΣΟ", 
             "ΩΣΑΡΑΦΩΝΗ", 
             "ΜΑΣΤΕΙΓΙΛΙΓ", 
@@ -1608,6 +1632,7 @@
             "ΝΕΡΘΕΝΑΠΑΞ", 
             "ΑΣΑΡΑΦΙΠΠ", 
             "ΑΝΔΡΟΜΕΟΝ", 
+<<<<<<< HEAD
             "ΑΙΤΑΠΕΠΙΣ"]}, 
         {
         "n": "108",
@@ -6638,5 +6663,8 @@
         "text": [
             "ΝΤ", 
             "ΚΥΘ"]}]
+=======
+            "ΑΙΤΑΠΕΠΙΣ"]}]
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
     }]
 }

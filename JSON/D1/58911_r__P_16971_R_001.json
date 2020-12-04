@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 
 
 "body": [
@@ -137,16 +138,43 @@
         {
         "n": "7748882267",
         "subtype": "columncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfoliofoliofragmentcolumnfragmentfragmentfragmentcolumncolumncolumncolumnfragmentfragmentcolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumncolumnfragmentcolumnfragmentcolumnfragmentfragmentpagepagefragmentfragmentfragmentfragmentfragmentfragmentfragmentfragmentfragment",
+=======
+"head": {
+    "tm": "58911",
+    "side": "1",
+    "noRom": "0",
+    "part": "0",
+    "graphicURL": "http://ww2.smb.museum/berlpap/Original/P_16971_R_001.jpg",
+    "graphicName": "58911_r__P_16971_R_001.jpg",
+    "textparts": "1",
+    "lines": "18",
+    "version": "D1"
+    },
+    
+"body": [
+    {
+    "textpart": [{
+        "n": "1",
+        "subtype": "column",
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
         "textpartLines": "18",
         "text": [
             "", 
             "ΚΑΙΟΒΟ ΕΠΕΙΝΕΝΟΥ", 
             "ΤΟΑΜΠΕΛΙΝΟΝΗΝΟ", 
+<<<<<<< HEAD
             "ΣΕΠΑΙΝΕΙΤΗΣΦΙΛΟΦΡΟΣΥ", 
             "ΠΟΙΜΕΝΑΚΑΙΑΥΤΩΠΡΟ", 
             "ΕΙΚΥΛΙΚΑΦ ΛΟΤΗΣΙΑ", 
             "ΤΟΔΕΠΟΤΟΝΟΙΝΟΣΗΝΟΔΕΠΙ", 
             "ΩΝΥΦΗΔΟΝΗΣΒΑΚΧΕΥΕΤΑΙΚΑΙ", 
+=======
+            "ΣΕΠΑΙΝΕΙΤΗΗΣΦΙΛΟΦΡΟΣΥ", 
+            "ΠΟΙΜΕΝΑΚΑΙΑΥΤΩΠΡΟ", 
+            "ΕΙΚΥΛΙΚΑΦ ΛΟΤΗΣΙΑ", 
+            "ΤΟΔΕΠΟΤΟΝΟΙΝΟΣΗΝΟΔΕΠΙ", 
+            "ΩΝΥΦΗΔΟΝΗΗΣΒΑΚΧΕΥΕΤΑΙΚΑΙ", 
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
             "ΕΙΠΡΟΣΤΟΝΘΕΟΝ ΠΟΘΕΝΩ", 
             "ΟΤΟΥΔ ΡΤΟΠ", 
             "ΘΕΝΟΥΤΩ Ε", 
@@ -156,6 +184,7 @@
             "ΕΚΑΙΠ", 
             "ΑΣΡΕΙΝΑΣΕ", 
             "ΜΕΝΨΥΧΡΟΝ", 
+<<<<<<< HEAD
             "ΕΚΑΤΑΘ"]}, 
         {
         "n": "849992368",
@@ -6638,5 +6667,8 @@
         "text": [
             "ΝΤ", 
             "ΚΥΘ"]}]
+=======
+            "ΕΚΑΤΑΘ"]}]
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
     }]
 }

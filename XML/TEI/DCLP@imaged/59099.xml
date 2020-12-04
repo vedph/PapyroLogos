@@ -490,8 +490,12 @@
 <lb n="324"/>Ἐρρῶσθαι ἐν <expan instant="false">κ<ex instant="false">υρί</ex>ῳ</expan> εὔχομαι
 <lb n="325"/>τὴν ὑμετέραν <expan instant="false">φιλόχ<ex instant="false">ριστο</ex>ν</expan>
 <lb n="326"/>καὶ <expan instant="false">πν<ex instant="false">ευματ</ex>ικὴν</expan> εὔτεκνον
+<<<<<<< HEAD
 </ab></div>
          </div>
+=======
+</ab></div></div>
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
          <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
             <listBibl default="false">
                <bibl type="publication" subtype="ancient" default="false" status="draft">

@@ -25,8 +25,13 @@ declare variable $loadTranscriptFile := true();
 (:  ### SCHALTER III ###
     Vier Booleans zur Steuerung der Outputformate – nur eines auf true() setzen, ansonsten wird nur das jeweils erste ausgegeben  :)
 declare variable $textOutput := false();
+<<<<<<< HEAD
 declare variable $jsonOutput := true();
 declare variable $xmlOutput  := false();
+=======
+declare variable $jsonOutput := false();
+declare variable $xmlOutput  := true();
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
 declare variable $altoOutput := false();
 
 (:  ### Pfade zu Verzeichnissen und Dateien ###  :)
@@ -40,6 +45,7 @@ declare variable $fileTranscript := concat($repository,'PapyroLogos/documents/co
 (: Zuordnungstabelle von Griechisch mit Akzenten zu normalisierten Majuskeln ist im transcript-Modul zu definieren, falls $loadTranscriptFile = false() :)
 declare variable $tableGreek := $ts:tableGreek; 
 
+<<<<<<< HEAD
 (: Kopie der Tabelle der relevanten Papyri aus GoogleSpreadsheet https://docs.google.com/spreadsheets/d/1kGkPYNpcTaSTe_4ROBwitSlpC0IGNxr4h22p0dZ9VF8/edit#gid=50312864 :)
 (: Liste der Dateinamen ersetzt die vorherige Erstellung eines Korpus in $corpusXML :)
 declare variable $tablePapyri := concat($repository,'PapyroLogos/documents/listPapyri.xml');
@@ -52,6 +58,10 @@ declare variable $corpusXMLFiltered := concat($repository,"PapyroLogos/XML/TEI/D
 :)
 declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP@imaged"); 
 
+=======
+(: Ordner oder Verzeichnis der ursprünglichen XML-Dateien, aus denen Transkript-Daten extrahiert werden sollen :)
+declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP@imaged") ;  
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
 
 (: Umstrukturierung der Transkriptionen wird by default in Variable $corpusTranscript gespeichert, 
    kann jedoch auch (ab Zeile 364) als Datei ausgegeben werden, um sie bei zwetem Durchlauf per SCHALTER II = true abzurufen :)
@@ -221,7 +231,11 @@ file:write(concat("file:///", $repository, $destination, $version, '/', $fileNam
 (: Stellt graphic-URL und entsprechende Textparts mit angepasstem Markup (und ggf. target-URL) in XML zusammen :) 
 (: Aufbau der Datei je Ausgangs-XML: {Dateiname,{textpart{@graphic-URL?,text+},@target-URL?}+}  :)
 
+<<<<<<< HEAD
 let $listPapyri := doc(concat('file:///', $tablePapyri))//TM/text()
+=======
+
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
 let $dataTranscript := collection(concat('file:///', $corpusXML ,'?recurse=yes' )) 
 
     (: XML-Dokument der $custEventDoc Variable; Sammlung der Elemente mit Link zur Grafik 
@@ -235,6 +249,7 @@ let $dataTranscript := collection(concat('file:///', $corpusXML ,'?recurse=yes' 
    Kann in einem Skriptaufruf erzeugt und abgerufen werden, oder die zuerst erzeugte Datei corpusTranscript.xml wird in zweitem Lauf abgerufen
    globale Variable $createCorpusTranscript = true/false einstellen, um diese Varianten zu steuern :)   
 
+<<<<<<< HEAD
 (:
 (: Um gesamten DCLP Korpus vorher auf die relevanten Listeneinträge zu reduzieren und in :)
 for $i in $dataTranscript 
@@ -245,6 +260,8 @@ for $i in $dataTranscript
 file:write(concat("file:///", $repository, $corpusXMLFiltered, $name, '.xml'), $i)
 :)
 
+=======
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
 
 let $corpusTranscriptPrep :=
 
@@ -254,10 +271,14 @@ then doc(concat('file:///',$fileTranscript))/root
 
 else 
 <root>{
+<<<<<<< HEAD
 <list>{for $i in $dataTranscript return string-join(to:substring-before-match(to:substring-after-last-match(xs:string(document-uri($i)),'/'),'\.'),'-')}</list>,
 for $i in $dataTranscript 
     where to:is-value-in-sequence(to:substring-before-match(to:substring-after-last-match(xs:string(document-uri($i)),'/'),'\.'), $listPapyri) 
     and $i//TEI:custEvent[data(@type="imaged")]   (: generelle Vorsortierung nur imaged :)
+=======
+for $i in $dataTranscript where $i//TEI:custEvent[data(@type="imaged")]   (: generelle Vorsortierung nur imaged :)
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
 let $name := $i/TEI:TEI/data(@xml:id)
 let $textpart := $i//TEI:div[@type="textpart"][child::element()/name()='ab' or child::element()/name()='lg'](:[exists(@corresp)]:)
 let $target := if($i//TEI:bibl[@type="online"]) 
@@ -358,7 +379,10 @@ then doc(concat('file:///',$fileTranscript))/root
 
 else 
 <root>{
+<<<<<<< HEAD
 <list>{$corpusTranscriptPrep//list}</list>,
+=======
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
 for $file in $corpusTranscriptPrep//file
 return 
 <file name="{distinct-values($file//name)}">{
@@ -375,8 +399,13 @@ return $textpart
 
 (:  Falls ($loadTranscriptFile := false()) kann hier die Variable $corpusTranscript als Datei ausgegeben werden
     Statements vor der Variablendeklaration entsprechend auskommentieren    :) 
+<<<<<<< HEAD
 (:
 
+=======
+
+(:
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782
 return 
 file:write(concat("file:///", $destinationAUX, 'corpusTranscript',".xml"), $corpusTranscript)
 :)
@@ -804,4 +833,7 @@ else ()
 
 else ()
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4af36b486b94b6c0b80d72e656f6770e3dbc5782

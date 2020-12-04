@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60608" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Yale. 2 128</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60608</idno>
+            <idno type="TM">60608</idno>
+            <idno type="LDAB">1732</idno>
+            <idno type="filename">60608</idno>
+            <idno type="dclp-hybrid">p.yale;2;128</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">New Haven, Yale University, Beinecke Library P. CtYBR 551</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus fragment (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>informal round</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR9012" xml:id="GR9012.01" from="1996" to="2015">
+                           <graphic url="http://brbl-svr1.library.yale.edu/papyrimg/Z4202722.JPG"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>epic</term>
+               <term>philology</term>
+               <term>commentary</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">Homerus, Homerica; Odyssea 04.335-345 = Odyssea 017.126-136 commentary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2019-02-14" who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="column" type="textpart" corresp="#FR9012" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">αι</unclear>· οὐ γὰρ οἷον α<unclear instant="false">ν</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ειχεν οἴκαδε<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3" rend="ekthesis"/> <supplied reason="lost" instant="false">νεβροὺς κοι</supplied>μήσασα· Ἀρι<supplied reason="lost" instant="false">στοτέ</supplied>
+<lb n="4" break="no"/><supplied reason="lost" instant="false">λης δέ φη</supplied>σι<add place="above" instant="false" status="unremarkable">ν</add> ὅτι καὶ δύο <supplied reason="lost" instant="false">ἐνίοτε</supplied>
+<lb n="5"/><supplied reason="lost" instant="false">τίκτει· οὐ</supplied> κακῶς οὖν <supplied reason="lost" instant="false">πληθυν</supplied>
+<lb n="6" break="no"/><supplied reason="lost" instant="false">τικῶς λέγ</supplied>εται τὸ ν<supplied reason="lost" instant="false">εβρούς.</supplied>
+<lb n="7" rend="ekthesis"/> <supplied reason="lost" instant="false">ἐξ ἔριδος Φιλ</supplied>ομηλείδ<supplied reason="lost" instant="false">ηι ἐπάλαι</supplied>
+<lb n="8" break="no"/><supplied reason="lost" instant="false">σεν· τινὲς</supplied> <q type="thought">τῶι Πατρό<supplied reason="lost" instant="false">κλωι</supplied></q> <supplied reason="lost" instant="false">κα</supplied>
+<lb n="9" break="no"/><supplied reason="lost" instant="false">τὰ τὸν</supplied> Φιλοκράτ<supplied reason="lost" instant="false">η, ὃς αὐτὸν</supplied>
+<lb n="10"/><supplied reason="lost" instant="false">Φιλομήλ</supplied><unclear instant="false">α</unclear>ς γενεαλογεῖ. <supplied reason="lost" instant="false">ἐναν</supplied>
+<lb n="11" break="no"/><supplied reason="lost" instant="false">τιοῦται δ</supplied><unclear instant="false">ὲ</unclear> αὐτοῖς τὸ τὸ<supplied reason="lost" instant="false">ν</supplied>
+<lb n="12"/><supplied reason="lost" instant="false">ποιητὴν</supplied> μηδέποτε ἀ<supplied reason="lost" instant="false">πὸ</supplied>
+<lb n="13"/><supplied reason="lost" instant="false">μητέρων</supplied> πατρωνυμ<supplied reason="lost" instant="false">ίαν</supplied>
+<lb n="14"/><supplied reason="lost" instant="false">σχηματί</supplied>ζειν. καὶ τὸ <q type="written">κ<unclear instant="false">εχ</unclear><supplied reason="lost" instant="false">ά</supplied>
+<lb n="15" break="no"/><supplied reason="lost" instant="false">ροντο δὲ π</supplied>άντες Ἀχαιοί</q> <unclear instant="false">ἀ</unclear><supplied reason="lost" instant="false">νοί</supplied>
+<lb n="16" break="no"/><supplied reason="lost" instant="false">κειον ἦν· ο</supplied>ὐ γὰρ ἂν ἔχαιρο<supplied reason="lost" instant="false">ν</supplied>
+<lb n="17"/><supplied reason="lost" instant="false">τοῦ Πατρό</supplied>κλου πεσόντο<supplied reason="lost" instant="false">ς·</supplied>
+<lb n="18"/><supplied reason="lost" instant="false">ἀλλὰ τὸν</supplied> Φιλομηλείδη<supplied reason="lost" instant="false">ν</supplied>
+<lb n="19"/><supplied reason="lost" instant="false">Λέσβου βα</supplied><unclear instant="false">σ</unclear>ιλέα ἀκουστέο<supplied reason="lost" instant="false">ν.</supplied>
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/10921"/>
+                  <biblScope unit="number">128</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Yale</title>
+                  <biblScope unit="volume">2</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"/>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Hellenika 28, pl.I</bibl>
+               <bibl type="printed" default="false" status="draft">CPR IV.2, pl.309</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.papyri.info/apis/yale.apis.0005514100"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

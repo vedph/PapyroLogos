@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63983" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 63983</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63983</idno>
+            <idno type="TM">63983</idno>
+            <idno type="LDAB">5198</idno>
+            <idno type="filename">63983</idno>
+            <idno type="dclp-hybrid">tm;;63983</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9015</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus codex (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0200" notAfter="0299" instant="false">200 - 299</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR11073" xml:id="GR11073.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09015_V_2.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR11072" xml:id="GR11072.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09015_R_2.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>medicine</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">treatise on the empirical school</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Treatise. Fragment (4 x 4.5 cm) from a papyrus codex written on both sides by the same scribe. 9 and 10 lines are preserved respectively on the front and back, and no margin survives. The text contains a few technical terms (περίπτωσις, μιμητικῶς and perhaps ἐγκύρησις) which bear a specific meaning for the Empiricists; whether the treatise belonged to the Empiric school or contained a polemical text against the Empiric doctrine is uncertain. The small, careful script was assigned by I. Andorlini to the 3rd c. AD.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Francesca Corazza as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous editions (ed.pr. = K. Kalbfleisch-H. Schöne, BKT III 29-30; corr. = I. Andorlini, Precisazioni sulla data di alcuni testi di medicina in forma di codice, Pap. Kongr. XX (Kopenhagen 1992), 410–413)</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="A" type="textpart" subtype="side" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">θν</unclear><gap reason="lost" quantity="4" unit="character" instant="false"/> κα<unclear instant="false">ὶ</unclear> τὸ περιει<unclear instant="false">μ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>τι φιλύραν ὡς ἐπ<unclear instant="false">οίη</unclear>σε<unclear instant="false">ν</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>των ἄλλων <unclear instant="false">ων</unclear> αν<gap reason="illegible" quantity="1" unit="character" instant="false"/>νε <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ν</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">τὴ</unclear>ν τυχικὴν π<unclear instant="false">ερ</unclear>ί<unclear instant="false">π</unclear><supplied reason="lost" instant="false">τωσιν <gap reason="illegible" extent="unknown" unit="character" instant="false"/></supplied>
+<lb n="5"/><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> μι</supplied>μητικῶς καὶ δ<gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ι</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν τῶν θαν<unclear instant="false">α</unclear><supplied reason="lost" instant="false">σ</supplied>ίμ<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">ν <gap reason="illegible" extent="unknown" unit="character" instant="false"/></supplied>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">μ</supplied>ηδὲν ἔχειν <app type="alternative"><lem>τ<unclear instant="false">ε</unclear>χ<unclear instant="false">ν</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg>τ<unclear instant="false">ε</unclear>χ<unclear instant="false">ν</unclear><supplied reason="lost" instant="false">ικόν</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg><rdg>τ<unclear instant="false">υ</unclear>χ<unclear instant="false">ι</unclear><supplied reason="lost" instant="false">κόν</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> ἄχρη<unclear instant="false">στο</unclear>ν ψεῦ<unclear instant="false">δ</unclear>ος ε<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="alternative"><lem><unclear instant="false">ρ</unclear>ανα<gap reason="lost" quantity="1" unit="character" instant="false"/> καὶ απ<unclear instant="false">αγ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><unclear instant="false">ρ</unclear> ἀνα<supplied reason="lost" instant="false">γ</supplied>καῖα π<unclear instant="false">αρ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+
+<div n="B" type="textpart" subtype="side" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ωσι συνενδε<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">θ</supplied>ανατηφόρον, <unclear instant="false">τὰ</unclear>ς δὲ κ<unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3" xml:id="div2-lb4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ι</unclear> δε<unclear instant="false">χ</unclear>θεὶς πρ<unclear instant="false">ὸ</unclear>ς τὴν ὄψι<unclear instant="false">ν</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> τοῦτο καὶ <unclear instant="false">ὅ</unclear>λο<unclear instant="false">υ</unclear> διὰ τ<unclear instant="false">ο</unclear>ῦ<unclear instant="false">το</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>λας γίνεσθαι. τί γὰρ <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">τ</supplied>ὴν ἐ<unclear instant="false">ν</unclear> βά<unclear instant="false">θ</unclear>ει θίξι<supplied reason="lost" instant="false">ν</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>η<gap reason="lost" quantity="1" unit="character" instant="false"/>ιν</lem><rdg><supplied reason="lost" instant="false"><gap reason="illegible" extent="unknown" unit="character" instant="false"/> φ</supplied>η<supplied reason="lost" instant="false">σ</supplied>ὶν</rdg></app> ὅτι ἡ μὲν τ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ς ἐγκύρησις ἀγνοο<unclear instant="false">υ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ε πραγμ<supplied reason="lost" instant="false">ά</supplied>τ<unclear instant="false">ων</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">τ</unclear>η<unclear instant="false">σ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+      </div>
+         <div type="commentary" subtype="linebyline" part="N" org="uniform" sample="complete">
+            <list>
+               <item corresp="#div2-lb4" xml:space="preserve"><ref>4</ref> <p part="N">A dotted line is visible above καὶ ὅλου διὰ τοῦτο.</p></item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 3 pl.8</bibl>
+               <bibl type="printed" default="false" status="draft">Andorlini, Proc. XXth Congr. pl.30</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02587/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

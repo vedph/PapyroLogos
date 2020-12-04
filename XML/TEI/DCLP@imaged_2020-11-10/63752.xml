@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63752" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Schub. 10</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63752</idno>
+            <idno type="TM">63752</idno>
+            <idno type="LDAB">4964</idno>
+            <idno type="filename">63752</idno>
+            <idno type="dclp-hybrid">p.schub;;10</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 16002 Ro</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>severe style</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Oxyrhynchos (Oxyrhynchites, Egypt)</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8534" xml:id="GR8534.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_16002_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>lyric</term>
+               <term>philology</term>
+               <term>scholia</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">Archilochos?; epode with scholia</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-12-05" who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" corresp="#FR8534" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" quantity="1" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ν<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><space atLeast="1" atMost="2" unit="character"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>καρ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>οπποτ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ρου παρα<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><add place="interlinear" instant="false" status="unremarkable"><gap reason="lost" extent="unknown" unit="character" instant="false"/><space atLeast="3" atMost="4" unit="character"/>διδα<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></add>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">στο</supplied>νόεσσαν ἀϋ<unclear instant="false">τή</unclear><supplied reason="lost" instant="false">ν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><add place="interlinear" instant="false" status="unremarkable"><gap reason="lost" extent="unknown" unit="character" instant="false"/><abbr>μοριο</abbr> Ἱππῶναξ χαλκῶ <gap reason="illegible" atLeast="1" atMost="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></add>
+<lb n="10a"/><add place="interlinear" instant="false" status="unremarkable"><gap reason="lost" extent="unknown" unit="character" instant="false"/><expan instant="false"><supplied reason="lost" instant="false">ἀ</supplied><unclear instant="false">ν</unclear>δρὸ<ex instant="false">ς</ex></expan> ἔχο<add place="above" instant="false" status="unremarkable">ντ</add>α ὥστε τρισκ<gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></add>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> ὁππόταν αυτ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"><desc>vestiges</desc></gap> καὶ ἡμῖν·
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ιβ<unclear instant="false">ι</unclear>η δέ
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="17"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">σ</unclear>σ' ἐθελήσει
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="19"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">γά</supplied>μον ἱμερόεντα·
+<lb n="20"/><add place="interlinear" instant="false" status="unremarkable"><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">οὐ</supplied>κ <expan instant="false">ἀποκληρωθήσε<add place="above" instant="false" status="unremarkable">τ</add><ex instant="false">αι</ex></expan> σοι ὁ ἀνὴρ κο<unclear instant="false">λ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></add>
+<lb n="20a"/><add place="interlinear" instant="false" status="unremarkable"><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">π</supplied>αρθενείας αὐτὴν <abbr>γημαν<add place="above" instant="false" status="unremarkable">τ</add></abbr> α<unclear instant="false">λλ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></add>
+<lb n="21"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" atLeast="1" atMost="2" unit="character" instant="false"/><unclear instant="false">δ</unclear>αλλου
+<lb n="22"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="23"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν θυμὸν ἔχεσκες·
+<lb n="24"/><add place="interlinear" instant="false" status="unremarkable"><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>κακὴ ὑπ<unclear instant="false">ά</unclear>ρχουσα</add>
+<lb n="25"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" atLeast="1" atMost="2" unit="character" instant="false"/><unclear instant="false">η</unclear>τ<add place="above" instant="false" status="unremarkable">ε</add>τι πατρός
+<lb n="26"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="27"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">φ</unclear>αινε καλύπτρης· <add place="right" instant="false" status="unremarkable">ἐπὶ <expan instant="false">κ<ex instant="false">ατὰ</ex></expan> κ<unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></add>
+<lb n="28"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ρε·
+<lb n="29"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/> <unclear instant="false">ἀ</unclear>πὸ νήσου
+<lb n="30"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="4" unit="character" instant="false"/>
+<lb n="31"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> πνοῆισιν
+<lb n="32"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="33"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">σ</supplied>έθεν ἐστίν·
+<lb n="34"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">P. Schubart</title>
+                  <biblScope unit="number">10</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0232">Archilochus</author>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">McNamee, Annotations (ASP 45, 2007), pl. 12 a</bibl>
+               <bibl type="printed" default="false" status="draft">BKT 10, pl. 13</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/04049/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

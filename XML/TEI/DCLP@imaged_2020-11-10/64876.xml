@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m64876">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Speech on the Third Holy War</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">64876</idno>
+            <idno type="TM">64876</idno>
+            <idno type="LDAB">6115</idno>
+            <idno type="filename">64876</idno>
+            <idno type="dclp-hybrid">p.koeln;7;287</idno>
+            <idno type="MP3">02205.010</idno>
+            <availability default="false" status="unknown">
+               <p part="N">
+            © Digital Corpus of Literary Papyri. This work is licensed under a
+            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>
+            .
+          </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Cologne, Papyrussammlung P. 614</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                           <dimensions>
+                              <width unit="cm">30 cm</width>
+                              <height unit="cm">4 cm</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="7">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>clumsy capitals</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Fundort: Egypt; Schreibort: Egypt</origPlace>
+                     <origDate notBefore="0400" notAfter="0599" instant="false">400 - 599</origDate>
+                  </origin>
+                  <provenance n="1" type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR12656" xml:id="GR12656.01" from="2003" to="2015">
+                           <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK614r.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term n="1" type="description">prose</term>
+               <term n="2" type="description">rhetorical</term>
+               <term n="3" type="religion">classical</term>
+               <term n="4" type="culture">literature</term>
+               <term n="5">prose oratory</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+          <change when="2019-06-07T04:30:39-04:00" who="http://papyri.info/users/simoeis" status="draft">Finalized - Requested changes made. Ready.</change>
+          <change when="2019-06-07T04:30:38-04:00" who="http://papyri.info/users/simoeis" status="draft">Finalized - Requested changes made. Ready.</change>
+          <change when="2019-06-07T04:27:32-04:00" who="http://papyri.info/users/simoeis" status="draft">Vote - Accept-Straight-to-Finalization - Text: indicate the break in the papyrus at the bottom of both columns. Metadata: delete vol number; move legacy name to display name</change>
+          <change when="2019-06-07T04:27:32-04:00" who="http://papyri.info/users/simoeis" status="draft">Vote - Accept-Straight-to-Finalization - Text: indicate the break in the papyrus at the bottom of both columns. Metadata: delete vol number; move legacy name to display name</change>
+          <change when="2019-06-06T23:19:15-04:00" who="http://papyri.info/users/simoeis" status="draft">General - Add 'cm' to measurements.</change>
+          <change when="2019-06-06T23:19:15-04:00" who="http://papyri.info/users/simoeis" status="draft">General - Add 'cm' to measurements.</change>
+          <change when="2019-05-23T12:34:57-04:00" who="http://papyri.info/users/james.cowey" status="draft">Submit - Originally submitted to litpap.info 2017.09.01 by Thomas Backhuys. Submission has been transferred to papyri.info.</change>
+          <change when="2019-05-23T12:34:57-04:00" who="http://papyri.info/users/james.cowey" status="draft">Submit - Originally submitted to litpap.info 2017.09.01 by Thomas Backhuys. Submission has been transferred to papyri.info.</change>
+          <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="i" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>Φωκεῖς αὐξηθέντες καὶ σχόντε<unclear instant="false">ς</unclear> συμ <g type="diple"/>
+<lb n="2" break="no"/>μάχους κατελάβοντο <unclear instant="false">τ</unclear>ὸν ἐν Δελφοῖς ναὸν <g type="slanting-stroke"/>
+<lb n="3"/>ἔχοντες ἀφηγουμένο<unclear instant="false">υς</unclear> <unclear instant="false">αὐ</unclear>τοῦ <choice><reg instant="false">δύο</reg><orig>δοίο</orig></choice> τυράννους
+<lb n="4"/>Φ<unclear instant="false">ι</unclear>λόμηλον καὶ <unclear instant="false">Ὀ</unclear>ν<unclear instant="false">όμαρχο</unclear>ν. <g type="slanting-stroke"/> ἦν δὲ κα<unclear instant="false">τ</unclear>’ <supplied reason="lost" instant="false">ἐ</supplied><unclear instant="false">κεῖ</unclear>
+<lb n="5" break="no"/>νον τὸν χρόνον <unclear instant="false">π</unclear><supplied reason="lost" instant="false">ολύχρ</supplied><unclear instant="false">υσ</unclear>ος ὁ ἐν Δελ
+<lb n="6" break="no"/><unclear instant="false">φοῖ</unclear>ς να vac.
+<lb n="6"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="ii" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>φοῖς ναὸς καθὼς καὶ ὁ Μίδ<unclear instant="false">ας</unclear>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/12431"/>
+                  <biblScope unit="number">287</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">P.Köln 7, pl.IIIc</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/Karte/VII_287.html"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+  </text>
+</TEI>

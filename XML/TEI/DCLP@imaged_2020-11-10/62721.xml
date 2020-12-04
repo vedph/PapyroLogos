@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m62721" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Oxy. 53 3701</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">62721</idno>
+            <idno type="TM">62721</idno>
+            <idno type="LDAB">3909</idno>
+            <idno type="filename">62721</idno>
+            <idno type="dclp-hybrid">p.oxy;53;3701</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Oxford, Sackler Library, Papyrology Rooms P. Oxy. 3701</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>documentary hand</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0099" instant="false">1 - 99</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR12938" xml:id="GR12938.01" from="1998" to="2015">
+                           <graphic url="http://www.csad.ox.ac.uk/POxy/papyri/vol53/300dpi/3701_300.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>medicine</term>
+               <term type="culture">science</term>
+               <term type="overview">Sextius Niger?; pharmalogical fragment</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Collection of pharmacological extracts by an unknown author (Oxford, Sackler Library, Papyrology Rooms P. Oxy. 3701). Papyrus fragment (10x18,5cm) which contains remains of two columns and was probably part of a roll. The upper margin is preserved and amounts to ca. 4,5cm. There is no punctuation, except of <emph rend="italics">paragraphoi</emph> marking the passages between two entries. Moreover, the verso is blank. The extract lists materials, including animals (bile), minerals (copper, earth, talc) and plants (poppy, nigella, figs), and describes their properties (δυνάμεις), their method of preparation (σκευασία) as well as their parmacological application or usefulness for various afflictions, but the principal of arrangement is not clear. Because of this topic, the text is possibly congeneric with Dioscorides' <emph rend="italics">Materia Medica</emph>. In fact, a possible author might be Sextius Niger, an immediate predecessor of Dioscorides (cf. Dsc. <emph rend="italics">praef.</emph> 2), who was also admired by Galen (cf. <emph rend="italics">Simpl.</emph> vi prohoem.). Furthermore, in addition to the similarities to the <emph rend="italics">MM</emph>, there are also parallels to Pliny's <emph rend="italics">Natural History</emph> and a citation of a certain Apollodorus in col. 1 l. 23 (vd. commentary ad loc.). The text was written by a documentary hand which also corrected some errors <emph rend="italics">calamo currente</emph> and may belong to the latter half of the first century AD.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Marcel Moser as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous edition (M.W. Haslam, P.Oxy. LIII 3701).</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1" xml:id="div1-lb1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ονε</unclear> <gap reason="illegible" quantity="3" unit="character" instant="false"/> <unclear instant="false">υ</unclear>σσω
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">τ</unclear>α χρ<unclear instant="false">η</unclear><supplied reason="lost" instant="false">σι</supplied><unclear instant="false">μ</unclear>εύει
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">κατ</supplied><unclear instant="false">α</unclear>πλάσμ<unclear instant="false">ατ</unclear>α καὶ
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">νυμε</unclear> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">κ</unclear>αι
+<lb n="5" xml:id="div1-lb5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="3" unit="character" instant="false"/> <unclear instant="false">ας</unclear> <unclear instant="false">μ</unclear>ε<unclear instant="false">τὰ</unclear> <unclear instant="false">μη</unclear>
+<lb n="6" break="no" xml:id="div1-lb6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">σα</unclear> <unclear instant="false">κ</unclear>αὶ κατ<unclear instant="false">α</unclear>πλα
+<lb n="7" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">χρησιμ</supplied>εύει δὲ καὶ τοῖς
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">π</supplied>οτιζομένη
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">μη</unclear> ἐνιεμένη
+<lb n="10"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><unclear instant="false">ιγγ</unclear>οις</lem><rdg><choice><reg instant="false"><app type="alternative"><lem>εἰλίγγοις<certainty match=".." locus="value"/></lem><rdg>ἰλίγγοις<certainty match=".." locus="value"/></rdg></app></reg><orig><supplied reason="lost" instant="false">ε</supplied><unclear instant="false">ἰλειγγ</unclear>οις</orig></choice></rdg></app> με
+<lb n="11" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <unclear instant="false">κ</unclear>αὶ κεφαλαλγοῦσι
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">γ</unclear>ὰρ ποιεῖ μέγαλα
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν <unclear instant="false">φ</unclear>λεγματώδη
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ώδ</unclear>η· <unclear instant="false">πλ</unclear>είω δὲ <app type="alternative"><lem><choice><reg instant="false">πινο
+<lb n="15" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></reg><orig>πεινο<lb n="15" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></orig></choice></lem><rdg><choice><reg instant="false">πινο<lb n="15" break="no" xml:id="div1-lb17"/><supplied reason="lost" instant="false">μένη</supplied></reg><orig>πεινο<lb n="15" break="no"/><supplied reason="lost" instant="false">μένη</supplied></orig></choice> <supplied reason="lost" cert="low" instant="false">χρόνον</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app> <supplied reason="lost" instant="false">ώ</supplied><unclear instant="false">δη</unclear> καὶ ὕφαιμα
+<lb n="16" xml:id="div1-lb19"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <unclear instant="false">μ</unclear>έλανα. <space extent="unknown" unit="character"/>
+<lb n="17"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>πις</lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false"><expan instant="false"><ex instant="false">χαλκοῦ</ex></expan> λ</supplied><unclear instant="false">ε</unclear>πίς</rdg></app> <unclear instant="false">ὑ</unclear>δατώδη <space extent="unknown" unit="character"/>
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">τ</unclear>ου ῥίζα φλεγματώδη ἀν<add place="above" instant="false" status="unremarkable">ω</add>
+<lb n="19"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">κ</supplied><unclear instant="false">αὶ</unclear> χολ<unclear instant="false">ώδ</unclear>η μετὰ κνη
+<lb n="20" break="no" xml:id="div1-lb23"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">χ</unclear>αλκοῦ <unclear instant="false">ἄ</unclear>νθος φλεγμα
+<lb n="21" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">κ</unclear>αὶ χολώδη ἀμφοτε
+<lb n="22" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἔ</supplied><unclear instant="false">λ</unclear>αιον μέλι χο<unclear instant="false">λ</unclear>ώδη <space extent="unknown" unit="character"/>
+<lb n="23"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ν</unclear> Ἀπολλοδώρου <expan instant="false">μελάνθι<add place="above" instant="false" status="unremarkable">ο</add><ex instant="false">ν</ex></expan>
+<lb n="24"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἄνθ</supplied><unclear instant="false">η</unclear></rdg></app> ἔχει ἄ<unclear instant="false">ν</unclear>οσμα καὶ ἀ
+<lb n="25" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <unclear instant="false">ἐπισκοπο</unclear>ῦντα
+<lb n="26"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">δι</unclear>αχει τὰ πη
+<lb n="27" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">αιθρ</unclear>ω<unclear instant="false">ν</unclear> θερ
+<lb n="28" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>εται δὲ καθα
+<lb n="29" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ι. <space extent="unknown" unit="character"/>
+<lb n="30"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ο</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">υν</unclear>α<gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="31"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">σ</unclear>
+<lb n="32"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="33"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="34"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+
+<div n="2" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">  
+<lb n="1" xml:id="div2-lb1"/>τοῦ <choice><reg instant="false">τρίβειν</reg><orig>τρείβειν</orig></choice> ἕ<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">ς</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/>εἶτ' ἐν ἡλίωι ξ<unclear instant="false">ηρ</unclear><supplied reason="lost" instant="false">α</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3" xml:id="div2-lb3"/>πάλιν καὶ χρῶ <gap reason="illegible" quantity="1" unit="character" instant="false"/> <app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4" break="no"/>μικῶν</lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἐπὶ τῶν ὀφθαλ</supplied><lb n="4" break="no"/>μικῶν</rdg></app>. <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="5" xml:id="div2-lb6"/>γῆς Σαμίας τῆ<unclear instant="false">ς</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/>μις τὴν δύναμι<supplied reason="lost" instant="false">ν</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">σκευ</supplied>
+<lb n="7" break="no"/>ασίαν ἔχει παρα<unclear instant="false">π</unclear><supplied reason="lost" instant="false">λησίαν</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">τῆι</supplied>
+<lb n="8"/><subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">Ἐρετριάδι</add><del rend="corrected" instant="false" status="unremarkable">Ἐρετριά<del rend="erasure" instant="false" status="unremarkable"><unclear instant="false">ι</unclear></del></del></subst> καὶ <app type="alternative"><lem><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9" break="no"/>ρα</lem><rdg><unclear instant="false">ἐ</unclear><supplied reason="lost" instant="false">λαφροτέ</supplied><lb n="9" break="no"/>ρα</rdg></app> καὶ χρησιμ<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">τέρα</supplied> <app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false">ἐστίν.</supplied></rdg></app>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="10" xml:id="div2-lb12"/>λευκογραφὶς δ<unclear instant="false">ύ</unclear><supplied reason="lost" instant="false">ναμιν ἔχει</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">μα</supplied>
+<lb n="11" break="no"/>λάσσει καὶ πληρ<supplied reason="lost" instant="false">οῖ κοιλώματα</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/>ματα μετὰ στύ<unclear instant="false">ψ</unclear><supplied reason="lost" instant="false">εως</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13" xml:id="div2-lb15"/>σταλαγμὸς ἄνθου<supplied reason="lost" instant="false">ς</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/>τὰ αὐτὰ τῶι ἄνθ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ι</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/>πολλῶι ἐνεργεσ<unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ερ</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="16" xml:id="div2-lb18"/>συκῆς <choice><reg instant="false">κράδη</reg><orig>κλάδη</orig></choice> δύν<supplied reason="lost" instant="false">αμιν ἔχει</supplied> <app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false">ἀποκαθαρτικήν</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="17"/>ἀποκαθαίρει με<supplied reason="lost" instant="false">τὰ</supplied><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="18" break="no"/>σίας</lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">θερμα</supplied><lb n="18" break="no"/>σίας</rdg></app> καὶ στύψεω<unclear instant="false">ς</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">σκευάζε</supplied>
+<lb n="19" break="no" xml:id="div2-lb22"/>ται δὲ οὕτως· λαβ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="20" xml:id="div2-lb23"/>κράδας τὰς <app type="alternative"><lem>παραφ<unclear instant="false">υ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="21" break="no"/>τάτας</lem><rdg>παραφ<unclear instant="false">υ</unclear><supplied reason="lost" instant="false">άδας τὰς ἁπαλω</supplied><lb n="21" break="no"/>τάτας</rdg></app> καὶ ἐλαφρ<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">τάτας</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">κα</supplied>
+<lb n="22" break="no"/>τακαύσας <choice><reg instant="false">τρῖβε</reg><orig>τρεῖ<unclear instant="false">β</unclear>ε</orig></choice> <app type="alternative"><lem><unclear instant="false">ὑ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="23" break="no"/>χέων</lem><rdg><unclear instant="false">ὕ</unclear><supplied reason="lost" instant="false">δωρ</supplied> <gap reason="lost" quantity="3" unit="character" instant="false"/> <supplied reason="lost" instant="false">προσεπι</supplied><lb n="23" break="no"/>χέων</rdg></app> καὶ παραπάσσ<supplied reason="lost" instant="false">ων</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="24"/>τὸ βέλτιστον ἕως <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="25"/>σποδοειδὲς καὶ α<gap reason="illegible" quantity="1" unit="character" instant="false"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">τρὶς τῆς ἡμέρας ἢ καὶ</supplied></rdg></app> <supplied reason="lost" instant="false">πλε</supplied>
+<lb n="26" break="no"/>ονάκις ἀναπλάσα<unclear instant="false">ς</unclear> <app type="alternative"><lem><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><unclear instant="false">χ</unclear><supplied reason="lost" instant="false">ρῶ.</supplied></rdg></app>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="27"/>χολὴ<surplus instant="false">ς</surplus> σκορπίου θα<supplied reason="lost" instant="false">λασσίου</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="28" xml:id="div2-lb33"/><subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">δύναμιν</add><del rend="corrected" instant="false" status="unremarkable">δύναμι<del rend="erasure" instant="false" status="unremarkable">ς</del></del></subst> ἔχει <app type="editorial"><lem>απ<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="Haslam ap. ed. pr.">ἀπ<supplied reason="lost" instant="false">οκαθαρτικήν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="29"/>ρει τάς τε ἀχλῦς κα<unclear instant="false">ὶ</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἀκα</supplied>
+<lb n="30" break="no"/>θαρσίας καὶ τὰς <unclear instant="false">οὐλ</unclear><supplied reason="lost" instant="false">ας</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="31"/>σαρ<unclear instant="false">κ</unclear>ώδη καὶ τ<unclear instant="false">ολ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="32"/>ἔκκρισ<unclear instant="false">ιν</unclear> ποιεῖτα<supplied reason="lost" instant="false">ι</supplied> <app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ὁμοίως</supplied></rdg></app>
+<lb n="33"/>δὲ καὶ ἡ <unclear instant="false">το</unclear>ῦ καλλι<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">νύμου</supplied> <app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="34" xml:id="div2-lb39"/><gap reason="lost" quantity="2" unit="character" instant="false"/><unclear instant="false">ν</unclear>ης</lem><rdg><supplied reason="lost" instant="false">καὶ ἡ τῆς χε</supplied><lb n="34" break="no"/><supplied reason="lost" instant="false">λώ</supplied><unclear instant="false">ν</unclear>ης</rdg></app> θαλασσία<unclear instant="false">ς</unclear> <app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><supplied reason="lost" instant="false">καὶ ὑαίνης.</supplied></rdg></app>
+<lb n="35"/><supplied reason="lost" instant="false">παρ</supplied><unclear instant="false">α</unclear>πλησίως δὲ πρ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="36" xml:id="div2-lb42"/><gap reason="lost" quantity="3" unit="character" instant="false"/> <supplied reason="lost" instant="false">τ</supplied><unclear instant="false">ρα</unclear>γεία <subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">ἰσχυρ<add place="above" instant="false" status="unremarkable">ο</add><supplied reason="lost" instant="false">τέρα</supplied></add><del rend="corrected" instant="false" status="unremarkable">ἰσχυρ<del rend="erasure" instant="false" status="unremarkable">α</del><supplied reason="lost" instant="false">τέρα</supplied></del></subst> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="37" xml:id="div2-lb43"/><gap reason="lost" quantity="3" unit="character" instant="false"/>ν ἡ πέρδικος <unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="38"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="39"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div></div>
+         <div type="commentary" subtype="linebyline" part="N" org="uniform" sample="complete">
+            <list>
+               <item corresp="#div1-lb1" xml:space="preserve"><ref>1.1</ref> <p part="N">If the traces are forced, ἀλύσσῳ or ἀνήσσῳ might be read (curing madness - disease).</p></item>
+               <item corresp="#div1-lb5" xml:space="preserve"><ref>1.5-6</ref> <p part="N">Perhaps μετὰ μή-[κωνος] or -[κωνίου] can be supplied which would yield "opium puppy(-juice)".</p></item>
+               <item corresp="#div1-lb6" xml:space="preserve"><ref>1.6-7</ref> <p part="N">Haslam thinks the incomplete form καταπλα- belongs to καταπλάσσω or a cognate word, while Dr. Scarborough suggests a form of καταπλατύνειν (cf. Gal. ii 298 Kühn).</p></item>
+               <item corresp="#div1-lb17" xml:space="preserve"><ref>1.17</ref> <p part="N">[(χαλκοῦ) λ]ε̣πίς would comport well with χαλκοῦ ἄνθος in col. 1 l. 20. They are also successive entries in Dsc. <emph rend="italics">MM</emph> 5.77-8. Furthermore, ὑδατώδη could refer to the properties of λεπίς as in <emph rend="italics">MM</emph> 5.78.1: πινομένη δὲ μετὰ μελικράτου ὕδωρ ἄγει.</p></item>
+               <item corresp="#div1-lb19" xml:space="preserve"><ref>1.19-20</ref> <p part="N">Haslam supposes μετὰ κνή-[κου, -κίνου] as ingredient of a potion or another preparation, while Dr. Scarborough suggests κνη-[μάτων] (scrapings of cupric sulphate) referencing PGM xii 195, 199, Dsc. <emph rend="italics">MM</emph> 3.80 and Plin. <emph rend="italics">NH</emph> 34.123.</p></item>
+               <item corresp="#div1-lb23" xml:space="preserve"><ref>1.23</ref> <p part="N">The author cites the authority of Apollodorus, presumably the iobiologist from the third century BC. Several applications of μελάνθιον (nigella) are found in later pharmacological texts that may derive from him: against snake-bite (Nic. <emph rend="italics">Ther.</emph> 43; Dsc. <emph rend="italics">MM</emph> 3.79.2; 'Dsc.' <emph rend="italics">Eup.</emph> 2.132 W), against spider-bite (Dsc. loc. cit.; 'Dsc.' <emph rend="italics">Eup.</emph> 2.262.2 W), against various bites and stings (Philum. <emph rend="italics">Ven.</emph> 10,13,16,18,24 W; Plin. <emph rend="italics">NH</emph> 20.182-4). Moreover, the plant is also said to be lethal, if drunk in excess (cf. Dsc. loc. cit.). Alternatively, Dr. Scarborough also suggests an identification with a certain Apollodorus who wrote a treatise περὶ μύρων καὶ στεφάνων with a quasi-medical background (Ath. 15.675 E; Plin. <emph rend="italics">NH</emph> 14.76).</p></item>
+               <item corresp="#div2-lb1" xml:space="preserve"><ref>2.1-9</ref> <p part="N">Apparently, the preparation of Eretrian (ll. 1-4?) and  Samian earth (ll. 5-9) is described (cf. Dsc. <emph rend="italics">MM</emph> 5.152-4; Plin. <emph rend="italics">NH</emph> 35.191-3,38; Gal. xii 188 Kühn). The direct common source is supposed to be Sextius Niger.</p></item>
+               <item corresp="#div2-lb3" xml:space="preserve"><ref>2.3-4</ref> <p part="N">A specifically ophthalmic application is mentioned by Dioscorides or Pliny (<emph rend="italics">oculorum quoque medicamentis miscentur</emph>) just in the case of Samian earth. One of the two kinds of Samian earth was κολλούριον, which might imply use as an eye-salve.</p></item>
+               <item corresp="#div2-lb6" xml:space="preserve"><ref>2.5-9</ref> <p part="N">According to Dsc. <emph rend="italics">MM</emph> 5.153.1 and Plin. <emph rend="italics">NH</emph> 35.191, there were two kinds of Samian earth, κολλούριον and ἀστήρ, but it's not clear, if they are distinguished here.</p></item>
+               <item corresp="#div2-lb12" xml:space="preserve"><ref>2.10-13</ref> <p part="N">λευκογραφίς seems to be another clay called λίθος μόροχθος by Dioscorides in <emph rend="italics">MM</emph> 5.134 (cf. also Plin. <emph rend="italics">NH</emph> 27.103). Similar properties like in this case are also listed for washed lead (cf. <emph rend="italics">MM</emph> 5.81.3) and litharge (cf. <emph rend="italics">MM</emph> 5.87.2). Dr. Scarborough suggests λευκογραφίς might actually be a form of an acid metasilicate of magnesium, called variously talc, soapstone or steatite, the different names in antiquity being a result of its variations in colour, from white to pearly-gray or from silver-white to apple-green. The distinctive feature, however, is the 'greasy feel' of the mineral.</p></item>
+               <item corresp="#div2-lb15" xml:space="preserve"><ref>2.13-15</ref> <p part="N">Although there is no paragraphus in the papyrus, Haslam supposes that a new entry began with σταλαγμὸς ἄνθου[ς] concerning the 'droppings' of flower of copper. He also presumes it might be the form of χαλκανθές elswhere attested as σταλακτόν (cf. Dsc. <emph rend="italics">MM</emph> 5.98) or <emph rend="italics">stalagmias</emph> (cf. Plin <emph rend="italics">NH</emph> 34.124).</p></item>
+               <item corresp="#div2-lb18" xml:space="preserve"><ref>2.16-26</ref> <p part="N">For pharmacological application of fig, specifically the young shoots, confer <ref target="http://www.trismegistos.org/tm/detail.php?tm=62722">P. Ross. Georg. I 19, 58-60</ref>; Dsc. <emph rend="italics">MM</emph> 1.128.4-5 and Plin. <emph rend="italics">NH</emph> 23.118-129: Dioscorides only knows of its use for culinary preparation, while Pliny reports a variety of uses, e.g. the ash of dark-fig leaves for gangrenes and excrescences and the ash of wild-fig shoots for soothing a sore uvula.</p></item>
+               <item corresp="#div2-lb22" xml:space="preserve"><ref>2.19</ref> <p part="N">Haslam prefers to restore λαβὼ̣[ν] instead of λαβέ̣.</p></item>
+               <item corresp="#div2-lb23" xml:space="preserve"><ref>2.20</ref> <p part="N">According to Haslam, παραφυ[άδας] or παραφυ[ομένας] should be restored.</p></item>
+               <item corresp="#div2-lb33" xml:space="preserve"><ref>2.27-37</ref> <p part="N">The section about bile can be compared chiefly to Dsc. <emph rend="italics">MM</emph> 2.78, where the bile of creatures has various, largely ophthalmic uses. Also Gal. <emph rend="italics">Simpl.</emph> 10.13 is largely based on this passage.</p></item>
+               <item corresp="#div2-lb39" xml:space="preserve"><ref>2.33</ref> <p part="N">Concerning καλλιώνυμος, Pliny also mentions this kind of bile in <emph rend="italics">NH</emph> 32.69. In a later passage (<emph rend="italics">NH</emph> 32.77), he adds that callionymus bile infused with rose-oil is good for the ears, but the papyrus doesn't seem to mention it.</p></item>
+               <item corresp="#div2-lb42" xml:space="preserve"><ref>2.35</ref> <p part="N">The end of the line might be supplied with πρ[οβάτου], πρ[οβατεία] or instead πρ[ὸς e.g. θύμια].</p></item>
+               <item corresp="#div2-lb43" xml:space="preserve"><ref>2.36</ref> <p part="N">The special properties of goat-bile include lifting warts (Dsc. <emph rend="italics">MM</emph> loc. cit) and controlling leprosy (Plin. <emph rend="italics">NH</emph> 28.186).</p></item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/11073"/>
+                  <biblScope unit="number">3701</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Oxy.</title>
+                  <biblScope unit="volume">53</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author>Sextius Niger</author>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.csad.ox.ac.uk/POxy/papyri/vol53/pages/3701.htm"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

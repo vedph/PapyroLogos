@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m68617" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Koeln. 9 360</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">68617</idno>
+            <idno type="TM">68617</idno>
+            <idno type="LDAB">9889</idno>
+            <idno type="filename">68617</idno>
+            <idno type="dclp-hybrid">p.koeln;9;360</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Cologne, Papyrussammlung P. 1884</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0099" instant="false">1 - 99</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR7850" xml:id="GR7850.01" from="2003" to="2015">
+                           <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK1884v.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR7851" xml:id="GR7851.01" from="2003" to="2015">
+                           <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK1884v.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>dialogue and anecdote</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">dialogue and anecdote</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change who="M. Löw" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="column" type="textpart" corresp="#FR7850" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="2" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="2" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="2" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="2" unit="character" instant="false"/> <unclear instant="false">αη</unclear>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">υωνυ</unclear>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ναμε</unclear>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> εισ
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">ο</unclear>κορ
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> σασει
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ενο
+</ab></div>
+
+<div n="2" subtype="column" type="textpart" corresp="#FR7851" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>λι<unclear instant="false">γω</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="2"/>ρει, ὦ μακ<unclear instant="false">ά</unclear><supplied reason="lost" instant="false">ριε</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/>σι κατὰ τὸ <unclear instant="false">ισ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/>ἔ<add place="above" instant="false" status="unremarkable">ρ</add>γοις. δεινὴ δ<supplied reason="lost" instant="false">ὲ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">οὔ</supplied>
+<lb n="5" break="no"/>κ ἐσμεν ἀσφα<unclear instant="false">λ</unclear><supplied reason="lost" instant="false">εῖς</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/>πείρο <gap reason="illegible" quantity="1" unit="character" instant="false"/> ς μέλ<supplied reason="lost" instant="false">λοντες</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/>θαι. ποσ<add place="above" instant="false" status="unremarkable">ά</add>κι γὰ<unclear instant="false">ρ</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/>τοσαυτάκις α <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="illegible" quantity="3" unit="character" instant="false"/> ε τῆς σῆς ι <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><gap reason="illegible" quantity="2" unit="character" instant="false"/> <unclear instant="false">ο</unclear>μεν. μὴ τοί<supplied reason="lost" instant="false">νυν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="11"/><gap reason="lost" quantity="2" unit="character" instant="false"/><unclear instant="false">ν</unclear>κρ<surplus instant="false">ε</surplus>ινε χρ <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="12"/><gap reason="lost" quantity="2" unit="character" instant="false"/>ας δοκιμ <gap reason="illegible" quantity="2" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="13"/><handShift new="m2"/><supplied reason="lost" instant="false">ἠ</supplied>ρώτησέν τις <unclear instant="false">Ἀ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν, διὰ τίν' αἰτί<supplied reason="lost" instant="false">αν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>αίνονται, ὁ δ<supplied reason="lost" instant="false">ὲ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ων, ὅτι αν <gap reason="illegible" quantity="1" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="17"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ρ</unclear>ανον πρ<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> οις κατα<gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+</ab></div>
+</div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/16452"/>
+                  <biblScope unit="number">360</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Köln Gr.</title>
+                  <biblScope unit="volume">9</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">P.Köln 09 pl. XIa</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/Karte/IX_360.html"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

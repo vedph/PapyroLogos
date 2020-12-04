@@ -93,8 +93,8 @@ if (exists($node//element()[name()=$s]))
     element {$s} {attribute {'n'} 
         {
         $node//element()[name()=$s]
-        [not(to:is-value-in-sequence(true(), for $i in ancestor::element() 
-            return to:is-value-in-sequence(name($i), ($ts:ignore))))]/data(@n)  
+        [not(to:is-value-in-sequence(true(), for $iE in ancestor::element() 
+            return to:is-value-in-sequence(name($iE), ($ts:ignore))))]/data(@n)  
         }, 
         attribute type {'constructed'}},
     ts:construct-element($node, $s, 'tail')
@@ -137,7 +137,7 @@ if ($node instance of text() and not(xs:string($node)=''))
           <add>
             <place>{$node/data(@place)}</place>
              {if (exists($node//element()[name()='lb']))
-             then let $textpart := <asTextpart><ab>{for $i in $node/node() return $i}</ab></asTextpart> 
+             then let $textpart := <asTextpart><ab>{for $iN in $node/node() return $iN}</ab></asTextpart> 
              return ts:restructure-lines($textpart, false(), true())
              else for $child in $node/node() 
              return ts:handle-markup($child, true()) 
@@ -203,7 +203,7 @@ else let $textpart := <ab>{
     return 
         if (exists($node//element()[name()='lb']))
             then if (name($node)='add') then ts:handle-markup($node, not($restructure1))
-            else for $i in ts:restructure-node($node, 'lb', '') where not(to:is-value-in-sequence(name($i),($ts:ignore,'add'))) return ts:handle-markup($i, $restructure1) 
+            else for $iR in ts:restructure-node($node, 'lb', '') where not(to:is-value-in-sequence(name($iR),($ts:ignore,'add'))) return ts:handle-markup($iR, $restructure1) 
         else ts:handle-markup($node, $restructure1)
     }</ab>
     return ts:restructure-lines($textpart, $restructure2, $restructure2) 

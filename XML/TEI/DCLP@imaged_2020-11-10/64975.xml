@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m64975" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 64975</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">64975</idno>
+            <idno type="TM">64975</idno>
+            <idno type="LDAB">6216</idno>
+            <idno type="filename">64975</idno>
+            <idno type="dclp-hybrid">tm;;64975</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 21173</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll? (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>cursive hand</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Hermopolis (Hermopolites, Egypt); written: Hermopolis (Hermopolites, Egypt)</origPlace>
+                     <origDate notBefore="0500" notAfter="0599" instant="false">500 - 599</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720" instant="false" full="yes">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/816" instant="false" full="yes">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720" instant="false" full="yes">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/816" instant="false" full="yes">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10757" xml:id="GR10757.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_21173_R.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>medicine</term>
+               <term>botany</term>
+               <term type="culture">science</term>
+               <term type="overview">list of herbs</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Recipes. Five fragments (fr. 1: 5.1 x 5.3 cm; fr. 2: 11 x 5.3 cm; fr. 3: 4.6 x 1.8 cm; fr. 4: 4.9 x 3.2 cm; fr. 5: 2.3 x 1.2 cm) from a papyrus roll written on both sides across the fibers. A collection of aromatic recipes is contained on the front. Frr. 1 + 2 and 4 preserve the remains of two columns, and horizontal strokes separate different sections of the text. A document is copied on the back (7th c. AD).The medical text is written in a roundish script with a black ink; the scribe used a blunt pen and the resulting letters are rather thick. Discovered at Hermoupolis Magna, it could be dated to the 6th c. AD.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Francesca Corazza as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous editions (ed.pr. = W. Brashear, SB 20 14501 = "Jahrbuch Preuss. Kulturbesitz" 26, 1990, pp. 85-98; ed. alt. = H.G. Ioannidou, BKT IX 76)</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="v" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1+2" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="i" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">λ</unclear>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">α</unclear>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>υν
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">α</unclear>
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">αν</unclear>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>κο<unclear instant="false">υ</unclear>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="ii" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><choice><reg cert="low" instant="false">μαράθου</reg><orig>μαλαθη</orig></choice><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/>λιθαργύρου <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><choice><reg instant="false">ἀλόης</reg><orig>ἀλώα</orig></choice> <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><app type="editorial"><lem>σανδ<unclear instant="false">ανου</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="ed.pr."><app type="alternative"><lem>.σανδ<unclear instant="false">α</unclear>3<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg>σανδ<unclear instant="false">αράκ</unclear><supplied reason="lost" instant="false">ης</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app></rdg></app>
+<lb n="5"/><unclear instant="false">κ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="6"/><unclear instant="false">στύ</unclear><supplied reason="lost" instant="false">ρ</supplied><unclear instant="false">ακος</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><choice><reg instant="false">ναρδοστάχυος</reg><orig>ναρτοστά<unclear instant="false">χ</unclear><supplied reason="lost" instant="false">υος</supplied></orig></choice> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><expan instant="false">μολόχ<ex instant="false">ης</ex></expan> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="horizontal-rule" unit="undefined"/>
+<lb n="9" rend="indent"/> ξηρομύρο<supplied reason="lost" instant="false">υ</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/>κρόκου <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="11"/>ἀρναβώ <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/>ἀμώμου <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/>φύλλου <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/><choice><reg instant="false">ναρδοστάχυος</reg><orig>ναρτο<unclear instant="false">σ</unclear>τα<unclear instant="false">χ</unclear><supplied reason="lost" instant="false">υος</supplied></orig></choice> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/><choice><reg instant="false">καρυοφύλλου</reg><orig>καροιοφύλ<unclear instant="false">λ</unclear><supplied reason="lost" instant="false">ου</supplied></orig></choice> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="horizontal-rule" unit="undefined"/>
+<lb n="16" rend="indent"/> ἄλλο <app type="editorial"><lem>μασ<unclear instant="false">σ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="ed.pr."><app type="alternative"><lem>μασ<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">ανδάνια</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><choice><reg instant="false">μασ<unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ίχης</supplied></reg><orig>μασ<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">ίχης</supplied></orig></choice> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app></rdg></app>
+<lb n="12"/>ῥόδων <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/><expan instant="false">στύρακ<ex instant="false">ος</ex></expan> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/>φ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="4" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div></div>
+
+<div n="3" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ἄλλ</supplied><unclear instant="false">ο</unclear> <expan instant="false">στύρ<supplied reason="lost" instant="false">ακ<ex instant="false">ος</ex></supplied></expan> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><app type="editorial"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">α</unclear>λλα<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="ed.pr."><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">α</unclear>λλα<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">τιθυμ</supplied>άλλο<supplied reason="lost" instant="false">υ</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app></rdg></app>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>σκει<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <expan instant="false"><supplied reason="lost" cert="low" instant="false">μολ</supplied><unclear instant="false">ο</unclear>χ<ex instant="false">ης</ex></expan> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="horizontal-rule" unit="undefined"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+
+<div n="4" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="i" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>κα
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="editorial"><lem><expan instant="false">λ<ex instant="false">ίτρ</ex>α</expan></lem><rdg resp="ed.pr."><expan instant="false">λί<ex instant="false">τρα</ex></expan></rdg></app>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>α
+<milestone rend="horizontal-rule" unit="undefined"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="ii" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><app type="editorial"><lem>οφ<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="ed.pr."><app type="alternative"><lem>ὀφ<supplied reason="lost" instant="false">ιοσταφύλλου</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg>ὀφ<supplied reason="lost" instant="false">ιοσκορόδου</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app></rdg></app>
+<lb n="2"/>α<unclear instant="false">λ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><app type="editorial"><lem>σαρ<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="ed.pr."><app type="alternative"><lem>σαρ<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg>σαρ<supplied reason="lost" instant="false">απιάδος</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app></rdg></app>
+<lb n="4"/><app type="editorial"><lem>κ<gap reason="illegible" quantity="2" unit="character" instant="false"/></lem><rdg resp="ed.pr.">κα</rdg></app><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><app type="editorial"><lem>φυ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="ed.pr."><app type="alternative"><lem>φυ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg>φύ<unclear instant="false">κ</unclear><supplied reason="lost" instant="false">ου</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app></rdg></app>
+<lb n="6"/><unclear instant="false">ασ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/>ν<unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><app type="editorial"><lem><unclear instant="false">αλου</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="ed.pr."><app type="alternative"><lem>αλο<unclear instant="false">υ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><choice><reg instant="false">ἄλλο</reg><orig>ἄλο</orig></choice> <unclear instant="false">υ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app></rdg></app>
+</ab></div></div>
+
+<div n="5" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ω</unclear> <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ουτο<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ν</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div></div>
+      </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">ed. princ.</bibl>
+               <bibl type="printed" default="false" status="draft">BKT 9, pl.36</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/04378/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,10 @@
+412-477
+
+384-490, 566, 588, 598-604, 607-609(verschoben)
+649: $fileNameAlto -> to:substring-before-match($tableImagedPapyri//FileName/text()[$posTM],'\.')
+394: \ let $insertFiles := distinct-values(for $i in $dataAlto order by $i return 
+    to:substring-before-match(to:substring-after-last-match(xs:string(document-uri($i)), '/'), '_'))
+418: \for $i in $dataAlto
+
+
+5-6h

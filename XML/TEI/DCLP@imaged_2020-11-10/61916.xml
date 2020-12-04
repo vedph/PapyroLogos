@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m61916" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Oxy. 19 2221, P. Koeln. 5 206</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">61916</idno>
+            <idno type="TM">61916</idno>
+            <idno type="LDAB">3073</idno>
+            <idno type="filename">61916</idno>
+            <idno type="dclp-hybrid">tm;;61916</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno>
+                     <idno type="invNo">Cologne, Papyrussammlung P. 3858 Ro</idno>
+                     <idno type="invNo">Oxford, Sackler Library, Papyrology Rooms P. Oxy. 2221 Ro</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>informal round</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0001" notAfter="0099" instant="false">1 - 99</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR12483" xml:id="GR12483.01" from="2003" to="2015">
+                           <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK3858r.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>didactic</term>
+               <term>philology</term>
+               <term>commentary</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">Nicander; Theriaca, 377-395 commentary</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Commentary to Nicander's <emph rend="italics">Theriaka</emph>, 377-395 (P.Oxy. 19.2221r + P.Köln 5.206r). Two joining papyrus fragments containing two columns of a commentary to Nicander's <emph rend="italics">Theriaka</emph>. The comment is always introduced by the lemma, comprising three to five verses of the original work. The lemmas are highlighted by ekthesis (cf. <listBibl default="false"><bibl default="false" status="draft"><ref target="http://papyri.info/biblio/68811">Andorlini 2000</ref><biblScope unit="pp">39</biblScope></bibl></listBibl>), the verses are separated by a short blank space, and the comment is introduced by a larger blank space. The verses considered in the extant portion of text are: 377-82 (i,1-6), 383 (ii,1-2), 384-8 (ii,8-13), 389-92 (ii,20-3), and 393-5 (ii,28-30); they generally agree with the more recent manuscripts of Nicander's tradition (= ω) against the ancient codex Parisinus Π, and show also new variants (see commentary below). The comments do not show many points in common with the scholiastic tradition and may be traced back to the most ancient comment to Nicander's <emph rend="italics">Theriaka</emph>, that by Demetrius Chlorus (full analysis in Colonna, ed.alt.). The hand is an upright uncial dated to the early 1st cent. AD. On the verso, two unpublished columns of medical prescriptions in a cursive handwriting dating to the same century.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Nicola Reggiani as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous editions (ed.pr. = E. Lobel, P.Oxy. XIX 2221; ed.alt. = A. Colonna, "Aegyptus" 34, 1954, pp. 3.26; add. M. Gronewald, P.Köln V 206).</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="i" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1" rend="outdent"/> <app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ι</unclear>α</lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">ζ</supplied><unclear instant="false">ῶι</unclear>α<certainty match=".." locus="value"/></rdg></app> τ<supplied reason="lost" instant="false">ὴν μὲν ὅθ’ ἁδρύ</supplied>νηται ὀροιτύποι, οἷ
+<lb n="2" rend="outdent" break="no"/><supplied reason="lost" instant="false">α βοτῆρ</supplied>ες, κόψαντε<supplied reason="lost" instant="false">ς ῥάδικα π</supplied><unclear instant="false">ο</unclear>λυστεφέος κοτίνοιο,
+<lb n="3" rend="outdent"/> <supplied reason="lost" instant="false">δέρματο</supplied>ς ἐσκύλευσα<supplied reason="lost" instant="false">ν, ὅτε πρώ</supplied><unclear instant="false">τ</unclear>ιστα πέφανται πρό
+<lb n="4" rend="outdent" break="no" xml:id="div1-lb4"/><supplied reason="lost" instant="false">σθε βοῆ</supplied>ς κόκκυγο<supplied reason="lost" instant="false">ς ἐαρτέρο</supplied><unclear instant="false">υ</unclear>, ἡ δ’ ὀνίνησι ῥινῶι <choice><reg instant="false">δυσ
+<lb n="5" rend="outdent" break="no" xml:id="div1-lb5"/><supplied reason="lost" instant="false">παθέο</supplied>ντας</reg><orig>δυσ<lb n="5" break="no"/><supplied reason="lost" instant="false">παθέο</supplied>ντες</orig></choice>, ὅτ’ <choice><reg instant="false">ἐν</reg><orig>ἐμ</orig></choice> πα<supplied reason="lost" instant="false">λάμηισιν ἀ</supplied>εργοὶ μάλκαι ἐπι
+<lb n="6" rend="outdent" break="no"/><supplied reason="lost" instant="false">προθέ</supplied>ωσιν ὑπὸ κρυ<supplied reason="lost" instant="false">μοῖο δαμ</supplied>έντων. ὁ πρῶτος
+<lb n="7"/><supplied reason="lost" instant="false">στίχ</supplied><unclear instant="false">ο</unclear>ς ἐν ὑπερβ<supplied reason="lost" instant="false">ατῶι ἐστιν</supplied>· ἔδει γὰρ κεῖσθαι τὸ
+<lb n="8" xml:id="div1-lb9"/><supplied reason="lost" instant="false"><q> οἷα </q></supplied> <unclear instant="false">ἐ</unclear>χόμενον τ<supplied reason="lost" instant="false">οῦ</supplied> <q> <supplied reason="lost" instant="false">ἁδρύνη</supplied>ται </q>. <choice><reg instant="false">εἶπεν</reg><orig>εἶτεν</orig></choice> τὸ <q> ὀροιτύποι </q>
+<lb n="9"/><supplied reason="lost" instant="false">μὲν ἐ</supplied>χομένως, τὸ <q> β<supplied reason="lost" instant="false">οτῆρες</supplied> </q> <supplied reason="lost" instant="false">δὲ</supplied> ἐπ’ ἐσχάτωι. βούλε
+<lb n="10" break="no"/><supplied reason="lost" instant="false">ται δὲ λέγ</supplied>ειν· ταύτ<supplied reason="lost" instant="false">ην μὲν</supplied> <app type="alternative"><lem><supplied reason="lost" instant="false">ἁδρ</supplied><unclear instant="false">υ</unclear>νθεῖσαν</lem><rdg><supplied reason="lost" instant="false">παχ</supplied><unclear instant="false">υ</unclear>νθεῖσαν</rdg></app> οἱ βοτῆρες
+<lb n="11"/><supplied reason="lost" instant="false">σκυλεύου</supplied><unclear instant="false">σ</unclear>ιν <unclear instant="false">ἀ</unclear>πο<supplied reason="lost" instant="false">κόψαντες αὐ</supplied>τῆς <unclear instant="false">τ</unclear>ὰς κεφαλὰς
+<lb n="12"/><supplied reason="lost" instant="false">οὕτως ὡ</supplied>ς ἐν τοῖς ὄρ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">σιν</supplied> <app type="alternative"><lem><supplied reason="lost" instant="false">ὑλοτό</supplied>μοι</lem><rdg><supplied reason="lost" instant="false">δρυτό</supplied>μοι</rdg></app> ἀποκόπτουσι πα
+<lb n="13" break="no"/><supplied reason="lost" cert="low" instant="false">ραφυάδα</supplied> <supplied reason="lost" cert="low" instant="false">ἢ</supplied> κλ<unclear instant="false">άδο</unclear><supplied reason="lost" instant="false">ν ἀγριελαία</supplied>ς· αὕτη γὰρ ἐστι κότι
+<lb n="14" break="no"/><supplied reason="lost" instant="false">νος. τὸ δ</supplied>ὲ <q> ἐσκ<unclear instant="false">ύλ</unclear><supplied reason="lost" instant="false">ευσαν</supplied> </q> <supplied reason="lost" instant="false">τὸ</supplied> <app type="alternative"><lem><supplied reason="lost" instant="false">ἐξέ</supplied>δειραν</lem><rdg><supplied reason="lost" instant="false">ἀπέ</supplied>δειραν</rdg></app>, τὰ γὰρ σκῦλα <gap reason="lost" quantity="3" unit="character" precision="low" instant="false"/>
+<lb n="15"/><supplied reason="lost" cert="low" instant="false">ἐστὶ τὰ ζώων δέρματα, ὡς</supplied> <supplied reason="lost" instant="false">Μέναν</supplied><unclear instant="false">δ</unclear>ρος <app type="editorial"><lem resp="ed.alt."><choice><reg instant="false">ἐν</reg><orig>ἐμ</orig></choice> Παιδίωι</lem><rdg resp="ed.pr."><choice><reg instant="false">ἐμπαιγμίωι</reg><orig>ἐμπαιδίωι</orig></choice></rdg></app>· ε<gap reason="lost" quantity="3" unit="character" precision="low" instant="false"/>
+<lb n="16"/><gap reason="lost" quantity="8" unit="character" instant="false"/> <gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">λ</unclear><gap reason="lost" quantity="16" unit="character" instant="false"/>κοδιοικων πλησ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="17"/><supplied reason="lost" cert="low" instant="false">τοῦτ</supplied>ο δέ φησι <unclear instant="false">γ</unclear><supplied reason="lost" cert="low" instant="false">ίγνεσθαι πρὸ</supplied> <unclear instant="false">τ</unclear>οῦ ἔαρος· ἐν αὐτῶ<supplied reason="lost" instant="false">ι</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="18"/><supplied reason="lost" cert="low" instant="false">γὰρ</supplied> κοκκύξε<supplied reason="lost" instant="false">ι</supplied> <supplied reason="lost" cert="low" instant="false">καὶ ὁ κόκκυξ</supplied> ὡς Ἡσδίοδος· ἦμος <supplied reason="lost" instant="false">κόκ</supplied>
+<lb n="19" break="no"/><supplied reason="lost" instant="false">κυξ κοκ</supplied><unclear instant="false">κύζ</unclear><supplied reason="lost" instant="false">ει δρυὸς ἐν π</supplied>ετάλοισι, τὸ πρῶτ<supplied reason="lost" instant="false">ον</supplied>
+<lb n="20"/><supplied reason="lost" instant="false">τέρπει δέ βροτοὺς ἐπ’ ἀπ</supplied><unclear instant="false">ε</unclear>ίρονα γαῖαν. τότε <app type="editorial"><lem resp="ed.alt."><unclear instant="false">δ</unclear><supplied reason="lost" instant="false">έ</supplied><unclear instant="false">ρ</unclear>
+<lb n="21" break="no"/><supplied reason="lost" instant="false">μα</supplied></lem><rdg resp="ed.pr."><unclear instant="false">γ</unclear><supplied reason="lost" instant="false">ὰ</supplied><unclear instant="false">ρ</unclear> <lb n="21"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app> <supplied reason="lost" instant="false">χειρῶν καὶ ποδῶν κρύ</supplied><unclear instant="false">ε</unclear>ι δυσχρηστούντων
+<lb n="22"/><supplied reason="lost" instant="false">ἐπισπᾶται, ὥστε τὸ ῥῖγο</supplied>ς ἐπιτρέχειν τὸ σῶμα
+<lb n="23"/><supplied reason="lost" instant="false">καὶ δάμνασθαι. κρυμὸς γ</supplied><unclear instant="false">ὰ</unclear>ρ ῥῖγος, ὥς φησιν Σοφο
+<lb n="24" break="no"/><supplied reason="lost" instant="false">κλῆς ἐν Ποιμέσι·</supplied> <q> <supplied reason="lost" instant="false">κρυμὸς</supplied> <unclear instant="false">τ</unclear>ριταῖος ὥστε πῦρ ἀφί
+<lb n="25" break="no"/><supplied reason="lost" instant="false">κετο</supplied> </q>, <supplied reason="lost" instant="false">καὶ·</supplied> <q> <supplied reason="lost" instant="false">κρυμὸν φέρων γνα</supplied><unclear instant="false">θ</unclear>μοῖσιν ἐξ ἀμγημέρου </q>.
+<lb n="26"/><supplied reason="lost" instant="false">τὸν κότινον λέγει πολυστ</supplied>εφέα, καθὸ καὶ ἐν τοῖς
+<lb n="27"/><supplied reason="lost" instant="false">Ὀλυμπικοῖς κοτίνου ἔθεν</supplied>το ὅλον στέφανον νομί
+<lb n="28" break="no"/><supplied reason="lost" instant="false">μως. ἰστέον δὲ ὅτι διὰ τὸν</supplied> <choice><reg instant="false">χειμῶνα</reg><orig>χιμῶνα</orig></choice> ἁδρύνε<unclear instant="false">ται</unclear>
+<lb n="29"/><supplied reason="lost" instant="false">ἡ ἀμφίσβαινα· εἰ οὖν οὕτω δ</supplied>εῖ ἀναγνῶναι, τὸ <q> ἡ δ’ ὀνίνη </q>
+</ab>
+</div>
+<div n="ii" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1" rend="outdent" break="no" xml:id="div2-lb1"/><q> σι </q> δασύν<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ται, μὴ</supplied>τά· ἠδ’ ὀπό<supplied reason="lost" instant="false">ταν νεύρων ξανάηι</supplied>
+<lb n="2" rend="outdent"/> κεχακασμένα <unclear instant="false">δε</unclear><supplied reason="lost" instant="false">σ</supplied><unclear instant="false">μ</unclear>ά. τὴν αὐ<supplied reason="lost" instant="false">τὴν ὑπόληψιν τοῦ</supplied>
+<lb n="3"/><unclear instant="false">Ν</unclear>ικάνδρου πλεονάκις <app type="alternative"><lem>ἐμαυτ<unclear instant="false">ὸ</unclear><supplied reason="lost" instant="false">ν</supplied></lem><rdg>ἐμαυτ<unclear instant="false">ῶ</unclear><supplied reason="lost" instant="false">ι</supplied></rdg></app> <supplied reason="lost" instant="false">ἐπειρώμην περὶ</supplied>
+<lb n="4"/>τούτου, τὸ γὰρ νεῦρον ἐστὶν <unclear instant="false">α</unclear><supplied reason="lost" instant="false">ἰδοῖον, ὥσπερ Καλλί</supplied>
+<lb n="5"/>μαχος φησίν· <q> <choice><reg instant="false">Ἑρμᾶ</reg><orig>Ἑρμ<hi rend="supraline">ᾶι</hi></orig></choice>, τί τοι τὸ <supplied reason="lost" instant="false"><unclear instant="false">ν</unclear>εῦρον, ὦ Γενειόλα</supplied>,
+<lb n="6"/>ποττὰν ὑπήσαν κοὐ ποτ’ ἴχνι<supplied reason="lost" instant="false">ον βλέπει</supplied> </q>. <supplied reason="lost" instant="false">εἶπε δὲ τὰ</supplied>
+<lb n="7"/>τούτου δεσμὰ τὰ ἀπὸ τούτο<supplied reason="lost" instant="false">υ</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8" rend="outdent"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/>δη ὄσψεος. τὸ δὲ <q> χανάηι </q> κν<unclear instant="false">ά</unclear><supplied reason="lost" instant="false">πτηται. δήεις καὶ</supplied>
+<lb n="9" rend="outdent"/> <supplied reason="lost" instant="false">σκυ</supplied>τάλην ἐναλίγκιον <choice><reg instant="false">ἀμφισβα<supplied reason="lost" instant="false">ίνηι</supplied></reg><orig>ἀμφισφα<supplied reason="lost" instant="false">ίνηι</supplied></orig></choice> <supplied reason="lost" instant="false">εἶδος ἀτὰρ</supplied>
+<lb n="10" rend="outdent" xml:id="div2-lb10"/> <supplied reason="lost" instant="false">πάχε</supplied><unclear instant="false">τ</unclear>ός τε καὶ οὐτιδανὴν ἐπὶ σ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ιρὴν μάσσον’ ἐπεὶ σκυτά</supplied>
+<lb n="11" rend="outdent" break="no" xml:id="div2-lb11"/><supplied reason="lost" instant="false">λης μ</supplied>ὲν ὅσον σμινύοιο τέτυκτα<supplied reason="lost" instant="false">ι στειλειῆς πάχετος</supplied>
+<lb n="12" rend="outdent" xml:id="div2-lb12"/> <supplied reason="lost" instant="false">τῆς</supplied> <unclear instant="false">δ</unclear>’ <unclear instant="false">ἕ</unclear>λμινθος πλέει ὄγκος, ἠ<supplied reason="lost" instant="false">ὲ καὶ ἔντερα γῆς οἷα τρέφει</supplied>
+<lb n="13" rend="outdent" xml:id="div2-lb13"/> <supplied reason="lost" instant="false">ὄμ</supplied><unclear instant="false">β</unclear>ριος αἶα. μαθήσει καὶ σκυτά<supplied reason="lost" instant="false">λην σώματι παρόμοιον</supplied>
+<lb n="14"/>τῆι <choice><reg instant="false">ἀμφισβαίνηι</reg><orig>ἀμφισφαίνηι</orig></choice>. παχυτέρα μ<unclear instant="false">έ</unclear><supplied reason="lost" instant="false">ντοι ἐστὶν ἡ σκυτάλη</supplied>
+<lb n="15"/><unclear instant="false">τ</unclear>ῆς <choice><reg instant="false">ἀμφισβαίνης</reg><orig>ἀμφισφαίνης</orig></choice>, ἐκείνη<unclear instant="false">ν</unclear> <unclear instant="false">γὰ</unclear><supplied reason="lost" instant="false">ρ ἕλμινθι τινὶ παρεικάζει</supplied>
+<lb n="16"/>τῶι πάχει ἢ γῆς ἐντέρω<hi rend="supraline">ι</hi>, τ<unclear instant="false">ὴ</unclear><supplied reason="lost" instant="false">ν δὲ σκυτάλην τῶι σκαφείου</supplied>
+<lb n="17"/>στελεῶι· σμινύη  γὰρ σκαφ<supplied reason="lost" instant="false">εῖον, ὡς αὐτός φησιν· εἶχε δ’ ἀκρά</supplied>
+<lb n="18" break="no"/>δαντον σμινύην, πέλεκυν μ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">τ’ ὀδόντος</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="19"/><supplied reason="lost" instant="false">ἀλ</supplied>λ’ ἄρ’ ἀπὸ σμινύης ἐκτή<supplied reason="lost" instant="false">σατο</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">δια</supplied>
+<lb n="20" rend="outdent" break="no"/><supplied reason="lost" instant="false">φω</supplied>νεῖ δὲ ἑαυτῶι ἑν τού<unclear instant="false">τ</unclear><supplied reason="lost" instant="false">οις. οὐδ’ ἄρ’ ὅταν χαράδρεια λίπηι</supplied>
+<lb n="21" rend="outdent" xml:id="div2-lb21"/> <supplied reason="lost" instant="false">καὶ ῥ</supplied>ωγάδα κοίλην, ἦρος ἀεξ<supplied reason="lost" instant="false">ομένου <app type="editorial"><lem resp="ed.alt. after O. Schneider">ὁποθ’</lem><rdg resp="ed.pr. after codd.">ὁποσ’</rdg></app> ἑρπετὰ γαῖα φα</supplied>
+<lb n="22" rend="outdent" break="no"/> <supplied reason="lost" instant="false">εί</supplied><unclear instant="false">ν</unclear>ηι, <choice><corr instant="false">ἀκρεμόνος</corr><sic>ἀκρεμόνας</sic></choice> μαράθοιο χυ<supplied reason="lost" instant="false">τὸν περιβόσκεται ἔρνος, εὖ</supplied>
+<lb n="23" rend="outdent" break="no" xml:id="div2-lb23"/> τ’ ἄν ὑφ’ ἡελίοιο περίφλοον ἑ<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">πετὰ βάλληι, ὅταν, φησί, τὰς</supplied>
+<lb n="24"/>χαράδρας ἐγλίπηι καὶ τὰς ῥα<supplied reason="lost" instant="false">γάδας, τοῦ ἔαρος φαινομένου</supplied>,
+<lb n="25"/>ὅταν ἐκ τῆς γῆς τὰ <unclear instant="false">θη</unclear>ρία <app type="editorial"><lem resp="ed.alt."><space extent="unknown" unit="character"/></lem><rdg resp="ed.pr."><g type="slanting-stroke"/></rdg></app>
+<lb n="26"/>τὰ στελέχη τοῦ μαράθο<supplied reason="lost" instant="false">υ</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">διὰ τὴν</supplied>
+<lb n="26,ms" xml:id="div2-lb27"/><expan instant="false">μάραθο<ex instant="false">ν</ex></expan>
+<lb n="27"/>ἀπὸ τοῦ ἡλίου θερμασίαν, τὸ <unclear instant="false">δ</unclear><supplied reason="lost" instant="false">έρμα ταῦτα ἀποβάλλουσι</supplied>.
+<lb n="28" rend="outdent"/> ἀλλ’ ἥ γ’ ἀρπέζαισι καὶ ἐς νεμέεσ<supplied reason="lost" instant="false">σι πεσοῦσα φωλεύει βαθύυ</supplied>
+<lb n="29" rend="outdent" break="no" xml:id="div2-lb30"/> πνος ἀπ’ εἰκαίης δὲ <choice><reg cert="low" instant="false">φορεῖται</reg><orig>βορεῖται</orig></choice> <supplied reason="lost" instant="false">γαίης οὐδ’ ἀπὸ δίψος ἀλέξεται ἱε</supplied>
+<lb n="30" rend="outdent" break="no"/> μένη περ. αὕτη δέ, φησί, παρὰ <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ῆς γῆς</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab>
+</div></div>
+         <div type="commentary" subtype="linebyline" part="N" org="uniform" sample="complete">
+            <list>
+               <item corresp="#div1-lb4" xml:space="preserve"><ref>4</ref> <p part="N"><emph rend="bold">κόκκυγος</emph> Π vs τέττιγος recent codd.</p></item>
+               <item corresp="#div1-lb5" xml:space="preserve"><ref>5</ref> <p part="N"><emph rend="bold">ἀεργοὶ</emph> ω, Gow-Scholfield vs ἀεργοῖς Π, O. Schneider (Nic. <emph rend="italics">Ther.</emph> 381).</p></item>
+               <item corresp="#div1-lb9" xml:space="preserve"><ref>8</ref> <p part="N">On <emph rend="bold">εἶτεν</emph> cf. L. Koenen, P.Coll.Youtie 1.1, p. 20.</p></item>
+               <item corresp="#div2-lb1" xml:space="preserve"><ref>1</ref> <p part="N"><emph rend="bold">ξανάηι</emph> i.e. ξανάῃ vs ξανάᾳ codd. (Nic. <emph rend="italics">Ther.</emph> 383). The variant is supplemented in the lemma on the ground of the comment (l. ii,8).</p></item>
+               <item corresp="#div2-lb10" xml:space="preserve"><ref>10</ref> <p part="N"><emph rend="bold">πάχετός τε</emph> ω vs πάχετο τε Π, πάχετόν τε J.G. Schneider (Nic. <emph rend="italics">Ther.</emph> 385). The error is likely due to the proximity with πάχετος at Nic. <emph rend="italics">Ther.</emph> 387.
+<emph rend="bold">σειρὴν</emph> ω vs δειρὴν Π (<emph rend="italics">ibid.</emph>).</p></item>
+               <item corresp="#div2-lb11" xml:space="preserve"><ref>11</ref> <p part="N"><emph rend="bold">στειλειῆς</emph> ω, Gow-Scholfield vs στειλειὸν Π, O. Schneider (Nic. <emph rend="italics">Ther.</emph> 387). This is <emph rend="italics">lectio difficilior</emph> according to Colonna, ed.alt.</p></item>
+               <item corresp="#div2-lb12" xml:space="preserve"><ref>12</ref> <p part="N"><emph rend="bold">πλέει ὄγκος</emph> vs πέλει ὄγκος ω, Gow-Scholfield, πέλει ὁλκός Π, O. Schneider (Nic. <emph rend="italics">Ther.</emph> 387). Accordng to Colonna, ed.alt., the original text could have been πλέει ὁλκός, subsequently popularized in πέλει ὁλκός and glossed with ὄγκος.</p></item>
+               <item corresp="#div2-lb13" xml:space="preserve"><ref>13</ref> <p part="N"><emph rend="bold">ὄμβριος</emph> Vat.gr. 305, Gow-Scholfield vs ὄμβριμος Π, O. Schneider, ὄβριμος recent codd. (Nic. <emph rend="italics">Ther.</emph> 388). According to Colonna, ed.alt., in this case the papyrus preserves the genuine reading, of which ὄμβριμος is a popular contamination with epic ὄβριμος.</p></item>
+               <item corresp="#div2-lb21" xml:space="preserve"><ref>21</ref> <p part="N"><emph rend="bold">κοίλην</emph> Gow-Scholfield vs πέτρην recent codd., missing in Π (Nic. <emph rend="italics">Ther.</emph> 389). The latter is to be found elsewhere in Nicander (ἢ ῥωγάδι πέτρῃ, <emph rend="italics">Ther.</emph> 644; cf. Theocr. 24,95), but ῥωγάδες is known to Hesychius (s.v.) as a noun.</p></item>
+               <item corresp="#div2-lb23" xml:space="preserve"><ref>23</ref> <p part="N"><emph rend="bold">ἑρ[</emph> vs ἅψεα codd. (Nic. <emph rend="italics">Ther.</emph> 392).</p></item>
+               <item corresp="#div2-lb27" xml:space="preserve"><ref>26,ms</ref> <p part="N"><emph rend="bold">μάραθον</emph> "fennel" - this marginal annotation (probably by the first hand) testifies to a professional user of the book, who was interested in its technical content (consider also the prescriptions transcribed on the verso): cf. <listBibl default="false"><bibl default="false" status="draft"><ref target="http://papyri.info/biblio/68811">Andorlini 2000</ref><biblScope unit="pp">39</biblScope></bibl></listBibl>; <listBibl default="false"><bibl default="false" status="draft"><ref target="http://papyri.info/biblio/19701">McNamee 2007</ref><biblScope unit="pp">300</biblScope></bibl></listBibl>.</p></item>
+               <item corresp="#div2-lb30" xml:space="preserve"><ref>29</ref> <p part="N"><emph rend="bold">βορεῖται</emph> vs βοτεῖται codd., φορεῖται scholia (Nic. <emph rend="italics">Ther.</emph> 394). The genuine form is preserved by the codices; the word on the papyrus can be a phonetic variant of the φορεῖται to be found in the ancient scholia (cf. ἀμφίσφαινα for ἀμφίσβαινα, ll. ii,9, 14, 15). </p></item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="reference" subtype="partial" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/4381"/>
+                  <biblScope unit="number">2221</biblScope>
+                  <biblScope unit="side">R</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Oxy.</title>
+                  <biblScope unit="volume">19</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+               <bibl type="reference" subtype="partial" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/10802"/>
+                  <biblScope unit="number">206</biblScope>
+                  <biblScope unit="side">R</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Köln Gr.</title>
+                  <biblScope unit="volume">5</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">P. Oxy. 019 pl.11 + P.Köln 05 pl.2</bibl>
+               <bibl type="printed" default="false" status="draft">Andorlini, p.47</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/Karte/V_206.html"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

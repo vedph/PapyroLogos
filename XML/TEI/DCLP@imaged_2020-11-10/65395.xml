@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m65395" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 65395</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">65395</idno>
+            <idno type="TM">65395</idno>
+            <idno type="LDAB">6642</idno>
+            <idno type="filename">65395</idno>
+            <idno type="dclp-hybrid">tm;;65395</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 13269</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus sheet (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0600" notAfter="0799" instant="false">600 - 799</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR7579" xml:id="GR7579.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_13269_R_3.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>prayer</term>
+               <term>lyric hymn (musical mode)</term>
+               <term type="culture">religion</term>
+               <term type="culture">literature</term>
+               <term type="religion">christian</term>
+               <term type="overview">hymn for Christmas, paraphrasing Lc; with musical mode</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-05-19" who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" corresp="#FR7579" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>εἰς <num value="1">α</num> <num value="4">δ</num> 
+<lb n="2"/>Ἐν Βηθλεὲμ ποιμένης ἀγ
+<lb n="3" break="no"/>ραυλοῦντες ἄγγελος τοῦ <expan instant="false">θ<ex instant="false">εο</ex>ῦ</expan>
+<lb n="4"/>αὐτὴν εὐεγγελίσατο τὸν τόκον
+<lb n="5"/>τοῦ Ἐμμανουὴλ' <expan instant="false">κ<ex instant="false">αὶ</ex></expan> ποιμένης
+<lb n="6"/>περιλάμψας τὴν δόξαν <expan instant="false">κ<ex instant="false">υρίο</ex>υ</expan>
+<lb n="7"/><expan instant="false">κ<ex instant="false">αὶ</ex></expan> ἶπεν· μὴ φοβῖσθε ἀσώματος
+<lb n="8"/>ἐκύρισεν αὐ<unclear instant="false">τ</unclear>ῖς μεγάλης χαρᾶς
+<lb n="9"/>ἥτις ἐστὶν παντὶ τῷ λαῲ, ὅτι
+<lb n="10"/>ἐτέχθη τὸν βασιλέαν <expan instant="false">Χ<ex instant="false">ριστὸ</ex>ν</expan>
+<lb n="11"/><expan instant="false">κ<ex instant="false">αὶ</ex></expan> <expan instant="false">σ<ex instant="false">ωτῆ</ex>ρα</expan> <expan instant="false">θ<ex instant="false">εὸ</ex>ν</expan> σήμερον ἐν πόλει
+<lb n="12"/><expan instant="false">Δ<ex instant="false">αβὶ</ex>δ</expan> εἱμῖς σὺν ἀγγέλος τε.
+<lb n="13"/>δόξα ἐν ἡψίστις <expan instant="false">θ<ex instant="false">εο</ex>ῦ</expan> <expan instant="false">κ<ex instant="false">αὶ</ex></expan> ἐπὶ κῆς
+<lb n="14"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+</div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">R.Seider, Paläogr. griech. Papyri II.2, pl.XL.71</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/03655/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

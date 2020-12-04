@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m59920" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 59920</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">59920</idno>
+            <idno type="TM">59920</idno>
+            <idno type="LDAB">1030</idno>
+            <idno type="filename">59920</idno>
+            <idno type="dclp-hybrid">tm;;59920</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9771</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Hermopolis (Hermopolites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="-0300" notAfter="-0201" precision="low" instant="false">III v. Chr.</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720" instant="false" full="yes">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/816" instant="false" full="yes">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10416" xml:id="GR10416.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09771_V.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR10415" xml:id="GR10415.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09771_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR6239" xml:id="GR6239.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09771_R.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>tragedy</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Euripides; Phaethon, part of anthology?</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2015-04-22T16:03:52.529-05:00" who="Tom Elliott" status="draft">Programmatically incorporated edition div and associated revision description into document</change>
+         <change when="2015-02-17T05:25:26-05:00" who="http://papyri.info/editor" status="draft">Automated creation from template</change>
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML (metadata)</change>
+         <change who="B. Breuer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+          <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Birgit Breuer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR6239" part="N" org="uniform" sample="complete"><lg n="1" part="N" org="uniform" sample="complete"><l part="N">
+<lb n="0"/><orig>εμφαε</orig></l></lg>
+    <lg n="2" part="N" org="uniform" sample="complete">
+        <l n="19" part="N">
+            <lb n="1"/>ἤδ<supplied reason="lost" instant="false">η</supplied> μὲν ἀρτιφανὴς</l>
+        <l n="20" part="N">Ἕω<supplied reason="lost" instant="false">ς ἱππεύει</supplied> <supplied evidence="parallel" reason="lost" instant="false">κατὰ γᾶν</supplied>·</l>
+        <l n="21" part="N">
+            <lb n="2"/>ὑπὲρ δ’ ἐμᾶς κεφαλᾶς</l>
+        <l n="22" part="N">Πλειὰ<supplied reason="lost" instant="false">ς ἐκλείπει σκοτία</supplied>·</l>
+        <l n="23" part="N">
+            <lb n="3"/>μέλπει <add place="above" instant="false" status="unremarkable">δὲ</add> δένδρεσι λεπτὰν</l>
+        <l n="24" part="N">ἀηδὼν ἁρ<unclear instant="false">μ</unclear><supplied evidence="parallel" reason="lost" instant="false">ονίαν</supplied></l>
+        <l n="25" part="N"><supplied evidence="parallel" reason="lost" instant="false">ὀρθρευ</supplied>
+            <lb n="4" break="no"/>ομένα γόοις</l>
+        <l n="26" part="N">Ἴτυν Ἴτυν πολύθρηνον.</l>
+    </lg>
+    <lg n="3" part="N" org="uniform" sample="complete">
+        <l n="27" part="N"><supplied evidence="parallel" reason="lost" instant="false">σύριγγας δ’</supplied>
+            <lb n="5"/>ο<add place="above" instant="false" status="unremarkable">ὐ</add>ριβάται</l>
+        <l n="28" part="N">κινοῦσιν ποιμνᾶν ἐλάται·</l>
+        <l n="29" part="N"><supplied evidence="parallel" reason="lost" instant="false">ἔγρονται</supplied>
+            <lb n="6"/>δ’ εἰς βοτάναν</l>
+        <l n="30" part="N">ξανθᾶν <supplied evidence="parallel" reason="lost" instant="false">πώλ</supplied>ων συζ<supplied evidence="parallel" reason="lost" instant="false">υγίαι</supplied>·</l>
+        <l n="31" part="N"><supplied evidence="parallel" reason="lost" instant="false">ἤδη δ’ <g type="coronis"/>
+            <lb n="7"/>εἰς ἔργα</supplied> κ<supplied evidence="parallel" reason="lost" instant="false">υναγ</supplied>οὶ</l>
+        <l n="32" part="N"><choice><corr instant="false"><supplied evidence="parallel" reason="lost" instant="false">στ</supplied>είχουσι<supplied evidence="parallel" reason="lost" instant="false">ν</supplied> <unclear instant="false">θ</unclear><supplied evidence="parallel" reason="lost" instant="false">ηροφόνοι</supplied></corr><sic> <unclear instant="false">θ</unclear><supplied evidence="parallel" reason="lost" instant="false">ηροφόνοι στ</supplied>είχουσι<supplied evidence="parallel" reason="lost" instant="false">ν</supplied></sic></choice>.</l>
+        <l n="33" part="N"><supplied evidence="parallel" reason="lost" instant="false">πηγαῖς δ’ ἐπ’
+            <lb n="8"/>Ὠκεανοῦ</supplied></l>
+        <l n="34" part="N">μελιβόα<supplied evidence="parallel" reason="lost" instant="false">ς κύκνος ἀχεῖ.</supplied></l>
+    </lg>
+    <lg n="4" part="N" org="uniform" sample="complete">
+        <l n="35" part="N"><supplied evidence="parallel" reason="lost" instant="false">ἄκατοι δ’ ἀνάγον</supplied>
+            <lb n="9" break="no"/>ται ὑπ’ εἰρεσία<surplus instant="false">ι</surplus>ς</l>
+        <l n="36" part="N"><app type="editorial"><lem resp="BKT V.2"><supplied evidence="parallel" reason="lost" instant="false">ἀνέμων τ’ εὐάεσσιν ῥοθίοις</supplied></lem><rdg resp=" Schubart"><supplied reason="lost" instant="false">ἀνέ</supplied><unclear instant="false">μω</unclear><supplied reason="lost" instant="false">ν ῥοθίοις</supplied></rdg><rdg resp="Wilamowitz"><supplied reason="lost" instant="false">ἐυ</supplied><unclear instant="false">άτ</unclear><supplied reason="lost" instant="false">εσσιν ῥοθίοις</supplied></rdg></app>.</l>
+        <l n="37" part="N">ἀν<supplied evidence="parallel" reason="lost" instant="false">ὰ δ’ ἱστία</supplied> <supplied reason="lost" instant="false">ναῦται</supplied>
+            <lb n="10"/>ἀειράμενοι</l>
+        <l n="38" part="N">ἀχ<surplus instant="false">ε</surplus>οῦσιν <supplied reason="lost" instant="false">ἄγου πό</supplied>τνι’ αὔρ<supplied reason="lost" instant="false">α</supplied></l>
+        <l n="39" part="N"><supplied reason="lost" instant="false">ἡμᾶς σὺν</supplied><milestone rend="paragraphos" unit="undefined"/>
+            <lb n="11"/>ἀκύμονι πομπᾶι</l>
+        <l n="40" part="N">σιγώντων ἀνέμων</l>
+        <l n="41" part="N"><supplied reason="lost" instant="false">ποτὶ τέκνα</supplied>
+            <lb n="12"/>τε καὶ φιλίας ἀλόχους·</l>
+        <l n="42" part="N">σινδὼν δὲ π<supplied evidence="parallel" reason="lost" instant="false">ρότονον ἐπὶ μέ</supplied><milestone rend="paragraphos" unit="undefined"/>
+            <lb n="13" break="no"/>σομ πελάζει.</l>
+    </lg>
+    <lg n="5" part="N" org="uniform" sample="complete">
+        <l n="43" part="N">τὰ μ<unclear instant="false">ὲ</unclear>ν οὖν <surplus instant="false">ἑτέρων</surplus> ἑτέρ<supplied evidence="parallel" reason="lost" instant="false">οισι μέριμνα πέλει</supplied>·</l>
+        <l n="44" part="N"><milestone rend="paragraphos" unit="undefined"/>
+            <lb n="14"/>κόσμ<choice><corr instant="false">ο</corr><sic>ει</sic></choice>ν <supplied reason="omitted" instant="false">δ</supplied>’ ὑμεναί<supplied reason="lost" instant="false">ω</supplied>ν <surplus instant="false">δὲ ἀεὶ</surplus> δεσποσύνω<supplied evidence="parallel" reason="lost" instant="false">ν</supplied></l>
+        <l n="45" part="N"><supplied evidence="parallel" reason="lost" instant="false">ἐμὲ καὶ τὸ
+            <lb n="15"/>δίκαι</supplied>ον ἄγει καὶ ἔρ<supplied evidence="parallel" reason="lost" instant="false">ως</supplied></l> 
+        <l n="46" part="N"><supplied evidence="parallel" reason="lost" instant="false">ὑμ</supplied>νεῖν· δμωσὶ<supplied evidence="parallel" reason="lost" instant="false">ν γὰρ ἀνάκ
+            <lb n="16" break="no"/>των</supplied></l>
+        <l n="47" part="N"><supplied evidence="parallel" reason="lost" instant="false">εὐ</supplied><choice><reg instant="false">α</reg><orig>η</orig></choice>μερ<choice><corr instant="false">ίαι</corr><sic>οι</sic></choice> προσι<supplied reason="lost" instant="false">ο</supplied>ῦσαι</l>
+        <l n="48" part="N">μολπᾶι θάρσος <supplied evidence="parallel" reason="lost" instant="false">ἄγουσ’</supplied></l>
+        <l n="49" part="N"><lb n="17"/><supplied evidence="parallel" reason="lost" instant="false">ἐπιχάρμα</supplied>τά τ<surplus instant="false">ε</surplus>’· εἰ δὲ τύχα τι τέκ<choice><corr instant="false">οι</corr><sic>ηι</sic></choice>,</l>
+        <l n="50" part="N">βα<supplied evidence="parallel" reason="lost" instant="false">ρὺν βαρεῖα
+            <lb n="18"/>φόβον</supplied> ἔπεμψεν οἴκοις.</l>
+    </lg>
+    <lg n="6" part="N" org="uniform" sample="complete">
+        <l n="51" part="N">ὁρίζεται δὲ τόδ<supplied evidence="parallel" reason="lost" instant="false">ε φάος
+            <lb n="19"/>γάμω</supplied>ν τέλει,</l>
+        <l n="52" part="N">τὸ δ<supplied evidence="parallel" reason="lost" instant="false">ή</supplied> ποτ’ εὐχαῖ<supplied evidence="parallel" reason="lost" instant="false">ς ἐγὼ</supplied></l>
+        <l n="53" part="N">λισσο<supplied evidence="parallel" reason="lost" instant="false">μένα προσέβαν</supplied></l>
+    </lg> 
+</div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0006">Euripides</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/757">Phaethon</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Schubart, PGB 4b</bibl>
+               <bibl type="printed" default="false" status="draft">J. Diggle, Euripides, Phaethon, Cambridge 1970, pl.v</bibl>
+               <bibl type="printed" default="false" status="draft">G. CAVALLO - H. MAEHLER, Hellenistic Bookhands, 2008, no. 17</bibl>
+               <bibl type="printed" default="false" status="draft">Pordomingo, Pap. Flor. 43, pl. 1</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/02717/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

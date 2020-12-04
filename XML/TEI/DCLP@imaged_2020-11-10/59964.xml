@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m59964" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BKT 6.4 (PBerol. 5863)</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">59964</idno>
+            <idno type="TM">59964</idno>
+            <idno type="LDAB">1076</idno>
+            <idno type="filename">59964</idno>
+            <idno type="dclp-hybrid">tm;;59964</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 5863</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus codex (16 pages) (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Arsinoites (Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0400" notAfter="0499" instant="false">400 - 499</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR9048" xml:id="GR9048.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-01__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9049" xml:id="GR9049.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-02__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9050" xml:id="GR9050.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-14-03__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9061" xml:id="GR9061.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-14-03__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9051" xml:id="GR9051.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-04-13__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9060" xml:id="GR9060.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-04-13__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9052" xml:id="GR9052.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-12-05__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9059" xml:id="GR9059.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-12-05__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9053" xml:id="GR9053.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-06-11__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9058" xml:id="GR9058.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-06-11__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9054" xml:id="GR9054.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-10-07__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9057" xml:id="GR9057.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-10-07__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9055" xml:id="GR9055.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-08-09__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9056" xml:id="GR9056.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-08-09__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9062" xml:id="GR9062.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-15__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9063" xml:id="GR9063.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-S-16__001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9064" xml:id="GR9064.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-Fr-01_R_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9065" xml:id="GR9065.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-Fr-01_V_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9066" xml:id="GR9066.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-Fr-02_R_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9067" xml:id="GR9067.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-Fr-02_V_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9068" xml:id="GR9068.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-Fr-03_R_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9069" xml:id="GR9069.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-Fr-03_V_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9070" xml:id="GR9070.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-Fr-04_R_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9071" xml:id="GR9071.01" from="2010" to="2015">
+                           <graphic url="https://berlpap.smb.museum/Original/P_05863-Fr-04_V_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>patrology</term>
+               <term type="culture">literature</term>
+               <term type="religion">christian</term>
+               <term type="overview">Gregorius of Nyssa; Extracts of the Life of Moses (PG 44)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2019-06-18" who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="v" type="textpart" corresp="#FR9048" part="N" org="uniform" sample="complete"><ab part="N"> 
+<lb n="1"/><supplied reason="lost" instant="false">ἐμπλέψατε εἰς Ἀ</supplied>βραὰμ τὸν <hi rend="supraline"><expan instant="false">π<ex instant="false">άτη</ex>ρα</expan></hi> <unclear instant="false">ὑ</unclear><supplied reason="lost" instant="false">μῶν</supplied>
+<lb n="2"/><supplied reason="lost" instant="false">καὶ εἰς Σάρραν</supplied> <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ὴ</supplied><unclear instant="false">ν</unclear> ὠδίνου<supplied reason="lost" instant="false">σαν ὑμᾶς.</supplied>
+<lb n="3"/><supplied reason="lost" instant="false">Ταῦτα γὰρ πάντως ὁ λόγος τοῖς ἔξω τῆς</supplied>
+<lb n="4"/><supplied reason="lost" instant="false">ἀρετῆς πλανωμένοις διακελεύεται,</supplied>
+<lb n="5"/><supplied reason="lost" instant="false">ἵνα, καθάπερ οἱ ἐν πελάγει τῆς</supplied> <unclear instant="false">εὐ</unclear>
+<lb n="6" break="no"/><supplied reason="lost" instant="false">θείας τοῦ λιμένος πα</supplied><unclear instant="false">ρενε</unclear>χθέντες κα
+<lb n="7" break="no"/><supplied reason="lost" instant="false">τὰ τὸ φανὲν σημεῖο</supplied>ν τῆς πλ<hi rend="acute">α</hi>νῆς ἑαυ
+<lb n="8" break="no"/><supplied reason="lost" instant="false">τοὺς ἐπανάγουσιν</supplied> ἢ π<hi rend="acute">υ</hi>ρσὸν <hi rend="diaeresis">ἰ</hi>δόν
+<lb n="9" break="no"/><supplied reason="lost" instant="false">τες ἀπὸ ὕψους αἰρόμενο</supplied>ν ἢ κορυφήν τι
+<lb n="10" break="no"/><supplied reason="lost" instant="false">νος ἀκρωρείας ἀφαν</supplied>εῖσαν τὸν <expan instant="false">αὐτ<hi rend="supraline">ὸ</hi><ex instant="false">ν</ex></expan> 
+<lb n="11"/><supplied reason="lost" instant="false">τρόπον τοὺς ἀκυβερνήτ</supplied>ῳ τῇ διανοίᾳ
+<lb n="12"/><supplied reason="lost" instant="false">κατὰ τὴν τοῦ βίου θάλασσα</supplied>ν πλανωμέ
+<lb n="13" break="no"/><supplied reason="lost" instant="false">νους τῷ κατὰ τὴν Σάρραν καὶ</supplied> Ἀβραὰμ
+<lb n="14"/><supplied reason="lost" instant="false">ὑποδείγματι πάλιν κατευθύν</supplied>ῃ πρὸς <supplied reason="lost" instant="false"><expan instant="false">τ<hi rend="supraline">ὸ</hi><ex instant="false">ν</ex></expan></supplied> 
+<lb n="15"/><gap reason="illegible" quantity="1" unit="line" instant="false"><desc>vestiges</desc></gap>
+<gap reason="lost" quantity="10" unit="line" instant="false"/>
+</ab></div>
+
+<div n="r" type="textpart" corresp="#FR9049" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">πῶς ἐστι δυ</supplied><unclear instant="false">ν</unclear><supplied reason="lost" instant="false">α</supplied>τὸν τῶ<add place="above" instant="false" status="unremarkable">ι</add> ἀκλ<unclear instant="false">ύ</unclear><supplied reason="lost" instant="false">στωι τῆς</supplied>
+<lb n="2"/><supplied reason="lost" instant="false">ἀρετῆς λιμένι</supplied> τὴν ψυχ<supplied reason="lost" instant="false">ὴν καθορμίσαι,</supplied>
+<lb n="3"/><supplied reason="lost" instant="false">μηδαμοῦ ταῖς τοῦ βίου ζάλαις ἐγχει</supplied>
+<lb n="4" break="no"/><supplied reason="lost" instant="false">μασθεῖσαν μηδὲ κατὰ τὰς ἐπαλλήλους</supplied>
+<lb n="5"/>τ<supplied reason="lost" instant="false">ῶν παθῶν τρικυμίας τῷ βυθῷ τῆς κακίας ἐνναυαγήσα</supplied>
+<lb n="6" break="no"/>σα<supplied reason="lost" instant="false">ν</supplied>. Τάχα γὰρ κ<supplied reason="lost" instant="false">αὶ τούτου χάριν ἡ τῶν ὑψη</supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="7" break="no"/>λῶν ἐκείνων π<supplied reason="lost" instant="false">ολιτεία δι' ἀκριβείας</supplied>
+<lb n="8"/><hi rend="diaeresis">ἱ</hi>στόρηται, ὡς <supplied reason="lost" instant="false">ἂ</supplied>ν <supplied reason="lost" instant="false">διὰ τῆς τῶν προκατωρ</supplied>
+<lb n="9" break="no"/>θωκότων μι<supplied reason="lost" instant="false">μήσεως ὁ ἐφεξῆς βίος πρὸς</supplied>
+<lb n="10"/>τὸ ἀγαθὸν ἀπ<supplied reason="lost" instant="false">ευθύνοιτο.</supplied><gap reason="lost" quantity="11" unit="character" instant="false"/> 
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="11"/>ἀφορῶντα<unclear instant="false">ς</unclear>, <supplied reason="lost" instant="false">ὅτι καὶ τοὺς μὴ συνδιαβα</supplied>
+<lb n="12" break="no"/>πτιζομέν<supplied reason="lost" instant="false">ους ἔτι ταῖς ἀνθρωπίναις ἀπά</supplied>
+<lb n="13" break="no"/>τ<unclear instant="false">αι</unclear>ς α<unclear instant="false">ὐτῶ</unclear><supplied reason="lost" instant="false">ν τῶν πραγμάτων ἡ ἄστατός</supplied>
+<lb n="14"/>τ<unclear instant="false">ε</unclear> <unclear instant="false">καὶ</unclear> <supplied reason="lost" instant="false">πεφορημένη κίνησις ἀφ' ἑαυτῆς</supplied>
+<lb n="15" rend="ekthesis"/><unclear instant="false">ἀπ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="16"/><gap reason="lost" quantity="10" unit="line" instant="false"/> 
+</ab></div> 
+</div>
+
+<div n="2" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="v" type="textpart" corresp="#FR9050" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><add place="left" instant="false" status="unremarkable"><expan instant="false"><unclear instant="false">Γρ</unclear>η<ex instant="false">γορίου</ex></expan></add> <unclear instant="false">Ἡ</unclear> <unclear instant="false">γὰρ</unclear> <unclear instant="false">δι</unclear><supplied reason="lost" instant="false">δασκαλία</supplied> <unclear instant="false">τῆς</unclear> <unclear instant="false">ἀληθ</unclear>εία<unclear instant="false">ς</unclear> <supplied reason="lost" instant="false">πρ</supplied><unclear instant="false">ὸς</unclear> <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ὰς</supplied>
+<lb n="2"/><add place="left" instant="false" status="unremarkable"><g type="middot"/> <unclear instant="false">ρκ</unclear></add> <supplied reason="lost" instant="false">δ</supplied><unclear instant="false">ια</unclear><supplied reason="lost" instant="false">θ</supplied><unclear instant="false">έσ</unclear>εις <supplied reason="lost" instant="false">τῶν δε</supplied>χομένων τὸ<supplied reason="lost" instant="false">ν λόγ</supplied>ον <supplied reason="lost" instant="false">συμ</supplied>
+<lb n="3" break="no"/>μεταβάλ<supplied reason="lost" instant="false">λεται. Ἐ</supplied>π' <hi rend="diaeresis">ἴ</hi>σης γὰρ π<supplied reason="lost" instant="false">ᾶσι το</supplied>ῦ λόγου
+<lb n="4"/>τὸ καλὸν <supplied reason="lost" instant="false">ἢ τὸ κα</supplied><unclear instant="false">κ</unclear><supplied reason="lost" instant="false">ὸ</supplied>ν προδ<supplied reason="lost" instant="false">εικνύντ</supplied>ος, ὁ <expan instant="false">μ<hi rend="supraline">ὲ</hi><ex instant="false">ν</ex></expan>
+<lb n="5"/>εὐπειθ<supplied reason="lost" instant="false">ῶς πρ</supplied>ὸς τὸ δεικν<supplied reason="lost" instant="false">ύμενον</supplied> ἔχων
+<lb n="6"/>ἐν φωτ<supplied reason="lost" instant="false">ὶ τὴ</supplied>ν διάνοιαν <supplied reason="lost" instant="false">ἔχει, τῶι δὲ ἀντ</supplied>ι
+<lb n="7" break="no"/><unclear instant="false">τύπως</unclear> <supplied reason="lost" instant="false">διακειμένωι καὶ μὴ καταδεχομέ</supplied>
+<lb n="8" break="no"/>νωι πρὸ<supplied reason="lost" instant="false">ς τὴν ἀκτῖνα τῆς ἀληθείας τὴν</supplied>
+<lb n="9"/>ψυχὴ<supplied reason="lost" instant="false">ν διαβλέψαι παραμένει τῆς ἀγνοίας</supplied>
+<lb n="10"/>ὁ <supplied reason="lost" instant="false">ζόφος. Εἰ δὴ τὸ καθόλου νοηθὲν ἡμῖν ἐν</supplied>
+<lb n="11"/>τοῖς τοιούτ<supplied reason="lost" instant="false">οις ψεῦδος οὐκ ἔστιν, οὐδ' ἂν τὰ</supplied>
+<lb n="12"/>καθ' ἕκαστον <supplied reason="lost" instant="false">πάντως ἑτέρως ἔχοι, τῆς ἐπὶ</supplied>
+<lb n="13"/>μέρους ἐξετά<supplied reason="lost" instant="false">σεως συναποδειχθείσης</supplied>
+<lb n="14"/><expan instant="false">τ<hi rend="supraline">ῶ</hi><ex instant="false">ι</ex></expan> <expan instant="false">λόγ<hi rend="supraline">ω</hi><ex instant="false">ι</ex></expan>. Οὐκο<supplied reason="lost" instant="false">ῦν οὐδὲν θαυμαστὸν ἀπαθῆ τὸν</supplied>
+<lb n="15"/>Ἑβραῖον μ<supplied reason="lost" instant="false">ένειν τῶν Αἰγυπτίων κακῶν</supplied>
+<lb n="16"/>ἐν μέσοι<supplied reason="lost" instant="false">ς το</supplied>ῖς ἀ<supplied reason="lost" instant="false">λλοφύλοις ἀναστρεφόμε</supplied>
+<lb n="17" break="no"/>νον, ἐπεὶ καὶ νῦ<supplied reason="lost" instant="false">ν ἐστι γινόμενον τὸ ἴ</supplied>
+<lb n="18" break="no"/><unclear instant="false">σο</unclear><supplied reason="lost" instant="false">ν ἰδεῖν. Τῶν γὰρ ἐν ταῖς πολυ<hi rend="supraline"><expan instant="false">ά<ex instant="false">νθρωπο</ex>ν</expan></hi> οὔσαις πόλεσι</supplied>
+<lb n="19"/>πρὸς <supplied reason="lost" instant="false">τὰς ἐναντίας δόξας διεστηκότων</supplied>
+<lb n="20"/>τοῖς <supplied reason="lost" instant="false">μὲν πότιμόν τε καὶ διειδές ἐστι</supplied>
+<lb n="21"/>τ<unclear instant="false">ὸ</unclear> <unclear instant="false">ν</unclear><supplied reason="lost" instant="false">ᾶμα τῆς πίστεως, ὃ διὰ τῆς θείας δι</supplied>
+<lb n="22" break="no"/>δ<unclear instant="false">α</unclear><supplied reason="lost" instant="false">σκαλίας ἀρύονται, τοῖς δὲ διὰ τῆς πο</supplied>  
+<lb n="23"/><gap reason="lost" quantity="3" unit="line" instant="false"/>
+</ab></div>
+
+<div n="r" type="textpart" corresp="#FR9051" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><add place="left" instant="false" status="unremarkable"><g type="middot"/> <unclear instant="false">ρ</unclear><space quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character" instant="false"/></add> καὶ τὸ τ<supplied reason="lost" instant="false">ῶν</supplied> Ἑβ<supplied reason="lost" instant="false">ρ</supplied>αίων π<supplied reason="lost" instant="false">οτὸν τῷ μολυσμῷ</supplied>
+<lb n="2"/>τοῦ <supplied reason="lost" instant="false">ψεύ</supplied>δους <supplied reason="lost" instant="false">αἷ</supplied>μα ποι<supplied reason="lost" instant="false">ῆσαι, τουτέ</supplied>στι τὸν ἡμέ
+<lb n="3" break="no"/>τερο<supplied reason="lost" instant="false">ν λόγ</supplied>ον καὶ ἡμῖν <supplied reason="lost" instant="false">δεῖξαι</supplied> μὴ τοιοῦτον <expan instant="false"><hi rend="supraline">ὄ</hi><ex instant="false">ν</ex>
+<lb n="4" break="no"/>τα</expan> ο<unclear instant="false">ἷ</unclear><supplied reason="lost" instant="false">ός ἐστι</supplied>ν· ἀλλ' οὐ<unclear instant="false">κ</unclear> <supplied reason="lost" instant="false">ἀχρειώ</supplied>σ<unclear instant="false">ῃ</unclear> καθ' ὅλου
+<lb n="5"/>τὸ <supplied reason="lost" instant="false">πότον</supplied>, <unclear instant="false">κἂν</unclear> <supplied reason="lost" instant="false">ἐκ τοῦ</supplied> <unclear instant="false">πρ</unclear><supplied reason="lost" instant="false">οχείρου</supplied> δι' ἀπάτης 
+<lb n="6"/>πε<supplied reason="lost" instant="false">ριφοι</supplied><unclear instant="false">νί</unclear><supplied reason="lost" instant="false">ξ</supplied><unclear instant="false">ῃ</unclear> <unclear instant="false">τὸ</unclear> <unclear instant="false">εἶδος</unclear>. <unclear instant="false">Π</unclear><supplied reason="lost" instant="false">ίνει</supplied> γὰρ ὁ Ἑβραῖος
+<lb n="7"/>τὸ <supplied reason="lost" instant="false">ἀληθινὸν ὕδωρ οὐδὲν π</supplied>ρὸς τὸ εἶδος <g type="parens-punctuation-closing"/>
+<lb n="8"/><add place="left" instant="false" status="unremarkable"><g type="parens-punctuation-opening"/></add> <supplied reason="lost" instant="false">τῆς ἀπάτης ἐπιστρεφόμεν</supplied>ος. <g rend="extension" type="filler"/>
+<lb n="9"/><supplied reason="lost" instant="false">τι τὸ ἐσκληρύνθαι παρὰ τοῦ</supplied> <hi rend="supraline"><expan instant="false">Θ<ex instant="false">εο</ex>ῦ</expan></hi> τὸν Φα
+<lb n="10" break="no"/><supplied reason="lost" instant="false">ραώ. Πῶς οὖν ἂν εἴη κατάκριτος, τ</supplied><unclear instant="false">ῆ</unclear><add place="above" instant="false" status="unremarkable">ι</add> ἄνω
+<lb n="11" break="no"/><supplied reason="lost" instant="false">θεν ἀνάγκῃ σκληρῶς τε καὶ ἀντι</supplied><unclear instant="false">τύπως</unclear> <unclear instant="false">δια</unclear>
+<lb n="12" break="no"/><supplied reason="lost" instant="false">θέμενος; Λέγει δὲ ὁ Ἀπόστο</supplied>λος, ὅτι καθ' ὡς οὐ
+<lb n="13" break="no"/><supplied reason="lost" instant="false">κ ἐδοκίμασαν τὸν <hi rend="supraline"><expan instant="false">Θ<ex instant="false">εὸ</ex>ν</expan></hi> ἔχ</supplied>ειν ἐν ἐπιγνώσει, 
+<lb n="14"/><supplied reason="lost" instant="false">παρέδωκεν αὐτοὺς ὁ <hi rend="supraline"><expan instant="false">Θ<ex instant="false">εὸ</ex>ς</expan></hi></supplied> εἰς πάθη ἀτιμίας, 
+<lb n="15"/><supplied reason="lost" instant="false">περὶ τῶν ἀρρενοφθορού</supplied>ντων λέγ<hi rend="grave">ω</hi>ν καὶ 
+<lb n="16"/><supplied reason="lost" instant="false">περὶ τῶν ἐν τοῖς ἀτίμοις</supplied> <unclear instant="false">τε</unclear> καὶ <unclear instant="false">ἀρ</unclear><supplied reason="lost" instant="false">ρήτοι</supplied>ς 
+<lb n="17"/><supplied reason="lost" instant="false">τῆς ἀσωτίας τρόποις</supplied> <expan instant="false">ἀσχ<supplied reason="lost" instant="false">ημονούντω<ex instant="false">ν</ex></supplied></expan><hi rend="supraline">·</hi> 
+<lb n="18"/><supplied reason="lost" instant="false">Ἀλλ' εἰ καὶ οὕτω λέγεται</supplied> παρὰ τῆς θεί<supplied reason="lost" instant="false">α</supplied>ς Γρα
+<lb n="19" break="no"/><supplied reason="lost" instant="false">φῆς τὰ εἰρημένα οὕτε τ</supplied>ῷ πάθει <supplied reason="lost" instant="false">τ</supplied>ῆ<supplied reason="lost" instant="false">ς</supplied> ἀτιμί
+<lb n="20" break="no"/><supplied reason="lost" instant="false">ας ὁ <hi rend="supraline"><expan instant="false">Θ<ex instant="false">εὸ</ex>ς</expan></hi> ἔκδοτον δίδωσι τὸν πρὸς τ</supplied>οῦτο φερό
+<lb n="21" break="no"/><supplied reason="lost" instant="false">μενον, οὔτε Φαραὼ θείᾳ βουλή</supplied>σει σκληρύ
+<lb n="22" break="no"/><supplied reason="lost" instant="false">νεται, οὔτε ὁ βατραχώδης βίος ὑπὸ τ</supplied>ῆς ἀρε
+<lb n="23" break="no"/><supplied reason="lost" instant="false">τῆς πλάσσεται.</supplied><app type="editorial"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/> καὶ</lem><rdg resp="ed. pr. 1910"><supplied reason="lost" instant="false">Ὥστε μηδεμίαν ἀρετῆς</supplied> καὶ</rdg></app>
+<lb n="24"/><gap reason="lost" quantity="2" unit="line" instant="false"/> 
+</ab></div> 
+</div>
+
+<div n="3" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="v" type="textpart" corresp="#FR9052" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">τ</supplied>οῦ βίου <supplied reason="lost" instant="false">καὶ τ</supplied>ῶν μὲν δι' ἀρετῆς κατορθου
+<lb n="2" break="no"/><supplied reason="lost" instant="false">μ</supplied>έν<supplied reason="lost" instant="false">ων, τῶν δὲ</supplied> εἰς κακίαν <expan instant="false">ἀπορρεόντ<hi rend="supraline">ω</hi><ex instant="false">ν</ex></expan>.
+<lb n="3"/>Οὐκ ἄν τις εὐ<supplied reason="lost" instant="false">λόγως ὑπερ</supplied>κε<supplied reason="lost" instant="false">ιμ</supplied>έναις τισὶν 
+<lb n="4"/>ἀνάγκαις ταῖς κατὰ τὸ θεῖον βούλημα 
+<lb n="5"/>συνισ<supplied reason="lost" instant="false">τα</supplied>μέναις τὰς διαφορὰς τῶν <expan instant="false">βί<hi rend="supraline">ω</hi><ex instant="false">ν</ex></expan> 
+<lb n="6"/>λογίσα<supplied reason="lost" instant="false">ιτο</supplied>, <hi rend="diaeresis"><unclear instant="false">ὧ</unclear></hi>ν ἡ προαίρεσις ἐ<unclear instant="false">φ</unclear>' ἑκάστου 
+<lb n="7"/>τὸ κρά<supplied reason="lost" instant="false">τος ἔχ</supplied>ει· τίς ο<hi rend="circumflex">ὖ</hi>ν παραδίδοται τῷ 
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="8"/>πά<supplied reason="lost" instant="false">θει τῆ</supplied>ς ἀτιμίας, σαφῶς ἔστι παρὰ τοῦ 
+<lb n="9"/>Ἀποστ<supplied reason="lost" instant="false">όλ</supplied>ου μαθ<supplied reason="lost" instant="false">εῖν</supplied>· <supplied reason="lost" instant="false">ὁ</supplied> μὴ δοκιμάσα<supplied reason="lost" instant="false">ς</supplied> <expan instant="false"><supplied reason="lost" instant="false">τ</supplied><hi rend="supraline">ὸ</hi><ex instant="false">ν</ex></expan>
+<lb n="10"/><hi rend="supraline"><expan instant="false">Θ<ex instant="false">εὸ</ex>ν</expan></hi> ἔ<supplied reason="lost" instant="false">χειν</supplied> ἒν ἐπιγνώσει· ὃν <supplied reason="lost" instant="false">οὐ</supplied>κ <supplied reason="lost" instant="false">ἀμυν</supplied>ό
+<lb n="11" break="no"/>μ<supplied reason="lost" instant="false">ενος ὁ <hi rend="supraline"><expan instant="false">Θ<ex instant="false">εὸ</ex>ς</expan></hi></supplied><app type="editorial"><lem><gap reason="lost" quantity="28" unit="character" instant="false"/><unclear instant="false">τ</unclear>α</lem><rdg resp="ed. pr. 1910"><supplied reason="lost" instant="false">παραδίδωσι τῷ</supplied> <unclear instant="false">π</unclear>ά <lb n="12" break="no"/><supplied reason="lost" instant="false">θει</supplied></rdg></app>
+<lb n="12"/><gap reason="lost" quantity="14" unit="line" instant="false"/>
+</ab></div>
+
+<div n="r" type="textpart" corresp="#FR9053" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>Φαραὼ τ<supplied reason="lost" instant="false">ῆς θ</supplied>είας βουλήσεως ἐνθε<supplied reason="lost" instant="false">ίσης,</supplied>
+<lb n="2"/>ἀλλ' ὡς <supplied reason="lost" instant="false">τ</supplied>ῆς προαιρέσεως <supplied reason="lost" instant="false">διὰ τῆ</supplied>ς πρὸς <expan instant="false">τ<hi rend="supraline">ὴ</hi><ex instant="false">ν</ex></expan>
+<lb n="3"/>κακία<supplied reason="lost" instant="false">ν</supplied> προσκλίσεως τὸν ἐκμαλάσσοντα
+<lb n="4"/>τὴν ἀ<supplied reason="lost" instant="false">ντι</supplied>τυπίαν λόγον μὴ δ<supplied reason="lost" instant="false">ε</supplied>χομένης. 
+<milestone rend="paragraphos" unit="undefined"/> 
+<lb n="5"/>Οὕτω<unclear instant="false">ς</unclear> <unclear instant="false">κ</unclear>αὶ ἡ τῆς ἀρετῆς ῥάβ<supplied reason="lost" instant="false">δος ἐ</supplied>ν τοῖς Αἰγυ
+<lb n="6" break="no"/>πτίοις φανεῖσα τὸν μὲν <supplied reason="lost" instant="false">Ἑβραῖ</supplied>ον <expan instant="false">καθαρ<hi rend="supraline">ὸ</hi><ex instant="false">ν</ex></expan> 
+<lb n="7"/>τῆς βατ<supplied reason="lost" instant="false">ρ</supplied>αχώδους ζωῆς ἀπ<supplied reason="lost" instant="false">εργάζ</supplied>εται, τὸν 
+<lb n="8"/>δὲ Αἰγυπτίον πλ<hi rend="grave">ή</hi>ρ<hi rend="circumflex">η</hi> τῆς το<supplied reason="lost" instant="false">ιαύ</supplied>της δείκνυ
+<lb n="9" break="no"/><unclear instant="false">σι</unclear> νόσου. <space extent="unknown" unit="character"/> <unclear instant="false">Καὶ</unclear> <unclear instant="false">ὥσπερ</unclear> ἐκ τῆ<supplied reason="lost" instant="false">ς ἀ</supplied>τακτοτέρας 
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="10"/><supplied reason="lost" instant="false">δια</supplied>ίτη<supplied reason="lost" instant="false">ς φ</supplied>θοροποιός τις χ<supplied reason="lost" instant="false">υμὸς καὶ</supplied> χολώδης 
+<lb n="11"/><supplied reason="lost" instant="false">ἐν τοῖς σπλάγχν</supplied>οις <unclear instant="false">συν</unclear><supplied reason="lost" instant="false">ίσταται, ὃν ὁ ἰατρός</supplied>
+<lb n="12"/><gap reason="lost" quantity="14" unit="line" instant="false"/>  
+</ab></div> 
+</div>
+
+<div n="4" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="v" type="textpart" corresp="#FR9054" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1,msup"/> <supplied reason="lost" instant="false">Ὁ τῆς</supplied> ἔξω παιδείας λόγος χρειώδης εἰς τὴν τῆς εὐσε
+<lb n="2,msup" break="no"/> <supplied reason="lost" instant="false">βείας</supplied> συνηγορίαν τίς ἐστι πλοῦτος Αἰγυπτίων
+<lb n="3,msup"/> <space quantity="1" unit="line"/>
+<lb n="1"/>μηδὲν τῶν κακῶν δίχα τῆς ἡμετέρας 
+<lb n="2"/>προαι<supplied reason="lost" instant="false">ρέσεως</supplied> δύνασθαι συστῆναι· <g rend="extension" type="filler"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/><add place="left" instant="false" status="unremarkable"><gap reason="illegible" quantity="2" unit="character" instant="false"/></add> <unclear instant="false">Τίς</unclear> <unclear instant="false">ἐστιν</unclear> <supplied reason="lost" instant="false">ὁ τῶν</supplied> Αἰγυπτίων πλοῦτος, <hi rend="asper">ὃ</hi>ν 
+<lb n="4"/><supplied reason="lost" instant="false">οἱ</supplied> Ἑβραῖ<supplied reason="lost" instant="false">οι λαβόν</supplied><unclear instant="false">τ</unclear>ες <hi rend="acute">ὤ</hi>ιχον<supplied reason="lost" instant="false">τ</supplied>ο <g type="dicolon"/> δεῖ τοὺς 
+<lb n="5"/>ἑπομέν<unclear instant="false">ους</unclear> <supplied reason="lost" instant="false">τῷ πρὸς</supplied> ἀρετὴν <supplied reason="lost" instant="false">ἡ</supplied>γουμένωι 
+<lb n="6"/>μὴ πένητα<supplied reason="lost" instant="false">ς εἶναι</supplied> τοῦ Αἰγυπτίου πλ<hi rend="acute">ο</hi>ύτου, 
+<lb n="7"/>μή<unclear instant="false">τ</unclear>ε <supplied reason="lost" instant="false">τ</supplied>ῶν ἀ<supplied reason="lost" instant="false">λλ</supplied>ο<unclear instant="false">φ</unclear>ύλων κειμηλίων ἀκτή
+<lb n="8" break="no"/>μονας, <supplied reason="lost" instant="false">ἀλλὰ τὰ</supplied> προσόντα τοῖ<supplied reason="lost" instant="false">ς</supplied> ἐναντίοις
+<lb n="9"/>πάντα <supplied reason="lost" instant="false">λα</supplied>βόντας ἐν χρ<supplied reason="lost" instant="false">ή</supplied>σει παρ' ἑαυτοῖς
+<lb n="10"/>ἔχ<unclear instant="false">ειν</unclear>, <supplied reason="lost" instant="false">ὅπερ τ</supplied>ότε ποιῆσαι παρ<supplied reason="lost" instant="false">ὰ</supplied> το<unclear instant="false">ῦ</unclear> <supplied reason="lost" instant="false">Μωϋσ</supplied>έ
+<lb n="11" break="no"/>ω<supplied reason="lost" instant="false">ς ὁ λαὸς παραγ</supplied>γέλλεται· τοῦτο <supplied reason="lost" instant="false">δὲ οὐκ ἄν</supplied>
+<lb n="12"/><supplied reason="lost" instant="false">τις ἐκ προχείρ</supplied>ου <unclear instant="false">νοήσ</unclear><supplied reason="lost" instant="false">ας ἀποδέξαιτο</supplied>
+<lb n="13"/><gap reason="lost" quantity="13" unit="line" instant="false"/>
+</ab></div>
+
+<div n="r" type="textpart" corresp="#FR9055" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1" break="no"/><add place="left" instant="false" status="unremarkable"><unclear instant="false">Κ</unclear></add> ρωθεν τὸ διανοητικὸν τῆς ψυχῆς 
+<lb n="2"/>ὑπερ<unclear instant="false">ίδουσ</unclear>αν· τὸν δὲ λ<supplied reason="lost" instant="false">ογισμ</supplied>ὸν ἀμφο
+<lb n="3" break="no"/>τέροις ἐπε<supplied reason="lost" instant="false">ζευ</supplied>γμένο<supplied reason="lost" instant="false">ν συν</supplied>έχειν <unclear instant="false">τε</unclear> 
+<lb n="4"/>αὐτοὺς καὶ ὑπὸ ἐκ<unclear instant="false">εί</unclear><supplied reason="lost" instant="false">νων ἀ</supplied><unclear instant="false">ν</unclear>έχεσθαι, 
+<lb n="5"/>πρὸς μὲν ἀνδρεί<supplied reason="lost" instant="false">αν τῷ</supplied> θυμῷ στομ<hi rend="acute">ο</hi>ύ
+<lb n="6" break="no"/>μενον, πρὸς δὲ τὴ<supplied reason="lost" instant="false">ν τοῦ ἀ</supplied>γαθ<supplied reason="lost" instant="false">ο</supplied>ῦ μετου
+<lb n="7" break="no"/>σίαν δι' <supplied reason="lost" instant="false">ἐ</supplied>πιθ<supplied reason="lost" instant="false">υ</supplied>μίας <unclear instant="false">ὑψ</unclear><supplied reason="lost" instant="false">ού</supplied>με<supplied reason="lost" instant="false">νο</supplied>ν· ἕως <hi rend="supraline"><expan instant="false">ἂ<ex instant="false">ν</ex></expan></hi>
+<lb n="8"/>ἡ ψυχὴ <supplied reason="lost" instant="false">τ</supplied>ῷ σχήματι τούτῳ <supplied reason="lost" instant="false">κατ</supplied>ησφαλισμέ
+<lb n="9" break="no"/>νη τύχῃ, καθάπερ τισὶ γό<supplied reason="lost" instant="false">μφοις τοῖ</supplied>ς <unclear instant="false">κ</unclear>α
+<lb n="10" break="no"/><supplied reason="lost" instant="false">τ' ἀρετὴ</supplied>ν νοήμασι τὸ <supplied reason="lost" instant="false">βέβαιον ἔχο</supplied>υσα, 
+<lb n="11"/><supplied reason="lost" instant="false">ἐν πάσῃ δι' ἀλ</supplied>λήλων γί<supplied reason="lost" instant="false">νεται τῇ πρὸς τό</supplied>
+<lb n="12"/><gap reason="lost" quantity="14" unit="line" instant="false"/>
+</ab></div> 
+</div>
+
+<div n="5" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR9056" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>π<supplied reason="lost" instant="false">λού</supplied>τῳ κατ<supplied reason="lost" instant="false">α</supplied>κ<supplied reason="lost" instant="false">οσ</supplied>μήσας τῆς Ἐκκλησίας 
+<lb n="2"/>τὴν <supplied reason="lost" instant="false">σκην</supplied><unclear instant="false">ή</unclear>ν. <g rend="extension" type="filler"/> <space extent="unknown" unit="character"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/><add place="left" instant="false" status="unremarkable"><gap reason="illegible" quantity="1" unit="character" instant="false"/></add> Τί <unclear instant="false">ἐ</unclear><supplied reason="lost" instant="false">στιν</supplied> <app type="editorial"><lem><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">εν</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/></lem><rdg resp="ed. pr. 1910"><supplied reason="lost" instant="false">τὸ ὅτι εἰρῆσθαι</supplied></rdg></app> τῷ Μω<hi rend="diaeresis">ΰ</hi>σει <q type="spoken"><unclear instant="false">τ</unclear>ὶ βοᾶ<add place="above" instant="false" status="unremarkable">ι</add>ς</q> 
+<lb n="4"/><add place="left" instant="false" status="unremarkable"><gap reason="illegible" quantity="2" unit="character" instant="false"/></add> πρὸς αὐ<supplied reason="lost" instant="false">τοῦ <hi rend="supraline"><expan instant="false">Θ<ex instant="false">εο</ex>ῦ</expan></hi></supplied> μαρτυρεῖται. Μηδεμίαν
+<lb n="5"/>κατὰ τὸ <supplied reason="lost" instant="false">φαινό</supplied>μενον φωνὴ<supplied reason="lost" instant="false">ν</supplied> πρὸς τὸν 
+<lb n="6"/><hi rend="supraline"><expan instant="false">Θ<ex instant="false">εὸ</ex>ν</expan></hi> ποι<supplied reason="lost" instant="false">ησάμε</supplied><unclear instant="false">νος</unclear>· ἐκείνη ἡ φωνὴ εὔηχός 
+<lb n="7"/>ἐστι <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">αὶ μέχρι</supplied> τῆς θείας ἀκοῆς ἀναβαί
+<lb n="8" break="no"/>νουσα <supplied reason="lost" instant="false">οὐχ ἡ</supplied> μετά τινος διαστάσεως γιν<supplied reason="lost" instant="false">ο</supplied>
+<lb n="9" break="no"/>μένη <supplied reason="lost" instant="false">κραυγή</supplied>, ἀλλ' ἡ ἐκ καθαρᾶς συνειδή
+<lb n="10" break="no"/>σεως <supplied reason="lost" instant="false">ἀναπε</supplied>μπομένη ἐνθύμησις· <g rend="extension" type="filler"/> 
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="11"/><add place="left" instant="false" status="unremarkable"><gap reason="illegible" quantity="2" unit="character" instant="false"/></add> <unclear instant="false">τισ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><app type="editorial"><lem><gap reason="lost" quantity="12" unit="character" instant="false"/>ανεισα</lem><rdg resp="ed. pr. 1910"><gap reason="lost" quantity="9" unit="character" instant="false"/><supplied reason="lost" instant="false">ἐμφ</supplied>ανεῖσα</rdg></app><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><add place="left" instant="false" status="unremarkable"><gap reason="illegible" quantity="1" unit="character" instant="false"/></add> <gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" quantity="15" unit="character" instant="false"/>αιεπι<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/><gap reason="illegible" quantity="1" unit="line" instant="false"><desc>vestiges</desc></gap>
+<gap reason="lost" quantity="12" unit="line" instant="false"/>
+</ab></div>
+
+<div n="v" type="textpart" corresp="#FR9057" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><add place="left" instant="false" status="unremarkable"><gap reason="illegible" quantity="3" unit="character" instant="false"/></add> Τί ἐστι τὸ ἐναφανισθ<supplied reason="lost" instant="false">ῆνα</supplied>ι τῷ <hi rend="diaeresis">ὕ</hi>δα<unclear instant="false">τι</unclear> <supplied reason="lost" instant="false"><expan instant="false">τ<hi rend="supraline">ὸ</hi><ex instant="false">ν</ex></expan></supplied>
+<lb n="2"/>Αἰγύπτιον τ<supplied reason="lost" instant="false">ύ</supplied>ραννον σὺ<unclear instant="false">ν</unclear> <supplied reason="lost" instant="false">τ</supplied><unclear instant="false">οῖς</unclear> <gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/> ἀνα
+<lb n="3" break="no"/>βάταις καὶ τριστ<hi rend="grave">ά</hi>ταις. <unclear instant="false">Ὁ</unclear> <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">α</supplied><unclear instant="false">ῦτ</unclear><supplied reason="lost" instant="false">α</supplied> <expan instant="false"><supplied reason="lost" instant="false">ἀκο</supplied>ύ<hi rend="supraline"><unclear instant="false">ω</unclear></hi><ex instant="false">ν</ex></expan>
+<lb n="4"/>οὐκ ἀγν<unclear instant="false">οήσει</unclear> τὸ κατ<unclear instant="false">ὰ</unclear> <supplied reason="lost" instant="false">τὸ ὕδωρ</supplied> μυστή
+<lb n="5" break="no"/>ριον· ἐν <hi rend="asper"><unclear instant="false">ὧ</unclear></hi><unclear instant="false">ι</unclear> <unclear instant="false">τις</unclear> μετὰ π<supplied reason="lost" instant="false">άσης τῆς σ</supplied><unclear instant="false">τρ</unclear>ατι<unclear instant="false">ᾶς</unclear>
+<lb n="6"/>τοῦ ἐχθροῦ <unclear instant="false">κ</unclear>αταβ<unclear instant="false">ὰς</unclear> μόν<supplied reason="lost" instant="false">ος ἀναδύ</supplied><unclear instant="false">σ</unclear>εται, 
+<lb n="7" rend="centered"/><add place="interlinear" instant="false" status="unremarkable"><unclear instant="false">ἄλλο</unclear></add>
+<lb n="8"/>τοῦ πολεμίου στρατοῦ κ<supplied reason="lost" instant="false">αταδυ</supplied>ομένου 
+<lb n="9"/>τῷ <hi rend="diaeresis">ὕ</hi>δατι. Τίς γὰρ οὐκ ο<hi rend="circumflex">ἶ</hi>δεν <supplied reason="lost" instant="false">ὅτι στρ</supplied>ατὸς 
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="10"/>Αἰγύπτιός ἐστι τὰ ποικίλα <supplied reason="lost" instant="false">τῆς ψυ</supplied>χῆς πά
+<lb n="11" break="no"/>θη· ο<hi rend="circumflex">ἷ</hi>ς καταδουλοῦται <supplied reason="lost" instant="false">ὁ</supplied> <hi rend="supraline"><expan instant="false"><unclear instant="false">ἄν</unclear><ex instant="false">θρωπ</ex><supplied reason="lost" instant="false">ος</supplied></expan></hi><supplied reason="lost" instant="false">; Ἐκεῖ</supplied><unclear instant="false">νοι</unclear>
+<lb n="12"/><gap reason="lost" quantity="9" unit="character" instant="false"/><supplied reason="lost" instant="false">ἅ</supplied>ρματα<gap reason="lost" quantity="6" unit="character" instant="false"/><unclear instant="false">κα</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/><gap reason="illegible" quantity="2" unit="line" instant="false"><desc>vestiges</desc></gap>
+<gap reason="lost" quantity="12" unit="line" instant="false"/>
+</ab></div> 
+</div>
+
+<div n="6" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR9058" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1" break="no"/><supplied reason="lost" instant="false">τα</supplied> καὶ <hi rend="asper">ὅ</hi>σα το<supplied reason="lost" instant="false">ύτοις ὁ</supplied>μόφ<supplied reason="lost" instant="false">υ</supplied>λ<supplied reason="lost" instant="false">α τ</supplied>ῷ καθηγου
+<lb n="2" break="no"/>μέν<supplied reason="lost" instant="false">ῳ τῆς πονηρᾶς ἐφόδου συ</supplied>νεισπίπτει 
+<lb n="3"/>τῷ Ἰσρα<supplied reason="lost" instant="false">ηλίτῃ ἐπὶ τὸ</supplied> <unclear instant="false">ὕδ</unclear>ωρ· <supplied reason="lost" instant="false">ἐφ' ὧ</supplied>ν ἡ τοῦ <hi rend="asper">ὕ</hi>δα
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="4" break="no"/><choice><corr instant="false">τος</corr><sic>τ<unclear instant="false">ρ</unclear>ς</sic></choice> φ<supplied reason="lost" instant="false">ύσις, ἡγου</supplied><unclear instant="false">μ</unclear>ένης τῆς <supplied reason="lost" instant="false">κατὰ τὴ</supplied>ν βα
+<lb n="5" break="no"/>κτηρ<supplied reason="lost" instant="false">ίαν πίστεω</supplied>ς καὶ τῆς <supplied reason="lost" instant="false">φωτι</supplied>ζ<hi rend="acute">ο</hi>ύσης 
+<lb n="6"/>νεφ<supplied reason="lost" instant="false">έλης, ζωο</supplied>ποιὸς μὲν γίνεται τῶν εἰς 
+<lb n="7"/>αὐτὴ<supplied reason="lost" instant="false">ν κατα</supplied>φευγόντων, ἀναιρετικὴ 
+<lb n="8"/>δὲ τῶ<supplied reason="lost" instant="false">ν δι</supplied><unclear instant="false">ω</unclear>κόντων· τ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ῦ</supplied>το δ' ἐστὶ 
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="9"/>τὸ <unclear instant="false">δεῖ</unclear><supplied reason="lost" instant="false">ν τοὺς</supplied> διερχομένου<supplied reason="lost" instant="false">ς τὸ</supplied> <expan instant="false"><supplied reason="lost" instant="false">μυσ</supplied>τικ<hi rend="supraline">ὸ</hi><ex instant="false">ν</ex></expan> 
+<lb n="10"/><hi rend="asper">ὕ</hi>δ<supplied reason="lost" instant="false">ωρ ἐν τῷ βαπτίσματι πᾶσαν τὴ</supplied>ν τῆς 
+<lb n="11"/>κ<supplied reason="lost" instant="false">ακίας παρεμβολὴν νεκρὰν ποιεῖ</supplied>ν <hi rend="supraline"><expan instant="false">ἐ<ex instant="false">ν</ex></expan></hi>
+<lb n="12"/><gap reason="lost" quantity="14" unit="line" instant="false"/>
+</ab></div>
+
+<div n="v" type="textpart" corresp="#FR9059" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1" break="no"/>εσθαι τ<supplied reason="lost" instant="false">ὸ ἐχθρὸν καὶ τὸ</supplied> φίλον· τοῦ <supplied reason="lost" instant="false">μ</supplied>ὲν 
+<lb n="2"/>ἐχθρο<supplied reason="lost" instant="false">ῦ φθειρομένου, τοῦ δὲ</supplied> φίλου ζω
+<lb n="3" break="no"/>ογονο<supplied reason="lost" instant="false">υμέ</supplied>νου· <g rend="extension" type="filler"/><supplied reason="lost" instant="false"><g rend="extension" type="filler"/></supplied><gap reason="illegible" quantity="1" unit="character" instant="false"/> <space extent="unknown" unit="character"/>
+<milestone rend="paragraphos" unit="undefined"/> 
+<lb n="4"/><add place="left" instant="false" status="unremarkable"><gap reason="illegible" quantity="1" unit="character" instant="false"/></add> Τί <unclear instant="false">ἐστ</unclear><supplied reason="lost" instant="false">ιν τὸ ἄ</supplied>ζυμ<unclear instant="false">ον</unclear> ἄρτο<supplied reason="lost" instant="false">ν</supplied> <expan instant="false"><supplied reason="lost" instant="false">ἐπ</supplied>εσθί<hi rend="supraline">ει</hi><ex instant="false">ν</ex></expan> 
+<lb n="5"/>τῶ<add place="above" instant="false" status="unremarkable">ι</add> Πά<supplied reason="lost" instant="false">σχ</supplied>α κελ<hi rend="acute">ε</hi>ύει· ἄ<supplied reason="lost" instant="false">ζυμος ἂν</supplied> εἴη ὁ
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="6"/><add place="left" instant="false" status="unremarkable"><gap reason="illegible" quantity="3" unit="character" instant="false"/></add> τῆς ἑωλοτέρας <supplied reason="lost" instant="false">ἀνεπίμικτος ζ</supplied>ύμη<supplied reason="lost" instant="false">ς·</supplied> 
+<lb n="7"/>νοεῖν <unclear instant="false">τε</unclear> <unclear instant="false">δίδωσι</unclear> <supplied reason="lost" instant="false">διὰ τούτων ὁ</supplied> νόμος 
+<lb n="8"/>τὸ μη<supplied reason="lost" instant="false">δ</supplied>ὲν τῆς κακίας λ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ίψανο</supplied>ν τῶ<add place="below" instant="false" status="unremarkable">ι</add> ἑ
+<lb n="9" break="no"/>ξῆ<supplied reason="lost" instant="false">ς κατα</supplied>μιγνύειν βί<supplied reason="lost" instant="false">ῳ, ἀλλ' ἀπὸ ἰδί</supplied><unclear instant="false">ας</unclear> 
+<lb n="10"/>ἀρ<supplied reason="lost" instant="false">χῆς τῆς μετὰ ταῦτα ζωῆς ἄρξασ</supplied><unclear instant="false">θαι</unclear>, 
+<lb n="11"/>τ<supplied reason="lost" instant="false">ὸν τὸ συνεχὲς τῆς τῶν καιρῶν ἀκολου-</supplied>
+<lb n="12"/><gap reason="lost" quantity="14" unit="line" instant="false"/> 
+</ab></div> 
+</div>
+
+<div n="7" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR9060" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1" break="no"/><supplied reason="lost" instant="false">λιζοντος γλυκύτε</supplied><unclear instant="false">ρό</unclear><supplied reason="lost" instant="false">ς τε</supplied> <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">αὶ</supplied> <unclear instant="false">πολυ</unclear>τιμώ
+<lb n="2" break="no"/><supplied reason="lost" instant="false">τερος ὁ κατ' ἀρετὴν γίνεται βίος, τῇ</supplied> ἐλπίδι
+<lb n="3"/>τῶν μελλόντων ἐφηδυνόμενος. <g rend="extension" type="filler"/>
+<lb n="4"/><supplied reason="lost" instant="false">Τίς ἐστιν ἡ ἐφεξῆς καταγωγὴ τῆς ὁ</supplied>δοῦ
+<lb n="5"/><supplied reason="lost" instant="false">ἣ διαναπαύει τὸν κόπον τῶν</supplied> <expan instant="false"><supplied reason="lost" instant="false">ὁδοιπορο</supplied>ύντ<hi rend="supraline">ω</hi><ex instant="false">ν</ex></expan>.
+<lb n="6"/><supplied reason="lost" instant="false">Εἰσὶ δυοκαίδεκα μὲν αἱ πηγ</supplied><unclear instant="false">αὶ</unclear> ἀρί
+<lb n="7" break="no"/><supplied reason="lost" instant="false">στου καὶ καθαροῦ</supplied> <unclear instant="false">καὶ</unclear> <unclear instant="false">ἡδ</unclear><supplied reason="lost" instant="false">ίστου ν</supplied><unclear instant="false">άματος</unclear>· 
+<lb n="8"/><supplied reason="lost" instant="false">ἑβδομήκοντα δὲ οἱ</supplied> φοίνικ<supplied reason="lost" instant="false">ες, εὐ</supplied>μεγέθεις 
+<lb n="9"/><supplied reason="lost" instant="false">καὶ ὑψίκομοι, το</supplied>ῦ χρόνου τὰ δ<supplied reason="lost" instant="false">ένδ</supplied>ρα πρὸς 
+<lb n="10"/><supplied reason="lost" instant="false">ὕψος ἄραντος.</supplied> <space extent="unknown" unit="character"/> Tὸ τοῦ ξύλου <expan instant="false"><supplied reason="lost" instant="false">μ</supplied>υστήρι<hi rend="supraline">ο</hi><ex instant="false">ν</ex></expan> 
+<lb n="11"/><supplied reason="lost" instant="false">δι' οὗ πότιμον τ</supplied>ῆς ἀρετῆς <supplied reason="lost" instant="false">τὸ ὕδωρ τοῖς</supplied>
+<lb n="12"/><gap reason="illegible" quantity="1" unit="line" instant="false"><desc>vestiges</desc></gap>
+<gap reason="lost" quantity="13" unit="line" instant="false"/>
+</ab></div>
+
+<div n="v" type="textpart" corresp="#FR9061" part="N" org="uniform" sample="complete"><ab part="N">
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="1"/><add place="left" instant="false" status="unremarkable"><gap reason="illegible" quantity="2" unit="character" instant="false"/></add> Τίς ἡ πέτρ<supplied reason="lost" instant="false">α, ἧς ἡ φύσις ἡ ἀντιτυπὴς καὶ</supplied>
+<lb n="2"/>σ<unclear instant="false">τερ</unclear><supplied reason="lost" instant="false">έμνιος ποτὸν τοῖς διψῶσιν ἐγένετο,</supplied>
+<lb n="3"/>εἰς <hi rend="asper">ὕ</hi><supplied reason="lost" instant="false">δατος μαλακότητα τῆς ἀντιτυπίας</supplied> 
+<lb n="4"/>ἀνα<supplied reason="lost" instant="false">λυθείσης. Ὁ γὰρ ἐν τῷ ὕδατι καταλι</supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="5" break="no"/>πὼν <supplied reason="lost" instant="false">νεκρὸν τὸν Αἰγύπτιον καὶ τῷ ξύλῳ γλυ</supplied>
+<lb n="6" break="no"/>καν<supplied reason="lost" instant="false">θεὶς καὶ ταῖς ἀποστολικαῖς</supplied>
+<lb n="7"/>ἐντρ<supplied reason="lost" instant="false">υφήσας πηγαῖς, ὑπό τε τῇ σκιᾷ τῶν</supplied>
+<lb n="8"/>φοιν<supplied reason="lost" instant="false">ίκων ἀν</supplied>απαυσά<supplied reason="lost" instant="false">μενος, οὗτος ἤδη</supplied>
+<lb n="9"/>καὶ το<supplied reason="lost" instant="false">ῦ <hi rend="supraline"><expan instant="false">Θ<ex instant="false">εο</ex>ῦ</expan></hi></supplied> <unclear instant="false">δ</unclear>εκτικὸς γίν<supplied reason="lost" instant="false">εται. Ἡ γὰρ πέτρα,</supplied> 
+<lb n="10"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> <hi rend="asper">ὥ</hi>ς φ<supplied reason="lost" instant="false">η</supplied>σιν ὁ Ἀπόστολος, ὁ <supplied reason="lost" instant="false"><hi rend="supraline"><expan instant="false">Χ<ex instant="false">ριστό</ex>ς</expan></hi> ἐστιν, ἄνικμός</supplied>
+<lb n="11"/>τε καὶ <supplied reason="lost" instant="false">ἀ</supplied>ντιτυπὴς τοῖς ἀπ<supplied reason="lost" instant="false">ίστοις, εἰ δέ τις</supplied>
+<lb n="12"/><unclear instant="false">πρ</unclear><supplied reason="lost" instant="false">οσ</supplied>άγοι τὴ<supplied reason="lost" instant="false">ν ῥάβδον τῆς πίστεως, ποτός</supplied>
+<lb n="13"/><gap reason="lost" quantity="13" unit="line" instant="false"/>  
+</ab></div> 
+</div>
+
+<div n="8" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR9062" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><supplied reason="lost" instant="false">προστάγματι γίνεται τοῦ Ἀαρ</supplied>ὼν <unclear instant="false">τὸ</unclear> <unclear instant="false">δ</unclear>εῖν 
+<lb n="2"/><supplied reason="lost" instant="false">αὐτοὺς περιελέσθαι ἀφ' ἑαυτῶν τὰ ἐ</supplied>νώτια. Καὶ
+<lb n="3"/><supplied reason="lost" instant="false">ἡ τούτων περιαίρεσις ὕλ</supplied>η τῶ<add place="above" instant="false" status="unremarkable">ι</add> εἰδώλωι
+<lb n="4"/><supplied reason="lost" instant="false">ἐγένετο. Τί οὖν φαμεν; Ὅτι</supplied> Μωϋσῆς μὲν
+<lb n="5"/><supplied reason="lost" instant="false">ἐν τῷ ἐνωτίῳ κόσμῳ, ὅς ἐστι</supplied>ν ὁ νόμος <expan instant="false">τ<hi rend="supraline">ὴ</hi><ex instant="false">ν</ex></expan> 
+<lb n="6"/><supplied reason="lost" instant="false">τῶν Ἰσραηλιτῶν ἀκοὴν</supplied> <expan instant="false"><supplied reason="lost" instant="false">κ</supplied><unclear instant="false">ατ</unclear>εκόσμη<supplied reason="lost" instant="false">σ<hi rend="supraline">ε</hi><ex instant="false">ν</ex></supplied></expan>
+<lb n="7"/><gap reason="lost" quantity="19" unit="line" instant="false"/>
+</ab></div>
+
+<div n="v" type="textpart" corresp="#FR9063" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="illegible" quantity="6" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="2"/>πλάκας <hi rend="diaeresis">ὑ</hi><supplied reason="lost" instant="false">ποτίθησι τῇ δύναμει τοῦ τὸν νό</supplied>
+<lb n="3" break="no"/><unclear instant="false">μ</unclear>ον <unclear instant="false">αὐ</unclear>τ<supplied reason="lost" instant="false">αῖς ἐγχαράσσοντος. Καὶ οὕτως ἀ</supplied>
+<lb n="4" break="no"/>νακαλεῖτα<supplied reason="lost" instant="false">ι τὴν χάριν, φέρων ἐν ταῖς</supplied> 
+<lb n="5"/>αληθ<unclear instant="false">υ</unclear> <gap reason="illegible" quantity="5" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="6"/><unclear instant="false">τοῦ</unclear> <hi rend="supraline"><expan instant="false"><unclear instant="false">Θ</unclear><ex instant="false">εο</ex><unclear instant="false">ῦ</unclear></expan></hi> <gap reason="illegible" quantity="4" unit="character" instant="false"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div> 
+</div>
+
+<div n="1" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR9064" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="5" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">σ</supplied><unclear instant="false">υ</unclear>γκριν<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>την<gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ν</unclear>εξαρ<unclear instant="false">κ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="editorial"><lem>νοσ<add place="above" instant="false" status="unremarkable">σ</add>οτι</lem><rdg resp="PN M. Moser (cf. image at Berlpap)">νοσοτι</rdg></app><gap reason="lost" extent="unknown" unit="character" instant="false"/> 
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>τικαι<unclear instant="false">τ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><hi rend="acute">α</hi>τω<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+
+<div n="v" type="textpart" corresp="#FR9065" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="5" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ωνεξ<unclear instant="false">ω</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">τη</unclear>α<unclear instant="false">ν</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">μ</unclear>εθα<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ιαιο<unclear instant="false">υ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ψ<unclear instant="false">α</unclear>ν<unclear instant="false">τ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>αι<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div> 
+</div>
+
+<div n="2" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR9066" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ρεισυπ</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ματι· κ<unclear instant="false">α</unclear><supplied reason="lost" instant="false">ὶ</supplied>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>η περὶ τοῦ
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">εὐαγ</supplied><unclear instant="false">γ</unclear>ε<unclear instant="false">λ</unclear>ί<unclear instant="false">ου</unclear> <gap reason="illegible" quantity="4" unit="character" instant="false"/>υ
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/> <hi rend="supraline"><expan instant="false"><hi rend="diaeresis">Ἰ</hi>ω<ex instant="false">άννης</ex></expan></hi> <gap reason="illegible" quantity="3" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="6" unit="character" instant="false"/><unclear instant="false">ντοσ</unclear>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">δ</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">σουσ</unclear>απ<unclear instant="false">α</unclear>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ιγε</unclear>νομε
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+
+<div n="v" type="textpart" corresp="#FR9067" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="illegible" quantity="5" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><supplied reason="lost" instant="false">ἐ</supplied>κείνῳ <gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><unclear instant="false">π</unclear>ειν<unclear instant="false">α</unclear>φρ<unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/>τοα <g type="middot"/> <unclear instant="false">ιπ</unclear><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/>ψυχὴν <gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/>του<gap reason="illegible" quantity="4" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><hi rend="acute">ἵ</hi>να τ<unclear instant="false">αυ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/>ἐκείνω<unclear instant="false">ν</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><unclear instant="false">γρ</unclear>α<gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div> 
+</div>
+
+<div n="3" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR9068" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ι</unclear> ἐν ταραχαῖς <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+
+<div n="v" type="textpart" corresp="#FR9069" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><add place="above" instant="false" status="unremarkable">τ</add><unclear instant="false">οπ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/>θε<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="paragraphos" unit="undefined"/>
+</ab></div> 
+</div>
+
+<div n="4" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR9070" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="illegible" extent="unknown" unit="character" instant="false"><desc>vestiges</desc></gap><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="illegible" extent="unknown" unit="character" instant="false"><desc>vestiges</desc></gap><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="6"/><add place="left" instant="false" status="unremarkable"><gap reason="lost" quantity="3" unit="character" instant="false"/>β<unclear instant="false">ύ</unclear>θιον</add> <gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+
+<div n="v" type="textpart" corresp="#FR9071" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>η
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="4" unit="character" precision="low" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="7" unit="character" precision="low" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="8" unit="character" precision="low" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="6" unit="character" precision="low" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="4" unit="character" precision="low" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" precision="low" instant="false"/>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div> 
+</div>
+
+<div n="5" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR9072" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="6" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">τ</unclear>ι ἐπισκλ<supplied reason="lost" instant="false">ηρυν-</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">μ</unclear>ένε<unclear instant="false">ι</unclear>τ<unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+
+<div n="v" type="textpart" corresp="#FR9073" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">κ</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>σκλ<unclear instant="false">η</unclear><supplied reason="lost" instant="false">ρ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ισ</unclear>α<unclear instant="false">νχ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div> 
+</div>
+</div>         
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/01624/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

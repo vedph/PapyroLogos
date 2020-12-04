@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m154378" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 8</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">154378</idno>
+            <idno type="TM">154378</idno>
+            <idno type="LDAB">154378</idno>
+            <idno type="filename">154378</idno>
+            <idno type="dclp-hybrid">bkt;10;8</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 13891</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                        <foliation>
+                           <dim type="pagination">14</dim>
+                        </foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="30">
+                           <p part="N">papyrus codex (1 fol.) (columns: 1, written lines: [30], pagination: 14)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0450" notAfter="0499" instant="false">450 - 499</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8131" xml:id="GR8131.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_13891_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8132" xml:id="GR8132.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_13891_V.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>wisdom</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Isocrates; Ad Demonicum 27.8-28.4; 29.7-30.5</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-09-28" who="T. Heindel" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Tina Heindel and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR8131" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>π<unclear instant="false">αρ</unclear>απλήσιον γ<unclear instant="false">ὰ</unclear>ρ οἱ το<unclear instant="false">ιοῦτ</unclear>ο<unclear instant="false">ι</unclear>
+<lb n="2"/>π<unclear instant="false">ά</unclear>σχ<unclear instant="false">ο</unclear>υσ<unclear instant="false">ι</unclear>ν <unclear instant="false">ὥ</unclear>σπ<unclear instant="false">ε</unclear>ρ ἂν εἴ τ<unclear instant="false">ι</unclear>ς
+<lb n="3"/><supplied reason="lost" instant="false">ἵπ</supplied>π<supplied reason="lost" instant="false">ον καλὸ</supplied><unclear instant="false">ν</unclear> <unclear instant="false">κ</unclear>τήσαιτο <unclear instant="false">καὶ</unclear>
+<lb n="4"/><supplied reason="lost" instant="false">κακῶς ἱππεύ</supplied><unclear instant="false">ει</unclear>ν <unclear instant="false">ἐπισ</unclear>τά
+<lb n="5" break="no"/><supplied reason="lost" instant="false">μενος. πειρῶ τὸ</supplied><unclear instant="false">ν</unclear> πλο<unclear instant="false">ῦ</unclear>το<unclear instant="false">ν</unclear>
+<lb n="6"/><supplied reason="lost" instant="false">χρήματα καὶ κτή</supplied>ματα
+<lb n="7"/><supplied reason="lost" instant="false">κατασκευάζειν· ἔσ</supplied><unclear instant="false">τιν</unclear> δὲ χ<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">ή</supplied>
+<lb n="8" break="no"/><supplied reason="lost" instant="false">ματα μὲν τοῖς</supplied> <unclear instant="false">ἀ</unclear>πολ<unclear instant="false">αύειν</unclear>
+<lb n="9"/><supplied reason="lost" instant="false">ἐπισταμένοις, κτή</supplied><unclear instant="false">ματα</unclear> <unclear instant="false">δὲ</unclear>
+<lb n="10"/><supplied reason="lost" instant="false">τοῖς κτᾶσθαι</supplied> <unclear instant="false">δυναμένοις</unclear>.
+<lb n="11"/><supplied reason="lost" instant="false">τίμα τὴν ὑπά</supplied><unclear instant="false">ρχουσαν</unclear> <unclear instant="false">ο</unclear>ὐσί
+<lb n="12" break="no"/><supplied reason="lost" instant="false">αν</supplied><gap reason="illegible" quantity="4" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+<div n="2" subtype="column" type="textpart" corresp="#FR8132" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>βλάπτοντας ἀδικοῦσιν. <del rend="erasure" instant="false" status="unremarkable">μει</del>
+<lb n="2"/>μείσει τοὺς κολακεύοντας
+<lb n="3"/>ὥσπε<unclear instant="false">ρ</unclear> <unclear instant="false">τ</unclear>οὺς <unclear instant="false">ἐ</unclear>ξ<supplied reason="lost" instant="false">απ</supplied>ατ<unclear instant="false">ῶν</unclear><supplied reason="lost" instant="false">τας</supplied>·
+<lb n="4"/>ἀ<unclear instant="false">μ</unclear>φότεροι γ<unclear instant="false">ὰ</unclear><supplied reason="lost" instant="false">ρ πιστευθέν</supplied>
+<lb n="5" break="no"/>τ<unclear instant="false">ε</unclear>ς <unclear instant="false">τοὺς</unclear> <unclear instant="false">πισ</unclear><supplied reason="lost" instant="false">τεύοντας ἀδι</supplied>
+<lb n="6" break="no"/><unclear instant="false">κο</unclear>ῦσιν. <unclear instant="false">ἐ</unclear><supplied reason="lost" instant="false">ὰν ἀποδέχηι</supplied>
+<lb n="7"/>τῶν φί<unclear instant="false">λ</unclear><supplied reason="lost" instant="false">ων τοὺς πρὸς τὸ φαυ</supplied>
+<lb n="8" break="no"/>λώτατον χ<supplied reason="lost" instant="false">αριζομένους, οὐχ</supplied>
+<lb n="9"/>ἕξεις ἐν <supplied reason="lost" instant="false">τῶι βίωι τοὺς πρὸς</supplied>
+<lb n="10"/><unclear instant="false">τὸ</unclear> <unclear instant="false">β</unclear>έλτισ<supplied reason="lost" instant="false">τον ἀπεχθανο</supplied>
+<lb n="11" break="no"/>μένους. γ<supplied reason="lost" instant="false">ίγνου πρὸς τοὺς πλη</supplied>
+<lb n="12" break="no"/>σιάζοντα<supplied reason="lost" instant="false">ς ὁμιλητικός, ἀλλὰ</supplied>
+<lb n="13"/><unclear instant="false">μ</unclear>ὴ ὑπε<supplied reason="lost" instant="false">ροπτικός.</supplied>
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">8</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0010">Isocrates</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/825">Ad Demonicum</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 10, pl.9-10</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/06210/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

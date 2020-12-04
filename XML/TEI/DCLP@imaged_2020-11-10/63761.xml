@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63761" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 9 26</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63761</idno>
+            <idno type="TM">63761</idno>
+            <idno type="LDAB">4974</idno>
+            <idno type="filename">63761</idno>
+            <idno type="dclp-hybrid">bkt;9;26</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 21126</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="fragment">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus fragment (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>documentary hand</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Arsinoites (Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0299" instant="false">100 - 299</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8876" xml:id="GR8876.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_21126_V_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose (?)</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">prose</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2017-10-11" who="M.Ch. Camilleri" status="draft">Entered Greek text from reference edition</change>
+         <change when="2017-10-11" who="E. Chetta" status="draft">Entered Greek text from reference edition</change>
+         <change when="2017-12-01" who="V. Damiani" status="draft">Revised Greek text</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+          <p part="N">This papyrus has been digitally edited by Maria Chiara Camilleri and Eugenia Chetta and revised by Vincenzo Damiani as part of the Project Anagnosis and the Würzburger Zentrum für Epikureismusforschung</p>
+          </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR8876" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/>ε<unclear instant="false">ι</unclear>  μὲν μα<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/>τ<gap reason="illegible" quantity="2" unit="character" instant="false"/> ἀνθρ<unclear instant="false">ω</unclear><supplied reason="lost" instant="false">π</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/>δε πάντες <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/>π<unclear instant="false">ασ</unclear>α πολ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/>εξ<gap reason="illegible" quantity="3" unit="character" instant="false"/>αζο<unclear instant="false">ν</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/>οντες  ο<unclear instant="false">υ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/>τα <unclear instant="false">λ</unclear>αβοντ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><unclear instant="false">π</unclear>ο<unclear instant="false">λλα</unclear>ῖς ζ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><unclear instant="false">πν</unclear>ευμα<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/>τους βο<unclear instant="false">υ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="11"/>πρ<unclear instant="false">ώ</unclear>της <gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><unclear instant="false">ν</unclear>αρι<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div> 
+</div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/14433"/>
+                  <biblScope unit="number">26</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">9</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 9, pl.12</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/04336/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m67838" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Oxy. 67 4578</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">67838</idno>
+            <idno type="TM">67838</idno>
+            <idno type="LDAB">9109</idno>
+            <idno type="filename">67838</idno>
+            <idno type="dclp-hybrid">p.oxy;67;4578</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno>
+                     <idno type="invNo">Oxford, Sackler Library, Papyrology Rooms 21 3B 28/H(1-3)b</idno>
+                     <idno type="invNo">Oxford, Sackler Library, Papyrology Rooms 21 3B 28/K(1-3)a</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>severe style</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Oxyrhynchos (Oxyrhynchites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0299" instant="false">100 - 299</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2722" instant="false" full="yes">Oxyrhynchites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/1524" instant="false" full="yes">Oxyrhynchos</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR13296" xml:id="GR13296.01" from="1998" to="2015">
+                           <graphic url="http://www.csad.ox.ac.uk/POxy/papyri/vol67/300dpi/4578_300.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>oratory</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Demosthenes; De falsa legatione 237, 240, 306-307</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="i" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" quantity="20" unit="character" precision="low" instant="false"/><unclear instant="false">κ</unclear>ας
+<lb n="2"/><supplied reason="lost" instant="false">γράφοντα καὶ τὰ τύμπα</supplied>να,<g type="mese-stigme"/> τού
+<lb n="3" break="no"/><supplied reason="lost" instant="false">τους δ’ ὑπογραμμ</supplied><unclear instant="false">ατ</unclear>έας καὶ
+<lb n="4"/><supplied reason="lost" instant="false">τοὺς τυχόντας ἀν</supplied><unclear instant="false">θρ</unclear>ώ<unclear instant="false">π</unclear>ους<g type="mese-stigme"/> – κ<unclear instant="false">α</unclear><supplied reason="lost" instant="false">ὶ</supplied>
+<lb n="5"/><supplied reason="lost" instant="false">οὐδεμιᾶς κακίας</supplied> ταῦτα,<g type="mese-stigme"/> ἀλ<supplied reason="lost" instant="false">λ’</supplied>
+<lb n="6"/><supplied reason="lost" instant="false">οὐ στρατηγίας γ’</supplied> ἄξια<g type="mese-stigme"/> – πρεσ<unclear instant="false">βε</unclear><supplied reason="lost" instant="false">ι</supplied>
+<lb n="7" break="no"/><supplied reason="lost" instant="false">ῶν, στρατηγιῶ</supplied><unclear instant="false">ν</unclear>, <unclear instant="false">τῶν</unclear> με<unclear instant="false">γισ</unclear>
+</ab>
+</div>
+<div n="ii" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/>σχω<unclear instant="false">μ</unclear><supplied reason="lost" instant="false">αι τοῦ πολλὰ καὶ δεινὰ</supplied>
+<lb n="2"/>πεπ<supplied reason="lost" instant="false">ρεσβεῦσθαί σοι ἢ σὲ κατὰ</supplied>
+<lb n="3"/>σεαυτ<supplied reason="lost" instant="false">οῦ; ὃς γὰρ ὠιήθης χρῆναι</supplied>
+<lb n="4"/>τὸν φ<supplied reason="lost" instant="false">ανερόν τι ποιῆσαι βουλη</supplied>
+</ab>
+</div>
+</div>
+<div n="2" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" quantity="8" unit="character" precision="low" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><supplied reason="lost" instant="false">α</supplied><unclear instant="false">ν</unclear> <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">α</supplied>ῦτ’ ἔχ<supplied reason="lost" instant="false">ων ἀπέρχεται, δει</supplied>
+<lb n="3" break="no"/><supplied reason="lost" instant="false">νὸ</supplied>ν αὐτῷ <supplied reason="lost" instant="false">τι δόξαι καὶ δακρῦ</supplied>
+<lb n="4" break="no"/><supplied reason="lost" instant="false">σ</supplied><unclear instant="false">α</unclear>ι καὶ ὀδύ<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">ασθαι τὴν Ἑλλάδα,</supplied>
+<lb n="5"/>ὡς κακῶς <supplied reason="lost" instant="false">διάκειται, ἣ τοιαῦ</supplied>
+<lb n="6" break="no"/>τα πάθη π<supplied reason="lost" instant="false">εριορᾷ γιγνόμε</supplied>
+<lb n="7" break="no"/>να.<g type="mese-stigme"/> καὶ συν<supplied reason="lost" instant="false">εβούλευεν ὑμῖν</supplied>
+<lb n="8"/>πέ<unclear instant="false">μ</unclear><supplied reason="lost" instant="false">πειν τινὰς εἰς Ἀρκαδίαν,</supplied>
+<lb n="9"/>οἵτινες κα<supplied reason="lost" instant="false">τηγορήσουσι τῶν τὰ</supplied>
+<lb n="10"/>Φιλίπ<unclear instant="false">π</unclear>ου <unclear instant="false">π</unclear><supplied reason="lost" instant="false">ραττόντων· ἀκού</supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="11" break="no"/>ειν γὰρ ἔφη <unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ῶν φίλων, ὡς ἐὰν</supplied>
+<lb n="12"/>ἐπιστροφὴ<supplied reason="lost" instant="false">ν ἡ πόλις ποιήση</supplied>
+<lb n="13" break="no"/>ται καὶ π<unclear instant="false">ρέ</unclear>σ<supplied reason="lost" instant="false">βεις πέμψῃ, δί</supplied>
+<lb n="14" break="no"/><supplied reason="lost" instant="false">κ</supplied><unclear instant="false">ην</unclear> ἐκεῖνο<supplied reason="lost" instant="false">ι δώσουσι. ταῦτα</supplied>
+<lb n="15"/>μ<unclear instant="false">ὲν</unclear> τοίνυν τ<unclear instant="false">ό</unclear><supplied reason="lost" instant="false">τε καὶ μάλ’, ὦ</supplied>
+<lb n="16"/>ἄνδρ<supplied reason="lost" instant="false">ες</supplied> <unclear instant="false">Ἀθ</unclear>ηνα<supplied reason="lost" instant="false">ῖοι, καλὰ καὶ τῆ<add place="above" instant="false" status="unremarkable">ς</add></supplied> <subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable"><supplied reason="lost" instant="false">πό</supplied>
+<lb n="17" break="no"/><supplied reason="lost" instant="false">λ</supplied><unclear instant="false">ε</unclear><add place="above" instant="false" status="unremarkable">ως</add></add><del rend="corrected" instant="false" status="unremarkable"><supplied reason="lost" instant="false">πό</supplied><lb n="17" break="no"/><supplied reason="lost" instant="false">λ</supplied><unclear instant="false">ει</unclear></del></subst> ἄξ<supplied reason="lost" instant="false">ι’ ἐδημηγόρει. ἐπειδὴ</supplied>
+<lb n="18"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="18"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/16373"/>
+                  <biblScope unit="number">4578</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Oxy.</title>
+                  <biblScope unit="volume">67</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0014">Demosthenes</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/704">De falsa legatione</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://163.1.169.40/gsdl/collect/POxy/index/assoc/HASH0192/80308239.dir/POxy.v0067.n4578.a.01.hires.jpg"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

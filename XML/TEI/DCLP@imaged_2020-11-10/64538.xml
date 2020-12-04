@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m64538" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 10 30</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">64538</idno>
+            <idno type="TM">64538</idno>
+            <idno type="LDAB">5766</idno>
+            <idno type="filename">64538</idno>
+            <idno type="dclp-hybrid">bkt;10;30</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 21295</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>parchment</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="19">
+                           <p part="N">parchment codex (columns: 1, written lines: [19+], pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>early minuscule</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Hermopolis (Hermopolites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0350" notAfter="0449" instant="false">350 - 449</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720" instant="false" full="yes">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/816" instant="false" full="yes">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8569" xml:id="GR8569.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_11324_S1_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8568" xml:id="GR8568.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_11324_S2_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8574" xml:id="GR8574.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_21295_S1_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR8575" xml:id="GR8575.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_21295_S2_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>law</term>
+               <term type="culture">science</term>
+               <term type="overview">Ulpianus?; De officio proconsulis</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-12-05" who="Ch. Sailer" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Christian Sailer and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR8568" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">pe</supplied>
+<lb n="1" break="no"/>cu<supplied reason="lost" instant="false">ni</supplied>am<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2" break="no"/>tuendis magistratu<unclear instant="false">m</unclear> <unclear instant="false">or</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/>in ordinem retineri <expan instant="false">q<ex instant="false">ua</ex>s<ex instant="false">i</ex></expan> repetundarum
+<lb n="4"/>damnatum, s<unclear instant="false">e</unclear>d<unclear instant="false">e</unclear> n<unclear instant="false">e</unclear><gap reason="lost" atLeast="2" atMost="3" unit="character" instant="false"/><unclear instant="false">io</unclear> de<gap reason="illegible" quantity="3" unit="character" instant="false"/>didi<unclear instant="false">t</unclear>`
+<lb n="5"/>hunc repetundarum.
+<lb n="6"/><gap reason="illegible" quantity="2" unit="character" instant="false"/> teneri nam ex illa parte qua tenentur
+<lb n="7"/>qui <supplied reason="lost" instant="false">pecuniam<certainty match=".." locus="name"/></supplied> in senatu<surplus instant="false">s</surplus> consilioue <expan instant="false">pub<ex instant="false">lico</ex></expan>
+<lb n="8"/><expan instant="false">s<ex instant="false">ententi</ex>am</expan> <supplied reason="lost" instant="false">ut<certainty match=".." locus="name"/></supplied> <unclear instant="false">dice</unclear>rent <expan instant="false">acceper<ex instant="false">int</ex></expan>; vereor ne ad <expan instant="false">c<ex cert="low" instant="false">on</ex></expan>
+<lb n="9"/>co<gap reason="lost" atLeast="5" atMost="8" unit="character" instant="false"/>au<gap reason="illegible" quantity="1" unit="character" instant="false"/> <expan instant="false"><unclear instant="false">p</unclear>o<supplied reason="lost" instant="false">p</supplied><ex instant="false">uli</ex></expan> Ro<supplied reason="lost" instant="false">m</supplied>ani refertu<gap reason="illegible" quantity="2" unit="character" instant="false"/>d
+<lb n="10"/><gap reason="lost" atLeast="0" atMost="1" unit="character" instant="false"/>tur aut` <unclear instant="false">c</unclear><supplied reason="lost" instant="false">u</supplied>m iudicando
+<lb n="11"/><gap reason="lost" atLeast="0" atMost="1" unit="character" instant="false"/><gap reason="illegible" quantity="5" unit="character" instant="false"/>o<gap reason="illegible" quantity="3" unit="character" instant="false"/> pec<supplied reason="lost" instant="false">uni</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/>duprentur qua<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">in</unclear>et` qu<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/>p<unclear instant="false">al</unclear>ium quem prohibitu<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/><gap reason="lost" atLeast="1" atMost="2" unit="character" instant="false"/><unclear instant="false">m</unclear> ist<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="v" type="textpart" corresp="#FR8569" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>oca<unclear instant="false">tur</unclear> ut`
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>si dixissent abs<unclear instant="false">tine</unclear> <unclear instant="false">te</unclear> m<unclear instant="false">ac</unclear> pe
+<lb n="3" break="no"/>titione quinquennio post <gap reason="lost" quantity="2" unit="character" instant="false"/> <unclear instant="false">por</unclear><gap reason="lost" atLeast="1" atMost="2" unit="character" instant="false"/><supplied reason="lost" instant="false">ab</supplied>
+<lb n="4"/><expan instant="false">imp<ex instant="false">eratore</ex></expan> <expan instant="false">n<ex instant="false">ostr</ex>o</expan> petere <expan instant="false">mag<ex instant="false">istratus</ex></expan> cui<gap reason="lost" atLeast="12" atMost="16" unit="character" instant="false"/>
+<lb n="5" break="no"/>tuit` ei spem honoris re<supplied reason="lost" instant="false">no</supplied><unclear instant="false">u</unclear>are non po
+<lb n="6" break="no"/>terit` ordinem. sunt` et <unclear instant="false">acta</unclear> iudicia pub
+<lb n="7" break="no"/>lica<surplus instant="false">·</surplus> <unclear instant="false">gr</unclear>auis <unclear instant="false">exsecut</unclear>i<unclear instant="false">o</unclear>nis <expan instant="false">p<ex instant="false">er</ex></expan> prouinc<unclear instant="false">i</unclear>
+<lb n="8" break="no"/>as ut in Arabica σκ<supplied reason="omitted" instant="false">ο</supplied><surplus instant="false"><add place="above" instant="false" status="unremarkable">`ω`</add></surplus><del rend="erasure" instant="false" status="unremarkable">ο</del><unclear instant="false">πελισμό</unclear>ς. Nam si
+<lb n="9"/>qui<unclear instant="false">s</unclear> posuerit` lapides ad pra<supplied reason="lost" instant="false">ed</supplied><unclear instant="false">i</unclear>um ali
+<lb n="10" break="no"/>cuius <gap reason="lost" quantity="3" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> <unclear instant="false">ur</unclear>ietur ne quis <unclear instant="false">c</unclear>um ac
+<lb n="11" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>siue res et metall<unclear instant="false">o</unclear> e<gap reason="illegible" quantity="1" unit="character" instant="false"/>`
+<lb n="12"/>ali<gap reason="illegible" quantity="1" unit="character" instant="false"/>o<gap reason="lost" extent="unknown" unit="character" instant="false"/>e<gap reason="illegible" quantity="1" unit="character" instant="false"/>na solet uindi<supplied reason="lost" instant="false">care<certainty match=".." locus="name"/></supplied><gap reason="lost" quantity="2" unit="character" instant="false"/>
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">p</supplied>raesidis <expan instant="false">morib<ex instant="false">us</ex></expan> an ig<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>incia cuius puri<gap reason="lost" atLeast="2" atMost="3" unit="character" instant="false"/>
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>s<gap reason="lost" atLeast="5" atMost="6" unit="character" instant="false"/>
+<lb n="16"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+</div>
+<div n="2" subtype="folio" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR8570" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>oncius ni<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>iqu<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>cuss<gap reason="lost" atLeast="3" atMost="4" unit="character" instant="false"/><unclear instant="false">c</unclear>u<gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/>m<unclear instant="false">o</unclear>s<gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/>dic<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/>et<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><unclear instant="false">h</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="v" type="textpart" corresp="#FR8571" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">ne</unclear> infamia <gap reason="illegible" quantity="2" unit="character" instant="false"/> <supplied reason="lost" instant="false">l</supplied>aborare; nam
+<lb n="2"/><gap reason="lost" atLeast="7" atMost="8" unit="character" instant="false"/> in quid iudici qui <unclear instant="false">f</unclear>o<gap reason="lost" atLeast="2" atMost="3" unit="character" instant="false"/><unclear instant="false">o</unclear>uus ad
+<lb n="3"/><gap reason="lost" quantity="3" unit="character" instant="false"/>recor <expan instant="false">n<ex instant="false">on</ex></expan> lice<supplied reason="lost" instant="false">t</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>mi<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ē<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>oū<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+</div>
+</div>
+<div n="2" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" corresp="#FR8572" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>um uel<gap reason="illegible" quantity="2" unit="character" instant="false"/> a<unclear instant="false">ut</unclear> <gap reason="lost" atLeast="0" atMost="1" unit="character" instant="false"/>ru
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>m<gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">n</unclear>a lab<supplied reason="lost" instant="false">o</supplied>rare hoc id<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" atLeast="2" atMost="3" unit="character" instant="false"/>od
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>aria no<unclear instant="false">b</unclear><gap reason="lost" atLeast="3" atMost="5" unit="character" instant="false"/> supra re<gap reason="lost" atLeast="2" atMost="3" unit="character" instant="false"/>oli
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>a<gap reason="illegible" quantity="1" unit="character" instant="false"/>spe<gap reason="illegible" quantity="2" unit="character" instant="false"/>te<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" atLeast="5" atMost="7" unit="character" instant="false"/>us <expan instant="false">s<ex instant="false">ententi</ex>am</expan> sua<unclear instant="false">m</unclear>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>t solummodo <expan instant="false">mag<ex instant="false">istratus</ex></expan>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="v" type="textpart" corresp="#FR8573" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="14" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="14" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">a</supplied>postolo; nam olim ka<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+</div>
+<div n="3" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="fleshside" type="textpart" corresp="#FR8574" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <unclear instant="false">li</unclear>b<unclear instant="false">r</unclear><supplied reason="lost" instant="false"><app type="alternative"><lem>o</lem><rdg>is</rdg></app></supplied> <unclear instant="false">m</unclear>embranarum et`<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <expan instant="false"><ex instant="false">contra</ex></expan> <expan instant="false">Iul<ex instant="false">iani</ex></expan> opinionem nititur· id<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+<div n="hairside" type="textpart" corresp="#FR8575" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="0"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ussit. quam <expan instant="false">s<ex instant="false">ententi</ex>am</expan> N<supplied reason="lost" instant="false">eratius</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>o lib<supplied reason="lost" instant="false">ro</supplied>
+<lb n="2"/><supplied reason="lost" instant="false">memb</supplied><unclear instant="false">r</unclear>anarum reprobat;` nec Ari<unclear instant="false">s</unclear><supplied reason="lost" instant="false">to<certainty match=".." locus="name"/></supplied>
+<lb n="3" break="no"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">re ait</unclear>` quia actio de <unclear instant="false">fi</unclear>a<gap reason="illegible" quantity="4" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab></div>
+</div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">10</biblScope>
+                  <biblScope unit="number">30</biblScope>
+                  <biblScope unit="page">(p. 249-265)</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author>Ulpianus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/1063">De officio proconsuli</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">CLA 08 1040</bibl>
+               <bibl type="printed" default="false" status="draft">BKT 9, pl.81</bibl>
+               <bibl type="printed" default="false" status="draft">JJP 38 (2008), p. 66</bibl>
+               <bibl type="printed" default="false" status="draft">BKT 10, pl. 37-39b</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://smb.museum/berlpap/index.php/04489/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -51,8 +51,8 @@ declare variable $corpusXML := concat($repository,'papyri.info/DCLP');
 declare variable $corpusXMLFiltered := concat($repository,"PapyroLogos/XML/TEI/DCLP@imaged");
 :)
 
-(:  declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP@imaged");   :) 
-declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP_test");
+declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP@imaged");    
+(:declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP_test"); :)
 
 
 (: Umstrukturierung der Transkriptionen wird by default in Variable $corpusTranscript gespeichert, 
@@ -379,10 +379,11 @@ return $textpart
 
 (:  Falls ($loadTranscriptFile := false()) kann hier die Variable $corpusTranscript als Datei ausgegeben werden
     Statements vor der Variablendeklaration entsprechend auskommentieren    :) 
-(:
 
+(:
 return 
 file:write(concat("file:///", $destinationAUX, 'corpusTranscript',".xml"), $corpusTranscript)
+
 :)
 
 let $metaTree :=
@@ -585,10 +586,11 @@ let $fileNameOutput := for $fileName in $tableImagedPapyri//FileName
 {
 (: $tmAlto(_$pos1)?(_$pos2)?__[$tail2(.+_$pos3_R.xml)?] :)
 let $tail1 := to:substring-after-match($fileName, '_')
-let $pos1 := to:chars($tail1)[1]
+let $pos1 := to:substring-before-match($tail1,'_')              (: to:chars($tail1)[1] unsinniger Ausdruck, auf mögliche bugs achten, falls SOnderfälle nur mit diesem Ausdruck funktioniert haben :)
 let $tail2 := to:substring-after-match($fileName, '__')
 let $body3 := to:substring-before-last-match($tail2, '_R') 
 let $pos3 := to:substring-after-last-match($body3, '_')
+let $info := $fileName//following-sibling::TextPart/text()
 return (
     <side>{
     if (matches($pos1,'[rv]'))
@@ -597,7 +599,11 @@ return (
             else 2
         else if (matches($tail2, '_\d_\d+'))
             then xs:integer(to:substring-before-match(to:substring-after-match($tail2, '_'), '_'))
-            else 1  
+            else if (matches($info, '(recto|verso)'))
+                then if (matches($info, 'recto'))
+                    then '1' 
+                    else '2'
+                else '0'
             
     }</side>,
     <noRom>{
@@ -622,7 +628,7 @@ return (
         then $pos3
     else '0'
     }</part>,
-    let $info := $fileName//following-sibling::TextPart/text()
+    
     let $subtype := if (matches($info, '(column|fragment|folio)')) 
         then normalize-space(string-join(distinct-values(to:get-matches($info, '(column|fragment|folio)'))))
         else 'undefined' 
@@ -720,20 +726,36 @@ let $matchEntry :=
                          let $type := '2.0' 
                          let $textparts := $cohesive//textpart[data(@n)=$metaName/n/text()] (:[xs:int($metaName/data(@n))]:)
                          return <match source='{$t/data(@n)}' name='{$name}' type='{$type}'><meta>{$cohesive//metaTEI,$metaName}</meta>{$textparts}</match>
-                         else   
-                         
-            if ($metaName/side/text() = $cohesive/metaTEI/side/text()  
-            and ($metaName/noRom/text() = $cohesive/metaTEI/noRom/text() or to:is-value-in-sequence($cohesive/metaTEI/noRom/text(), $metaName//n/text())  
-                or (xs:int($cohesive/metaTEI/noRom/text()) > xs:int($metaName//n/from/text()) and xs:int($cohesive/metaTEI/noRom/text()) < xs:int($metaName//n/to/text()))) 
+                  
+        (:    if ($metaName/subtype/text()!='undefined')
+                then 
+          :)    
+              
+            else if ($metaName/side/text() = $cohesive/metaTEI/side/text()        (: recto|verso :)
+            and ($metaName/noRom/text() = $cohesive/metaTEI/noRom/text() or to:is-value-in-sequence($cohesive//metaTEI/noRom/text(), $metaName//n//text())            
+                or (xs:int($cohesive/metaTEI/noRom/text()) > xs:int($metaName//n/from/text()) and xs:int($cohesive/metaTEI/noRom/text()) < xs:int($metaName//n/to/text())))     (: Kolumne|römische Nummerierung :)
             and $metaName/part/text() = $cohesive/metaTEI/part/text())  (: 1.0: default metaMatch :)
+            
             then let $name := $metaName/data(@source) 
                  let $type := '1.0' 
                  let $textparts := $cohesive//textpart
                  return <match source='{$t/data(@n)}' name='{$name}' type='{$type}'><meta>{$cohesive//metaTEI,$metaName}</meta>{$textparts}</match>
-             else let $name := $metaName/data(@source) 
-                  let $type := '1.0' 
+                 
+            else if ((($metaName/side/text() = $cohesive/metaTEI/side/text()) or ($metaName/side/text()=0 and $metaName/noRom/text()=$cohesive/metaTEI/side/text()))       (: recto|verso :)
+            and ($metaName/noRom/text() = $cohesive/metaTEI/noRom/text() or to:is-value-in-sequence($cohesive//metaTEI/noRom/text(), $metaName//n//text())            
+                or (xs:int($cohesive/metaTEI/noRom/text()) > xs:int($metaName//n/from/text()) and xs:int($cohesive/metaTEI/noRom/text()) < xs:int($metaName//n/to/text())))     (: Kolumne|römische Nummerierung :)
+            and $metaName/part/text() = $cohesive/metaTEI/part/text())  (: 1.1: extended metaMatch :)
+            
+            then let $name := $metaName/data(@source) 
+                 let $type := '1.1' 
+                 let $textparts := $cohesive//textpart
+                 return <match source='{$t/data(@n)}' name='{$name}' type='{$type}'><meta>{$cohesive//metaTEI,$metaName}</meta>{$textparts}</match>     
+                 
+                 
+             else  let $name := $metaName/data(@source) 
+                  let $type := 'X' 
                   (:let $textparts := $cohesive//textpart:)
-                  return <match source='{$t/data(@n)}' name='{$name}' type='x'></match>
+                  return <match source='{$t/data(@n)}' name='{$name}' type='{$type}'></match> 
             (:else ():)
 return $matchEntry
 }</matchTree>    
@@ -751,21 +773,26 @@ for $entryName in $entryNames order by xs:int(to:substring-before-match($entryNa
 )
 }</matchTreeSort>
  
-  
+
+(:  Ausgabe von matchTreeSort, um Zuordnung der Textparts anhand der MetaDaten zu überprüfen    :)
+
+return
+file:write(concat("file:///", $destinationAUX, 'transcriptTextpart/', 'matchTree', '.xml'), $match)
+
+
+(:
+
 (: Iteration um Output zu erzeugen :)
 
 for $match in $matchSort//match where not($match/data(@type)='_')
 
 let $fileName := $match/data(@name)
 
+(: Sammlung der Zeilen aus den beiden Transkriptionsformen :)
+(: Zeilen, die ausschließlich "gap" beinhalten, werden ausgeschlossen. Bzw. nur wenn (auch) token/unknown/supplied vorhanden ist, wird sie verarbeitet. :)
 let $Normalised := <norm>{<textpart>{for $textpartN in $match//text[data(@editionType)='normalized']//line[child::token or child::unclear or child::supplied] return $textpartN}</textpart>}</norm>     
 let $Diplomatic := <dipl>{<textpart>{for $textpartD in $match//text[data(@editionType)='diplomatic']//line[child::token or child::unclear or child::supplied] return $textpartD}</textpart>}</dipl>
 
-
-(:
-for $singleTM in $tableImagedPapyri//FileName[$posTM] return 
-    distinct-values(for $singleFile in $singleTM return to:substring-before-match($singleTM/text(),'\.')))
-:)
 
 (: für Parameter der Insert-Funktion benötigt :)
 let $startValue := 0
@@ -777,12 +804,6 @@ let $transcriptionIII := 3
 let $transcriptionIV := 4
 
 let $outputVersions := ('D1','D2','D3','D4','N1','N2','N3','N4')
-
-(:
-return
-file:write(concat("file:///", $repository, $destinationAlto, $fileNameOutput, '_normTransII_3.5.xml'), lo:transcription-format($Normalised, $transcriptionII))
-
-:)
 
 let $raw := (lo:transcription-format($Diplomatic, $transcriptionI),
             lo:transcription-format($Diplomatic, $transcriptionII),
@@ -942,5 +963,4 @@ file:write(concat("file:///", $repository, $destinationAlto, $fileNameOutput, '(
 :)
 else ()
  
- 
-
+:)

@@ -1,0 +1,32 @@
+{
+
+"head": {   
+    "tm": "64976",
+    "side": "1",
+    "noRom": "0",
+    "part": "0",
+    "graphicName": "P_21175_R_001.jpg",
+    "textparts": "1",
+    "lines": "10",
+    "version": "D1"
+    },
+
+"body": [
+    {
+    "textpart": [{
+        "n": "r",
+        "subtype": "N/A",
+        "textpartLines": "10",
+        "text": [
+            "", 
+            "", 
+            "ΟΥΚ", 
+            "ΟΙ Π", 
+            "ΟΥΛΑ", 
+            "ΟΥΘΥ", 
+            "ΟΥΣΕΛ", 
+            "ΟΥΖΟ", 
+            "ΟΥΚΛΑ", 
+            "ΟΥΕΜ"]}]
+    }]
+}

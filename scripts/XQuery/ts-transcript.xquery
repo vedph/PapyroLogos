@@ -160,6 +160,7 @@ if ($node instance of text() and not(xs:string($node)=''))
             return <supplied>
                     <quantity>{$quant}</quantity>
                     <unit>character</unit> 
+                    <reason>{$node/data(@reason)}</reason>
                    </supplied>  
     else if (name($node)="gap" or name($node)="space")
         then 
@@ -170,7 +171,8 @@ if ($node instance of text() and not(xs:string($node)=''))
             return 
                 element {$node/name()}{
                     <quantity>{$quant}</quantity>,
-                    <unit>{$unit}</unit>
+                    <unit>{$unit}</unit>,
+                    <reason>{if (exists($node/data(@reason))) then $node/data(@reason) else 'N/A'}</reason>
                    }
     else if (exists($node//text())) 
         then for $child in $node/child::node() return ts:handle-markup($child, $restructured) else ()   
@@ -271,7 +273,7 @@ string-join(
     then ('"',$element,'"','}')
     else if (to:is-value-in-sequence($element/name(), $gap))       
         then             
-        ('{ "quantity": "',$element/quantity,'","unit": "',$element//unit,'"}}')
+        ('{ "quantity": "',$element/quantity,'","unit": "',$element//unit,'"',(:if ($element/reason) then:) ('"unit": "',$element/reason,'"}}')(: else '}}':))
         else if ($element/name() = "add")
             then ('[',
             for $child at $posC in $element/node() 

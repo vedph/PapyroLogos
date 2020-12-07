@@ -1,0 +1,27 @@
+{
+
+"head": {   
+    "tm": "62931",
+    "side": "1",
+    "noRom": "1",
+    "part": "0",
+    "graphicName": "P_09875-Kol-I_R.jpg",
+    "textparts": "1",
+    "lines": "5",
+    "version": "N2"
+    },
+
+"body": [
+    {
+    "textpart": [{
+        "n": "6",
+        "subtype": "fragment",
+        "textpartLines": "5",
+        "text": [
+            "_", 
+            "α_αξει", 
+            "", 
+            "_ _", 
+            ""]}]
+    }]
+}

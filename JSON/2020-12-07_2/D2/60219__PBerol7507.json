@@ -1,0 +1,27 @@
+{
+
+"head": {   
+    "tm": "60219",
+    "side": "1",
+    "noRom": "0",
+    "part": "0",
+    "graphicName": "P_07507_R.jpg",
+    "textparts": "1",
+    "lines": "5",
+    "version": "D2"
+    },
+
+"body": [
+    {
+    "textpart": [{
+        "n": "1",
+        "subtype": "fragment",
+        "textpartLines": "5",
+        "text": [
+            "ΝΤΙΦΟΝΕΞΕΝΑΡ", 
+            "ΝΚΑΙΓΝΗΣΙΟΝ_", 
+            "_ΘΟΣΗΝΙΟ", 
+            "_Κ ΟΣΩΠ", 
+            "Υ Ο _"]}]
+    }]
+}

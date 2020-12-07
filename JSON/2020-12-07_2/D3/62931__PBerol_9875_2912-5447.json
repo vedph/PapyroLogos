@@ -1,0 +1,33 @@
+{
+
+"head": {   
+    "tm": "62931",
+    "side": "1",
+    "noRom": "1",
+    "part": "0",
+    "graphicName": "P_09875-Kol-I_R.jpg",
+    "textparts": "1",
+    "lines": "11",
+    "version": "D3"
+    },
+
+"body": [
+    {
+    "textpart": [{
+        "n": "3",
+        "subtype": "fragment",
+        "textpartLines": "11",
+        "text": [
+            "Σ", 
+            "̣ΔΕ", 
+            "ΟΙΧ", 
+            "", 
+            "̣ΗΙ", 
+            "ΙΣΙ", 
+            "ΣΟΥ", 
+            "̣ΛΝ", 
+            "̣ΥΑΝΑΚ", 
+            "ΕΠΙΠ̣Α", 
+            "ΠΟΡΟ"]}]
+    }]
+}

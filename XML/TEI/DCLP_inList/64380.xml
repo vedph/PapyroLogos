@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m64380" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>P. Turner. 9</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">64380</idno>
+            <idno type="TM">64380</idno>
+            <idno type="LDAB">5602</idno>
+            <idno type="filename">64380</idno>
+            <idno type="dclp-hybrid">p.turner;;9</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 21247</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="sheet">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus sheet (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Hermopolis (Hermopolites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0300" notAfter="0349" instant="false">300 - 349</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720" instant="false" full="yes">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/816" instant="false" full="yes">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR9033" xml:id="GR9033.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_21247_R_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR9034" xml:id="GR9034.01" from="2010" to="2015">
+                           <graphic url="http://berlpap.smb.museum/Original/P_21247_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>list of books</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">catalogue of prose books</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2019-02-14" who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="1" subtype="fragment" type="textpart" corresp="#FR9033" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="4" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><g type="slanting-stroke"/><g type="slanting-stroke"/> <app type="editorial"><lem><unclear instant="false">Ἀρ</unclear><supplied reason="lost" instant="false">χι</supplied>λόχει<supplied reason="lost" instant="false">ον</supplied></lem><rdg resp="Otranto 2000"><supplied reason="lost" instant="false">Ἀ</supplied><unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">χι</supplied>λόχει<supplied reason="lost" instant="false">ον</supplied></rdg></app> <supplied reason="lost" instant="false">ὑπόμνημα</supplied>
+<lb n="3"/><g type="slanting-stroke"/><g type="slanting-stroke"/> <app type="editorial"><lem>Καλλιμάχου Κ<supplied reason="lost" cert="low" instant="false">τίσεις </supplied></lem><rdg resp="Otranto 2000">Καλλιμ<supplied reason="omitted" instant="false">ά</supplied>χου <unclear instant="false">ὑ</unclear><supplied reason="lost" instant="false">πόμνημα</supplied></rdg></app>
+<lb n="4"/><app type="editorial"><lem>Αἰσχίνειον <gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="Otranto 2000">Αἰ<supplied reason="lost" instant="false">σ</supplied>χίνειον <supplied reason="lost" instant="false">ὑπόμνημα</supplied></rdg></app>
+<lb n="5"/><g type="slanting-stroke"/><g type="slanting-stroke"/> <app type="editorial"><lem>Δημοσθε<unclear instant="false">ν</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">π</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="Otranto 2000">Δημοσθ<unclear instant="false">ε</unclear>ν<supplied reason="lost" instant="false">ικὸν ὑ</supplied>π<supplied reason="lost" instant="false">όμνημα</supplied></rdg></app>
+<lb n="6"/><g type="slanting-stroke"/><g type="slanting-stroke"/> Ὁμηρικὸ<unclear instant="false">ν</unclear> <supplied reason="lost" instant="false">εἰ</supplied><unclear instant="false">ς</unclear> <hi rend="diaeresis">Ἰ</hi>λι<unclear instant="false">άδ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><g type="slanting-stroke"/><g type="slanting-stroke"/> <app type="editorial"><lem>Δ<supplied reason="lost" instant="false">η</supplied>μοσθεν<unclear instant="false">ι</unclear><supplied reason="lost" instant="false">κὸν</supplied></lem><rdg resp="ed. pr. 1981; Otranto 2000">Δημοσθεν<unclear instant="false">ι</unclear><supplied reason="lost" instant="false">κὸν</supplied></rdg></app> <hi rend="diaeresis">ἰ</hi>διω<supplied reason="lost" instant="false">τικῶν λόγων ὑπόμνημα</supplied>
+<lb n="8"/><g type="slanting-stroke"/><g type="slanting-stroke"/> <unclear instant="false">Κα</unclear><supplied reason="lost" instant="false">λ</supplied><unclear instant="false">λ</unclear>ινίκου <gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><g type="slanting-stroke"/><g type="slanting-stroke"/> Δη<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><g type="slanting-stroke"/><g type="slanting-stroke"/> Ρ<unclear instant="false">ου</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="11"/><g type="slanting-stroke"/><g type="slanting-stroke"/> Πα<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">κ</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><g type="slanting-stroke"/><g type="slanting-stroke"/> Ἡ<supplied reason="lost" instant="false">ρ</supplied>οδότου<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/><g type="slanting-stroke"/><g type="slanting-stroke"/> <app type="editorial"><lem>τ<unclear instant="false">έ</unclear><supplied reason="lost" instant="false">χ</supplied>νης <gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="Otranto 2000">τ<supplied reason="lost" instant="false">έχ</supplied>νης <unclear instant="false">μ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="14"/><g type="slanting-stroke"/><g type="slanting-stroke"/> Ξενοφῶντος <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/><g type="slanting-stroke"/><g type="slanting-stroke"/> Ἀριστοτέλους Ἀθ<unclear instant="false">ην</unclear>αίω<supplied reason="lost" instant="false">ν πολιτεία</supplied>
+<lb n="16"/><supplied reason="lost" instant="false">Θ</supplied>ουκυδίδου <hi rend="diaeresis">ἱ</hi>σ<unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ο</supplied><unclear instant="false">ρ</unclear>ιῶ<supplied reason="lost" instant="false">ν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="17"/><supplied reason="lost" instant="false">Ξε</supplied>νοφῶντος <app type="editorial"><lem><supplied reason="lost" instant="false">π</supplied><unclear instant="false">α</unclear>ιδε<supplied reason="lost" instant="false">ία</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg resp="Otranto 2000"><supplied reason="lost" instant="false">Παιδ</supplied>εία</rdg></app>
+<lb n="18"/><supplied reason="lost" instant="false">Κ</supplied>αλλινίκου <unclear instant="false">διά</unclear>φορ<unclear instant="false">ο</unclear><supplied reason="lost" cert="low" instant="false">ι λόγοι </supplied>
+<lb n="19"/><gap reason="lost" quantity="3" unit="character" instant="false"/>λου της <gap reason="lost" quantity="1" unit="character" instant="false"/><app type="alternative"><lem>ε<unclear instant="false">τ</unclear>ιδος</lem><rdg>ε<unclear instant="false">γ</unclear>ιδος</rdg><rdg>ε<unclear instant="false">λ</unclear>ιδος</rdg></app><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+<div n="2" subtype="fragment" type="textpart" corresp="#FR9034" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ε</unclear>νδερ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="editorial"><lem><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">λ</unclear>ιν</lem><rdg resp="ed. pr. 1981; Otranto 2000"><unclear instant="false">βλ</unclear>ιν</rdg></app><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><handShift new="m2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">Δη</supplied><unclear instant="false">μ</unclear>οσθ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div></div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/9754"/>
+                  <biblScope unit="number">9</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">P. Turner</title>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"/>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">P.Turner pl.V</bibl>
+               <bibl type="printed" default="false" status="draft">BKT 9 pl.66</bibl>
+               <bibl type="printed" default="false" status="draft">R. Otranto, Antiche liste di libri, pl.XV</bibl>
+               <bibl type="printed" default="false" status="draft">CPR IV.2, pl.260</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://berlpap.smb.museum/04440"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

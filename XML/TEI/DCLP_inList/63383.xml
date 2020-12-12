@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63383" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 63383</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63383</idno>
+            <idno type="TM">63383</idno>
+            <idno type="LDAB">4590</idno>
+            <idno type="filename">63383</idno>
+            <idno type="dclp-hybrid">tm;;63383</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9765</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus roll (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0199" instant="false">100 - 199</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10972" xml:id="GR10972.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_09765_R_3_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>medicine</term>
+               <term type="culture">science</term>
+               <term type="overview">medical prescription</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Medical recipes. The papyrus fragment (10.5 x 15 cm) belongs to a roll copied on the recto along the fibers and contains two columns of text. Whether a further column originally followed Col. ii on the right-hand side is unclear. The first column is severely damaged along the left side, while the second one, apparently entirely preserved, contains two prescriptions separated by the paragraphos: the second recipe (ll. 3-15) is concerned with the preparation of beef tallow. The script is large and unprofessional and could be dated to the 2nd c. AD.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Francesca Corazza as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previou edition (K. Kalbfleisch - H. Schöne, BKT III, pp. 30-1)</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">α</unclear>νον
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>σ<unclear instant="false">χ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ν</unclear>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/>
+<lb n="5"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">χηρω</unclear>
+<lb n="8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">α</unclear> χρω
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>τικον
+<lb n="10"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ω</unclear>
+<lb n="11"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">τ</unclear>α<unclear instant="false">ς</unclear>
+<lb n="12"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">πα</supplied><unclear instant="false">ρ</unclear>άγειν
+<lb n="13"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>μον
+<lb n="14"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>φρ<unclear instant="false">ύ</unclear>ξας
+<lb n="15"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <space extent="unknown" unit="character"/>
+</ab></div>
+
+<div n="2" subtype="column" type="textpart" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>λέα<unclear instant="false">νο</unclear>ν μετὰ <supplied reason="lost" instant="false">μ</supplied>έλιτος
+<lb n="2"/>νῆστης χρῶ<gap reason="lost" quantity="1" unit="character" instant="false"/> σκεύασις
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="3"/>στέατος μοσχείου·
+<lb n="4"/>πρῶτον ἐξυμε<supplied reason="lost" instant="false">νί</supplied>σας λέαινε <add place="right" instant="false" status="unremarkable"><gap reason="illegible" extent="unknown" unit="character" instant="false"><desc>vestiges</desc></gap></add>
+<lb n="5"/>ὕδω<unclear instant="false">ρ</unclear> <unclear instant="false">ἐ</unclear>πιχέων κ<add place="above" instant="false" status="unremarkable">αὶ</add> ὡς ἂν κα
+<lb n="6" break="no"/>θαρὸν <unclear instant="false">γ</unclear>ένετα<supplied reason="lost" instant="false">ι</supplied> ἐμβαλὼν <add place="right" instant="false" status="unremarkable"><gap reason="illegible" extent="unknown" unit="character" instant="false"><desc>vestiges</desc></gap></add>
+<lb n="7"/>εἰς λέ<unclear instant="false">β</unclear>ητα τῆ<unclear instant="false">κ</unclear>ε σὺν τῷ ἐ
+<lb n="8" break="no"/>πὶ τῆς <choice><reg instant="false">θυἲας</reg><orig>θύας</orig></choice> ὕδατι. τήξας 
+<lb n="9"/>εἰς ἠθμὸν <choice><reg instant="false">ἔγχεον</reg><orig>ἔχεον</orig></choice> ὑποθεὶς
+<lb n="10"/><unclear instant="false">λε</unclear>κ<unclear instant="false">άν</unclear>ην <unclear instant="false">ἐν</unclear> ᾗ ὕδωρ ψυχρόν,
+<lb n="11"/><unclear instant="false">κ</unclear>ἂμ μένῃ καθ<unclear instant="false">α</unclear>ρὸν ἢ π<unclear instant="false">λεηχ</unclear>
+<lb n="12"/>ἐμβα<unclear instant="false">λ</unclear>ὼν εἰς τὸν λέβητα <gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">σ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">ον</unclear>
+<lb n="13"/><unclear instant="false">τ</unclear>ῆκ<unclear instant="false">ε</unclear> <unclear instant="false">κ</unclear>αὶ πάλιν ὡσ<unclear instant="false">α</unclear>ύτ<unclear instant="false">ω</unclear>ς 
+<lb n="14"/>εἰς ἠθ<unclear instant="false">μ</unclear>ὸν ὑποθεὶς <unclear instant="false">ὡ</unclear>σαύτ<unclear instant="false">ως</unclear>
+<lb n="15"/>λεκά<unclear instant="false">νη</unclear>ν. <unclear instant="false"><g type="check"/></unclear>
+<lb n="16" xml:id="div1-div2-lb16"/><space extent="unknown" unit="character"/> ἔξω <space extent="unknown" unit="character"/>
+</ab></div></div>
+      </div>
+         <div type="commentary" subtype="linebyline" part="N" org="uniform" sample="complete">
+            <list>
+               <item corresp="#div1-div2-lb16" xml:space="preserve"><ref>16</ref> <p part="N"><emph rend="bold">ἔξω</emph> "outside" - It is probably a reference to a supplement on the <emph rend="italics">verso</emph>, though the edition does not report anything about the back (so <listBibl default="false"><bibl default="false" status="draft"><ref target="http://papyri.info/biblio/19701">McNamee 2007</ref><biblScope unit="pp">464</biblScope></bibl></listBibl> no. 2392). Cf. P.Oxy. 3.413, i, 37, where τὸ εἴσ̣ω̣ ἢ ὡς μεν[ is added at the bottom, in the reverse direction, by a second hand that also wrote the back (see comm. ad loc.).</p></item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 3 pl.9</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://berlpap.smb.museum/02713"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

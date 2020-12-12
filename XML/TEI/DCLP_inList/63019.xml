@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63019" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 63019</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63019</idno>
+            <idno type="TM">63019</idno>
+            <idno type="LDAB">4211</idno>
+            <idno type="filename">63019</idno>
+            <idno type="dclp-hybrid">tm;;63019</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 1944 Vo</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>informal round</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Arsinoites (Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0200" notAfter="0299" instant="false">200 - 299</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10969" xml:id="GR10969.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_01944_V_3_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>medicine</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="overview">medical prescriptions for eye-salves</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Two recipes for eye-salves (kollyria). Written on the back of a report of judicial proceedings. The papyrus itself was cut to provide the surface on which they were written. Left (2 cm) and bottom (3 cm) margins are preserved. The papyrus was broken along its top margin and it lost a vertical strip at the right margin. In the first recipe, the three ingredients preserved are among the seven materials that distinguish <emph rend="italics">acharista</emph>. The second recipe contains but three ingredients out of seven: the recipes seem to follow a pattern juxtaposing an <emph rend="italics">achariston</emph> of greater strength with one of lesser potency, achieved through a drastic reduction of the ingredients to three. The scribe of the medicinal recipes wrote large and carefully articulated letters, more than twice the size of characters on the front; the individual letters are regularly formed and their rounded shapes present a rough bilinearity. Two sets of elaborate, wavy lines mark the end of each recipe, and the writer's orthography is correct by Koine standards.The text itself slips gradually to the left, although even by line 9 the left margin has moved leftward no further than a letter space. </p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Vincenzo Damiani as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous edition (A.E. Hanson, GMP I 13).</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">χαλκοῦ κεκαυ</supplied>
+<lb n="2" break="no"/><unclear instant="false">μ</unclear>έ<unclear instant="false">ν</unclear>ου <expan instant="false"><ex instant="false">δραχμαὶ</ex></expan> <num value="8">η</num> <supplied reason="lost" instant="false">ἐρεί</supplied>
+<lb n="3" break="no" xml:id="lb4"/>κης καρποῦ <expan instant="false"><ex instant="false">δραχμαὶ</ex></expan> <num value="4">δ</num>
+<lb n="4"/>ἀκακίας <expan instant="false"><ex instant="false">δραχμαὶ</ex></expan> <num value="12">ιβ</num>
+<lb n="5" xml:id="lb6"/>γείνονται <expan instant="false"><ex cert="low" instant="false">δραχμαὶ</ex></expan> <num>ξ<gap reason="lost" extent="unknown" unit="character" instant="false"/></num>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="6" xml:id="lb7"/>κολλύριον <unclear instant="false">τὸ</unclear> <supplied reason="lost" instant="false">ἐρικηρὸν κα</supplied>
+<lb n="7" break="no"/>λούμενον. <unclear instant="false">ἐ</unclear><supplied reason="lost" instant="false">ρείκης καρποῦ</supplied>
+<lb n="8"/><expan instant="false"><ex instant="false">δραχμαὶ</ex></expan> <num value="8">η</num> ὀπίο<subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">υ</add><del rend="corrected" instant="false" status="unremarkable">ς</del></subst> <expan instant="false"><ex instant="false">δραχμαὶ</ex></expan> <num value="2">β</num>
+<lb n="9"/>κόμεως <expan instant="false"><ex cert="low" instant="false">δραχμαὶ</ex></expan> <num><unclear instant="false">ι</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></num>
+<milestone rend="paragraphos" unit="undefined"/>
+</ab>
+      </div>
+         <div type="commentary" subtype="linebyline" part="N" org="uniform" sample="complete">
+            <list>
+               <item corresp="#lb4" xml:space="preserve"><ref>3</ref> <p part="N">For καρπός in the meaning 'seed-pod', see LSJ, s.v.; Stadler (RE) 1907, 411-2; OLD, s.v. 'erice'.</p></item>
+               <item corresp="#lb6" xml:space="preserve"><ref>5</ref> <p part="N">The total serves as a guarantee to the accuracy of the alphabetic numerals employed in the quantities of ingredients. Cf. Hanson 2001, 142-143 (CMP I 13).</p></item>
+               <item corresp="#lb7" xml:space="preserve"><ref>6</ref> <p part="N">The term ἐρικηρόν, 'made from erica', occurs only in Aet. 7.104 (CMG 8.2 361.1; 364.17-365.4; 365.7-13 and 13-23 Oliv.).</p></item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Greek Medical Papyri 01, pl.XIII</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://berlpap.smb.museum/00994"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

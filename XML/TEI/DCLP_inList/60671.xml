@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60671" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 60671</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60671</idno>
+            <idno type="TM">60671</idno>
+            <idno type="LDAB">1796</idno>
+            <idno type="filename">60671</idno>
+            <idno type="dclp-hybrid">tm;;60671</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Cologne, Papyrussammlung P. 5605</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll? (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0299" instant="false">100 - 299</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR7831" xml:id="GR7831.01" from="2003" to="2015">
+                           <graphic url="http://www.uni-koeln.de/phil-fak/ifa/NRWakademie/papyrologie/PKoeln/PK5605v.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>poetry</term>
+               <term>epic</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Homerus; Ilias 011.515-538</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR7831" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">ἰούς</supplied> <unclear instant="false">τ</unclear>' <supplied reason="lost" instant="false">ε</supplied><unclear instant="false">κτάμ</unclear><supplied reason="lost" instant="false">νειν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><supplied reason="lost" instant="false">ὣς ἔ</supplied>φατ᾽, οὐδ᾽ <supplied reason="lost" instant="false">ἀπίθησε</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3"/><supplied reason="lost" instant="false">αὐτί</supplied>κα <del rend="erasure" instant="false" status="unremarkable">τ</del> <add place="above" instant="false" status="unremarkable">δ</add>᾽ ὧν <unclear instant="false">ὀ</unclear><supplied reason="lost" instant="false">χέων</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><supplied reason="lost" instant="false">βαῖ</supplied><unclear instant="false">ν</unclear>᾽ Ἀσκλ<supplied reason="lost" instant="false">η</supplied>π<supplied reason="lost" instant="false">ιοῦ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><supplied reason="lost" instant="false">μά</supplied><unclear instant="false">σ</unclear>τιξε<unclear instant="false">ν</unclear> <unclear instant="false">δ</unclear>᾽ <unclear instant="false">ἐ</unclear><supplied reason="lost" instant="false">λάαν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><supplied reason="lost" instant="false">νῆ</supplied><unclear instant="false">α</unclear>ς ἔπι γλα<supplied reason="lost" instant="false">φυράς</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><supplied reason="lost" instant="false">Κεβ</supplied>ριόνης δὲ <supplied reason="lost" instant="false">Τρῶας</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8"/><supplied reason="lost" instant="false">Ἕκτ</supplied><unclear instant="false">ορ</unclear>ι παρβε<supplied reason="lost" instant="false">βαώς</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/><supplied reason="lost" instant="false">Ἕκτ</supplied><unclear instant="false">ο</unclear>ρ νῶι μ<unclear instant="false">ὲ</unclear><supplied reason="lost" instant="false">ν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="10"/><supplied reason="lost" instant="false">ἐσ</supplied>χατιὴ πολ<supplied reason="lost" instant="false">έμοιο</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="11"/><supplied reason="lost" instant="false">Τρ</supplied><unclear instant="false">ῶ</unclear>ες ὀρείν<supplied reason="lost" instant="false">ονται</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="12"/><supplied reason="lost" instant="false">Αἴα</supplied>ς δὲ κλο<supplied reason="lost" instant="false">νέει</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="13"/>εὐρὺ γὰρ ἀμφ᾽ ὤ<supplied reason="lost" instant="false">μοισιν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="14"/><supplied reason="lost" instant="false">κε</supplied><unclear instant="false">ῖ</unclear>σ᾽ ἵππους <supplied reason="lost" instant="false">τε καὶ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="15"/><supplied reason="lost" instant="false">ἱπ</supplied>πῆ<del rend="erasure" instant="false" status="unremarkable">α</del><add place="above" instant="false" status="unremarkable"><unclear instant="false">ε</unclear></add>ς πε<supplied reason="lost" instant="false">ζοί τε</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="16"/><unclear instant="false">ἀλλ</unclear>ήλους ὀ<supplied reason="lost" instant="false">λέκουσι</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="17"/>ὣς ἄρα φωνή<supplied reason="lost" instant="false">σας</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="18"/>μάστειγι λιγ<supplied reason="lost" instant="false">υρῇ</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="19"/>ῥίμφ᾽ ἔφερον <supplied reason="lost" instant="false">θοὸν</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="20"/>στείβοντες ν<supplied reason="lost" instant="false">έκυάς</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="21"/>νέρθεν ἅπαξ <supplied reason="lost" instant="false">πεπάλακτο</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="22"/>ἃς ἄρ᾽ ἀφ᾽ ἱππ<supplied reason="lost" instant="false">είων</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="23"/>ἀνδρόμεον <supplied reason="lost" instant="false">ῥῆξαί</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="24"/>αἵ τ᾽ ἀπ᾽ ἐπις<supplied reason="lost" instant="false">σώτρων</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+      </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0012">Homerus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/511">Ilias</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Liège</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="https://papyri.uni-koeln.de/stueck/tm60671"/>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="reference" subtype="catalogue" default="false" status="draft">
+                  <!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <title level="m" type="main">Studies in the Text and Transmission of the Iliad.</title>
+                  <author>
+                     <surname full="yes">West</surname>
+                     <forename full="yes">Martin L.</forename>
+                  </author>
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/16711"/>
+                  <biblScope unit="number">494 b.1</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

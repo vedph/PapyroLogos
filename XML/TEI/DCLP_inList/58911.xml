@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m58911" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 58911</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">58911</idno>
+            <idno type="TM">58911</idno>
+            <idno type="LDAB">6</idno>
+            <idno type="filename">58911</idno>
+            <idno type="dclp-hybrid">tm;;58911</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 16971</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus codex (columns: 2, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>sloping semi-cursive</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Hermopolis (Hermopolites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0200" notAfter="0250" instant="false">200 - 250</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2720" instant="false" full="yes">Hermopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/816" instant="false" full="yes">Hermopolis</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR7841" xml:id="GR7841.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_16971_R_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR7842" xml:id="GR7842.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_16971_V_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR7843" xml:id="GR7843.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_16971_V_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>novel</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Achilles Tatius; Leucippe et Clitophon, 02.2.3-5, 14.5-7</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Marcel Moser and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete"> 
+<div n="r" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR7841" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">μαζοὶ βοῶ</supplied><unclear instant="false">ν</unclear>· <supplied reason="lost" instant="false">ποτὸν δὲ ἦν παρ' αὐ</supplied>
+<lb n="2" break="no"/><supplied reason="lost" instant="false">τοῖς οἷον</supplied> καὶ ὁ βο<supplied reason="lost" instant="false">ῦς</supplied> ἔπεινεν· οὔ
+<lb n="3" break="no"/><supplied reason="lost" instant="false">πω γὰρ</supplied> τὸ ἀμπέλινον ἦν. ὁ
+<lb n="4"/><supplied reason="lost" instant="false">δὲ θεὸ</supplied>ς ἐπαινεῖ τῆς φιλοφροσύ
+<lb n="5" break="no"/><supplied reason="lost" instant="false">νης τὸν</supplied> ποιμένα καὶ αὐτῷ προ
+<lb n="6" break="no"/><supplied reason="lost" instant="false">τεί</supplied><unclear instant="false">ν</unclear>ει κύλικα φ<unclear instant="false">ι</unclear>λοτησία<unclear instant="false">ν</unclear>·
+<lb n="7"/>τὸ δὲ ποτὸν οἶνος ἦν· ὁ δὲ πι
+<lb n="8" break="no"/>ὼν ὑφ̓ ἡδονῆς βακχεύεται· καὶ 
+<lb n="9"/><supplied reason="lost" instant="false">λέγ</supplied>ει πρὸς τὸν θεὸν· <q>πόθεν, ὦ 
+<lb n="10"/><supplied reason="lost" instant="false">ξένε, σοὶ τοῦτ</supplied>ο τὸ ὕδ<unclear instant="false">ω</unclear>ρ τὸ π<supplied reason="lost" instant="false">ορ</supplied>
+<lb n="11"/><supplied reason="lost" instant="false">φυροῦν; πό</supplied>θεν οὕτω<supplied reason="lost" instant="false">ς</supplied> ε<unclear instant="false">ὕ</unclear><supplied reason="lost" instant="false">ρες</supplied>;</q>
+<lb n="12"/><q type="spoken"><supplied reason="lost" instant="false">οὐ γάρ ἐστι</supplied>ν ἐκεῖνο <supplied reason="lost" instant="false">τὸ χαμαὶ</supplied>
+<lb n="13"/><supplied reason="lost" instant="false">ῥέον. τὸ μὲν</supplied> γὰρ ἐς τὰ σ<supplied reason="lost" instant="false">τέρνα κα</supplied>
+<lb n="14" break="no"/><supplied reason="lost" instant="false">ταβαίνει καὶ</supplied> λεπτὴν <supplied reason="lost" instant="false">ἔχει τὴν</supplied>
+<lb n="15"/><supplied reason="lost" instant="false">ἡδονήν· τοῦτο</supplied> <unclear instant="false">δ</unclear>ὲ καὶ π<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">ὸ τοῦ</supplied>
+<lb n="16"/><supplied reason="lost" instant="false">στόματος</supplied> <unclear instant="false">τ</unclear>ὰς ῥεῖνας ε<unclear instant="false">ὐ</unclear><supplied reason="lost" instant="false">φραίνει</supplied>
+<lb n="17"/><supplied reason="lost" instant="false">καὶ θιγόν</supplied><unclear instant="false">τι</unclear> μὲν ψυχρόν <supplied reason="lost" instant="false">ἐστιν</supplied>, 
+<lb n="18"/><supplied reason="lost" instant="false">εἰς τὴν γαστέρα</supplied> <unclear instant="false">δ</unclear>ὲ καταθ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ρὸν</supplied></q>
+</ab></div></div>
+
+<div n="v" type="textpart" part="N" org="uniform" sample="complete">
+<div n="1" subtype="column" type="textpart" corresp="#FR7842" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> δυ
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>και
+<lb n="3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/> ρε<hi rend="supraline">ν</hi>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/> <gap reason="illegible" quantity="1" unit="character" instant="false"/>
+</ab></div></div>
+
+<div n="v" type="textpart" part="N" org="uniform" sample="complete">
+<div n="2" subtype="column" type="textpart" corresp="#FR7843" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><q type="spoken"><supplied reason="lost" instant="false">ἡ δὲ τοῦ πυ</supplied>ρὸ<supplied reason="lost" instant="false">ς αἰθάλη</supplied>
+<lb n="2"/>τὸ <unclear instant="false">φυτὸν</unclear> <supplied reason="lost" instant="false">γ</supplied>εω<supplied reason="lost" instant="false">ργεῖ</supplied>.</q> <q type="spoken"><supplied reason="lost" instant="false">αὕτη</supplied>
+<lb n="3"/>πυρὸ<add place="above" instant="false" status="unremarkable">ς</add> φιλία κα<unclear instant="false">ὶ</unclear> <supplied reason="lost" instant="false">φυτοῦ· οὕ</supplied>
+<lb n="4" break="no"/>τως οὐ φεύγει <supplied reason="lost" instant="false">Ἀθηνᾶ Ἥφαι</supplied>
+<lb n="5" break="no"/>στον πέρα τοῦ τό<supplied reason="lost" instant="false">που</supplied>.</q> <supplied reason="lost" instant="false">καὶ ὁ</supplied>
+<lb n="6"/>Χαιρεφῶν συστ<supplied reason="lost" instant="false">ράτηγος ὢν</supplied>
+<lb n="7"/>τοῦ Σωστράτου μ<unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ίζων, ἐ</supplied>
+<lb n="8" break="no"/>πεὶ πατρόθεν <unclear instant="false">ἦ</unclear><supplied reason="lost" instant="false">ν Τύριος</supplied>, 
+<lb n="9"/>ἐκθι<supplied reason="lost" instant="false">ά</supplied><unclear instant="false">ζω</unclear>ν αὐτὸ<supplied reason="lost" instant="false">ν</supplied> <q type="spoken"><supplied reason="lost" instant="false">πάντα</supplied>
+<lb n="10"/>τὸν <unclear instant="false">μ</unclear><supplied reason="lost" instant="false">ὲ</supplied><unclear instant="false">ν</unclear> χρησ<supplied reason="lost" instant="false">μὸν</supplied></q> <supplied reason="lost" instant="false">εἶπεν</supplied> <q type="spoken"><supplied reason="lost" instant="false">ἐ</supplied>
+<lb n="11" break="no"/>ξηγ<supplied reason="lost" instant="false">ήσ</supplied><unclear instant="false">ω</unclear> καλῶς· <supplied reason="lost" instant="false">μὴ μέν</supplied>
+<lb n="12" break="no"/>τοι <unclear instant="false">θ</unclear><supplied reason="lost" instant="false">αύ</supplied><unclear instant="false">μαζε</unclear> <supplied reason="lost" instant="false">τ</supplied>ὴ<supplied reason="lost" instant="false">ν τοῦ</supplied>
+<lb n="13"/>πρὸ<supplied reason="lost" instant="false">ς</supplied> τ<supplied reason="lost" instant="false">ὴ</supplied><unclear instant="false">ν</unclear> ἐλαία<supplied reason="lost" instant="false">ν πεφυτευ</supplied>
+<lb n="14" break="no"/><supplied reason="lost" instant="false">μένου π</supplied>υρὸς μό<supplied reason="lost" instant="false">νον, ἀλλὰ καὶ</supplied>
+<lb n="15"/><supplied reason="lost" instant="false">τὴν τοῦ ὕδα</supplied>τος <supplied reason="lost" instant="false">φύσιν</supplied>.</q> <q type="spoken">ἐθε
+<lb n="16" break="no"/><supplied reason="lost" instant="false">ασάμη</supplied><unclear instant="false">ν</unclear> γὰρ <supplied reason="lost" instant="false">ἐγὼ τοιαῦτα</supplied>
+<lb n="17"/><supplied reason="lost" instant="false">πηγῆς</supplied> ὕδωρ <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">εκερασμένον</supplied>
+<lb n="18"/><supplied reason="lost" instant="false">ἔχει π</supplied><unclear instant="false">ῦ</unclear>ρ· <unclear instant="false">κ</unclear>αὶ <supplied reason="lost" instant="false">φλόγα μὲν ὄ</supplied>
+<lb n="19" break="no"/><supplied reason="lost" instant="false">ψει κά</supplied><unclear instant="false">τ</unclear>ω<unclear instant="false">θεν</unclear> <supplied reason="lost" instant="false">ἀπ̓ αὐτῆς ἁλ</supplied>
+<lb n="20" break="no"/><unclear instant="false">λ</unclear>ομένην <unclear instant="false">ἄ</unclear><supplied reason="lost" instant="false">νωθεν· θιγόντι</supplied> 
+<lb n="21"/>δέ σοι τὸ <unclear instant="false">ὕ</unclear><supplied reason="lost" instant="false">δωρ ψυχρόν ἐστιν</supplied>
+<lb n="22"/>ὥσπερ <unclear instant="false">χ</unclear><supplied reason="lost" instant="false">ιών</supplied>,<gap reason="lost" extent="unknown" unit="character" instant="false"/></q>
+</ab></div></div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0532">Achilles Tatius</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/1386">Leucippe et Clitophon</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">Archiv 48 (2002), pl.I</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://berlpap.smb.museum/04142"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

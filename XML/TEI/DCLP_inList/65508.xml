@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m65508" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 65508</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">65508</idno>
+            <idno type="TM">65508</idno>
+            <idno type="LDAB">6758</idno>
+            <idno type="filename">65508</idno>
+            <idno type="dclp-hybrid">tm;;65508</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 16287</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Bousiris (Herakleopolites, Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="-0100" notAfter="-0051" precision="low" instant="false">1. Hälfte I v. Chr.</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/2713" instant="false" full="yes">Herakleopolites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" ref="https://www.trismegistos.org/place/471" instant="false" full="yes">Bousiris</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10910" xml:id="GR10910.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_16287_R.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR10909" xml:id="GR10909.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_16287_V.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>philosophy</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">on kingship (Alexander the Great)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-07-12" who="L. Colella" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" type="textpart" subtype="fragment" corresp="#FR10910" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><app type="editorial"><lem resp="Frösèn"><gap reason="illegible" quantity="6" unit="character" instant="false"/> <unclear instant="false">ὅτι</unclear> γὰρ <gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><gap reason="lost" quantity="8" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>γαρ<gap reason="lost" quantity="3" unit="character" instant="false"/></rdg></app>
+<lb n="2"/>οἴεται δεῖν <app type="editorial"><lem resp="Frösèn">ἐν <unclear instant="false">ταῖς</unclear> <unclear instant="false">τα</unclear><supplied reason="lost" instant="false">λαιπωρίαις ἀφαι</supplied></lem><rdg>ε<unclear instant="false">ν</unclear><gap reason="lost" quantity="2" unit="character" instant="false"/><unclear instant="false">ϲ</unclear><gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="3" break="no"/>ρεῖσθαι τὴν <app type="editorial"><lem resp="Frösèn">ἑαυτ<unclear instant="false">οῦ</unclear> βα<unclear instant="false">σ</unclear>ι<supplied reason="lost" instant="false">λείαν</supplied></lem><rdg>εαυτουβα<gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="4"/>πίστιν <app type="editorial"><lem resp="Frösèn">π<unclear instant="false">ρ</unclear>ο<unclear instant="false">αισθη</unclear><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg>π<unclear instant="false">εϲ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">τ</unclear><gap reason="illegible" quantity="5" unit="character" instant="false"/></rdg></app>
+<lb n="5"/><app type="editorial"><lem resp="Frösèn"><supplied reason="lost" instant="false">δέ</supplied><unclear instant="false">δ</unclear>ωκα<gap reason="illegible" quantity="1" unit="character" instant="false"/></lem><rdg><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ν</unclear>ωκα</lem><rdg><supplied reason="lost" instant="false">δε</supplied>δωκα</rdg></app></rdg></app> αὐτίκα γὰρ <app type="editorial"><lem resp="Frösèn">εἰ <gap reason="illegible" quantity="2" unit="character" instant="false"/><gap reason="lost" quantity="10" unit="character" instant="false"/><supplied reason="lost" instant="false">ἁ</supplied></lem><rdg>ε<unclear instant="false">ι</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="6" break="no"/><supplied reason="lost" instant="false">μ</supplied><unclear instant="false">άρτ</unclear>ημα γένοιτο περὶ τὸν <unclear instant="false">ἄ</unclear><supplied reason="lost" instant="false">νδρα τοῦ</supplied>
+<lb n="7" break="no"/><supplied reason="lost" instant="false">τ</supplied><unclear instant="false">ον</unclear> <choice><reg instant="false">ὑποδιαρρυέ<unclear instant="false">ν</unclear>των</reg><orig>ὑποδιαρυε<unclear instant="false">ν</unclear>των</orig></choice> αὐτοῦ τῶ<supplied reason="lost" instant="false">ν δια</supplied>
+<lb n="8" break="no"/><app type="editorial"><lem resp="Frösèn"><supplied reason="lost" instant="false">β</supplied><unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">α</supplied><unclear instant="false">χ</unclear>έντων</lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">θ</unclear>εντων</rdg></app> ἀγαθῶν τούτων <app type="editorial"><lem resp="Frösèn"><unclear instant="false">ε</unclear><supplied reason="lost" instant="false">ἰκός</supplied></lem><rdg><app type="alternative"><lem><unclear instant="false">ε</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app></rdg></app>
+<lb n="9"/><supplied reason="lost" instant="false">ἐστι τ</supplied>όνδε πε<unclear instant="false">σεῖν</unclear> ὑπὸ τῶν ὑ<supplied reason="lost" instant="false">ποκει</supplied>
+<lb n="10" break="no"/><supplied reason="lost" instant="false">μέν</supplied><unclear instant="false">ω</unclear>ν ἢ πρὸς τῶν <choice><reg instant="false">υἱῶν</reg><orig>υϊων</orig></choice>. Ἀλέξ<unclear instant="false">α</unclear><supplied reason="lost" instant="false">νδρος</supplied>
+<lb n="11"/><supplied reason="lost" instant="false">τ</supplied><unclear instant="false">ὸ</unclear> μέγεθος τῆς οἰκουμένης <supplied reason="lost" instant="false">ὑπὸ</supplied>
+<lb n="12"/><app type="editorial"><lem resp="Frösèn"><supplied reason="lost" instant="false">τ</supplied>ὴν</lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν</rdg></app> ἑαυτοῦ χεῖρα λαβὼν οὐχ ἱκα<supplied reason="lost" instant="false">νός</supplied>
+<lb n="13"/><app type="editorial"><lem resp="Frösèn"><supplied reason="lost" instant="false">ἐστ</supplied>ιν <space extent="unknown" unit="character"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/>ιν</rdg></app> <unclear instant="false">μ</unclear>άρτυς ὑφ’ ἑνὸς ποτηρίο<unclear instant="false">υ</unclear> <supplied reason="lost" instant="false">φανε</supplied>
+<lb n="14" break="no"/><supplied reason="lost" instant="false">ρῶ</supplied>ς ἐλεγχθεὶς ὅτι θνητὸς <app type="editorial"><lem resp="Frösèn">ἦν; <unclear instant="false">ἦ</unclear> <supplied reason="lost" instant="false">κατ</supplied></lem><rdg><unclear instant="false">ην</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="15" break="no"/><supplied reason="lost" instant="false">έχ</supplied><unclear instant="false">ω</unclear>ν βασίλεια Βά<unclear instant="false">κτρα</unclear> καὶ Βαβυλ<supplied reason="lost" instant="false">ῶνα</supplied>
+<lb n="16"/><app type="editorial"><lem resp="Frösèn"><supplied reason="lost" instant="false">οὐ</supplied><unclear instant="false">χ</unclear></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/>ν</rdg></app> ὑπὸ <app type="editorial"><lem resp="Frösèn">τῇ σκιᾷ τῶν χρυσῶ<unclear instant="false">ν</unclear></lem><rdg>τηϲκιαι χρυϲω<supplied reason="lost" instant="false">ν</supplied></rdg></app> <supplied reason="lost" instant="false">δέν</supplied>
+<lb n="17" break="no"/><supplied reason="lost" instant="false">δρ</supplied><unclear instant="false">ω</unclear>ν Δαρεῖος το<unclear instant="false">ῖς</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+</ab></div>
+</div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">J.Frösen - R.Westman, fig. 1</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://berlpap.smb.museum/04097"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

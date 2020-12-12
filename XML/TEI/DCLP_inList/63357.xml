@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m63357" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Stoic epistemology.</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">63357</idno>
+            <idno type="TM">63357</idno>
+            <idno type="LDAB">4564</idno>
+            <idno type="filename">63357</idno>
+            <idno type="dclp-hybrid">tm;;63357</idno>
+            <idno type="MP3">0089.12</idno>
+            <availability default="false" status="unknown">
+               <p part="N">
+            © Digital Corpus of Literary Papyri. This work is licensed under a
+            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>
+            .
+          </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 16545</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="19">
+                           <p part="N">papyrus roll? (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Fundort: Egypt; Schreibort: Egypt</origPlace>
+                     <origDate notBefore="0175" notAfter="0225" instant="false">175 - 225</origDate>
+                  </origin>
+                  <provenance n="1" type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10994" xml:id="GR10994.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_16545_R_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term n="1" type="religion">classical</term>
+               <term n="2" type="culture">literature</term>
+               <term n="3">prose</term>
+               <term n="4">philosophy</term>
+               <term n="5">stoicism</term>
+               <term n="6" type="overview"/>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2017-07-12T17:20:54+02:00" who="http://papyri.info/users/RodneyAst" status="draft">Finalized - Ready</change>
+         <change when="2017-07-12T17:18:23+02:00" who="http://papyri.info/users/RodneyAst" status="draft">Vote - Accept-Straight-to-Finalization - accept</change>
+         <change when="2017-07-12T17:17:33+02:00" who="http://papyri.info/users/RodneyAst" status="draft">Submit - Fixed line numbering and updated metadata.</change>
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-08-08" who="M. Durand" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="1" subtype="fragment" type="textpart" corresp="#FR10994" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" atLeast="12" atMost="14" unit="character" instant="false"/><unclear instant="false">αι</unclear> <unclear instant="false">τὰς</unclear> <unclear instant="false">πα</unclear>
+<lb n="2"/><app type="editorial"><lem resp="Backhouse, Papiri filosofici III, 20-21"><supplied reason="lost" instant="false">-ραστατικὰς ἑτ</supplied><unclear instant="false">έ</unclear>ρων</lem><rdg resp="Szymanski, JJP 20 (1990) 139"><gap reason="lost" atLeast="12" atMost="14" unit="character" instant="false"/><unclear instant="false">ε</unclear>ρων</rdg></app> καί
+<lb n="3"/><app type="editorial"><lem resp="Backhouse, Papiri filosofici III, 20-21"><supplied reason="lost" instant="false">ἃς πρ</supplied>ο<unclear instant="false">εί</unclear>παμ<unclear instant="false">εν</unclear></lem><rdg resp="Szymanski, JJP 20 (1990) 139"><supplied reason="lost" instant="false">καθ’</supplied> ὃ <unclear instant="false">εἴ</unclear>παμ<unclear instant="false">εν</unclear></rdg></app>, <unclear instant="false">οὐκ</unclear> ἀπό τινος
+<lb n="4"/><supplied reason="lost" instant="false"><app type="editorial"><lem resp="Backhouse, Papiri filosofici III, 20-21">ἄρα</lem><rdg resp="Szymanski, JJP 20 (1990) 139">καὶ</rdg></app></supplied> <unclear instant="false">τ</unclear>ὰς μὴ οὕτως ἐχοὺσας.
+<lb n="5"/><app type="editorial"><lem resp="Backhouse, Papiri filosofici III, 20-21"><supplied reason="lost" instant="false">καὶ ο</supplied>ἵας</lem><rdg resp="Szymanski, JJP 20 (1990) 139"><supplied reason="lost" instant="false">όπο</supplied>ίας</rdg></app> νῦν ὑπεγράψαμεν.
+<lb n="6"/><supplied reason="lost" instant="false">δια</supplied><unclear instant="false">κ</unclear>ένους ταύτας φησὶν <unclear instant="false">ὁ</unclear>
+<lb n="7"/><supplied reason="lost" instant="false">Ἀντ</supplied>ίπατρος, ἐν δέ τισιν ἀ<unclear instant="false">ν</unclear>
+<lb n="8" break="no"/><supplied reason="lost" instant="false">τιγρ</supplied>άφοις ἀποκένους, ὁποῖ
+<lb n="9" break="no"/><supplied reason="lost" instant="false">αί τι</supplied>ν<unclear instant="false">έ</unclear>ς είσιν Ἱπποκενταύ
+<lb n="10" break="no"/><supplied reason="lost" instant="false">ρου ἢ</supplied> <unclear instant="false">Χ</unclear>αρύβδεως. αὗτα<unclear instant="false">ι</unclear> μὲν
+<lb n="11"/><supplied reason="lost" instant="false">οὖν ἅ</supplied>πασαι ψευδεῖς ὑπάρχου
+<lb n="12" break="no"/><supplied reason="lost" instant="false">σι, τῶ</supplied><unclear instant="false">ν</unclear> δὲ ἀπό τινος γιν<supplied reason="lost" instant="false">ομέ</supplied>
+<lb n="13" break="no"/><supplied reason="lost" instant="false">νων</supplied> αἱ μέν εἰσι κατ' αὐ<unclear instant="false">τὰ</unclear> <app type="editorial"><lem resp="Backhouse, Papiri filosofici III, 20-21"><unclear instant="false">τ</unclear><supplied reason="lost" instant="false">ὰ ὄν</supplied></lem><rdg resp="Szymanski, JJP 20 (1990) 139"><supplied reason="lost" instant="false">τὰ ὄν</supplied></rdg></app>
+<lb n="14" break="no"/><supplied reason="lost" instant="false">τα κἀ</supplied><unclear instant="false">κ</unclear>είν<unclear instant="false">ων</unclear> <app type="editorial"><lem resp="Backhouse, Papiri filosofici III, 20-21"><unclear instant="false">ἀν</unclear>αφ<unclear instant="false">έρ</unclear>ουσι</lem><rdg resp="Szymanski, JJP 20 (1990) 139"><unclear instant="false">ἀν</unclear>αφ<unclear instant="false">έ</unclear>ρουσι</rdg></app> χα
+<lb n="15" break="no"/><supplied reason="lost" instant="false">ρακτ</supplied>ῆρα, αἱ δὲ παραγεγραμ
+<lb n="16" break="no"/><supplied reason="lost" instant="false">μέν</supplied><unclear instant="false">α</unclear>ι. καλοῦμεν δὲ ταύτας
+<lb n="17"/><supplied reason="lost" instant="false">παρ</supplied><unclear instant="false">α</unclear>τυπωτι<unclear instant="false">κ</unclear>άς, καὶ ταύ
+<lb n="18" break="no"/><supplied reason="lost" instant="false">τας μ</supplied>ὲν ἐν τῶ<supplied reason="lost" instant="false">ι</supplied> τῶν ψευδῶν
+<lb n="19"/><supplied reason="lost" instant="false"><app type="editorial"><lem resp="Backhouse, Papiri filosofici III, 20-21">γένει</lem><rdg resp="Szymanski, JJP 20 (1990) 139">τόπωι</rdg></app>,</supplied> <unclear instant="false">τὰς</unclear> <unclear instant="false">δ</unclear>' <app type="editorial"><lem resp="Backhouse, Papiri filosofici III, 20-21"><supplied reason="lost" instant="false">ἄλλα</supplied>ς</lem><rdg resp="Szymanski, JJP 20 (1990) 139"> <supplied reason="lost" instant="false">οὔσα</supplied>ς</rdg></app> ἀληθε<unclear instant="false">ῖ</unclear>ς
+<lb n="19"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author xml:lang="grc" ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1146">Antipater of Tarsus</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/2104">Opus incertum</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">JJP 20, p.140</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://berlpap.smb.museum/04120"/>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl n="1" type="publication" subtype="principal" default="false" status="draft"><!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <title level="j" type="short-BP">JJurP</title>
+                  <author n="1">
+                     <surname full="yes">SZYMANSKI</surname>
+                     <forename full="yes">Mikolaj</forename>
+                  </author>
+                  <date instant="false">1990</date>
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/61086"/>
+                  <biblScope unit="page" corresp="141">139</biblScope>
+               </bibl>
+               <bibl n="2" type="publication" subtype="principal" default="false" status="draft"><!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <title level="a" type="main">Antipater of Tarsus on False 'Phantasiai' (PBerol inv. 16545).</title>
+                  <author n="1">
+                     <surname full="yes">BACKHOUSE</surname>
+                     <forename full="yes">Thamer</forename>
+                  </author>
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/68831"/>
+                  <biblScope unit="page" corresp="31">7</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

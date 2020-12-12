@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m59959" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bkt. 9 81</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">59959</idno>
+            <idno type="TM">59959</idno>
+            <idno type="LDAB">1071</idno>
+            <idno type="filename">59959</idno>
+            <idno type="dclp-hybrid">bkt;9;81</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 21178</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p part="N">papyrus codex (columns: 0, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Arsinoites (Egypt); written: Egypt</origPlace>
+                     <origDate notBefore="0300" notAfter="0499" instant="false">300 - 499</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="nome" ref="https://www.trismegistos.org/place/332" instant="false" full="yes">Arsinoites</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10366" xml:id="GR10366.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_21178_R_001.jpg"/>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR10365" xml:id="GR10365.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_21178_V_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>medicine</term>
+               <term type="culture">literature</term>
+               <term type="culture">science</term>
+               <term type="religion">classical</term>
+               <term type="overview">Galenus; De naturalibus facultatibus 01 2 (quotation)</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete"><p part="N">Medical treatise. Three fragments from a papyrus codex: all surfaces have been badly stripped and right as well as left margins are entirely lost; upper and lower margins cannot be perceived with certainty, although traces of ink appear on the fibers below line 9 in A recto (it is likewise possible that writing continued to the bottom of the papyrus; the verso is blank). The treatise remains anonymous; isolated words deal with topics discussed by Galen and subsequent medical writers but the contents preserved are too scarse for a decision in the matter, except for l. 1-3 on fragment B recto, where a quotation from Galen (<emph rend="italics">Nat. fac.</emph> I 2, 102.1-3 Helmreich) has been recognized. Letters are thick, often lack in formal uniformity and strict bilinearity isn't observed. Nevertheless, the writer was a professional scribe, whose hand looks similar to others assigned to the late fourth and fifth centuries.</p><p part="N"><note type="footnote" xml:lang="en" anchored="true">This papyrus has been digitally edited by Letizia Rivera as part of the Project "DIGMEDTEXT - Online Humanities Scholarship: A Digital Medical Library based on Ancient Texts" (ERC-AdG-2013, Grant Agreement no. 339828) funded by the European Research Council at the University of Parma (Principal Investigator: Prof. Isabella Andorlini). The digital edition is mostly based on the previous editions (ed.pr. = H.G. Ioannidou, BKT IX 81; ed.alt. = A.E. Hanson, Text and tradition. Studies presented to J. Kollesch, 1998, pp. 154-159; ed.ter. = A.E. Hanson, GMP I 9; descr. A.E. Hanson, CPF I.2.1 14,4T).</note></p></div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="A" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/>ω<gap reason="illegible" quantity="2" unit="character" instant="false"/><unclear instant="false">ιν</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2" xml:id="div1-div1-lb3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ρ<gap reason="illegible" quantity="2" unit="character" instant="false"/><add place="below" instant="false" status="unremarkable"><unclear instant="false">ν</unclear></add>νο<unclear instant="false">η</unclear>ναρκ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3" xml:id="div1-div1-lb4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>γαρα<hi rend="diaeresis">ι</hi>κο<hi rend="diaeresis">ι</hi>λη<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>αιγαρωφελ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg>καὶ γὰρ ὠφελ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="5" xml:id="div1-div1-lb6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><choice><reg instant="false">προσομιλῶν</reg><orig><supplied reason="lost" instant="false">π</supplied>ροϲομειλων</orig></choice><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="2" unit="character" instant="false"/>εγκεφα<unclear instant="false">λ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7" xml:id="div1-div1-lb8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">φ</unclear>λεγματικ<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="8" xml:id="div1-div1-lb9"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>νεπιτωιπνευμ<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg>ν ἐπὶ τῶι πνεύμ<supplied reason="lost" instant="false">ατι</supplied></rdg></app>
+<lb n="9"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>θερμοτερ<unclear instant="false">ο</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/>vestig.ca4-5lin
+<lb n="9"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+</div>
+<div n="B" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1" xml:id="div3-div3-lb2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">σ</supplied>αφῶ<unclear instant="false">ς</unclear> <supplied reason="lost" instant="false">ἕκαστον τῶν ὀνομάτων οἷς</supplied>
+<lb n="2"/><supplied reason="lost" instant="false">χρη</supplied><unclear instant="false">σ</unclear>όμεθα <supplied reason="lost" instant="false">κατὰ τόνδε τὸν λόγον καὶ ἐφ'</supplied> 
+<lb n="3"/><supplied reason="lost" instant="false">ὅτι</supplied>φερόμε<supplied reason="lost" instant="false">ν πρᾶγμα</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ν</unclear>φυσις<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">ν</unclear> φυσις<gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="5" xml:id="div3-div3-lb6"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>φο<unclear instant="false">ρ</unclear>ο<unclear instant="false">υντ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="6" xml:id="div3-div3-lb7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>σωνδε<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7" xml:id="div3-div3-lb8"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><unclear instant="false">πανδε</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="7"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+<div n="v" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="3" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ωσοτ<gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3" xml:id="div3-div4-lb4"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>εθνα<gap reason="illegible" quantity="1" unit="character" instant="false"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">τ</supplied>εθναι</rdg></app><add place="below" instant="false" status="unremarkable">ν</add><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>αυτην<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="5"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>ησψυχ<gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/><supplied reason="lost" instant="false">τ</supplied>ῆς ψυχ<supplied reason="lost" instant="false">ῆς</supplied></rdg></app>
+<lb n="6" xml:id="div3-div4-lb7"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><app type="alternative"><lem>ἡδυν<add place="above" instant="false" status="unremarkable">α</add><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg>ἡ δύν<add place="above" instant="false" status="unremarkable">α</add><supplied reason="lost" instant="false">μις</supplied><gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="6"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+</div>
+<div n="C" subtype="fragment" type="textpart" part="N" org="uniform" sample="complete">
+<div n="r" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>σμο<unclear instant="false">υ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2" xml:id="div6-div6-lb3"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>φαμε<unclear instant="false">ν</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3" xml:id="div6-div6-lb4"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>ιωρειτ<unclear instant="false">α</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/>αἰωρεῖται<gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/><unclear instant="false">μ</unclear>α<unclear instant="false">ι</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+<div n="v" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ωσαλλ<gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="2"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>ενοι<hi rend="diaeresis">υ</hi>γ<unclear instant="false">ρ</unclear><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="3" xml:id="div6-div7-lb4"/><app type="alternative"><lem><gap reason="lost" extent="unknown" unit="character" instant="false"/>α<hi rend="diaeresis">ι</hi>ς<g type="dipunct"/><g rend="extension" type="filler"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/></lem><rdg><gap reason="lost" extent="unknown" unit="character" instant="false"/>αϊσ<unclear instant="false">ε</unclear> <g rend="extension" type="filler"/> <gap reason="lost" extent="unknown" unit="character" instant="false"/></rdg></app>
+<lb n="3"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+</ab>
+</div>
+</div></div>
+         <div type="commentary" subtype="linebyline" part="N" org="uniform" sample="complete">
+            <list>
+               <item corresp="#div1-div1-lb3" xml:space="preserve"><ref>Fr. A, r, 2</ref> <p part="N">The ν written between lines 2 and 3 seems to correct line 2 rather than the following. Conjecturing ]ρε̣ι̣νον, it would be an itacistic form of -ρινον. Yet while the two substances ἴρινον ἢ ναρκισσίνον are often paired in medicaments, the traces of the letter following more likely resembles ω. Hence ]ρε̣ι̣νον ̀ν̣ ́ ἡ νάρκω̣[σις ο ἡ ναρκώ[δης. </p></item>
+               <item corresp="#div1-div1-lb4" xml:space="preserve"><ref>3</ref> <p part="N">The expression ἡ κοίλη φλέψ, frequent in medicine, do not really absorb the letters here.</p></item>
+               <item corresp="#div1-div1-lb6" xml:space="preserve"><ref>5</ref> <p part="N">The masculine singular might introduce a quotation or paraphrase from some medical writer, anyway the meaning "conversant with" or "familiar with" is also possible and the referent less determinable (cf. Plato, <emph rend="italics">Phaedrus</emph> 250e 5).</p></item>
+               <item corresp="#div1-div1-lb8" xml:space="preserve"><ref>7</ref> <p part="N">The letter following κ is joined at top by ligature and traces remain of its vertical, although φ̣λεγματισμ̣[ου seems impossible on paleographical evidence.</p></item>
+               <item corresp="#div1-div1-lb9" xml:space="preserve"><ref>8</ref> <p part="N">The phrase is not common in preserved medical writers, although found in Arataeus and Stephanu's commentary to Galen (<emph rend="italics">Ad Glauconem de med. meth</emph>.; 243.28 Dietz).</p></item>
+               <item corresp="#div3-div3-lb2" xml:space="preserve"><ref>Fr. B, r, 1</ref> <p part="N">ll.1-3, see Gal., <emph rend="italics">Nat. fac.</emph> I 2, 102.1-3 Helmreich.</p></item>
+               <item corresp="#div3-div3-lb6" xml:space="preserve"><ref>5</ref> <p part="N">]φορ̣ου̣ν̣τ̣[ looks more likely than ]φονον[ since the tail of ρ is clearly visible; also, the letter following the second ο is represented by a vertical trace at bottom. Perhaps a form of διαφορέω.</p></item>
+               <item corresp="#div3-div3-lb7" xml:space="preserve"><ref>6</ref> <p part="N">Alternately, ]τω̣ν δε̣[ but less likely.</p></item>
+               <item corresp="#div3-div3-lb8" xml:space="preserve"><ref>7</ref> <p part="N">]Π̣α̣ν̣δ̣ε̣[ seems to represent the traces better than ]τ̣ο̣̣ν δ̣ε[ but the latter is not impossible.</p></item>
+               <item corresp="#div3-div4-lb4" xml:space="preserve"><ref>Fr. B, v, 3</ref> <p part="N">Perhaps the ν written between lines 3 and 4 was meant to correct τ]εθναι to τ]εθνάν̣[α]ι̣. </p></item>
+               <item corresp="#div3-div4-lb7" xml:space="preserve"><ref>6</ref> <p part="N">There seems to be a mark of aspiration above η.</p></item>
+               <item corresp="#div6-div6-lb3" xml:space="preserve"><ref>Fr. C, r, 2</ref> <p part="N">Galen employs φαμέν on four occasions in the first chapters of <emph rend="italics">Nat. fac.</emph> I, but there aren’t any traces of the sequence ]σμου̣[ before any occurrence nor of the sequence ]ιωρειτα̣[ following any occurrence. Several verb forms (ἔφαμεν, φάμενος) are also liberally spread all over the author’s writings. </p></item>
+               <item corresp="#div6-div6-lb4" xml:space="preserve"><ref>3</ref> <p part="N">The verb αἰωρεῖσθαι, “be suspended”, is not infrequent in Galen although it does not occur in <emph rend="italics">Nat. fac</emph>.</p></item>
+               <item corresp="#div6-div7-lb4" xml:space="preserve"><ref>Fr. C, v, 3</ref> <p part="N">In the case of ]αϊσε̣ —[ the middle bar of ε is extended as a line filler.</p></item>
+            </list>
+         </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+                  <ptr target="http://papyri.info/biblio/14433"/>
+                  <biblScope unit="number">81</biblScope>
+                  <!--ignore - start, i.e. SoSOL users may not edit this-->
+                  <title level="s" type="abbreviated">BKT</title>
+                  <biblScope unit="volume">9</biblScope>
+                  <!--ignore - stop-->
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">BKT 09, pl.37</bibl>
+               <bibl type="printed" default="false" status="draft">A.E.Hanson, pl.5</bibl>
+               <bibl type="printed" default="false" status="draft">Greek Medical Papyri 01, pl.IX</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://berlpap.smb.museum/04384"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m61404" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>TM 61404</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">61404</idno>
+            <idno type="TM">61404</idno>
+            <idno type="LDAB">2548</idno>
+            <idno type="filename">61404</idno>
+            <idno type="dclp-hybrid">tm;;61404</idno>
+            <availability default="false" status="unknown">
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 7426</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">papyrus roll (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <p part="N">
+                        <term>formal round</term>
+                     </p>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Found: Egypt; written: Egypt</origPlace>
+                     <origDate notBefore="0200" notAfter="0250" instant="false">200 - 250</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR8201" xml:id="GR8201.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_07426_V_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+            This file encoded to comply with EpiDoc Guidelines and Schema version 8
+            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term>prose</term>
+               <term>wisdom</term>
+               <term type="culture">literature</term>
+               <term type="religion">classical</term>
+               <term type="overview">Isocrates, Hermarchus; Anthology of maxims including sententiae from Ad Demonicum</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+         <change when="2016-08-08" who="S. Causo" status="draft">Entered Greek text from reference edition</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="v" type="textpart" corresp="#FR8201" part="N" org="uniform" sample="complete"><ab part="N"> 
+<lb n="1"/><supplied reason="lost" instant="false">μετὰ</supplied> <supplied reason="lost" instant="false">δι</supplied><unclear instant="false">κ</unclear>αιοσ<supplied reason="lost" instant="false">ύ</supplied>νης <gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" quantity="1" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/>ε
+<lb n="2"/><app type="editorial"><lem><gap reason="lost" quantity="1" unit="character" instant="false"/><unclear instant="false">η</unclear><gap reason="lost" quantity="3" unit="character" instant="false"/><unclear instant="false">τ</unclear>ας</lem><rdg resp="Brinkmann(1916)"><unclear instant="false">ὠφ</unclear>ε<supplied reason="lost" instant="false">λ</supplied><unclear instant="false">η</unclear><supplied reason="lost" instant="false">θέν</supplied><unclear instant="false">τ</unclear>ας</rdg></app>· οἱ γ<unclear instant="false">α</unclear>ρ δίκ<unclear instant="false">α</unclear>ιο<unclear instant="false">ι</unclear> <expan instant="false">τῶ<ex instant="false">ν</ex></expan> 
+<lb n="3"/><unclear instant="false">ἀ</unclear>δι<unclear instant="false">κ</unclear><supplied reason="lost" instant="false">ων</supplied> εἰ μηδὲν ἄλλο·
+<lb n="4"/>πλε<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">νε</supplied>κτοῦσι ἀλλ'οὖν γε
+<lb n="5"/><supplied reason="lost" instant="false">ἀ</supplied><unclear instant="false">γ</unclear>αθ<unclear instant="false">α</unclear><supplied reason="lost" instant="false">ις</supplied> <supplied reason="lost" instant="false">ἐ</supplied>λπι<unclear instant="false">σι</unclear> προσέχουσι
+<lb n="6"/>ἴσ<unclear instant="false">θι</unclear> <supplied reason="lost" instant="false">τῶ</supplied><unclear instant="false">ν</unclear> <unclear instant="false">ἀνθρω</unclear>πε<unclear instant="false">ι</unclear>ων
+<lb n="7"/>μη<unclear instant="false">δ</unclear>ὲ<gap reason="lost" quantity="2" unit="character" instant="false"/><gap reason="illegible" quantity="1" unit="character" instant="false"/> <supplied reason="lost" instant="false">βεβα</supplied>ιότερον· οὕ
+<lb n="8" break="no"/><subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">τως</add><del rend="corrected" instant="false" status="unremarkable"><unclear instant="false">τ</unclear>ος</del></subst> γὰρ <supplied reason="lost" instant="false">ο</supplied><unclear instant="false">ὔτε</unclear> <supplied reason="lost" instant="false">ε</supplied>ὐτυχων
+<lb n="9"/><supplied reason="lost" instant="false">ἒ</supplied><unclear instant="false">σε</unclear>ι περιχαρὴ<supplied reason="lost" instant="false">ς</supplied> <unclear instant="false">ο</unclear>ὒ<unclear instant="false">τ</unclear>ε δυσ
+<lb n="10" break="no"/><supplied reason="lost" instant="false">τ</supplied>υχῶν περίλυπος. Ζεὺς
+<lb n="11"/><supplied reason="lost" instant="false">Ἡ</supplied>ρακλέα καὶ Τάνταλον γεν
+<lb n="12" break="no"/>νήσας ὡς οἱ μυθογράφοι
+<lb n="13"/><supplied reason="lost" instant="false">λ</supplied>έγουσι καὶ πάντες ἱστο
+<lb n="14" break="no"/><supplied reason="lost" instant="false">ρο</supplied>ῦσι, τὸν μὲν διὰ τὴν ἀ
+<lb n="15" break="no"/><supplied reason="lost" instant="false">ρ</supplied>ετὴν αθάνατον ἐποίη
+<lb n="16" break="no"/><supplied reason="lost" instant="false">σ</supplied>εν, τὸν δὲ δ<unclear instant="false">ιὰ</unclear> τὴν κακίαν
+<lb n="17"/>ταῖς <app type="editorial"><lem resp=" PN S.Causo (from photo)"><unclear instant="false">μ</unclear>εγίσται<add place="above" instant="false" status="unremarkable"><unclear instant="false">ς</unclear></add> </lem><rdg><unclear instant="false">μ</unclear>εγίστα<supplied reason="omitted" instant="false">ι</supplied><unclear instant="false">ς</unclear></rdg></app> <subst instant="false" status="unremarkable"><add place="inline" instant="false" status="unremarkable">τιμωρίαις</add><del rend="corrected" instant="false" status="unremarkable">τιμοριαις</del></subst> ἐκο
+18.῎ <supplied reason="lost" instant="false">λ</supplied>ασ<unclear instant="false">ε</unclear>ν. οἶς χρὴ παράδ<supplied reason="omitted" instant="false">ε</supplied>ιγμα<unclear instant="false">σ</unclear><supplied reason="lost" instant="false">ι</supplied>
+<lb n="19"/><unclear instant="false">χ</unclear>ρώμενον ὀρέγεσθαι τῆ<supplied reason="lost" instant="false">ς</supplied>
+<lb n="20"/><supplied reason="lost" instant="false">κα</supplied><unclear instant="false">λ</unclear>οκαγαθ<supplied reason="lost" instant="false">ί</supplied>ας
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="21"/>Ἑρμά<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">χ</supplied><unclear instant="false">ο</unclear>υ
+<lb n="22"/>ἀτέκμαρτ<unclear instant="false">ο</unclear><supplied reason="lost" instant="false">ς</supplied> <supplied reason="lost" instant="false">ὁ</supplied> <unclear instant="false">π</unclear><supplied reason="lost" instant="false">ᾶς</supplied> <unclear instant="false">βί</unclear>ος
+</ab>
+</div></div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0010">Isocrates</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/825">Ad Demonicum</title>
+               </bibl>
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author>Hermarchus</author>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">M.S.Funghi, Aspetti di letteratura gnomica nel mondo antico. II (Firenze, 2004) p.368 tav. 4</bibl>
+               <bibl type="printed" default="false" status="draft">CPF, pl. 27</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

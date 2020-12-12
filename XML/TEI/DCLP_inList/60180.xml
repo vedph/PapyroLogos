@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60180" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pseudo-Hippocratic Epistles (3, 4, 5, 11)</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">60180</idno>
+            <idno type="TM">60180</idno>
+            <idno type="LDAB">1297</idno>
+            <idno type="filename">60180</idno>
+            <idno type="dclp-hybrid">tm;;60180</idno>
+            <idno type="MP3">0541</idno>
+            <availability default="false" status="unknown">
+               <p part="N">
+            © Digital Corpus of Literary Papyri. This work is licensed under a
+            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>
+            .
+          </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 7094 Vo</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="roll">
+                     <supportDesc>
+                        <support>
+                           <material>papyrus</material>
+                           <dimensions>
+                              <width unit="cm">12.5 cm</width>
+                              <height unit="cm">23 cm</height>
+                           </dimensions>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="30">
+                           <p part="N">papyrus roll (columns: 2, written lines: 30, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Fundort: Egypt; Schreibort: Egypt</origPlace>
+                     <origDate notBefore="0100" notAfter="0299" instant="false">100 - 299</origDate>
+                  </origin>
+                  <provenance n="1" type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10565" xml:id="GR10565.01" from="2010" to="2015">
+                           <graphic url="http://ww2.smb.museum/berlpap/Original/P_07094_V_4_001.jpg"/>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term n="1" type="description">medical literature</term>
+               <term n="2" type="description">philosophy</term>
+               <term n="3" type="religion">classical</term>
+               <term n="4" type="culture">literature</term>
+               <term n="5" type="culture">science</term>
+               <term n="6">prose</term>
+               <term n="7">medicine</term>
+               <term n="8">letter</term>
+               <term n="9" type="overview"/>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2017-06-22T12:49:12+02:00" who="http://papyri.info/users/RodneyAst" status="draft">Finalized - Requested changes made.</change>
+         <change when="2017-06-22T11:12:37+02:00" who="http://papyri.info/users/JuliaLougovaya-Ast" status="draft">Vote - Accept-Straight-to-Finalization - Please delete vol. number and add MP number  0541; record presence of anothe rtext on the recto. In the text, record strokes over μέγας in col.1.1. There is a paragraphos at the end of col. 1 recorded in BKT; the beginning of every new letter is in ecstasis, which should be recorded perhaps in the commentary.</change>
+         <change when="2017-03-10T09:53:15+01:00" who="http://papyri.info/users/VincenzoDamiani" status="draft">Submit - Edit metadata; add Greek text</change>
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+            <p part="N">This papyrus has been digitally edited by Vincenzo Damiani and revised by Vincenzo Damiani as part of the Project <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref> and the <ref target="http://epikur-wuerzburg.de/aktivitaeten/thv/">Würzburger Zentrum für Epikureismusforschung</ref></p>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author xml:lang="grc" ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0627">Hippocrates</author>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/800">Epistulae</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="i" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" extent="unknown" unit="line" instant="false"/>
+<lb n="1"/><supplied reason="lost" instant="false">Βασιλεὺς βασιλέ</supplied><unclear instant="false">ω</unclear>ν μ<hi rend="supraline">έγ</hi>ας
+<lb n="2"/><supplied reason="lost" instant="false">Ἀρταξέρξης Ὑστά</supplied>ν<unclear instant="false">ῃ</unclear> Ἑλλησ
+<lb n="3" break="no"/><supplied reason="lost" instant="false">πόντου ὑπάρχῳ</supplied> χαίρειν.
+<lb n="4"/><supplied reason="lost" instant="false">Ἱπποκράτους ἰητρο</supplied>ῦ Κῴου ἀπ'
+<lb n="5"/><supplied reason="lost" instant="false">Ἀσκληπιοῦ γεγονότ</supplied>ος καὶ ἐς ἐμὲ
+<lb n="6"/><supplied reason="lost" instant="false">κλέος ἀφῖκται. δὸς ο</supplied><unclear instant="false">ῦ</unclear>ν αὐτῷ 
+<lb n="7"/><supplied reason="lost" instant="false">χρυσὸν ὁπόσον ἂν βο</supplied><unclear instant="false">ύ</unclear>ληται καὶ
+<lb n="8"/><supplied reason="lost" instant="false">τὰ ἄλλα χύδην ὧν</supplied> σπανίζει, 
+<lb n="9"/><supplied reason="lost" instant="false">καὶ πέμπε πρὸς ἡμέα</supplied>ς. ἔσται γὰρ
+<lb n="10"/><supplied reason="lost" instant="false">Περσέων ἰσότιμος</supplied> τοῖς ἀ<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">ί</supplied>
+<lb n="11" break="no"/><supplied reason="lost" instant="false">στοις· καὶ εἴ τίς ἐστιν</supplied> ἄλλος ἀνὴρ
+<lb n="12"/><supplied reason="lost" instant="false">κατ’ Εὐρώπην ἀγα</supplied>θός, φίλον 
+<lb n="13"/><supplied reason="lost" instant="false">οἴ</supplied><unclear instant="false">κ</unclear>ῳ <unclear instant="false">β</unclear><supplied reason="lost" instant="false">ασιλέως τίθ</supplied><unclear instant="false">ε</unclear>σο μὴ φει
+<lb n="14" break="no"/>δόμεν<supplied reason="lost" instant="false">ος ὄλβου.</supplied> <supplied reason="lost" instant="false"><space atLeast="4" atMost="5" unit="character"/></supplied> <supplied reason="lost" instant="false">ἔ</supplied><unclear instant="false">ρ</unclear>ρωσο.
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="15" rend="ekthesis"/> Ὑστάνης <unclear instant="false">Ἱ</unclear><supplied reason="lost" instant="false">πποκράτ</supplied>ει ἰ<unclear instant="false">ητ</unclear>ρῷ
+<lb n="16"/>Ἀσκληπ<supplied reason="lost" instant="false">ια</supplied><unclear instant="false">δ</unclear><supplied reason="lost" instant="false">έων ὄ</supplied><unclear instant="false">ν</unclear>τι <unclear instant="false">ἀπογ</unclear><supplied reason="lost" instant="false">όν</supplied>ῳ
+<lb n="17"/>χαίρειν. <supplied reason="lost" instant="false">ἣ</supplied><unclear instant="false">ν</unclear> <supplied reason="lost" instant="false">ἔπ</supplied>εμψ<unclear instant="false">ε</unclear> <unclear instant="false">βασι</unclear>λεὺς
+<lb n="18"/><supplied reason="lost" instant="false">ἐ</supplied>πισ<unclear instant="false">τ</unclear>ο<unclear instant="false">λ</unclear><supplied reason="lost" instant="false">ὴν</supplied> <unclear instant="false">σέ</unclear><supplied reason="lost" instant="false">ο χ</supplied><unclear instant="false">ρ</unclear>ῄζ<unclear instant="false">ων</unclear>, <unclear instant="false">ἔ</unclear><supplied reason="lost" instant="false">πε</supplied>μ
+<lb n="19" break="no"/><supplied reason="lost" instant="false">ψ</supplied><unclear instant="false">ά</unclear> σοι· γ<unclear instant="false">ρ</unclear><supplied reason="lost" instant="false">άψο</supplied>ν <supplied reason="lost" instant="false">ο</supplied><unclear instant="false">ὖ</unclear>ν πρὸς ταῦτα,
+<lb n="20"/><unclear instant="false">ἵvα</unclear> κατ<supplied reason="lost" instant="false">ὰ τά</supplied>χ<supplied reason="lost" instant="false">ο</supplied><unclear instant="false">ς</unclear> πρὸς βασι<supplied reason="lost" instant="false">λέ</supplied>α 
+<lb n="21"/>πέμψω. <space quantity="3" unit="character"/> ἔρρωσο.
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="22" rend="ekthesis"/> Ἱπποκράτης Ὑσ<unclear instant="false">τάνῃ</unclear> Ἑλλησ
+<lb n="23" break="no"/>πόντου ὑ<unclear instant="false">π</unclear><supplied reason="lost" instant="false">ά</supplied><unclear instant="false">ρ</unclear>χῳ χαίρειν. 
+<lb n="24"/>πρὸς τὴν ἐ<unclear instant="false">π</unclear>ιστολ<unclear instant="false">ὴν</unclear> ἣ<supplied reason="omitted" instant="false">ν</supplied> ἔπεμψας 
+<lb n="25"/>φάμενος παρὰ βασιλέως <unclear instant="false">ἀ</unclear>φῖ
+<lb n="26" break="no"/>χ<unclear instant="false">θ</unclear><supplied reason="lost" instant="false">α</supplied>ι, πέμπε βασιλεῖ λέγων 
+<lb n="27"/>γρ<supplied reason="lost" instant="false">ά</supplied><unclear instant="false">φ</unclear>ω ὅτ<supplied reason="lost" instant="false">ι</supplied> <unclear instant="false">κ</unclear>αὶ προοσφορῇ καὶ
+<lb n="28"/> ἐσθῆτι καὶ οἰκήσει καὶ π<unclear instant="false">ά</unclear>σῃ
+<lb n="29"/>ἐς βίον ἀ<unclear instant="false">ρ</unclear>κεούσῃ συνουσίῃ
+<lb n="30"/>χ<supplied reason="lost" instant="false">ρ</supplied>έομαι, καὶ ὄλβου Περσέων
+<milestone rend="paragraphos" unit="undefined"/>
+</ab>
+</div>
+<div n="ii" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><gap reason="lost" quantity="2" unit="line" instant="false"/>
+<lb n="3"/><unclear instant="false">τ</unclear><gap reason="illegible" quantity="1" unit="character" instant="false"/><gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="4" rend="ekthesis"/> Ἱπποκρά<supplied reason="lost" instant="false">της Ὑστάνῃ Ἑλλησπόντου</supplied>
+<lb n="5"/>ὑπάρχ<supplied reason="lost" instant="false">ῳ χαίρειν. πέμπε ἐς βα</supplied>
+<lb n="6" break="no"/>σι<unclear instant="false">λ</unclear>έως <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">πρόσ</supplied>
+<lb n="7" break="no"/>φορῇ κ<supplied reason="lost" instant="false">αὶ ἐσθῆτι καὶ οἰκήσει καὶ πάσῃ</supplied>
+<lb n="8"/>τῇ ἐς <supplied reason="lost" instant="false">βίον</supplied> <gap reason="lost" extent="unknown" unit="character" instant="false"/>
+<lb n="9"/>εσθα<unclear instant="false">ι</unclear> <gap reason="lost" extent="unknown" unit="character" instant="false"/> <supplied reason="lost" instant="false">οὔ μοι θέ</supplied>
+<lb n="10" break="no"/>μις <unclear instant="false">ἐπ</unclear><supplied reason="lost" instant="false">αύρασθαι, οὐδὲ βαρβάρους</supplied>
+<lb n="11"/>ἄ<unclear instant="false">νδρα</unclear>ς <supplied reason="lost" instant="false">νούσων παύειν, ἐχθροὺς</supplied>
+<lb n="12"/>ὑ<unclear instant="false">πάρχο</unclear><supplied reason="lost" instant="false">ντας Ἑλλήνων.</supplied>
+<milestone rend="paragraphos" unit="undefined"/>
+<lb n="13" rend="ekthesis"/> Ἱππο<unclear instant="false">κρά</unclear><supplied reason="lost" instant="false">της Ἀβδηριτῶν βουλῇ</supplied>
+<lb n="14"/>καὶ <supplied reason="lost" instant="false">δ</supplied><unclear instant="false">ή</unclear><supplied reason="lost" instant="false">μῳ χαίρειν. ὁ πολίτης</supplied>
+<lb n="15"/>ὑ<unclear instant="false">μῶ</unclear>ν <unclear instant="false">Ἀ</unclear><supplied reason="lost" instant="false">μελησαγόρης ἦλθεν ἐς Κῷ,</supplied>
+<lb n="16"/>κ<unclear instant="false">αὶ</unclear> <supplied reason="lost" instant="false">ἔτυχε τότ’ ἐοῦσα τῆς ῥάβδου</supplied>
+<lb n="17"/>ἡ ἀνά<unclear instant="false">λ</unclear><supplied reason="lost" instant="false">ηψις ἐν ἐκείνῃ τῇ ἡμέ</supplied>
+<lb n="18" break="no"/>ρᾳ καὶ <supplied reason="lost" instant="false">ἐτήσιος, ὡς ἴστε, πανήγυρις</supplied>
+<lb n="19"/>ἡμεῖν <unclear instant="false">κ</unclear><supplied reason="lost" instant="false">αὶ πομπὴ πολυτελὴς</supplied>
+<lb n="20"/>ἐς κ<unclear instant="false">υ</unclear>π<unclear instant="false">ά</unclear><supplied reason="lost" instant="false">ρισσον, ἣν ἔθος ἀνάγειν</supplied>
+<lb n="21"/>τοῖς <unclear instant="false">τ</unclear>ῷ <supplied reason="lost" instant="false">θεῷ προσήκουσιν. ἐπεὶ δὲ σπουδάζειν</supplied>
+<lb n="22"/>ἐ<unclear instant="false">ῴκ</unclear>ε<unclear instant="false">ι</unclear> <supplied reason="lost" instant="false">καὶ ἐκ τῶν λόγων καὶ ἐκ τῆς</supplied>
+<lb n="23"/><unclear instant="false">ὄ</unclear>ψε<unclear instant="false">ω</unclear>ς <supplied reason="lost" instant="false">ὁ Ἀμελησαγόρης, πεισθείς, ὅπερ ἦν,</supplied>
+<lb n="24"/><unclear instant="false">ἐπεί</unclear>γε<supplied reason="lost" instant="false">ιν τό πρῆγμα, ἀνέγνων τε</supplied> 
+<lb n="25"/><unclear instant="false">ὑ</unclear>μέων <supplied reason="lost" instant="false">τὴν έπιστολήν, καὶ ἐθαύ</supplied>
+<lb n="26" break="no"/><unclear instant="false">μασ</unclear><supplied reason="lost" instant="false">α ὅτι περὶ ἑνὸς ἀνθρώπου</supplied>
+<lb n="27"/><unclear instant="false">ὡ</unclear>ς <supplied reason="lost" instant="false">εἷς ἄνθρωπος ἡ πόλις θορυ</supplied>
+<lb n="28" break="no"/>βεῖσ<unclear instant="false">θε</unclear>. <supplied reason="lost" instant="false">μακάριοί γε δῆμοι καὶ ὁκόσοι</supplied>
+<lb n="29"/>ἴσ<supplied reason="lost" instant="false">α</supplied>σι τ<supplied reason="lost" instant="false">οὺς ἀγαθοὺς ἄνδρας</supplied>
+<lb n="30"/>ἐρύμα<supplied reason="lost" instant="false">τα ἑωυτῶν, καὶ οὐ τοὺς</supplied>
+</ab>
+</div>
+<div n="iii" subtype="column" type="textpart" part="N" org="uniform" sample="complete">
+<ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">πύργους</supplied>
+</ab>
+</div></div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" n="1" default="false" status="draft">BKT 03 pl.I</bibl>
+               <bibl type="printed" n="2" default="false" status="draft">CPF IV.2 pl. 26</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://berlpap.smb.museum/01957"/>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft"><!-- ignore - start, i.e. SoSOL users may not edit this -->
+                  <title level="s" type="short">C.P.F.</title>
+                  <date instant="false">2008</date>
+                  <editor/>
+                  <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/76983"/>
+                  <biblScope unit="page" from="157" to="162">157-162</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="commentary" subtype="general" part="N" org="uniform" sample="complete">
+            <p part="N">On the recto of the papyrus is TM 63379: K. Kalbfleisch, Papyri Graecae Musei Britannici et Musei Berolinensis (Vorlesungsverzeichnis Rostock 1902), Rostock 1902, 9–14.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

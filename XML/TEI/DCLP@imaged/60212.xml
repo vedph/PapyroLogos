@@ -248,7 +248,9 @@
 <lb n="43" rend="ekthesis"/><supplied reason="lost" instant="false">ναύ</supplied>τῃσι <space quantity="1" unit="character"/> τοῖς ναύ
 <lb n="44" break="no"/><supplied reason="lost" instant="false">ταις</supplied> <choice><reg instant="false"><supplied reason="lost" instant="false">πλ</supplied>ωομένοις</reg><orig><supplied reason="lost" instant="false">πλ</supplied><unclear instant="false">οωμ</unclear>ένοις</orig></choice> τοῖς
 <lb n="45"/><supplied reason="lost" instant="false">πλω</supplied>ιζομένοις
-</ab></div></div>
+</ab>
+</div>
+         </div>
          <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
             <listBibl default="false">
                <bibl type="printed" default="false" status="draft">Forsch. u. Ber. 10, pl.21.1</bibl>

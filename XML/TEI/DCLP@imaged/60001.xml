@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60001" xml:lang="en">
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m60001" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -12,7 +13,9 @@
             <idno type="filename">60001</idno>
             <idno type="dclp-hybrid">tm;;60001</idno>
             <availability default="false" status="unknown">
-               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>.</p>
+               <p part="N">© Digital Corpus of Literary Papyri. This work is licensed under a <ref
+                     type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative
+                     Commons Attribution 3.0 License</ref>.</p>
             </availability>
          </publicationStmt>
          <sourceDesc default="false">
@@ -41,28 +44,34 @@
                   </origin>
                   <provenance type="found">
                      <p part="N">
-                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes"
+                           >Egypt</placeName>
                      </p>
                   </provenance>
                   <provenance type="composed">
                      <p part="N">
-                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                        <placeName type="ancient" subtype="region" instant="false" full="yes"
+                           >Egypt</placeName>
                      </p>
                   </provenance>
                </history>
                <additional>
                   <adminInfo>
                      <custodialHist>
-                        <custEvent type="imaged" corresp="#FR7918" xml:id="GR7918.01" from="2010" to="2015">
+                        <custEvent type="imaged" corresp="#FR7918" xml:id="GR7918.01" from="2010"
+                           to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_06789_V.jpg"/>
                         </custEvent>
-                        <custEvent type="imaged" corresp="#FR7919" xml:id="GR7919.01" from="2010" to="2015">
+                        <custEvent type="imaged" corresp="#FR7919" xml:id="GR7919.01" from="2010"
+                           to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_06789_R.jpg"/>
                         </custEvent>
-                        <custEvent type="imaged" corresp="#FR7920" xml:id="GR7920.01" from="2010" to="2015">
+                        <custEvent type="imaged" corresp="#FR7920" xml:id="GR7920.01" from="2010"
+                           to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_06789_R.jpg"/>
                         </custEvent>
-                        <custEvent type="imaged" corresp="#FR7921" xml:id="GR7921.01" from="2010" to="2015">
+                        <custEvent type="imaged" corresp="#FR7921" xml:id="GR7921.01" from="2010"
+                           to="2015">
                            <graphic url="http://ww2.smb.museum/berlpap/Original/P_06789_R.jpg"/>
                         </custEvent>
                      </custodialHist>
@@ -72,9 +81,8 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <p part="N">
-            This file encoded to comply with EpiDoc Guidelines and Schema version 8
-            <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         <p part="N"> This file encoded to comply with EpiDoc Guidelines and Schema version 8
+               <ref>http://www.stoa.org/epidoc/gl/5/</ref>
          </p>
       </encodingDesc>
       <profileDesc>
@@ -85,7 +93,8 @@
                <term>apocalyptic</term>
                <term type="culture">literature</term>
                <term type="religion">christian</term>
-               <term type="overview">Hermas; Pastor, Similitudines 08, 1, 1-12 (GCS 48, 67, 1-12)</term>
+               <term type="overview">Hermas; Pastor, Similitudines 08, 1, 1-12 (GCS 48, 67,
+                  1-12)</term>
             </keywords>
          </textClass>
          <langUsage default="false">
@@ -95,7 +104,8 @@
       </profileDesc>
       <revisionDesc status="draft">
          <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
-         <change when="2016-05-02" who="M. Moser" status="draft">Entered Greek text from reference edition</change>
+         <change when="2016-05-02" who="M. Moser" status="draft">Entered Greek text from reference
+            edition</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -196,7 +206,8 @@
             <listBibl default="false">
                <bibl type="publication" subtype="ancient" default="false" status="draft">
                   <author>Hermas</author>
-                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/791">Pastor</title>
+                  <title type="main" level="m" ref="http://www.trismegistos.org/authorwork/791"
+                     >Pastor</title>
                </bibl>
             </listBibl>
          </div>

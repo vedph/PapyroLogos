@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.23/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="m62068" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Old Testament; Psalm 025.7 - 026.2</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Digital Corpus of Literary Papyri</authority>
+            <idno type="dclp">62068</idno>
+            <idno type="TM">62068</idno>
+            <idno type="LDAB">3227</idno>
+            <idno type="filename">62068</idno>
+            <idno type="dclp-hybrid">bkt;8;6</idno>
+            <availability default="false" status="unknown">
+               <p part="N">
+            © Digital Corpus of Literary Papyri. This work is licensed under a
+            <ref type="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</ref>
+            .
+          </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <msDesc>
+               <msIdentifier>
+                  <idno type="invNo">Berlin, Ägyptisches Museum P. 9754</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <material>parchment</material>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p part="N">parchment codex (columns: 1, pagination: 0)</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin instant="false">
+                     <origPlace instant="false">Fundort: Egypt; Schreibort: Egypt</origPlace>
+                     <origDate notBefore="0400" notAfter="0499" instant="false">400 - 499</origDate>
+                  </origin>
+                  <provenance n="1" type="found">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+                  <provenance n="2" type="composed">
+                     <p part="N">
+                        <placeName type="ancient" subtype="region" instant="false" full="yes">Egypt</placeName>
+                     </p>
+                  </provenance>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <custodialHist>
+                        <custEvent type="imaged" corresp="#FR10120" when="2011">
+                           <graphic url="http://berlpap.smb.museum/Original/P_09754_S1_4_001.jpg"/>
+                           <orgName instant="false" full="yes">BerlPap</orgName>
+                        </custEvent>
+                        <custEvent type="imaged" corresp="#FR10119" when="2011">
+                           <graphic url="http://berlpap.smb.museum/Original/P_09754_S2_4_001.jpg"/>
+                           <orgName instant="false" full="yes">BerlPap</orgName>
+                        </custEvent>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p part="N">
+        This file encoded to comply with EpiDoc Guidelines and Schema version 8
+        <ref>http://www.stoa.org/epidoc/gl/5/</ref>
+         </p>
+      </encodingDesc>
+      <profileDesc>
+         <textClass default="false">
+            <keywords>
+               <term n="1" type="religion">christian</term>
+               <term n="2" type="culture">literature</term>
+               <term n="3">poetry</term>
+               <term n="4">bible</term>
+            </keywords>
+         </textClass>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="draft">
+         <change when="2020-06-15T06:48:57-04:00" who="http://papyri.info/users/Holger%20Essler" status="draft">Finalized - Ok.</change>
+         <change when="2020-06-15T06:46:32-04:00" who="http://papyri.info/users/Holger%20Essler" status="draft">Vote - Accept-Straight-to-Finalization - Ok.</change>
+         <change when="2020-06-15T06:45:38-04:00" who="http://papyri.info/users/HolgerEssler" status="draft">Submit - Corrected Leiden+.</change>
+         <change when="2020-06-15T03:45:39-04:00" who="http://papyri.info/users/mgerhardt" status="draft">Finalized - Revised metadata and text</change>
+         <change when="2020-06-15T03:45:38-04:00" who="http://papyri.info/users/mgerhardt" status="draft">Finalized - Revised metadata and text</change>
+         <change when="2020-06-15T03:35:00-04:00" who="http://papyri.info/users/mgerhardt" status="draft">Vote - Accept-Straight-to-Finalization - Meta: Copy Legacy Display Name to Display Name; delete volume nr.; correct link to images&#xD;
+Text: recto l. 1 delete additional eta and alpha, l. 2 εὐπρέπ[ειαν -&gt; εὐπρἀπ[ειαν, l. 14/15 correct capital letters, l . 18 διλε[ιάσω on pap; reg in recto l. 12, 18, 21, verso 4</change>
+         <change when="2020-06-15T03:35:00-04:00" who="http://papyri.info/users/mgerhardt" status="draft">Vote - Accept-Straight-to-Finalization - Meta: Copy Legacy Display Name to Display Name; delete volume nr.; correct link to images&#xD;
+Text: recto l. 1 delete additional eta and alpha, l. 2 εὐπρέπ[ειαν -&gt; εὐπρἀπ[ειαν, l. 14/15 correct capital letters, l . 18 διλε[ιάσω on pap; reg in recto l. 12, 18, 21, verso 4</change>
+         <change when="2020-06-12T08:43:27-04:00" who="http://papyri.info/users/OliverD." status="draft">Submit - In order to prevent a Leiden+ error, I added the subtype "fragment" to recto/verso. Please remove subtype="fragment" in the XML &lt;div&gt; tags after you are done revising the transcription.</change>
+         <change when="2020-06-12T08:43:27-04:00" who="http://papyri.info/users/OliverD." status="draft">Submit - In order to prevent a Leiden+ error, I added the subtype "fragment" to recto/verso. Please remove subtype="fragment" in the XML &lt;div&gt; tags after you are done revising the transcription.</change>
+         <change when="2014-12-10" who="DCLP" status="draft">Crosswalked to EpiDoc XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="commentary" subtype="frontmatter" xml:space="preserve" part="N" org="uniform" sample="complete">
+        <p part="N">
+          This text has been digitally edited by Oliver Donath and revised by Holger Essler as part of the Project
+          <ref target="http://www.kallimachos.de/kallimachos/index.php/Anagnosis:Main">Anagnosis</ref>
+          and the
+          <ref target="http://epikur-wuerzburg.de/aktivitaeten/ekdosis/">Würzburger Zentrum für Epikureismusforschung</ref>
+          .
+        </p>
+      </div>
+         <div xml:lang="grc" type="edition" xml:space="preserve" part="N" org="uniform" sample="complete">
+<div n="r" subtype="fragment" type="textpart" corresp="#FR10120" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/>καὶ διηγήσασθαι πάντα <supplied reason="lost" instant="false">τὰ θαυμάσιά σου.</supplied>
+<lb n="2"/><expan instant="false">κ<ex instant="false">ὺρι</ex>ε</expan>, ἠγάγπησα εὐπρεάπ<supplied reason="lost" instant="false">ειαν οἴκου σου</supplied>
+<lb n="3"/>καὶ τόπον σκηνώμ<supplied reason="lost" instant="false">ατος δόξης σου.</supplied>
+<lb n="4"/>μὴ συναπολέσῃς με<supplied reason="lost" instant="false">τὰ ἀσεβῶν</supplied> 
+<lb n="5"/><unclear instant="false">τὴν</unclear> ψυχήν μου
+<lb n="6"/>καὶ μετὰ ἀνδρῶν αἱμ<supplied reason="lost" instant="false">άτων</supplied> 
+<lb n="7"/><supplied reason="lost" instant="false">τὴν ζω</supplied>ήν μου,
+<lb n="8"/>ὧν ἐν χερσ<unclear instant="false">ὶν</unclear> ἀνομία<supplied reason="lost" instant="false">ι,</supplied>
+<lb n="9"/>ἡ δεξιὰ αὐ<unclear instant="false">τῶν</unclear> <unclear instant="false">ἐπ</unclear>λήσθη <supplied reason="lost" instant="false">δώρων.</supplied>
+<lb n="10"/>ἐγὼ δὲ ἐν ἀκακίᾳ μου ἐπ<supplied reason="lost" instant="false">ορεύθην·</supplied>
+<lb n="11"/>λύτρω<unclear instant="false">σ</unclear>αί με καὶ ἐλέησό<supplied reason="lost" instant="false">ν με.</supplied>
+<lb n="12"/>ὁ πούς μου ἔστ<unclear instant="false">η</unclear> <choice><reg instant="false">ἐ<unclear instant="false">ν</unclear></reg><orig><unclear instant="false">ν</unclear></orig></choice> <supplied reason="lost" instant="false">εὐθύτητι·</supplied>
+<lb n="13"/>ἐν <supplied reason="lost" instant="false">ἐκκλ</supplied>ησίαις εὐλογήσ<supplied reason="lost" instant="false">ω σε,</supplied> <expan instant="false"><supplied reason="lost" instant="false">κ<ex instant="false">ύρι</ex>ε</supplied>.</expan>
+<lb n="14"/><expan instant="false">κ<ex instant="false">ύριο</ex>ς</expan> <supplied reason="lost" instant="false">τοῦ <expan instant="false">Δ<ex instant="false">α</ex>υ<ex instant="false">ι</ex>δ</expan> πρὸ τοῦ χρισθῆναι.</supplied>
+<lb n="15"/><expan instant="false">κ<ex instant="false">ύριο</ex>ς</expan> φ<supplied reason="lost" instant="false">ω</supplied>τισμός μου καὶ σω<supplied reason="lost" instant="false">τήρ μου</supplied>
+<lb n="16"/><supplied reason="lost" instant="false">τί</supplied><unclear instant="false">να</unclear> φοβηθήσομαι
+<lb n="17"/><supplied reason="lost" instant="false"><expan instant="false">κ<ex instant="false">ύριο</ex>ς</expan> ὑπερασ</supplied>πισ<supplied reason="lost" instant="false">τὴς τῆς ζωῆς μου·</supplied>
+<lb n="18"/>ἀπὸ τίνος <choice><reg instant="false">δειλ<supplied reason="lost" instant="false">ιάσω</supplied></reg><orig>διλε<supplied reason="lost" instant="false">ιάσω</supplied></orig></choice>;
+<lb n="19"/>ἐν τῷ ἐγ<supplied reason="lost" instant="false">γί</supplied>ζε<supplied reason="lost" instant="false">ιν ἐπ᾽</supplied> ἐμ<unclear instant="false">ὲ</unclear> <unclear instant="false">κα</unclear><supplied reason="lost" instant="false">κοῦντας</supplied> 
+<lb n="20"/>τοῦ φαγεῖν <unclear instant="false">τ</unclear>ο<unclear instant="false">ὺ</unclear>ς σ<supplied reason="lost" instant="false">άρκας μου</supplied>
+<lb n="21"/>οἱ <choice><reg instant="false">θλίβον<supplied reason="lost" instant="false">τές</supplied></reg><orig>θλείβον<supplied reason="lost" instant="false">τές</supplied></orig></choice> <supplied reason="lost" instant="false">με καὶ ἐχθροί μου</supplied>
+<lb n="22"/>αὐτοὶ <supplied reason="lost" instant="false">ἠσθένησαν</supplied> καὶ ἔ<supplied reason="lost" instant="false">πεσαν·</supplied>
+</ab></div> 
+<div n="v" subtype="fragment" type="textpart" corresp="#FR10119" part="N" org="uniform" sample="complete"><ab part="N">
+<lb n="1"/><supplied reason="lost" instant="false">ἐὰν παρατάξητα</supplied>ι ἐπ᾽ ἐμὲ παρεμβολή,
+<lb n="2"/><supplied reason="lost" instant="false">οὐ φοβηθή</supplied>σεται ἡ καρδία μου·
+<lb n="3"/><supplied reason="lost" instant="false">ἐὰν ἐπαναστῇ ἐ</supplied>π᾽ ἐμὲ πόλεμος, ἐν ταύ
+<lb n="4" break="no"/><supplied reason="lost" instant="false">τῃ ἐγὼ</supplied> <choice><reg instant="false"><supplied reason="lost" instant="false">ἐλ</supplied>πίζω</reg><orig><supplied reason="lost" instant="false">ἐλ</supplied>πείζω</orig></choice>.
+<lb n="5"/><supplied reason="lost" instant="false">μίαν ᾐτησάμη</supplied>ν παρὰ <expan instant="false">κ<ex instant="false">υρίο</ex>υ</expan>, ταύτην ἐκζητή<unclear instant="false">σω</unclear>·
+<lb n="6"/><supplied reason="lost" instant="false">τοῦ κατοικεῖν</supplied> με ἐν οἴκῳ <expan instant="false">κ<ex instant="false">υρίο</ex>υ</expan> πάσας τὰς
+<lb n="7"/><supplied reason="lost" instant="false">ἡμέρας</supplied> τῆς ζω<unclear instant="false">ῆς</unclear> μου,
+<lb n="8"/><supplied reason="lost" instant="false">τοῦ θεωρε</supplied>ῖν με τὴν τερπνότη
+<lb n="9" break="no"/><supplied reason="lost" instant="false">τα τοῦ <expan instant="false">κ<ex instant="false">υρίο</ex>υ</expan></supplied>
+<lb n="10"/><supplied reason="lost" instant="false">καὶ ἐπισ</supplied>κέπτεσθαι τὸν να<supplied reason="lost" instant="false">ὸ</supplied>ν αὐτοῦ.
+<lb n="11"/><supplied reason="lost" instant="false">ὅτι ἔκρυ</supplied>ψέν με ἐν σκηνῇ ἐν ἡμέρᾳ κα
+<lb n="12" break="no"/><supplied reason="lost" instant="false">κῶν μου·</supplied>
+<lb n="13"/><supplied reason="lost" instant="false">ἐσκέπασ</supplied>έν με ἐν ἀποκρύ<unclear instant="false">φῳ</unclear> τῆ<unclear instant="false">ς</unclear> 
+<lb n="14"/><supplied reason="lost" instant="false">σκη</supplied>νῆς αὐτοῦ,
+<lb n="15"/><supplied reason="lost" instant="false">ἐν πέτρᾳ</supplied> ὕψωσέν με·
+<lb n="16"/><supplied reason="lost" instant="false">καὶ νῦν</supplied> ἰδοὺ ὕψωσεν τὴν κεφα<supplied reason="lost" instant="false">λ</supplied><unclear instant="false">ήν</unclear> <unclear instant="false">μου</unclear>
+<lb n="17"/><supplied reason="lost" instant="false">ἐπ᾽</supplied> ἐχθρούς μου·
+<lb n="18"/><supplied reason="lost" instant="false">ἐκύκλ</supplied>ωσα καὶ ἔθυσα ἐν <supplied reason="lost" instant="false">τῇ σ</supplied><unclear instant="false">κηνῇ</unclear>
+<lb n="19"/><supplied reason="lost" instant="false">αὐτ</supplied>οῦ θ<supplied reason="lost" instant="false">υ</supplied>σίαν ἀλαλαγμοῦ,
+<lb n="20"/><supplied reason="lost" instant="false">ᾄσομαι καὶ</supplied> ψαλῶ τῷ <expan instant="false">κ<ex instant="false">υρί</ex>ῳ</expan>.
+<lb n="21"/><supplied reason="lost" instant="false">εἰσάκου</supplied>σον, τῆς φωνῆς μου, ἧς ἐ
+<lb n="22" break="no"/><supplied reason="lost" instant="false">κέκ</supplied>ραξ<supplied reason="lost" instant="false">α·</supplied>
+</ab></div> </div>
+         <div type="bibliography" subtype="principalEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="principal" default="false" status="draft">
+            <!-- ignore - start, i.e. SoSOL users may not edit this -->
+            <!-- ignore - stop -->
+                  <ptr target="http://papyri.info/biblio/3904"/>
+                  <biblScope unit="number">6</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="ancientEdition" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="publication" subtype="ancient" default="false" status="draft">
+                  <author xml:lang="grc" ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0527">Testamentum Vetus (Septuaginta)</author>
+                  <title type="main" level="m" xml:lang="grc" ref="http://www.trismegistos.org/authorwork/545">Psalmi</title>
+               </bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography" subtype="illustrations" part="N" org="uniform" sample="complete">
+            <listBibl default="false">
+               <bibl type="printed" default="false" status="draft">G. Cavallo, Ricerche sulla maiuscola biblica (1967), pl.59b</bibl>
+               <bibl type="online" default="false" status="draft">
+                  <ptr target="http://berlpap.smb.museum/02705/"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

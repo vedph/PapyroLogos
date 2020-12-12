@@ -15,6 +15,8 @@ https://docs.google.com/spreadsheets/d/1DcbklKxzo9e_rcNUO2e_mxCdBjIy4re_KpKS_Bjz
 
 ## Aktualisierung der Dateien – Workflow ##
 Unter Nutzung der verschiedenen Ausgabemöglichkeiten der XQuery ergibt sich derzeit folgendes Vorgehen für die Aktualisierung des Korpus:
+Falls es Neuerungen in Tabelle "Bearbeitete Papyrusabbildungen für NewLineSegmenter" gibt:
+1. Inhalt kopieren, in lokale Tabelle https://github.com/vedph/PapyroLogos/blob/master/documents/listPapyri.xlsx mit XML-Struktur einfügen und als XML-Datei listPapyri.xml abspeichern; ansonsten:
 1. Aktuelle TEI-Dateien in PapyroLogos/XML/TEI/ ablegen bzw. Pfad in Z. 50-55 auf gewünschtes (z.B. DCLP) Verzeichnis ändern
 2. (Empfohlen) Zunächst Erstellung der Datei 'documents/corpusTranscript.xml', da höchste Laufzeit und Nachverfolgung evtl. Probleme mit Neuerungen möglich 
     - Dafür Z. 22 $loadTranscriptFile auf false() stellen

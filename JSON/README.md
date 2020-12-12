@@ -1,4 +1,5 @@
 ## Dateikorpus JSON
+*möglicherweise veraltet*
 ### Transkriptionsversionen
 Jeweils 4 Versionen für **D**iplomatische bzw. **N**ormalisierte Transkription
 1.  Nur text in "token", d.h. sicher gelesene Zeichen, werden gedruckt. Getrennt durch Leerzeichen, falls durch andere Elemente mit Zeichen unknown/supplied/etc. unterbrochen

@@ -1,5 +1,5 @@
-# transcriptMultiple_2.6.xquery #
-Die XQuery basiert auf der Vorläuferversion, die dafür ausgelegt war, einen vorhandenen Korpus ALTO-Dateien mit den erstellten Transkriptionen zusammen zu führen/zu füllen.
+# transcriptMultiple_2.7.xquery #
+Die XQuery basiert auf der Vorgängerversion, die dafür ausgelegt war, einen vorhandenen Korpus ALTO-Dateien mit den erstellten Transkriptionen zusammen zu führen/zu füllen.
 Anstelle des ALTO-Korpus (unter Nutzung der Namenskonvention) liefert nun die Tabelle "Bearbeitete Papyrusabbildungen für NewLineSegmenter" <br/> https://docs.google.com/spreadsheets/d/1kGkPYNpcTaSTe_4ROBwitSlpC0IGNxr4h22p0dZ9VF8/edit#gid=50312864 <br/>
 die Grundlage für die Zuordnung von Bilddatei und Transkription per XQuery. 
 Bei listPapyri.xml in /documents handelt es sich um eine Kopie dieser Tabelle (Stand 2020-11-09) in XML-Struktur und stellt zusammen mit einem Korpus von TEI-Dateien das Fundament der Query dar. <br/> 
@@ -32,4 +32,3 @@ Unter Nutzung der verschiedenen Ausgabemöglichkeiten der XQuery ergibt sich der
 - Wer ist für die aufgeführte Tabelle (original) verantwortlich bzw. wer arbeitet damit? Ist sie als Grundlage der XQuery langfristig überhaupt sinnvoll?
 - Wie lässt sich der Prozess zukünftig robuster gestalten, sodass keine Dateien/Informationen unberücksichtigt bleiben?
 - Wie sollen die aktuell als problematisch markierten Dateien (lokale Kopie der Tabelle) weiterverarbeitet werden?
-

@@ -29,6 +29,6 @@ Unter Nutzung der verschiedenen Ausgabemöglichkeiten der XQuery ergibt sich der
     - 'matchTree.xml', $match: Auflistung der Gefundenen matches, sowie der abgelehnten, unpassenden Zuordnungen
     - 'matchTreeSort.xml', $matchSort: Auflistung der Gefundenen matches
 # Offene Fragen
-- Wer ist für die aufgeführte Tabelle (original) verantwortlich bzw. wer arbeitet damit? Ist sie als Grundlage der XQuery langfristig überhaupt sinnvoll?
-- Wie lässt sich der Prozess zukünftig robuster gestalten, sodass keine Dateien/Informationen unberücksichtigt bleiben?
+- Wie soll die Zuordnung ablaufen, nachdem die von Olver Donath erstellte Tabelle diese Funktion verliert? Überarbeitung der Namenskonvention? Gesicherte Dokumentation über eScriptorium, github etc.?
+- Wie lässt sich der Prozess zukünftig robuster gestalten, sodass keine Dateien/Informationen unberücksichtigt bleiben? (siehe Punkt 1)
 - Wie sollen die aktuell als problematisch markierten Dateien (lokale Kopie der Tabelle) weiterverarbeitet werden?

@@ -146,7 +146,7 @@ for $textpart in $source//textpart return <textpart>{
 (: Nur text in "token", getrennt durch Leerzeichen, falls durch andere Elemente unterbrochen :)
 if ($format=1)
     then for $line in $textpart//line return 
-    <line>{string-join($line//token//text(), ' ')}</line>
+    <line>{string-join(replace($line//token//text(), '[\r\n]', ''), ' ')}</line>
 
 (: Wie I; jede Zeichensequenz "unclear" wird durch einen Unterstrich repräsentiert :)
 else if ($format=2)
@@ -352,8 +352,12 @@ if (not(empty($target)))
 }</file> 
 }</root>
 
+(:
+return
+file:write(concat("file:///", $destinationAUX, 'corpusTranscriptPrep',".xml"), $corpusTranscriptPrep)
 
 
+:)
 
 (: ### Zur besseren Handhabung von Kolumnen wird in corpusTranscript eine Zwischenebene <cohesiveTextparts> eingezogen (zwischen <file> und <textpart>s) in denen alle textparts gesammelt sind, 
 die zur selben Grafik-URL zugeordnet sind. Nach aktueller Kenntnis des Korpus trifft dies bei allen Dateien mit Kolumnen zu. ### :)
@@ -386,8 +390,9 @@ return $textpart
 (:
 return 
 file:write(concat("file:///", $destinationAUX, 'corpusTranscript',".xml"), $corpusTranscript)
-
 :)
+
+
 
 let $metaTree :=
 <metaTree>{
@@ -791,7 +796,7 @@ let $jsonFile := string-join((
         "text": [
             ',
         for $line at $posL in $textpart//line return (  (:if ($line//text()!='') then ((:let $skip := true() return :):)
-        '"',$line//text(), '"',
+        '"', $line//text(), '"',     (: doc: replace($line//text(), '[\r\n]', '') in transcription-format angewendet; aus unbekannten Gründen ist (nur in N1) z.B. in 59099_7 innerhalb mancher Zeilen ein \n aufgetaucht, der die JSON zerstört hat:)
         if ($posL < count($textpart//line) (:and not($skip):))
             then ', 
             '
@@ -813,4 +818,6 @@ return if ($jsonOutput)
     else file:write(concat("file:///", $repository, $destinationXML, $version, '/', $fileName, '.xml'), $xmlFile)
 
 else ()
+
+
  

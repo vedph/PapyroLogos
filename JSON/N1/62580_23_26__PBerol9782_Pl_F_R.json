@@ -7,7 +7,7 @@
     "part": "F",
     "graphicName": "P_09782-Pl-F_R_001.jpg",
     "textparts": "1",
-    "lines": "194",
+    "lines": "195",
     "version": "N1"
     },
 
@@ -16,7 +16,7 @@
     "textpart": [{
         "n": "23",
         "subtype": "column",
-        "textpartLines": "194",
+        "textpartLines": "195",
         "text": [
             "ἀλλὰ οἱ ὅροι οὔτε πρὸς", 
             "τὸ ἀσπάζεσθαι οὔτ", 
@@ -185,6 +185,7 @@
             "υ υν η", 
             "ά ις ἴ ον τ", 
             "ροσ", 
+            "", 
             "ν", 
             "ει ετε", 
             "ετρά", 

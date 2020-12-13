@@ -7,7 +7,7 @@
     "part": "0",
     "graphicName": "P_21175_R_001.jpg",
     "textparts": "1",
-    "lines": "8",
+    "lines": "9",
     "version": "N2"
     },
 
@@ -16,8 +16,9 @@
     "textpart": [{
         "n": "r",
         "subtype": "N/A",
-        "textpartLines": "8",
+        "textpartLines": "9",
         "text": [
+            "", 
             "ουκ", 
             "οιπ", 
             "ουλα", 

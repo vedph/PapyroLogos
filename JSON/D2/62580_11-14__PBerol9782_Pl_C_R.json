@@ -7,7 +7,7 @@
     "part": "C",
     "graphicName": "P_09782-Pl-C_R_001.jpg",
     "textparts": "1",
-    "lines": "184",
+    "lines": "185",
     "version": "D2"
     },
 
@@ -16,7 +16,7 @@
     "textpart": [{
         "n": "11",
         "subtype": "column",
-        "textpartLines": "184",
+        "textpartLines": "185",
         "text": [
             "Α_ΔΡΕΙΟΝΟΥΚΕΜΠΛΗ", 
             "ΚΤΟΝΑΛΛΑΣΤΑΣΙΜΟΝ", 
@@ -143,6 +143,7 @@
             "ΤΕ_", 
             "ΠΡΟ", 
             "ΤΟ", 
+            "", 
             "_", 
             "_ ΙΟ", 
             "_ _ _", 

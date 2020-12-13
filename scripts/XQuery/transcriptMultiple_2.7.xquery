@@ -733,8 +733,8 @@ let $fileName := $match/data(@name)
 
 (: Sammlung der Zeilen aus den beiden Transkriptionsformen :)
 (: Zeilen, die ausschließlich "gap" mit @unit=line beinhalten, werden ausgeschlossen. Bzw. nur falls (auch) token/unknown/supplied vorhanden ist, wird sie verarbeitet. :) (: ehemelas, um supplied/lost/illegible etc. in JSON mit aufzunehmen or child::supplied or child::gap[child::unit/text()='character' and child::reason/text()!='lost']:)
-let $Normalised := <norm>{<textpart>{for $textpartN in $match//text[data(@editionType)='normalized']//line[child::token or child::unclear] return $textpartN}</textpart>}</norm>     
-let $Diplomatic := <dipl>{<textpart>{for $textpartD in $match//text[data(@editionType)='diplomatic']//line[child::token or child::unclear] return $textpartD}</textpart>}</dipl>
+let $Normalised := <norm>{<textpart>{for $textpartN in $match//text[data(@editionType)='normalized']//line[child::token or child::unclear or child::gap[child::unit/text()='character' and child::reason/text()!='lost']] return $textpartN}</textpart>}</norm>     
+let $Diplomatic := <dipl>{<textpart>{for $textpartD in $match//text[data(@editionType)='diplomatic']//line[child::token or child::unclear or child::gap[child::unit/text()='character' and child::reason/text()!='lost']] return $textpartD}</textpart>}</dipl>
 
 
 (: für Parameter der Insert-Funktion benötigt :)

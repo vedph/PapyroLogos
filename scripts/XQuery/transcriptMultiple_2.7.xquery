@@ -46,11 +46,9 @@ declare variable $tablePapyri := concat($repository,'PapyroLogos/documents/listP
 (: Ordner oder Verzeichnis der ursprünglichen XML-Dateien, aus denen Transkript-Daten extrahiert werden sollen 
  Wenn gesamtes Verzeichnis angegeben ist, kann auch ab Zeile 245 auskommentiert werden, um davor den gefilterten Korpus zu erstellen :)
 
-declare variable $corpusXML := concat($repository,'papyri.info/DCLP_2020-12-10'); 
-(:declare variable $corpusXMLFiltered := concat($repository,"PapyroLogos/XML/TEI/DCLP@imaged");
-:)
+(:declare variable $corpusXML := concat($repository,'papyri.info/DCLP_2020-12-10'); :)
 
-(: declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP@imaged");    :)
+declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP@imaged");    
 (:declare variable $corpusXML := concat($repository,"PapyroLogos/XML/TEI/DCLP_test"); :)
 
 
@@ -819,5 +817,3 @@ return if ($jsonOutput)
 
 else ()
 
-
- 

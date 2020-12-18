@@ -354,8 +354,8 @@ if (not(empty($target)))
 return
 file:write(concat("file:///", $destinationAUX, 'corpusTranscriptPrep',".xml"), $corpusTranscriptPrep)
 
-
 :)
+
 
 (: ### Zur besseren Handhabung von Kolumnen wird in corpusTranscript eine Zwischenebene <cohesiveTextparts> eingezogen (zwischen <file> und <textpart>s) in denen alle textparts gesammelt sind, 
 die zur selben Grafik-URL zugeordnet sind. Nach aktueller Kenntnis des Korpus trifft dies bei allen Dateien mit Kolumnen zu. ### :)
@@ -794,7 +794,7 @@ let $jsonFile := string-join((
         "text": [
             ',
         for $line at $posL in $textpart//line return (  (:if ($line//text()!='') then ((:let $skip := true() return :):)
-        '"', (:normalize-space( :)$line//text()(: ):), '"',     (: in transcrip-format angewendet; aus unbekannten Gründen ist (nur in N1) z.B. in 59099_7 innerhalb mancher Zeilen ein \n aufgetaucht, der die JSON zerstört hat; außerdem doppelte \s:)
+        '"', $line//text(), '"',     (: in transcrip-format angewendet; aus unbekannten Gründen ist (nur in N1) z.B. in 59099_7 innerhalb mancher Zeilen ein \n aufgetaucht, der die JSON zerstört hat; außerdem doppelte \s:)
         if ($posL < count($textpart//line) (:and not($skip):))
             then ', 
             '
@@ -816,4 +816,3 @@ return if ($jsonOutput)
     else file:write(concat("file:///", $repository, $destinationXML, $version, '/', $fileName, '.xml'), $xmlFile)
 
 else ()
-

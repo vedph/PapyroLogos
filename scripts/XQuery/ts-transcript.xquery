@@ -19,7 +19,7 @@ declare variable $ts:tableGreek := doc(concat('file:///', $ts:repository, 'Papyr
 (: ### Lokale Variablen und Funktionen ### :)
 
 (: Elemente, die in keinem Fall übernommen werden :)
-declare variable $ts:ignore := ("del", "ex", "rdg", "corr", "reg", "note"
+declare variable $ts:ignore := ("del", "ex", "rdg", "corr", "reg", "note", "add"
 );
 
 declare function ts:strip-elements($elements as element()*) as element()* {

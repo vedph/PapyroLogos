@@ -816,3 +816,4 @@ return if ($jsonOutput)
     else file:write(concat("file:///", $repository, $destinationXML, $version, '/', $fileName, '.xml'), $xmlFile)
 
 else ()
+

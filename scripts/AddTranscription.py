@@ -79,8 +79,10 @@ error_log = []
 def print_error_log():
     if len(error_log) > 0:
         print("ERROR LOG:")
+        entry_nr = 0
         for e in error_log:
-            print("> " + e)
+            entry_nr += 1
+            print(str(entry_nr) + ". " + e)
 
 
 # searches document for elements and adds them to part_list
@@ -194,8 +196,11 @@ for part in part_list:
             error_text = "WARNING: The number of lines in the local transcription file is greater than the number of transcription lines!\n[Please check if lines are missing in the online transcription.] local: " + str(len(text_lines)) + " / online: " + str(len(line_pks))
             print(error_text)
             error_log.append("@ " + edit_part_url + " " + error_text)
+            print("> Skipping the current part ...")
+            print("#####################################################################################################################")
+            continue
         else:
-            error_text = "ERROR: The number of transcription lines is greater than the number of lines in the local transcription file."
+            error_text = "ERROR: The number of transcription lines is greater than the number of lines in the local transcription file. local: " + str(len(text_lines)) + " / online: " + str(len(line_pks))
             print(error_text)
             error_log.append("@ " + edit_part_url + " " + error_text)
             print("> Skipping the current part ...")

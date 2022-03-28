@@ -1,0 +1,754 @@
+<root>
+  <row>
+    <TM>58911</TM>
+    <ElementNo>1</ElementNo>
+    <fileName>58911_r__P_16971_R_001.png</fileName>
+    <textPart>recto</textPart>
+    <DCLP>papyri.info/dclp/58911</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>58911</TM>
+    <ElementNo>2</ElementNo>
+    <fileName>58911_v__P_16971_V_001.png</fileName>
+    <textPart>verso: column 1-2</textPart>
+    <DCLP>papyri.info/dclp/58911</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>59099</TM>
+    <ElementNo>3</ElementNo>
+    <fileName>59099__PBerol10677_07_R.png</fileName>
+    <textPart>column 7</textPart>
+    <DCLP>papyri.info/dclp/59099</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>59099</TM>
+    <ElementNo>4</ElementNo>
+    <fileName>59099__PBerol10677_08_R_0-2500.png</fileName>
+    <textPart>column 8</textPart>
+    <DCLP>papyri.info/dclp/59099</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>59099</TM>
+    <ElementNo>5</ElementNo>
+    <fileName>59099__PBerol10677_08_R_2500-5000.png</fileName>
+    <textPart>column 9</textPart>
+    <DCLP>papyri.info/dclp/59099</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>59099</TM>
+    <ElementNo>6</ElementNo>
+    <fileName>59099__PBerol10677_08_R_5000-7832.png</fileName>
+    <textPart>column 10</textPart>
+    <DCLP>papyri.info/dclp/59099</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>59099</TM>
+    <ElementNo>7</ElementNo>
+    <fileName>59099__PBerol10677_08_R_7832-10580.png</fileName>
+    <textPart>column 11</textPart>
+    <DCLP>papyri.info/dclp/59099</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>59959</TM>
+    <ElementNo>4</ElementNo>
+    <fileName>59959__PBerol21178.png</fileName>
+    <textPart>fragment A-C: recto</textPart>
+    <DCLP>papyri.info/dclp/59959</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60001</TM>
+    <ElementNo>5</ElementNo>
+    <fileName>60001__PBerol6789.png</fileName>
+    <textPart>verso: folio 1; recto: folio 2</textPart>
+    <DCLP>papyri.info/dclp/60001</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60062</TM>
+    <ElementNo>6</ElementNo>
+    <fileName>60062_r_iii__PBerol9739_r_iii_0-1900.png</fileName>
+    <textPart>fragment 196</textPart>
+    <DCLP>papyri.info/dclp/60062</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60062</TM>
+    <ElementNo>7</ElementNo>
+    <fileName>60062_r_iii__PBerol9739_r_iii_1900-4500.png</fileName>
+    <textPart>fragment 197</textPart>
+    <DCLP>papyri.info/dclp/60062</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60062</TM>
+    <ElementNo>8</ElementNo>
+    <fileName>60062_r_iii__PBerol9739_r_iii_4500-7100.png</fileName>
+    <textPart>fragment 198</textPart>
+    <DCLP>papyri.info/dclp/60062</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60062</TM>
+    <ElementNo>9</ElementNo>
+    <fileName>60062_r_iii__PBerol9739_r_iii_7100-9700.png</fileName>
+    <textPart>fragment 199</textPart>
+    <DCLP>papyri.info/dclp/60062</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60062</TM>
+    <ElementNo>10</ElementNo>
+    <fileName>60062_r_iii__PBerol9739_r_iii_9700-11740.png</fileName>
+    <textPart>fragment 200</textPart>
+    <DCLP>papyri.info/dclp/60062</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60170</TM>
+    <ElementNo>11</ElementNo>
+    <fileName>60170_ii__PBerol9780_ii_0-1500.png</fileName>
+    <textPart>title</textPart>
+    <DCLP>papyri.info/dclp/60170</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60170</TM>
+    <ElementNo>61</ElementNo>
+    <fileName>60170_ii__PBerol9780_ii_4600-5280.png</fileName>
+    <textPart>column 5</textPart>
+    <DCLP>papyri.info/dclp/60170</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60170</TM>
+    <ElementNo>62</ElementNo>
+    <fileName>60170_ii__PBerol9780_ii_5280-6008.png</fileName>
+    <textPart>column 6</textPart>
+    <DCLP>papyri.info/dclp/60170</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60170</TM>
+    <ElementNo>63</ElementNo>
+    <fileName>60170_ii__PBerol9780_ii_6008-6872.png</fileName>
+    <textPart>column 7</textPart>
+    <DCLP>papyri.info/dclp/60170</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60180</TM>
+    <ElementNo>64</ElementNo>
+    <fileName>60180__PBerol7094.png</fileName>
+    <textPart>column 1-2, automatically turned by 180�</textPart>
+    <DCLP>papyri.info/dclp/60180</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60212</TM>
+    <ElementNo>64</ElementNo>
+    <fileName>60212__PBerol11518.png</fileName>
+    <textPart>fragment A/B/C</textPart>
+    <DCLP>papyri.info/dclp/60212</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60219</TM>
+    <ElementNo>65</ElementNo>
+    <fileName>60219__PBerol7507.png</fileName>
+    <textPart>fragment 1</textPart>
+    <DCLP>papyri.info/dclp/60219</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60412</TM>
+    <ElementNo>66</ElementNo>
+    <fileName>60412__PBerol7805.png</fileName>
+    <textPart>full text</textPart>
+    <DCLP>papyri.info/dclp/60412</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60671</TM>
+    <ElementNo>67</ElementNo>
+    <fileName>60671__PKöln_2_75.png</fileName>
+    <textPart>column 1</textPart>
+    <DCLP>papyri.info/dclp/60671</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>60761</TM>
+    <ElementNo>68</ElementNo>
+    <fileName>60761__PBerol17211.png</fileName>
+    <textPart>column 1</textPart>
+    <DCLP>papyri.info/dclp/60761</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61166</TM>
+    <ElementNo>69</ElementNo>
+    <fileName>61166__PBerol16709.png</fileName>
+    <textPart>fragment A/B</textPart>
+    <DCLP>papyri.info/dclp/61166</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>70</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_0-1130.png</fileName>
+    <textPart>column 1</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>71</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_1130-2200.png</fileName>
+    <textPart>column 2</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>72</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_2200-3340.png</fileName>
+    <textPart>column 3</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>73</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_3340-4540.png</fileName>
+    <textPart>column 4</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>74</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_4540-5740.png</fileName>
+    <textPart>column 5</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>75</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_5740-6810.png</fileName>
+    <textPart>column 6</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>76</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_6810-8010.png</fileName>
+    <textPart>column 7</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>77</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_8010-9210.png</fileName>
+    <textPart>column 8</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>78</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_9210-10354.png</fileName>
+    <textPart>column 9</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61353</TM>
+    <ElementNo>79</ElementNo>
+    <fileName>61353_ii__PBerol8935_ii_10354-11439.png</fileName>
+    <textPart>column 10</textPart>
+    <DCLP>papyri.info/dclp/61353</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61404</TM>
+    <ElementNo>79</ElementNo>
+    <fileName>61404__PBerol7426.png</fileName>
+    <textPart>verso</textPart>
+    <DCLP>papyri.info/dclp/61404</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>61989</TM>
+    <ElementNo>80</ElementNo>
+    <fileName>61989_PBerol11682.png</fileName>
+    <textPart>column 1</textPart>
+    <DCLP>papyri.info/dclp/61989</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62066</TM>
+    <ElementNo>81</ElementNo>
+    <fileName>62066_r__PBerol16353_r.png</fileName>
+    <textPart>recto</textPart>
+    <DCLP>papyri.info/dclp/62066</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62066</TM>
+    <ElementNo>82</ElementNo>
+    <fileName>62066_v__PBerol16353_v.png</fileName>
+    <textPart>verso</textPart>
+    <DCLP>papyri.info/dclp/62066</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62068</TM>
+    <ElementNo>83</ElementNo>
+    <fileName>62068_r_PBerol9754.png</fileName>
+    <textPart>recto</textPart>
+    <DCLP>papyri.info/dclp/62068</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62068</TM>
+    <ElementNo>84</ElementNo>
+    <fileName>62068_v_PBerol9754.png</fileName>
+    <textPart>verso</textPart>
+    <DCLP>papyri.info/dclp/62068</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62257</TM>
+    <ElementNo>85</ElementNo>
+    <fileName>62257__PBerol3601.png</fileName>
+    <textPart>column 1</textPart>
+    <DCLP>papyri.info/dclp/62257</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>86</ElementNo>
+    <fileName>62580_1-6__PBerol9782_Pl_A_R.png</fileName>
+    <textPart>column 1-6</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>87</ElementNo>
+    <fileName>62580_7-10__PBerol9782_Pl_B_R.png</fileName>
+    <textPart>column 7-10</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>88</ElementNo>
+    <fileName>62580_11-14__PBerol9782_Pl_C_R.png</fileName>
+    <textPart>column 11-14</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>89</ElementNo>
+    <fileName>62580_15-18__PBerol9782_Pl_D_R.png</fileName>
+    <textPart>column 15-18</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>90</ElementNo>
+    <fileName>62580_19-22__PBerol9782_Pl_E_R.png</fileName>
+    <textPart>column 19-22</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>91</ElementNo>
+    <fileName>62580_23_26__PBerol9782_Pl_F_R.png</fileName>
+    <textPart>column 23-26</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>91</ElementNo>
+    <fileName>62580_55-58__PBerol9782_Pl_O_R.png</fileName>
+    <textPart>column 55-58</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>92</ElementNo>
+    <fileName>62580_59-62__PBerol9782_Pl_P_R.png</fileName>
+    <textPart>column 59-62</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>93</ElementNo>
+    <fileName>62580_63-66__PBerol9782_Pl_Q_R.png</fileName>
+    <textPart>column 63-66</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>94</ElementNo>
+    <fileName>62580_67-71__PBerol9782_Pl_R_R.png</fileName>
+    <textPart>column 67-71</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>95</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_0-750.png</fileName>
+    <textPart>column 42</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>96</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_750-1310.png</fileName>
+    <textPart>column 43</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>97</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_1310-1885.png</fileName>
+    <textPart>column 44</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>98</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_1885-2460.png</fileName>
+    <textPart>column 45</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>99</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_2460-3035.png</fileName>
+    <textPart>column 46</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>100</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_3035-3635.png</fileName>
+    <textPart>column 47</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>101</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_3635-4235.png</fileName>
+    <textPart>column 48</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>102</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_4235-4835.png</fileName>
+    <textPart>column 49</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>103</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_4835-5365.png</fileName>
+    <textPart>column 50</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>104</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_5365-5965.png</fileName>
+    <textPart>column 51</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62580</TM>
+    <ElementNo>105</ElementNo>
+    <fileName>62580_42-52__PBerol9782_Pl_H_R_5965-6709.png</fileName>
+    <textPart>column 52</textPart>
+    <DCLP>papyri.info/dclp/62580</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62931</TM>
+    <ElementNo>106</ElementNo>
+    <fileName>62931__PBerol_9875_0-3000.png</fileName>
+    <textPart>column 2</textPart>
+    <DCLP>papyri.info/dclp/62931</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62931</TM>
+    <ElementNo>107</ElementNo>
+    <fileName>62931__PBerol_9875_2912-5447.png</fileName>
+    <textPart>column 3</textPart>
+    <DCLP>papyri.info/dclp/62931</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62931</TM>
+    <ElementNo>108</ElementNo>
+    <fileName>62931__PBerol_9875_5340-7742.png</fileName>
+    <textPart>column 4</textPart>
+    <DCLP>papyri.info/dclp/62931</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62931</TM>
+    <ElementNo>109</ElementNo>
+    <fileName>62931__PBerol_9875_7674-10314.png</fileName>
+    <textPart>column 5</textPart>
+    <DCLP>papyri.info/dclp/62931</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>62931</TM>
+    <ElementNo>110</ElementNo>
+    <fileName>62931__PBerol_9875_10314-12794.png</fileName>
+    <textPart>column 6</textPart>
+    <DCLP>papyri.info/dclp/62931</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63019</TM>
+    <ElementNo>110</ElementNo>
+    <fileName>63019__PBerol1944.png</fileName>
+    <textPart>full text</textPart>
+    <DCLP>papyri.info/dclp/63019</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63064</TM>
+    <ElementNo>111</ElementNo>
+    <fileName>63064__PBerol11526.png</fileName>
+    <textPart>fragment 1</textPart>
+    <DCLP>papyri.info/dclp/63064</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63071</TM>
+    <ElementNo>112</ElementNo>
+    <fileName>63071__PBerol9095.png</fileName>
+    <textPart>recto</textPart>
+    <DCLP>papyri.info/dclp/63071</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63072</TM>
+    <ElementNo>113</ElementNo>
+    <fileName>63072__PBerol9764.png</fileName>
+    <textPart>column 1-3</textPart>
+    <DCLP>papyri.info/dclp/63072</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63357</TM>
+    <ElementNo>113</ElementNo>
+    <fileName>63357__PBerol16545.png</fileName>
+    <textPart>fragment 1</textPart>
+    <DCLP>papyri.info/dclp/63357</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63383</TM>
+    <ElementNo>114</ElementNo>
+    <fileName>63383__PBerol9765.png</fileName>
+    <textPart>column 1-2</textPart>
+    <DCLP>papyri.info/dclp/63383</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63765</TM>
+    <ElementNo>115</ElementNo>
+    <fileName>63765__PBerol21177.png</fileName>
+    <textPart>column 1-2</textPart>
+    <DCLP>papyri.info/dclp/63765</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63770</TM>
+    <ElementNo>116</ElementNo>
+    <fileName>63770__PBerol21264.png</fileName>
+    <textPart>recto</textPart>
+    <DCLP>papyri.info/dclp/63770</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63976</TM>
+    <ElementNo>116</ElementNo>
+    <fileName>63976__PBerol21213.png</fileName>
+    <textPart>fragment 1</textPart>
+    <DCLP>papyri.info/dclp/63976</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>63983</TM>
+    <ElementNo>117</ElementNo>
+    <fileName>63983__PBerol9015.png</fileName>
+    <textPart>side B</textPart>
+    <DCLP>papyri.info/dclp/63983</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>64276</TM>
+    <ElementNo>118</ElementNo>
+    <fileName>64276__PBerol9917.png</fileName>
+    <textPart>page 12, column 1-3; page 23</textPart>
+    <DCLP>papyri.info/dclp/64276</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>64380</TM>
+    <ElementNo>119</ElementNo>
+    <fileName>64380__PBerol21247.png</fileName>
+    <textPart>fragment 1-2</textPart>
+    <DCLP>papyri.info/dclp/64380</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>64840</TM>
+    <ElementNo>120</ElementNo>
+    <fileName>64840__PBerol11866.png</fileName>
+    <textPart>fragment A: verso</textPart>
+    <DCLP>papyri.info/dclp/64840</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>64848</TM>
+    <ElementNo>121</ElementNo>
+    <fileName>64848__PBerol21272.png</fileName>
+    <textPart>full text</textPart>
+    <DCLP>papyri.info/dclp/64848</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>64976</TM>
+    <ElementNo>122</ElementNo>
+    <fileName>64976__PBerol21175.png</fileName>
+    <textPart>recto</textPart>
+    <DCLP>papyri.info/dclp/64976</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>65395</TM>
+    <ElementNo>123</ElementNo>
+    <fileName>65395__PBerol13269.png</fileName>
+    <textPart>fragment 1</textPart>
+    <DCLP>papyri.info/dclp/65395</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>65408</TM>
+    <ElementNo>124</ElementNo>
+    <fileName>65408__PBerol7561.png</fileName>
+    <textPart>fragment 1</textPart>
+    <DCLP>papyri.info/dclp/65408</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>65508</TM>
+    <ElementNo>125</ElementNo>
+    <fileName>65508__PBerol16287.png</fileName>
+    <textPart>fragment 1</textPart>
+    <DCLP>papyri.info/dclp/65508</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>66732</TM>
+    <ElementNo>126</ElementNo>
+    <fileName>66732__PBerol16706.png</fileName>
+    <textPart>fragment B: verso; fragment A: verso</textPart>
+    <DCLP>papyri.info/dclp/66732</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>69389</TM>
+    <ElementNo>127</ElementNo>
+    <fileName>69389_B__POxy_69_4712_B.png</fileName>
+    <textPart>fragment 2-15 + unknown fragment</textPart>
+    <DCLP>papyri.info/dclp/69389</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>154376</TM>
+    <ElementNo>128</ElementNo>
+    <fileName>154376__PBerol13421.png</fileName>
+    <textPart>column 2-3</textPart>
+    <DCLP>papyri.info/dclp/154376</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>154377</TM>
+    <ElementNo>129</ElementNo>
+    <fileName>154377__PBerol13425.png</fileName>
+    <textPart>recto</textPart>
+    <DCLP>papyri.info/dclp/154377</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>154378</TM>
+    <ElementNo>130</ElementNo>
+    <fileName>154378__PBerol13891_V_001.png</fileName>
+    <textPart>column 2</textPart>
+    <DCLP>papyri.info/dclp/154378</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>154385</TM>
+    <ElementNo>131</ElementNo>
+    <fileName>154385__PBerol6941.png</fileName>
+    <textPart>column 1-2</textPart>
+    <DCLP>papyri.info/dclp/154385</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>154386</TM>
+    <ElementNo>132</ElementNo>
+    <fileName>154386__PBerol7505.png</fileName>
+    <textPart>column 1-2</textPart>
+    <DCLP>papyri.info/dclp/154386</DCLP>
+    <Status/>
+  </row>
+  <row>
+    <TM>154389</TM>
+    <ElementNo>133</ElementNo>
+    <fileName>154389__PBerol9956.png</fileName>
+    <textPart>column 1-2</textPart>
+    <DCLP>papyri.info/dclp/154389</DCLP>
+    <Status/>
+  </row>
+</root>

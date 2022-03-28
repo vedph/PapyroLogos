@@ -1,0 +1,23 @@
+{ 
+        "head": { 
+        "tm": "58911",
+        "graphicName": "58911_v__P_16971_V_001.png",
+        "textparts": "1",
+
+        "lines": "4",
+        "version": "D2"
+            },
+
+        "body": [{
+            "textpart": [{
+        "n": "1",
+        "subtype": "",
+        "textpartLines": "4",
+        "text": [
+"[? ?]-ΔΥ",
+"[? ?]ΚΑΙ",
+"[? ?]-ΡΕΝ̅",
+"[? ?]-"]}]
+
+        }]
+}

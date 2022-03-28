@@ -1,0 +1,21 @@
+{ 
+        "head": { 
+        "tm": "60170",
+        "graphicName": "60170_ii__PBerol9780_ii_0-1500.png",
+        "textparts": "1",
+
+        "lines": "2",
+        "version": "D4"
+            },
+
+        "body": [{
+            "textpart": [{
+        "n": "title",
+        "subtype": "",
+        "textpartLines": "2",
+        "text": [
+"ΙΕΡΟΚΛΕΟΥΣ",
+"ΗΘΙΚ[-]ΣΤΟΙΧΕΙΩΣΙΣ"]}]
+
+        }]
+}
